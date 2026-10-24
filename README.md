@@ -1,10 +1,10 @@
-# Spider Sommen
+# Heldenschool
 
-Rekenapp voor de iPad met een spinnenheld. Zie [PLAN.md](PLAN.md) voor alle keuzes.
+Leerapp voor de iPad (groep 2 en 3): rekenen met de spinnenheld, letters met de ijzerheld. Zie [PLAN.md](PLAN.md) voor alle keuzes.
 
 ## Online en offline
 
-De app staat op **https://rrudolphie.github.io/spider-sommen/**.
+De app staat op **https://rrudolphie.github.io/heldenschool/**.
 
 Op de iPad: open dit adres in Safari, tik op Deel → "Zet op beginscherm". Na het eerste openen werkt de app ook zonder internet.
 

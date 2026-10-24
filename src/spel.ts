@@ -1,4 +1,4 @@
-// Spellogica: niveaus, sommen maken en het niveau laten meegroeien.
+// Spellogica rekenen: niveaus, sommen maken en het niveau laten meegroeien.
 
 export type Soort = 'tellen' | 'cijfers' | 'plus' | 'min'
 
@@ -19,9 +19,10 @@ export type Som = {
 
 const KLEUREN = ['#7c3aed', '#16a34a', '#ea580c', '#0891b2', '#db2777']
 
-const rnd = (min: number, max: number) => min + Math.floor(Math.random() * (max - min + 1))
+export const rnd = (min: number, max: number) => min + Math.floor(Math.random() * (max - min + 1))
+export const kies = <T,>(l: T[]) => l[Math.floor(Math.random() * l.length)]
 
-function schud<T>(lijst: T[]): T[] {
+export function schud<T>(lijst: T[]): T[] {
   const l = [...lijst]
   for (let i = l.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1))
@@ -70,16 +71,32 @@ export function maakSom(soort: Soort, vorige?: Som): Som {
 
 export type Voortgang = { niveau: number; goedOpRij: number; foutOpRij: number }
 
-/** Verwerk een antwoord (alleen de eerste poging telt voor het niveau). */
-export function verwerk(v: Voortgang, inEenKeerGoed: boolean): Voortgang & { veranderd: -1 | 0 | 1 } {
+/**
+ * Het niveau dat echt gespeeld wordt: het hoogste toegestane niveau dat niet hoger is
+ * dan het bewaarde (de ouder kan niveaus uitzetten).
+ */
+export function speelNiveau(niveau: number, toegestaan: number[]): number {
+  return [...toegestaan].reverse().find((n) => n <= niveau) ?? toegestaan[0]
+}
+
+/**
+ * Verwerk een antwoord (alleen de eerste poging telt voor het niveau).
+ * `toegestaan` zijn de niveaus die aan staan, oplopend.
+ */
+export function verwerk(
+  v: Voortgang,
+  inEenKeerGoed: boolean,
+  toegestaan: number[],
+): Voortgang & { veranderd: -1 | 0 | 1 } {
+  const plek = toegestaan.indexOf(speelNiveau(v.niveau, toegestaan))
   if (inEenKeerGoed) {
     const goed = v.goedOpRij + 1
-    if (goed >= OMHOOG_NA && v.niveau < NIVEAUS.length - 1)
-      return { niveau: v.niveau + 1, goedOpRij: 0, foutOpRij: 0, veranderd: 1 }
+    if (goed >= OMHOOG_NA && plek < toegestaan.length - 1)
+      return { niveau: toegestaan[plek + 1], goedOpRij: 0, foutOpRij: 0, veranderd: 1 }
     return { ...v, goedOpRij: goed, foutOpRij: 0, veranderd: 0 }
   }
   const fout = v.foutOpRij + 1
-  if (fout >= OMLAAG_NA && v.niveau > 0) return { niveau: v.niveau - 1, goedOpRij: 0, foutOpRij: 0, veranderd: -1 }
+  if (fout >= OMLAAG_NA && plek > 0) return { niveau: toegestaan[plek - 1], goedOpRij: 0, foutOpRij: 0, veranderd: -1 }
   return { ...v, goedOpRij: 0, foutOpRij: fout, veranderd: 0 }
 }
 

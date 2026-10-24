@@ -1,6 +1,6 @@
 // Offline werken: bij het eerste bezoek worden alle bestanden bewaard.
 // De lijst en de versie worden bij het bouwen ingevuld (zie vite.config.ts).
-const CACHE = 'spider-sommen-__VERSIE__'
+const CACHE = 'heldenschool-__VERSIE__'
 const BESTANDEN = '__BESTANDEN__'
 
 self.addEventListener('install', (event) => {

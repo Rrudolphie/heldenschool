@@ -1,6 +1,7 @@
 // Alle figuren worden in code getekend (SVG), zodat ze scherp zijn en makkelijk aan te passen.
 import { useId } from 'react'
-import { type Pak, PAKKEN } from './pakken'
+import { type IjzerPak, type Pak, PAKKEN, type SpinPak } from './pakken'
+import type { HeldId } from './opslag'
 
 export type Humeur = 'normaal' | 'blij' | 'denk'
 
@@ -33,15 +34,16 @@ function Embleem({ x, y, s = 1, kleur }: { x: number; y: number; s?: number; kle
   )
 }
 
-export function Held({
-  humeur = 'normaal',
-  pak = PAKKEN[0],
-  className = '',
-}: {
-  humeur?: Humeur
-  pak?: Pak
-  className?: string
-}) {
+type HeldProps = { humeur?: Humeur; pak: Pak; className?: string }
+
+/** Tekent de held die bij het pak hoort (spinnenheld of ijzerheld). */
+export function Held({ pak, ...rest }: HeldProps) {
+  return pak.held === 'spin' ? <SpinHeld pak={pak} {...rest} /> : <IjzerHeld pak={pak} {...rest} />
+}
+
+export const standaardPak = (held: HeldId) => PAKKEN[held][0]
+
+function SpinHeld({ humeur = 'normaal', pak, className = '' }: HeldProps & { pak: SpinPak }) {
   // unieke namen, zodat meerdere helden op één scherm (kledingkast) elkaar niet storen
   const id = useId().replace(/:/g, '')
   const hoofdClip = `hoofd-${id}`
@@ -97,6 +99,75 @@ export function Held({
         <path key={d} d={d} fill="#fff" stroke={LIJN} strokeWidth={5} strokeLinejoin="round" />
       ))}
       {humeur === 'denk' && <path d="M84 104 Q100 98 116 104" stroke={web} strokeWidth={3} fill="none" strokeLinecap="round" />}
+    </svg>
+  )
+}
+
+function IjzerHeld({ humeur = 'normaal', pak, className = '' }: HeldProps & { pak: IjzerPak }) {
+  const id = useId().replace(/:/g, '')
+  const gloed = `gloed-${id}`
+  const { harnas, accent, licht } = pak
+  const armHoek = humeur === 'blij' ? 150 : humeur === 'denk' ? 35 : 18
+  const ogen =
+    humeur === 'blij'
+      ? // blije, omhoog gebogen ogen
+        ['M68 78 Q80 68 93 77 L91 81 Q80 74 70 82 Z', 'M132 78 Q120 68 107 77 L109 81 Q120 74 130 82 Z']
+      : ['M67 70 L93 75 L91 82 L69 78 Z', 'M133 70 L107 75 L109 82 L131 78 Z']
+  const lichtGlow = { filter: `url(#${gloed})` }
+
+  return (
+    <svg viewBox="0 0 200 250" className={`held held-${humeur} ${className}`} role="img" aria-label="IJzerheld">
+      <defs>
+        <filter id={gloed} x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="2.5" result="b" />
+          <feMerge>
+            <feMergeNode in="b" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+      </defs>
+
+      {/* benen: gouden scheenplaten, laarzen in harnaskleur */}
+      <rect x={66} y={196} width={28} height={44} rx={10} fill={accent} stroke={LIJN} strokeWidth={3} />
+      <rect x={106} y={196} width={28} height={44} rx={10} fill={accent} stroke={LIJN} strokeWidth={3} />
+      <rect x={63} y={226} width={34} height={18} rx={8} fill={harnas} stroke={LIJN} strokeWidth={3} />
+      <rect x={103} y={226} width={34} height={18} rx={8} fill={harnas} stroke={LIJN} strokeWidth={3} />
+
+      {/* armen met handpalm-lampjes */}
+      <g className="arm arm-links" style={{ transform: `rotate(${armHoek}deg)`, transformOrigin: '62px 138px' }}>
+        <rect x={50} y={132} width={24} height={66} rx={12} fill={harnas} stroke={LIJN} strokeWidth={3} />
+        <rect x={52} y={160} width={20} height={10} rx={4} fill={accent} stroke={LIJN} strokeWidth={2} />
+        <circle cx={62} cy={200} r={13} fill={harnas} stroke={LIJN} strokeWidth={3} />
+        <circle cx={62} cy={203} r={5} fill={licht} style={lichtGlow} />
+      </g>
+      <g className="arm arm-rechts" style={{ transform: `rotate(${-armHoek}deg)`, transformOrigin: '138px 138px' }}>
+        <rect x={126} y={132} width={24} height={66} rx={12} fill={harnas} stroke={LIJN} strokeWidth={3} />
+        <rect x={128} y={160} width={20} height={10} rx={4} fill={accent} stroke={LIJN} strokeWidth={2} />
+        <circle cx={138} cy={200} r={13} fill={harnas} stroke={LIJN} strokeWidth={3} />
+        <circle cx={138} cy={203} r={5} fill={licht} style={lichtGlow} />
+      </g>
+
+      {/* lijf: harnas met gouden buikplaten en een gloeiende borstlamp */}
+      <path d="M60 128 Q100 116 140 128 L146 208 Q100 220 54 208 Z" fill={harnas} stroke={LIJN} strokeWidth={3} />
+      <path d="M74 134 Q100 128 126 134 L122 146 Q100 142 78 146 Z" fill={accent} stroke={LIJN} strokeWidth={2} />
+      {[176, 190].map((y) => (
+        <g key={y}>
+          <rect x={80} y={y} width={18} height={11} rx={4} fill={accent} stroke={LIJN} strokeWidth={2} />
+          <rect x={102} y={y} width={18} height={11} rx={4} fill={accent} stroke={LIJN} strokeWidth={2} />
+        </g>
+      ))}
+      <rect x={58} y={200} width={84} height={9} rx={4} fill={accent} stroke={LIJN} strokeWidth={2.5} />
+      <circle cx={100} cy={160} r={13} fill="#e5e7eb" stroke={LIJN} strokeWidth={3} />
+      <circle cx={100} cy={160} r={8} fill={licht} style={lichtGlow} />
+
+      {/* helm met gouden gezichtsmasker */}
+      <path d="M44 72 Q44 10 100 10 Q156 10 156 72 Q156 118 130 128 L70 128 Q44 118 44 72 Z" fill={harnas} stroke={LIJN} strokeWidth={4} />
+      <path d="M60 54 Q100 42 140 54 L137 100 Q128 122 100 124 Q72 122 63 100 Z" fill={accent} stroke={LIJN} strokeWidth={3} />
+      <path d="M100 44 L100 56" stroke={LIJN} strokeWidth={2} />
+      {ogen.map((d) => (
+        <path key={d} d={d} fill={licht} stroke={LIJN} strokeWidth={2} strokeLinejoin="round" style={lichtGlow} />
+      ))}
+      <path d={humeur === 'blij' ? 'M86 106 Q100 114 114 106' : 'M87 108 L113 108'} stroke={LIJN} strokeWidth={3} fill="none" strokeLinecap="round" />
     </svg>
   )
 }

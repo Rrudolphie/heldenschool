@@ -699,6 +699,244 @@ button {
   font-size: 16px;
 }
 
+/* ---------- Heldenschool: werelden ---------- */
+.schoolletter {
+  font-family: 'Andika', 'Comic Sans MS', sans-serif;
+}
+.werelden {
+  display: flex;
+  gap: 4vmin;
+  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
+}
+.wereld {
+  flex: 1;
+  max-width: 44vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8vmin;
+  padding: 2.5vmin 2vmin 2vmin;
+  border-radius: 4vmin;
+  color: #fff;
+  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.3);
+  transition: transform 0.08s;
+}
+.wereld:active {
+  transform: translateY(6px);
+}
+.wereld-spin {
+  background: linear-gradient(160deg, #ef4444, #b91c1c);
+  box-shadow: 0 10px 0 #7f1d1d;
+}
+.wereld-ijzer {
+  background: linear-gradient(160deg, #f59e0b, #b45309);
+  box-shadow: 0 10px 0 #78350f;
+}
+.wereld-held {
+  height: min(30vh, 260px);
+}
+.wereld-titel {
+  font-size: clamp(30px, 6.5vmin, 64px);
+  font-weight: bold;
+  text-shadow: 0 4px 0 rgba(0, 0, 0, 0.35);
+}
+.wereld-teken {
+  font-size: 0.55em;
+  opacity: 0.85;
+}
+.wereld-naam {
+  font-size: clamp(16px, 3vmin, 28px);
+  font-weight: bold;
+  color: #fef9c3;
+}
+.wereld .volgend-pak {
+  margin: 0;
+  font-size: clamp(13px, 2.3vmin, 22px);
+}
+.knop-mix {
+  background: linear-gradient(90deg, var(--rood), #f59e0b);
+  box-shadow: 0 9px 0 #78350f;
+}
+@media (orientation: portrait) {
+  .werelden {
+    flex-direction: column;
+    align-items: center;
+  }
+  .wereld {
+    max-width: 80vw;
+    width: 80vw;
+  }
+  .wereld-held {
+    height: 16vh;
+  }
+}
+
+/* letters */
+.plaatje {
+  font-size: min(9vw, 13vh);
+  line-height: 1;
+  display: inline-block;
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+}
+.plaatje-groot {
+  font-size: min(18vw, 26vh);
+  filter: drop-shadow(0 6px 0 rgba(0, 0, 0, 0.1));
+}
+.vraag-gat {
+  display: inline-block;
+  min-width: 0.9em;
+  color: var(--rood);
+}
+.letter-groot {
+  font-size: clamp(140px, 36vmin, 360px);
+  color: #b45309;
+}
+.luister {
+  font-size: min(18vw, 24vh);
+  animation: wiebel 1.2s ease-in-out infinite;
+}
+.leeswoord {
+  margin: 0;
+  font-size: clamp(80px, 20vmin, 200px);
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.leeswoord span {
+  border-radius: 12px;
+  padding: 0 4px;
+  transition: background 0.2s;
+}
+.klank-licht {
+  background: var(--geel);
+}
+.knop-keuze .schoolletter {
+  font-weight: bold;
+}
+.knop-licht {
+  background: #fef9c3;
+  border-color: var(--geel);
+  transform: scale(1.05);
+}
+.spel-ijzer .knop-keuze {
+  border-color: #d97706;
+  box-shadow: 0 10px 0 #d97706;
+}
+.spel-ijzer .knop-keuze.knop-goed {
+  border-color: #16a34a;
+  box-shadow: 0 10px 0 #16a34a;
+}
+.stip-ijzer.stip-af {
+  background: #f59e0b;
+}
+.klaar-helden {
+  display: flex;
+  gap: 4vmin;
+  justify-content: center;
+}
+
+/* kledingkast-tabs */
+.kast-tabs {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 2vmin;
+}
+.kast-tab {
+  display: flex;
+  align-items: center;
+  gap: 1vmin;
+  padding: 0.8vmin 3vmin 0.8vmin 1vmin;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: clamp(16px, 3.2vmin, 30px);
+  font-weight: bold;
+}
+.kast-tab.gekozen {
+  background: #fff;
+  color: var(--inkt);
+}
+.tab-held {
+  height: clamp(36px, 7vmin, 64px);
+}
+
+/* ouderscherm: letters en schakelaars */
+.ouders-blok h3 {
+  margin: 16px 0 8px;
+  font-size: 16px;
+}
+.letter-raster {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(48px, 1fr));
+  gap: 8px;
+}
+.letter-knop {
+  height: 52px;
+  border-radius: 12px;
+  background: #e2e8f0;
+  font-size: 28px;
+  font-weight: bold;
+}
+.letter-knop.gekozen {
+  background: #f59e0b;
+  color: #fff;
+}
+.schakelaar-rij {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 0;
+}
+.schakelaar-rij > span {
+  display: flex;
+  flex-direction: column;
+}
+.schakelaar-rij .uitleg {
+  margin: 2px 0 0;
+}
+.schakelaar {
+  appearance: none;
+  -webkit-appearance: none;
+  flex: none;
+  width: 52px;
+  height: 30px;
+  border-radius: 999px;
+  background: #cbd5e1;
+  position: relative;
+  transition: background 0.2s;
+}
+.schakelaar::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #fff;
+  transition: transform 0.2s;
+}
+.schakelaar:checked {
+  background: #16a34a;
+}
+.schakelaar:checked::after {
+  transform: translateX(22px);
+}
+.niveau-knop:disabled {
+  opacity: 0.35;
+}
+.ouders details summary {
+  cursor: pointer;
+  padding: 8px 0;
+  font-weight: 600;
+}
+.klank-titel {
+  font-size: 26px;
+}
+
 /* ---------- held ---------- */
 .held .arm {
   transition: transform 0.35s cubic-bezier(0.3, 1.6, 0.5, 1);

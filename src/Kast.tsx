@@ -1,50 +1,68 @@
-// Kledingkast: pakken bekijken en aantrekken.
+// Kledingkast: per held pakken bekijken en aantrekken.
+import { useState } from 'react'
 import { Held, Ster } from './figuren'
 import { isVrij, PAKKEN } from './pakken'
-import type { Bewaard } from './opslag'
+import type { Bewaard, HeldData, HeldId } from './opslag'
 import { stil, zeg } from './stem'
 
 export function KastScherm({
   data,
-  update,
+  updateHeld,
   onTerug,
 }: {
   data: Bewaard
-  update: (n: Partial<Bewaard>) => void
+  updateHeld: (h: HeldId, n: Partial<HeldData>) => void
   onTerug: () => void
 }) {
+  const [held, setHeld] = useState<HeldId>('spin')
+  const { sterren, pak: aan } = data.helden[held]
+
   return (
     <main className="kast">
       <header className="balk">
         <button className="knop-rond" onClick={onTerug} aria-label="Terug">
           ⬅️
         </button>
-        <h1 className="kast-titel">Pakken</h1>
+        <div className="kast-tabs">
+          {(['spin', 'ijzer'] as HeldId[]).map((h) => (
+            <button
+              key={h}
+              className={`kast-tab ${held === h ? 'gekozen' : ''}`}
+              onClick={() => {
+                stil()
+                setHeld(h)
+              }}
+            >
+              <Held pak={PAKKEN[h].find((p) => p.id === data.helden[h].pak) ?? PAKKEN[h][0]} className="tab-held" />
+              {h === 'spin' ? 'Spinnenheld' : 'IJzerheld'}
+            </button>
+          ))}
+        </div>
         <div className="sterren-teller klein">
-          <Ster /> <span>{data.sterren}</span>
+          <Ster /> <span>{sterren}</span>
         </div>
       </header>
 
       <div className="kast-rek">
-        {PAKKEN.map((pak) => {
-          const vrij = isVrij(pak, data.sterren)
-          const aan = data.pak === pak.id
+        {PAKKEN[held].map((pak) => {
+          const vrij = isVrij(pak, sterren)
+          const gekozen = aan === pak.id
           return (
             <button
               key={pak.id}
-              className={`pak-kaart ${vrij ? '' : 'op-slot'} ${aan ? 'pak-aan' : ''}`}
+              className={`pak-kaart ${vrij ? '' : 'op-slot'} ${gekozen ? 'pak-aan' : ''}`}
               onClick={() => {
                 stil()
                 if (vrij) {
-                  update({ pak: pak.id })
+                  updateHeld(held, { pak: pak.id })
                   zeg(`Je draagt nu het pak ${pak.naam}!`)
                 } else {
-                  const nog = pak.sterren - data.sterren
+                  const nog = pak.sterren - sterren
                   zeg(`Nog ${nog} ${nog === 1 ? 'ster' : 'sterren'} verzamelen voor dit pak!`)
                 }
               }}
             >
-              <Held pak={pak} humeur={aan ? 'blij' : 'normaal'} className="pak-held" />
+              <Held pak={pak} humeur={gekozen ? 'blij' : 'normaal'} className="pak-held" />
               <span className="pak-naam">{pak.naam}</span>
               {!vrij && (
                 <span className="pak-slot">

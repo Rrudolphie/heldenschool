@@ -7,8 +7,12 @@ const BLAUW = [29, 78, 216]
 const ROOD = [225, 29, 42]
 const INKT = [17, 24, 39]
 const WIT = [255, 255, 255]
+const IJZERROOD = [185, 28, 28]
+const GOUD = [245, 158, 11]
+const LICHT = [103, 232, 249]
 
-// Kleur van één punt in een 200x200-tekening (zelfde ontwerp als public/icon.svg).
+// Kleur van één punt in een 200x200-tekening (zelfde ontwerp als public/icon.svg):
+// links de spinnenheld, rechts de ijzerheld.
 function kleur(x, y, afgerond) {
   if (afgerond) {
     const r = 44
@@ -19,21 +23,32 @@ function kleur(x, y, afgerond) {
   const ex = (x - 100) / 70
   const ey = (y - 108) / 76
   const e = Math.hypot(ex, ey)
-  for (const kant of [-1, 1]) {
-    // oog als gedraaide ellips, schuin richting de neus
-    const ox = 100 + kant * 31
-    const oy = 100
-    const hoek = kant * -0.5
-    const dx = x - ox
-    const dy = y - oy
-    const u = dx * Math.cos(hoek) + dy * Math.sin(hoek)
-    const v = -dx * Math.sin(hoek) + dy * Math.cos(hoek)
+  if (e > 1.04) return BLAUW
+  if (e > 0.97) return INKT
+  if (Math.abs(x - 100) < 1.5) return INKT // scheidingslijn
+
+  if (x > 100) {
+    // ijzerheld: oog (schuine strook), gouden masker, rode helm
+    const t = (x - 112) / 38
+    const midden = 104 - t * 4
+    if (t >= 0 && t <= 1 && Math.abs(y - midden) < 4.5) return LICHT
+    if (t >= -0.05 && t <= 1.05 && Math.abs(y - midden) < 6.5) return INKT
+    const m = Math.hypot((x - 100) / 44, (y - 122) / 50)
+    if (m < 0.95) return GOUD
+    if (m < 1.04) return INKT
+    return IJZERROOD
+  }
+
+  // spinnenheld: oog als gedraaide ellips, schuin richting de neus
+  {
+    const dx = x - 69
+    const dy = y - 100
+    const u = dx * Math.cos(0.5) + dy * Math.sin(0.5)
+    const v = -dx * Math.sin(0.5) + dy * Math.cos(0.5)
     const d = Math.hypot(u / 25, v / 15)
     if (d < 1) return WIT
     if (d < 1.22) return INKT
   }
-  if (e > 1.04) return BLAUW
-  if (e > 0.97) return INKT
   // webpatroon
   const wx = x - 100
   const wy = y - 116

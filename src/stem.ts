@@ -1,5 +1,6 @@
 // Voorlezen met de Nederlandse stem van het apparaat (Web Speech API).
-import { stopSpeler } from './opnames'
+import { heeftOpname, speel, stopSpeler } from './opnames'
+import { KLANK_UITSPRAAK } from './letters'
 
 let stem: SpeechSynthesisVoice | undefined
 
@@ -59,4 +60,23 @@ export function nogBezig(start: number) {
 
 export function huidigeBeurt() {
   return beurt
+}
+
+const wacht = (ms: number) => new Promise((r) => setTimeout(r, ms))
+
+/** Een losse klank: de eigen opname als die er is, anders de iPad-stem zo goed mogelijk. */
+export function zegKlank(klank: string, snelheid = 0.8): Promise<void> {
+  if (heeftOpname(`klank-${klank}`)) return speel(`klank-${klank}`)
+  return zeg(KLANK_UITSPRAAK[klank] ?? klank, { snelheid })
+}
+
+/** Klanken na elkaar met een korte pauze (hakken). */
+export async function zegKlanken(klanken: string[], pauze = 450, bijElke?: (i: number) => void) {
+  const start = beurt
+  for (let i = 0; i < klanken.length; i++) {
+    if (!nogBezig(start)) return
+    bijElke?.(i)
+    await zegKlank(klanken[i])
+    await wacht(pauze)
+  }
 }
