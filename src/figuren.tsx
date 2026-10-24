@@ -117,9 +117,15 @@ export async function laadBeelden() {
 
 export const heeftBeeld = (naam: string) => beelden.has(naam)
 
+/** De bewegende versie (gemaakt met scripts/maak-film.py) als die er is, anders het stilstaande plaatje. */
+export const levend = (naam: string) => {
+  const anim = naam.replace(/\.webp$/, '.anim.webp')
+  return beelden.has(anim) ? anim : naam
+}
+
 /** Toont de held: het AI-plaatje als dat er is, anders de getekende versie. */
 export function Held({ pak, humeur = 'normaal', className = '' }: HeldProps) {
-  const foto = `held-${pak.held}-${pak.id}-${humeur}.webp`
+  const foto = levend(`held-${pak.held}-${pak.id}-${humeur}.webp`)
   if (heeftBeeld(foto))
     return (
       <img

@@ -12,6 +12,13 @@ export type Verhaal = {
   intro: string
   halverwege: string
   slot: string
+  /** wat de schurk roept tijdens de missie (na stap 3 en stap 7) */
+  reacties: string[]
+  /** icoontje van een gered ding, en van een nog niet gered ding (wordt grijs getoond) */
+  icoon: string
+  icoonKapot: string
+  /** beschrijving van het schurkplaatje voor het AI-beeldmodel */
+  schurkPortret: string
   /** beschrijving voor het AI-beeldmodel (Engels werkt het best) */
   beeldBegin: string
   beeldEind: string
@@ -20,6 +27,10 @@ export type Verhaal = {
 export const VERHALEN: Verhaal[] = [
   {
     id: 'bolt',
+    reacties: ['Kijk, Robot Bolt wordt boos! Zijn lampjes knipperen!', 'Robot Bolt probeert weg te rollen. Snel, nog een paar!'],
+    icoon: '🚦',
+    icoonKapot: '🚦',
+    schurkPortret: 'portrait of a clumsy cute little robot villain with blinking lights and a mischievous grin',
     held: 'spin',
     schurk: 'Robot Bolt',
     ding: 'stoplichten',
@@ -31,6 +42,10 @@ export const VERHALEN: Verhaal[] = [
   },
   {
     id: 'kladder',
+    reacties: ['Kat Kladder blaast van schrik! Ga zo door!', 'Kat Kladder rent over het dak. We hebben hem bijna!'],
+    icoon: '🎈',
+    icoonKapot: '🎈',
+    schurkPortret: 'portrait of a mischievous cartoon cat villain with a sly grin holding a balloon string',
     held: 'spin',
     schurk: 'Kat Kladder',
     ding: 'ballonnen',
@@ -42,6 +57,10 @@ export const VERHALEN: Verhaal[] = [
   },
   {
     id: 'mopperwolk',
+    reacties: ['De Mopperwolk moppert: brrr, wat een zon!', 'De Mopperwolk wordt steeds kleiner!'],
+    icoon: '☀️',
+    icoonKapot: '🌧️',
+    schurkPortret: 'portrait of a grumpy dark cartoon rain cloud villain with an angry face and little lightning bolts',
     held: 'spin',
     schurk: 'de Mopperwolk',
     ding: 'zonnestralen',
@@ -53,6 +72,10 @@ export const VERHALEN: Verhaal[] = [
   },
   {
     id: 'wiebel',
+    reacties: ['Professor Wiebel krabt op zijn hoofd. Hij snapt er niks van!', 'Professor Wiebel laat zijn sleutel vallen!'],
+    icoon: '🔩',
+    icoonKapot: '🔩',
+    schurkPortret: 'portrait of a goofy cartoon mad scientist villain with wild white hair, goggles and a giant wrench',
     held: 'spin',
     schurk: 'Professor Wiebel',
     ding: 'bouten',
@@ -64,6 +87,10 @@ export const VERHALEN: Verhaal[] = [
   },
   {
     id: 'snoepslurper',
+    reacties: ['De Snoepslurper krijgt de hik! Hik!', 'De Snoepslurper zijn slurf raakt in de knoop!'],
+    icoon: '🍬',
+    icoonKapot: '🍬',
+    schurkPortret: 'portrait of a funny cartoon creature villain with a long vacuum-cleaner trunk nose and candy stuck on it',
     held: 'spin',
     schurk: 'de Snoepslurper',
     ding: 'snoepjes',
@@ -75,6 +102,10 @@ export const VERHALEN: Verhaal[] = [
   },
   {
     id: 'lodewijk',
+    reacties: ['Letterdief Lodewijk laat letters vallen uit zijn zak!', 'Letterdief Lodewijk struikelt over een a!'],
+    icoon: '🔤',
+    icoonKapot: '🔤',
+    schurkPortret: 'portrait of a sneaky cartoon thief villain in a striped shirt and eye mask carrying a sack of letters',
     held: 'ijzer',
     schurk: 'Letterdief Lodewijk',
     ding: 'letters',
@@ -86,6 +117,10 @@ export const VERHALEN: Verhaal[] = [
   },
   {
     id: 'robotkrab',
+    reacties: ['De Robotkrab klappert boos met zijn scharen!', 'De Robotkrab loopt zijwaarts weg!'],
+    icoon: '💡',
+    icoonKapot: '💡',
+    schurkPortret: 'portrait of a cute mechanical robot crab villain with big snipping claws and glowing eyes',
     held: 'ijzer',
     schurk: 'de Robotkrab',
     ding: 'lampjes',
@@ -97,6 +132,10 @@ export const VERHALEN: Verhaal[] = [
   },
   {
     id: 'mist',
+    reacties: ['Mevrouw Mist zucht: oeh, wat een wind!', 'Mevrouw Mist wordt steeds doorzichtiger!'],
+    icoon: '✨',
+    icoonKapot: '🌫️',
+    schurkPortret: 'portrait of a whimsical cartoon lady villain made of swirling gray fog with a misty dress',
     held: 'ijzer',
     schurk: 'Mevrouw Mist',
     ding: 'wolkjes mist',
@@ -108,6 +147,10 @@ export const VERHALEN: Verhaal[] = [
   },
   {
     id: 'magneetmuis',
+    reacties: ['De Magneetmuis piept: hé, mijn fietsen!', 'De Magneetmuis haar magneet begint te wiebelen!'],
+    icoon: '🚲',
+    icoonKapot: '🚲',
+    schurkPortret: 'portrait of a tiny cartoon mouse villain holding a giant red horseshoe magnet with a cheeky grin',
     held: 'ijzer',
     schurk: 'de Magneetmuis',
     ding: 'fietsen en auto’s',
@@ -119,6 +162,10 @@ export const VERHALEN: Verhaal[] = [
   },
   {
     id: 'kriebel',
+    reacties: ['Kapitein Kriebel krijst: mijn goud, mijn goud!', 'Kapitein Kriebel verliest zijn piratenhoed!'],
+    icoon: '🪙',
+    icoonKapot: '🪙',
+    schurkPortret: 'portrait of a funny cartoon pirate parrot villain with an eyepatch and a big pirate hat',
     held: 'ijzer',
     schurk: 'Kapitein Kriebel',
     ding: 'gouden muntjes',

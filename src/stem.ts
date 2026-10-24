@@ -50,11 +50,30 @@ export function huidigeBeurt() {
   return beurt
 }
 
+// ---------- wie zegt wat (voor het tekstwolkje) ----------
+
+export type Spreekt = { tekst: string; held: HeldId } | null
+const luisteraars = new Set<(s: Spreekt) => void>()
+
+/** Volg wat er gezegd wordt; geeft een functie terug om te stoppen met volgen. */
+export function volgSpreken(cb: (s: Spreekt) => void) {
+  luisteraars.add(cb)
+  return () => {
+    luisteraars.delete(cb)
+  }
+}
+const meld = (s: Spreekt) => luisteraars.forEach((cb) => cb(s))
+
 /** Laat een held een zin zeggen (achteraan in de rij). */
 export function zeg(tekst: string, held: HeldId = 'spin'): Promise<void> {
-  return inRij(() => {
+  return inRij(async () => {
     const bestand = zinnen[`${held}|${tekst}`]
-    return bestand ? speelBron(`./stem/${bestand}`) : ipadStem(tekst)
+    meld({ tekst, held })
+    try {
+      await (bestand ? speelBron(`./stem/${bestand}`) : ipadStem(tekst))
+    } finally {
+      meld(null)
+    }
   })
 }
 

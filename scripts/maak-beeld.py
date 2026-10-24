@@ -59,8 +59,18 @@ ZAAD = {"spin": 1235, "ijzer": 5678}  # de gekozen proefvarianten (spin B, ijzer
 def verhalen() -> list[dict]:
     """Leest de avonturen uit src/verhalen.ts (id + beeldbeschrijvingen)."""
     tekst = (PROJECT / "src" / "verhalen.ts").read_text(encoding="utf-8")
-    blokken = re.findall(r"id: '([^']+)',\s*held: '([^']+)'.*?beeldBegin: '([^']+)',\s*beeldEind: '([^']+)'", tekst, re.S)
-    return [{"id": i, "held": h, "begin": b, "eind": e} for i, h, b, e in blokken]
+    blokken = re.findall(
+        r"id: '([^']+)',.*?schurkPortret: '([^']+)',.*?held: '([^']+)'.*?beeldBegin: '([^']+)',\s*beeldEind: '([^']+)'",
+        tekst, re.S)
+    return [{"id": i, "schurk": s, "held": h, "begin": b, "eind": e} for i, s, h, b, e in blokken]
+
+
+def schurk_beeld(pijp, portret: str, zaad: int) -> Image.Image:
+    """Stripkaart van een schurk: grappig en ondeugend, niet eng."""
+    prompt = f"{portret}, funny and mischievous, not scary, upper body character card, {STIJL}"
+    beeld = maak(pijp, prompt, zaad, 832, 1088)
+    beeld.thumbnail((420, 560))
+    return beeld
 
 
 def laad():
@@ -121,6 +131,10 @@ def main():
                     held_beeld(pijp, held, pak, houding, ZAAD[held]).save(bestand, quality=88)
                     print("klaar:", bestand.name, flush=True)
     for v in verhalen():
+        bestand = doel / f"schurk-{v['id']}.webp"
+        if not bestand.exists():
+            schurk_beeld(pijp, v["schurk"], 77).save(bestand, quality=88)
+            print("klaar:", bestand.name, flush=True)
         for deel in ("begin", "eind"):
             bestand = doel / f"verhaal-{v['id']}-{deel}.webp"
             if not bestand.exists():

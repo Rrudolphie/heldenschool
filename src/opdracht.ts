@@ -13,10 +13,12 @@ export const heldVoor = (wereld: Wereld, nr: number): HeldId =>
 
 export function maakOpdracht(held: HeldId, data: Bewaard, vorige?: Opdracht): Opdracht {
   const niveau = speelNiveau(data.helden[held].niveau, toegestaan(held, data))
-  if (held === 'spin') return { held, som: maakSom(NIVEAUS[niveau], vorige?.held === 'spin' ? vorige.som : undefined) }
+  const trede = data.helden[held].trede ?? 0
+  if (held === 'spin')
+    return { held, som: maakSom(NIVEAUS[niveau], trede, vorige?.held === 'spin' ? vorige.som : undefined) }
   return {
     held,
-    taak: maakLetterTaak(LETTER_NIVEAUS[niveau], data.letters, vorige?.held === 'ijzer' ? vorige.taak : undefined),
+    taak: maakLetterTaak(LETTER_NIVEAUS[niveau], data.letters, vorige?.held === 'ijzer' ? vorige.taak : undefined, trede),
   }
 }
 

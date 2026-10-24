@@ -743,6 +743,301 @@ button {
   height: 70%;
 }
 
+/* ---------- openingsscherm ---------- */
+.welkom {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4vmin;
+  padding: 4vmin;
+}
+.welkom-helden {
+  display: flex;
+  gap: 5vmin;
+}
+.welkom-held {
+  height: 44vh;
+}
+.welkom-helden > :nth-child(2) {
+  animation-delay: -1.5s;
+}
+.knop-groot {
+  font-size: clamp(28px, 6vmin, 60px);
+  padding: 0.6em 1.6em;
+  animation: puls 1.6s ease-in-out infinite;
+}
+@keyframes puls {
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+/* ---------- het hele scherm is het verhaal ---------- */
+.spel.spel-spin,
+.spel.spel-ijzer {
+  background: none;
+}
+.verhaal-achtergrond {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+.verhaal-achtergrond img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.9s ease;
+}
+.achtergrond-sluier {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(244, 246, 251, 0.55) 0%, rgba(244, 246, 251, 0.35) 40%, rgba(244, 246, 251, 0.8) 100%);
+}
+.achtergrond-spin {
+  background: #fff5f5;
+}
+.achtergrond-ijzer {
+  background: #fff8ea;
+}
+
+.reddingsrij {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6vmin;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 999px;
+  padding: 0.8vmin 2.5vmin;
+  box-shadow: var(--schaduw);
+}
+.redding-iconen {
+  display: flex;
+  gap: 0.8vmin;
+}
+.redding {
+  font-size: clamp(20px, 3.6vmin, 36px);
+  line-height: 1;
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+  transition: filter 0.4s, opacity 0.4s;
+}
+.redding.kapot {
+  filter: grayscale(1);
+  opacity: 0.35;
+}
+.redding.net-gered {
+  animation: gered 0.7s cubic-bezier(0.3, 1.6, 0.5, 1);
+}
+@keyframes gered {
+  0% {
+    transform: scale(0.4) rotate(-20deg);
+  }
+  60% {
+    transform: scale(1.5) rotate(10deg);
+  }
+}
+.redding-tekst {
+  font-size: clamp(13px, 2.2vmin, 20px);
+  color: var(--zacht);
+  font-weight: 800;
+}
+
+.schurk-kaart {
+  position: relative;
+  flex: none;
+  width: 16vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6vmin;
+  align-self: center;
+}
+.schurk-kaart img,
+.schurk-reserve {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: var(--schaduw-hoog);
+  border: 4px solid #fff;
+  background: var(--kaart);
+}
+.schurk-reserve {
+  display: grid;
+  place-items: center;
+  font-size: 8vmin;
+}
+.schurk-naam {
+  font-size: clamp(13px, 2.2vmin, 20px);
+  font-weight: 900;
+  background: var(--inkt);
+  color: #fff;
+  padding: 0.2em 0.7em;
+  border-radius: 999px;
+}
+.schurk-schrikt {
+  animation: schrik 0.6s ease;
+}
+@keyframes schrik {
+  20% {
+    transform: translateX(-8px) rotate(-4deg);
+  }
+  40% {
+    transform: translateX(8px) rotate(4deg);
+  }
+  60% {
+    transform: translateX(-5px) rotate(-2deg);
+  }
+  80% {
+    transform: translateX(5px);
+  }
+}
+.schurk-geraakt img {
+  animation: geraakt 0.25s ease 4;
+}
+@keyframes geraakt {
+  50% {
+    filter: brightness(2.2) saturate(0.3);
+  }
+}
+.schurk-vlucht {
+  animation: vlucht 1.2s ease-in forwards;
+}
+@keyframes vlucht {
+  30% {
+    transform: translateX(-12px) rotate(-6deg);
+  }
+  100% {
+    transform: translateX(60vw) rotate(25deg) scale(0.4);
+    opacity: 0;
+  }
+}
+
+/* interactieve held */
+.held-kaart {
+  position: relative;
+  flex: none;
+  align-self: center;
+  width: 17vw;
+}
+.held-kaart .held-klein,
+.held-kaart .held-klein.held-foto {
+  width: 100%;
+  height: auto;
+  max-height: 50vh;
+}
+.adem {
+  animation: adem 3.2s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+@keyframes adem {
+  50% {
+    transform: translateY(-1.2vmin) scale(1.015);
+  }
+}
+.held-kaart.spring .held {
+  animation: spring 0.6s ease-out;
+}
+.held-kaart.schud .held {
+  animation: schud 0.5s ease;
+}
+@keyframes schud {
+  20%,
+  60% {
+    transform: translateX(-7px);
+  }
+  40%,
+  80% {
+    transform: translateX(7px);
+  }
+}
+.tekstwolk {
+  position: absolute;
+  left: 78%;
+  top: 6%;
+  z-index: 4;
+  width: max-content;
+  max-width: 34vw;
+  background: #fff;
+  color: var(--inkt);
+  font-size: clamp(15px, 2.6vmin, 24px);
+  font-weight: 800;
+  line-height: 1.25;
+  padding: 0.6em 0.9em;
+  border-radius: 18px;
+  border: 3px solid var(--inkt);
+  box-shadow: 0 4px 0 var(--inkt);
+  text-align: left;
+  animation: pop 0.3s ease-out;
+}
+.tekstwolk::before {
+  content: '';
+  position: absolute;
+  left: -14px;
+  top: 18px;
+  border: 8px solid transparent;
+  border-right: 12px solid var(--inkt);
+}
+
+/* superkracht */
+.superkracht {
+  position: absolute;
+  inset: 0;
+  z-index: 8;
+  pointer-events: none;
+  display: grid;
+  place-items: center;
+}
+.kracht-web {
+  width: 90vmin;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.4));
+  animation: webschot 1.4s ease-out forwards;
+}
+@keyframes webschot {
+  0% {
+    transform: scale(0.1) rotate(-30deg);
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.2) rotate(0deg);
+    opacity: 0;
+  }
+}
+.kracht-laser {
+  position: absolute;
+  left: 18vw;
+  right: 14vw;
+  top: 48%;
+  height: 2.4vmin;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #fff, #67e8f9, #fff);
+  box-shadow: 0 0 24px 8px rgba(103, 232, 249, 0.8);
+  transform-origin: left center;
+  animation: laser 1.4s ease-out forwards;
+}
+@keyframes laser {
+  0% {
+    transform: scaleX(0);
+  }
+  35% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 0;
+  }
+}
+
 /* AI-plaatje van de held: een stripkaart met ronde hoeken */
 img.held-foto {
   aspect-ratio: 520 / 760;

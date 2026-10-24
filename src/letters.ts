@@ -138,14 +138,15 @@ function korteWoorden(letters: string[]) {
   return bekend.length >= 3 ? bekend : kort
 }
 
-/** Drie verschillende opties: het antwoord plus twee andere, door elkaar. */
-function drie(antwoord: string, anderen: string[]): string[] {
-  const extra = schud(anderen.filter((x) => x !== antwoord)).slice(0, 2)
+/** Verschillende opties: het antwoord plus twee (of drie, op de hoge trede) andere, door elkaar. */
+function drie(antwoord: string, anderen: string[], aantal = 3): string[] {
+  const extra = schud(anderen.filter((x) => x !== antwoord)).slice(0, aantal - 1)
   return schud([antwoord, ...extra])
 }
 
-export function maakLetterTaak(soort: LetterSoort, gekozen: string[], vorige?: LetterTaak): LetterTaak {
+export function maakLetterTaak(soort: LetterSoort, gekozen: string[], vorige?: LetterTaak, trede = 0): LetterTaak {
   const letters = gekozen.length ? gekozen : STANDAARD_LETTERS
+  const aantal = trede > 0 ? 4 : 3 // hoge trede: 4 keuzes
   for (let poging = 0; ; poging++) {
     let taak: LetterTaak
     if (soort === 'beginklank' || soort === 'herkennen') {
@@ -154,14 +155,14 @@ export function maakLetterTaak(soort: LetterSoort, gekozen: string[], vorige?: L
       if (soort === 'beginklank') {
         // foute letters liefst uit de letters die hij kent
         const andere = letters.length >= 3 ? letters : ALLE_LETTERS
-        taak = { soort, woord, letter, opties: drie(letter, andere), antwoord: letter }
+        taak = { soort, woord, letter, opties: drie(letter, andere, aantal), antwoord: letter }
       } else {
         const andereWoorden = WOORDEN.filter((w) => beginletter(w) !== letter)
         const voorkeur = andereWoorden.filter((w) => letters.includes(beginletter(w)))
         const pool = (voorkeur.length >= 2 ? voorkeur : andereWoorden).map((w) => w.woord)
         // nooit twee foute plaatjes met dezelfde beginletter
         const uniek = [...new Map(schud(pool).map((w) => [w[0], w])).values()]
-        taak = { soort, woord, letter, opties: drie(woord.woord, uniek), antwoord: woord.woord }
+        taak = { soort, woord, letter, opties: drie(woord.woord, uniek, aantal), antwoord: woord.woord }
       }
     } else {
       const pool = korteWoorden(letters)
@@ -170,7 +171,7 @@ export function maakLetterTaak(soort: LetterSoort, gekozen: string[], vorige?: L
         soort,
         woord,
         letter: beginletter(woord),
-        opties: drie(woord.woord, (pool.length >= 3 ? pool : WOORDEN.filter((w) => w.klanken)).map((w) => w.woord)),
+        opties: drie(woord.woord, (pool.length >= 3 ? pool : WOORDEN.filter((w) => w.klanken)).map((w) => w.woord), aantal),
         antwoord: woord.woord,
       }
     }

@@ -153,3 +153,48 @@ De app wordt breder: rekenen én letters, voor groep 2 en 3. Nieuwe naam: **Held
   4. De Magneetmuis (trekt fietsen en auto's naar zich toe)
   5. Kapitein Kriebel (piratenpapegaai met de verstopte schatkist)
 - **Mix-missie:** beide helden samen tegen een van de schurken.
+
+---
+
+# Versie 5: levendiger en slimmer
+
+## Eerst repareren
+- **Rare geluiden voor en na de stem:** bij elke opname zoekt Whisper het eerste en laatste woord op, en alles daarbuiten (ademhaling, gemompel, naklank) wordt weggeknipt. Dit geldt voor alle bestaande opnames.
+
+## Stemmen uitbreiden
+- **Openingsscherm "Tik om te beginnen":** na de tik begroeten beide helden hem om de beurt. Spinnenheld: "Hoi (naam)! Zullen we samen een spelletje doen?" IJzerheld: "Kies maar: rekenen, letters of samen op missie!"
+- **Troost bij een fout:** "Geeft niks, probeer het nog eens!", met per held een paar varianten.
+- **Eigen complimenten per held:** bijvoorbeeld "Webtastisch!" en "Turbo goed!".
+- **Afscheid bij stoppen:** "Tot de volgende keer, held!"
+- **Kledingkast:** de helden zeggen iets over hun pak.
+- **Tikken op de held:** grappige zinnen, zoals "Hihi, dat kietelt!".
+- **De schurk reageert tijdens de missie:** 2 tot 3 zinnen per verhaal.
+
+## Het hele scherm is het verhaal
+- **Achtergrond:** het verhaalplaatje vult het scherm en schuift bij elke goede beurt van chaos naar opgelost.
+- **De te redden dingen staan in beeld:** bijvoorbeeld 10 stoplichten of ballonnen. Bij elk goed antwoord wordt er één gered, met animatie en geluid, en een teller: "3 van de 10 stoplichten gerepareerd!".
+- **De schurk als eigen stripkaart:** 10 extra AI-plaatjes. Hij staat tegenover de held, schudt bij elke redding en vlucht aan het eind.
+
+## Interactieve held
+- **Beweging:** de held ademt en zweeft, springt bij goed en schudt bij fout. Hij wisselt van houding.
+- **Tekstwolkje:** wat de held zegt, verschijnt in een tekstwolkje, zoals in een strip.
+- **Tikken op de held:** hij zegt iets grappigs en springt.
+- **Superkracht na 3 keer goed op rij:** een webschot of laserstraal naar de schurk, met een effect over het scherm.
+
+## Adaptief: moeilijker als het makkelijk gaat
+- **Slimmer meegroeien binnen een niveau:** eerst tot 5, dan tot 10, en foute antwoorden die dichter bij het goede liggen. Snel en goed antwoorden betekent sneller omhoog.
+- **Nieuwe rekenniveaus:** plus en min tot 20, met ongeveer 400 nieuwe ingesproken zinnen. Spinnetjes in rijtjes van 10.
+- **Letters moeilijker:** meer letters tegelijk en op een hoger niveau 4 keuzes in plaats van 3.
+
+## Bouwvolgorde
+1. Geluiden voor en na de stem wegknippen (alle opnames).
+2. Nieuwe zinnen schrijven en inspreken: begroeting, troost, complimenten, afscheid, kast, tikken en schurkreacties.
+3. Schurkplaatjes maken (10 stuks).
+4. Nieuw spelscherm: verhaal als achtergrond, te redden dingen, schurk, tekstwolk, bewegende held, superkracht en openingsscherm.
+5. Adaptief meegroeien, sommen tot 20 (plus inspreken) en moeilijkere letters.
+6. Testen en online zetten.
+
+## Bijsturing versie 5: plaatjes komen tot leven
+- "Interactief" betekent: de plaatjes moeten echt bewegen. Daarom maakt het AI-videomodel **Stable Video Diffusion** (lokaal, ca. 4 GB, `C:\Users\robbi\Tools\ai-beeld\svd`) korte bewegende versies, als geanimeerde WebP die heen en terug loopt (ca. 3 seconden).
+- Wat beweegt: de helden in hun stoere houding (alle 14 pakken), de 10 schurken en de 10 beginplaatjes van de avonturen. De app gebruikt de bewegende versie automatisch zodra die bestaat (`*.anim.webp`).
+- Script: `scripts/maak-film.py`.

@@ -37,7 +37,9 @@ GOED_GENOEG = 0.9  # overeenkomst met de bedoelde tekst waarbij we stoppen met p
 MAX_POGINGEN = 4
 
 GETALLEN = {"nul": "0", "een": "1", "één": "1", "twee": "2", "drie": "3", "vier": "4", "vijf": "5",
-            "zes": "6", "zeven": "7", "acht": "8", "negen": "9", "tien": "10"}
+            "zes": "6", "zeven": "7", "acht": "8", "negen": "9", "tien": "10",
+            "elf": "11", "twaalf": "12", "dertien": "13", "veertien": "14", "vijftien": "15", "zestien": "16",
+            "zeventien": "17", "achttien": "18", "negentien": "19", "twintig": "20"}
 
 
 def gewoon(tekst: str) -> str:
@@ -83,16 +85,56 @@ def main():
             if r and r["gehoord"] != "(klank)" and r["score"] < 0.8:
                 (UIT / z["bestand"]).unlink(missing_ok=True)
 
+    knippen = "--knip" in sys.argv
     te_doen = [z for z in zinnen if not (UIT / z["bestand"]).exists()]
     print(f"{len(zinnen)} zinnen, nog te maken: {len(te_doen)}", flush=True)
-    if not te_doen:
+    if not te_doen and not knippen:
         return
 
-    tts = ChatterboxMultilingualTTS.from_local(MODEL, device="cuda")
     oor = whisper.load_model("turbo", device="cuda")
 
     def luister(wav: np.ndarray, sr: int) -> str:
         return oor.transcribe(librosa.resample(wav, orig_sr=sr, target_sr=16000), language="nl", fp16=True)["text"]
+
+    def knip_zin(wav: np.ndarray, sr: int, tekst: str) -> np.ndarray:
+        """Knip alles voor het eerste en na het laatste woord van de bedoelde zin weg
+        (ademhaling, gemompel of een naklank die het model er soms bij maakt)."""
+        uitslag = oor.transcribe(librosa.resample(wav, orig_sr=sr, target_sr=16000), language="nl", fp16=True,
+                                 word_timestamps=True)
+        woorden = [w for s in uitslag["segments"] for w in s.get("words", [])]
+        doel = gewoon(tekst).split()
+        if not woorden or not doel:
+            return wav
+
+        def lijkt(gehoord: str, woord: str) -> bool:
+            return difflib.SequenceMatcher(None, gewoon(gehoord), woord).ratio() >= 0.6
+
+        eerste = next((w for w in woorden if lijkt(w["word"], doel[0])), woorden[0])
+        laatste = next((w for w in reversed(woorden) if lijkt(w["word"], doel[-1])), woorden[-1])
+        if eerste["start"] >= laatste["end"]:
+            return wav
+        begin = max(0, int((eerste["start"] - 0.08) * sr))
+        eind = min(len(wav), int((laatste["end"] + 0.22) * sr))
+        return wav[begin:eind]
+
+    if knippen:
+        # bestaande opnames bijknippen, zonder opnieuw in te spreken
+        for i, z in enumerate(zinnen, 1):
+            pad = UIT / z["bestand"]
+            if not pad.exists() or is_klank(z["uitspraak"]):
+                continue
+            wav, sr = librosa.load(str(pad), sr=None, mono=True)
+            wav = nabewerken(knip_zin(wav, sr, z["uitspraak"]), sr)
+            sf.write(str(pad), wav, sr, format="MP3")
+            gehoord = luister(wav, sr)
+            score = difflib.SequenceMatcher(None, gewoon(gehoord), gewoon(z["uitspraak"])).ratio()
+            rapport[z["sleutel"]] = {"score": round(score, 2), "gehoord": gehoord.strip()}
+            print(f"geknipt {i}/{len(zinnen)} [{score:.2f}]: {z['tekst']}", flush=True)
+        RAPPORT.write_text(json.dumps(rapport, ensure_ascii=False, indent=1), encoding="utf-8")
+        if not te_doen:
+            return
+
+    tts = ChatterboxMultilingualTTS.from_local(MODEL, device="cuda")
 
     def knip_woord(wav: np.ndarray, sr: int, woord: str):
         """Zoek met Whisper waar het woord in de draagzin zit en knip het eruit."""
@@ -135,6 +177,8 @@ def main():
                     wav, _ = knip_woord(wav, tts.sr, z["uitspraak"])
                     if wav is None or len(wav) < tts.sr * 0.15:
                         continue
+                elif not is_klank(z["uitspraak"]):
+                    wav = knip_zin(wav, tts.sr, z["uitspraak"])
                 wav = nabewerken(wav, tts.sr)
                 if is_klank(z["uitspraak"]):
                     beste = (1.0, wav, "(klank)")

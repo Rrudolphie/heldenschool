@@ -57,7 +57,7 @@ export function KastScherm({
                 stil()
                 if (vrij) {
                   updateHeld(held, { pak: pak.id })
-                  zeg(Z.draagtPak(pak.naam), held)
+                  zeg(pak.praatje, held)
                 } else zeg(Z.opSlot, held)
               }}
             >

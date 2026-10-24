@@ -1,9 +1,9 @@
 import { type CSSProperties, useCallback, useEffect, useRef, useState } from 'react'
-import { HoekWeb, Held, type Humeur, laadBeelden, Ster } from './figuren'
+import { Held, type Humeur, laadBeelden, Ster } from './figuren'
 import { mixIntro, type Verhaal, VERHALEN, verhalenVan } from './verhalen'
-import { Pad, VerhaalBeeld } from './VerhaalWeergave'
+import { HeldKaart, Reddingsrij, SchurkKaart, Superkracht, useSpreekt, VerhaalAchtergrond, VerhaalBeeld } from './VerhaalWeergave'
 import { IcoonHuis, IcoonLuidspreker, IcoonMix, IcoonShirt, IcoonSlot } from './iconen'
-import { kies, NIVEAU_NAAM, SOMMEN_PER_RONDE, verwerk } from './spel'
+import { kies, NIVEAU_NAAM, SNEL_MS, SOMMEN_PER_RONDE, verwerk } from './spel'
 import { LETTER_NIVEAU_NAAM } from './letters'
 import { bewaar, type Bewaard, type HeldData, type HeldId, heldNaam, laad, toegestaan } from './opslag'
 import {
@@ -19,7 +19,7 @@ import {
   zegKlank,
   zegKlanken,
 } from './stem'
-import { LOF, LOF_HELD, TELWOORD, Z } from './zinnen'
+import { AFSCHEID, KRACHT, LOF, LOF_HELD, TELWOORD, TIK, TROOST, Z } from './zinnen'
 import { nieuwVrij, type Pak, pakVan, volgendPak } from './pakken'
 import { heeftOpname, laadOpnames } from './opnames'
 import {
@@ -37,7 +37,7 @@ import { LetterOpgave, LetterOptie } from './LetterWeergave'
 import { KastScherm } from './Kast'
 import { OudersScherm } from './Ouders'
 
-type Scherm = 'start' | 'intro' | 'spel' | 'klaar' | 'kast' | 'ouders'
+type Scherm = 'welkom' | 'start' | 'intro' | 'spel' | 'klaar' | 'kast' | 'ouders'
 type PerHeld = Record<HeldId, number>
 
 const OUDER_HOUDEN_MS = 2500
@@ -61,7 +61,7 @@ type Updaters = {
 
 export default function App() {
   const [data, setData] = useState<Bewaard>(laad)
-  const [scherm, setScherm] = useState<Scherm>('start')
+  const [scherm, setScherm] = useState<Scherm>('welkom')
   const [wereld, setWereld] = useState<Wereld>('rekenen')
   const [rondeSterren, setRondeSterren] = useState<PerHeld>(NUL)
   const [sterrenBijStart, setSterrenBijStart] = useState<PerHeld>(NUL)
@@ -100,8 +100,10 @@ export default function App() {
     setScherm('intro')
   }
 
-  const naarStart = () => {
+  /** Terug naar het startscherm, eventueel met een afscheid van de held. */
+  const naarStart = (afscheid?: HeldId) => {
     stil()
+    if (afscheid) zeg(AFSCHEID[afscheid], afscheid)
     setScherm('start')
   }
 
@@ -112,6 +114,7 @@ export default function App() {
 
   return (
     <div className="app">
+      {scherm === 'welkom' && <WelkomScherm pakken={pakken} onVerder={() => setScherm('start')} />}
       {scherm === 'start' && (
         <StartScherm
           data={data}
@@ -122,7 +125,7 @@ export default function App() {
         />
       )}
       {scherm === 'intro' && (
-        <IntroScherm wereld={wereld} verhaal={verhaal} pakken={pakken} onVerder={() => setScherm('spel')} onStop={naarStart} />
+        <IntroScherm wereld={wereld} verhaal={verhaal} pakken={pakken} onVerder={() => setScherm('spel')} onStop={() => naarStart()} />
       )}
       {scherm === 'spel' && (
         <SpelScherm
@@ -136,7 +139,7 @@ export default function App() {
             update({ rondes: data.rondes + 1 })
             setScherm('klaar')
           }}
-          onStop={naarStart}
+          onStop={() => naarStart(verhaal.held)}
         />
       )}
       {scherm === 'klaar' && (
@@ -151,14 +154,43 @@ export default function App() {
           ]}
           onAantrekken={(p) => updateHeld(p.held, { pak: p.id })}
           onNogEen={() => start(wereld)}
-          onStop={naarStart}
+          onStop={() => naarStart(verhaal.held)}
         />
       )}
-      {scherm === 'kast' && <KastScherm data={data} updateHeld={updateHeld} onTerug={naarStart} />}
+      {scherm === 'kast' && <KastScherm data={data} updateHeld={updateHeld} onTerug={() => naarStart()} />}
       {scherm === 'ouders' && (
-        <OudersScherm data={data} update={update} updateHeld={updateHeld} onTerug={naarStart} />
+        <OudersScherm data={data} update={update} updateHeld={updateHeld} onTerug={() => naarStart()} />
       )}
     </div>
+  )
+}
+
+/** Eerste scherm: één tik zet het geluid aan, daarna begroeten beide helden hem om de beurt. */
+function WelkomScherm({ pakken, onVerder }: { pakken: Record<HeldId, Pak>; onVerder: () => void }) {
+  return (
+    <main className="welkom">
+      <h1 className="titel">Heldenschool</h1>
+      <div className="welkom-helden">
+        <Held pak={pakken.spin} className="welkom-held zweef" />
+        <Held pak={pakken.ijzer} className="welkom-held zweef" />
+      </div>
+      <button
+        className="knop-start knop-groot"
+        onClick={() => {
+          ontgrendel()
+          stil()
+          if (heeftOpname('naam')) {
+            zeg(Z.hoi, 'spin')
+            speelOpname('naam')
+            zeg(Z.openSpin, 'spin')
+          } else zeg(Z.openSpinVol, 'spin')
+          zeg(Z.openIjzer, 'ijzer')
+          onVerder()
+        }}
+      >
+        Tik om te beginnen
+      </button>
+    </main>
   )
 }
 
@@ -352,6 +384,12 @@ function SpelScherm({
   const [humeur, setHumeur] = useState<Humeur>('normaal')
   const [goed, setGoed] = useState(false)
   const [melding, setMelding] = useState('')
+  const [reactie, setReactie] = useState<'spring' | 'schud' | ''>('')
+  const [schrik, setSchrik] = useState(0) // aantal reddingen: elke redding laat de schurk schrikken
+  const [kracht, setKracht] = useState(false) // superkracht in beeld
+  const reeks = useRef(0) // goed op rij in deze missie (voor de superkracht)
+  const begonnen = useRef(Date.now()) // wanneer de opdracht verscheen (voor snel en goed)
+  const spreekt = useSpreekt()
   const dataRef = useRef(data)
   dataRef.current = data
 
@@ -361,6 +399,7 @@ function SpelScherm({
 
   // nieuwe opdracht → voorlezen
   useEffect(() => {
+    begonnen.current = Date.now()
     const t = setTimeout(() => stelVraag(opdracht), 350)
     return () => clearTimeout(t)
   }, [opdracht])
@@ -377,11 +416,12 @@ function SpelScherm({
   /** Hulp na een fout antwoord, per soort opdracht. */
   const geefHulp = async (nogOver: string[]) => {
     const beurt = huidigeBeurt()
+    zeg(kies(TROOST[held]), held)
     if (opdracht.held === 'spin') {
       const som = opdracht.som
       if (som.soort === 'cijfers') return zeg(Z.zoekWeb(som.a), 'spin')
       await zeg(Z.telMee, 'spin')
-      const aantal = som.soort === 'min' ? som.a - som.b : som.soort === 'plus' ? som.a + som.b : som.a
+      const aantal = som.soort.startsWith('min') ? som.a - som.b : som.soort.startsWith('plus') ? som.a + som.b : som.a
       for (let i = 1; i <= aantal; i++) {
         if (!nogBezig(beurt)) return
         setLicht(i)
@@ -431,11 +471,13 @@ function SpelScherm({
       setFouten(nieuweFouten)
       effect('boing')
       setHumeur('denk')
+      setReactie('schud')
+      reeks.current = 0
       setLicht(0)
       setLichtOptie(null)
       if (eersteKeer) {
         const v = verwerk(dataRef.current.helden[held], false, toe)
-        updateHeld(held, { niveau: v.niveau, goedOpRij: v.goedOpRij, foutOpRij: v.foutOpRij, stats: telStat('fout') })
+        updateHeld(held, { niveau: v.niveau, trede: v.trede, goedOpRij: v.goedOpRij, foutOpRij: v.foutOpRij, stats: telStat('fout') })
       }
       geefHulp(optiesVan(opdracht).filter((o) => !nieuweFouten.includes(o)))
       return
@@ -445,13 +487,17 @@ function SpelScherm({
     setGoed(true)
     effect('pling')
     setHumeur('blij')
+    setReactie('spring')
+    setSchrik((s) => s + 1)
     setLichtOptie(null)
     onSter(held)
+    reeks.current += 1
+    const snel = Date.now() - begonnen.current < SNEL_MS
     let nieuwNiveau = ''
     const nieuw: Partial<HeldData> = { sterren: dataRef.current.helden[held].sterren + 1 }
     if (eersteKeer) {
-      const v = verwerk(dataRef.current.helden[held], true, toe)
-      Object.assign(nieuw, { niveau: v.niveau, goedOpRij: v.goedOpRij, foutOpRij: v.foutOpRij, stats: telStat('goed') })
+      const v = verwerk(dataRef.current.helden[held], true, toe, snel)
+      Object.assign(nieuw, { niveau: v.niveau, trede: v.trede, goedOpRij: v.goedOpRij, foutOpRij: v.foutOpRij, stats: telStat('goed') })
       if (v.veranderd === 1) {
         nieuwNiveau = NIVEAU_NAMEN[held][v.niveau]
         setMelding(`Nieuw niveau: ${nieuwNiveau}!`)
@@ -466,6 +512,16 @@ function SpelScherm({
     if (heeftOpname('naam') && Math.random() < 0.3) lof = speelOpname('naam')
     if (nieuwNiveau) lof = zeg(Z.nieuwNiveau(nieuwNiveau), held)
     if (nr + 1 === SOMMEN_PER_RONDE / 2) lof = zeg(verhaal.halverwege, verhaal.held)
+    // de schurk reageert onderweg
+    if (nr + 1 === 3) lof = zeg(verhaal.reacties[0], verhaal.held)
+    if (nr + 1 === 7) lof = zeg(verhaal.reacties[1], verhaal.held)
+    // superkracht na 3 keer goed op rij
+    if (reeks.current === 3) {
+      reeks.current = 0
+      setKracht(true)
+      setTimeout(() => setKracht(false), 1400)
+      lof = zeg(KRACHT[held], held)
+    }
 
     lof.then(() => {
       setTimeout(() => {
@@ -477,6 +533,7 @@ function SpelScherm({
         setLicht(0)
         setGoed(false)
         setHumeur('normaal')
+        setReactie('')
         setMelding('')
       }, 300)
     })
@@ -486,22 +543,12 @@ function SpelScherm({
 
   return (
     <main className={`spel spel-${held}`}>
-      {held === 'spin' && (
-        <>
-          <HoekWeb className="hoek-lb" />
-          <HoekWeb className="hoek-rb" />
-        </>
-      )}
+      <VerhaalAchtergrond verhaal={verhaal} deel={schrik / SOMMEN_PER_RONDE} />
       <header className="balk">
         <button className="knop-rond" onClick={onStop} aria-label="Naar het begin">
           <IcoonHuis />
         </button>
-        <Pad
-          stap={nr + (goed ? 1 : 0)}
-          totaal={SOMMEN_PER_RONDE}
-          pak={pakken[held]}
-          kleuren={Array.from({ length: SOMMEN_PER_RONDE }, (_, i) => (heldVoor(wereld, i) === 'spin' ? 'var(--rood)' : 'var(--goud)'))}
-        />
+        <Reddingsrij verhaal={verhaal} gered={schrik} totaal={SOMMEN_PER_RONDE} />
         <div className="sterren-teller klein">
           <Ster className={goed ? 'ster-pop' : ''} /> <span>{heldData.sterren}</span>
         </div>
@@ -520,7 +567,18 @@ function SpelScherm({
       {melding && <div className="melding">{melding}</div>}
 
       <section className="speelveld">
-        <Held humeur={humeur} pak={pakken[held]} className={`held-klein ${goed ? 'spring' : ''}`} />
+        <HeldKaart
+          pak={pakken[held]}
+          humeur={humeur}
+          reactie={reactie}
+          spreekt={spreekt}
+          onTik={() => {
+            stil()
+            setReactie('')
+            requestAnimationFrame(() => setReactie('spring'))
+            zeg(kies(TIK[held]), held)
+          }}
+        />
         <div className="opgave" key={nr}>
           {opdracht.held === 'spin' ? (
             <SomOpgave som={opdracht.som} licht={licht} />
@@ -528,6 +586,7 @@ function SpelScherm({
             <LetterOpgave taak={opdracht.taak} licht={licht} />
           )}
         </div>
+        <SchurkKaart verhaal={verhaal} schrik={schrik} geraakt={kracht} verslagen={schrik >= SOMMEN_PER_RONDE} />
       </section>
 
       <section className={`keuzes ${breed ? 'keuzes-webben' : ''}`} key={nr}>
@@ -549,6 +608,8 @@ function SpelScherm({
           ),
         )}
       </section>
+
+      {kracht && <Superkracht held={held} />}
     </main>
   )
 }

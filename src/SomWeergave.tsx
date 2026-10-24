@@ -61,6 +61,7 @@ export function SomOpgave({ som, licht }: { som: Som; licht: number }) {
         </>
       )
     case 'plus':
+    case 'plus20':
       return (
         <>
           <p className="som">
@@ -74,6 +75,7 @@ export function SomOpgave({ som, licht }: { som: Som; licht: number }) {
         </>
       )
     case 'min':
+    case 'min20':
       return (
         <>
           <p className="som">

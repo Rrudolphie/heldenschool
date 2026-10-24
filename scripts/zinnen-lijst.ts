@@ -15,7 +15,7 @@ function naam(sleutel: string) {
 }
 
 /** Getallen voluit schrijven, zodat de stem ze in het Nederlands uitspreekt. */
-const uitspraak = (tekst: string) => tekst.replace(/\b(10|[0-9])\b/g, (g) => TELWOORD[Number(g)])
+const uitspraak = (tekst: string) => tekst.replace(/\b(1[0-9]|20|[0-9])\b/g, (g) => TELWOORD[Number(g)])
 
 const zinnen = alleZinnen().map((z) => {
   const sleutel = `${z.held}|${z.tekst}`

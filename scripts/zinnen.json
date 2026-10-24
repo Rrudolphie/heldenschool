@@ -63,6 +63,20 @@
   "uitspraak": "Spinnentastisch!"
  },
  {
+  "sleutel": "spin|Webtastisch!",
+  "bestand": "spin-02xnvtv.mp3",
+  "held": "spin",
+  "tekst": "Webtastisch!",
+  "uitspraak": "Webtastisch!"
+ },
+ {
+  "sleutel": "spin|Jij bent een echte spinnenheld!",
+  "bestand": "spin-0on7fup.mp3",
+  "held": "spin",
+  "tekst": "Jij bent een echte spinnenheld!",
+  "uitspraak": "Jij bent een echte spinnenheld!"
+ },
+ {
   "sleutel": "spin|Je bent naar een nieuw niveau: Tellen!",
   "bestand": "spin-0hao5ly.mp3",
   "held": "spin",
@@ -89,6 +103,20 @@
   "held": "spin",
   "tekst": "Je bent naar een nieuw niveau: Minsommen!",
   "uitspraak": "Je bent naar een nieuw niveau: Minsommen!"
+ },
+ {
+  "sleutel": "spin|Je bent naar een nieuw niveau: Plus tot 20!",
+  "bestand": "spin-1lv7oip.mp3",
+  "held": "spin",
+  "tekst": "Je bent naar een nieuw niveau: Plus tot 20!",
+  "uitspraak": "Je bent naar een nieuw niveau: Plus tot twintig!"
+ },
+ {
+  "sleutel": "spin|Je bent naar een nieuw niveau: Min tot 20!",
+  "bestand": "spin-0yei6e7.mp3",
+  "held": "spin",
+  "tekst": "Je bent naar een nieuw niveau: Min tot 20!",
+  "uitspraak": "Je bent naar een nieuw niveau: Min tot twintig!"
  },
  {
   "sleutel": "spin|Missie klaar! Je hebt 0 sterren verdiend.",
@@ -196,6 +224,13 @@
   "uitspraak": "Je draagt nu het pak Klassiek!"
  },
  {
+  "sleutel": "spin|Mijn klassieke pak, daar kan ik alles mee!",
+  "bestand": "spin-1xe38io.mp3",
+  "held": "spin",
+  "tekst": "Mijn klassieke pak, daar kan ik alles mee!",
+  "uitspraak": "Mijn klassieke pak, daar kan ik alles mee!"
+ },
+ {
   "sleutel": "spin|En je hebt een nieuw pak vrijgespeeld: Nacht! Wil je het aantrekken?",
   "bestand": "spin-0tgzo58.mp3",
   "held": "spin",
@@ -208,6 +243,13 @@
   "held": "spin",
   "tekst": "Je draagt nu het pak Nacht!",
   "uitspraak": "Je draagt nu het pak Nacht!"
+ },
+ {
+  "sleutel": "spin|In het Nachtpak zie je mij in het donker bijna niet!",
+  "bestand": "spin-09wf4c2.mp3",
+  "held": "spin",
+  "tekst": "In het Nachtpak zie je mij in het donker bijna niet!",
+  "uitspraak": "In het Nachtpak zie je mij in het donker bijna niet!"
  },
  {
   "sleutel": "spin|En je hebt een nieuw pak vrijgespeeld: Jungle! Wil je het aantrekken?",
@@ -224,6 +266,13 @@
   "uitspraak": "Je draagt nu het pak Jungle!"
  },
  {
+  "sleutel": "spin|Met het Junglepak slinger ik door de bomen!",
+  "bestand": "spin-05mpj5u.mp3",
+  "held": "spin",
+  "tekst": "Met het Junglepak slinger ik door de bomen!",
+  "uitspraak": "Met het Junglepak slinger ik door de bomen!"
+ },
+ {
   "sleutel": "spin|En je hebt een nieuw pak vrijgespeeld: Goud! Wil je het aantrekken?",
   "bestand": "spin-07a81g5.mp3",
   "held": "spin",
@@ -236,6 +285,13 @@
   "held": "spin",
   "tekst": "Je draagt nu het pak Goud!",
   "uitspraak": "Je draagt nu het pak Goud!"
+ },
+ {
+  "sleutel": "spin|Het Gouden pak glimt als een schat!",
+  "bestand": "spin-0xj2kkh.mp3",
+  "held": "spin",
+  "tekst": "Het Gouden pak glimt als een schat!",
+  "uitspraak": "Het Gouden pak glimt als een schat!"
  },
  {
   "sleutel": "spin|En je hebt een nieuw pak vrijgespeeld: IJs! Wil je het aantrekken?",
@@ -252,6 +308,13 @@
   "uitspraak": "Je draagt nu het pak IJs!"
  },
  {
+  "sleutel": "spin|Brrr, het IJspak is lekker koel!",
+  "bestand": "spin-1kzjt6o.mp3",
+  "held": "spin",
+  "tekst": "Brrr, het IJspak is lekker koel!",
+  "uitspraak": "Brrr, het IJspak is lekker koel!"
+ },
+ {
   "sleutel": "spin|En je hebt een nieuw pak vrijgespeeld: Galaxy! Wil je het aantrekken?",
   "bestand": "spin-1gqoh0y.mp3",
   "held": "spin",
@@ -264,6 +327,13 @@
   "held": "spin",
   "tekst": "Je draagt nu het pak Galaxy!",
   "uitspraak": "Je draagt nu het pak Galaxy!"
+ },
+ {
+  "sleutel": "spin|Met het Galaxypak zwaai ik tussen de sterren!",
+  "bestand": "spin-1oh6rnx.mp3",
+  "held": "spin",
+  "tekst": "Met het Galaxypak zwaai ik tussen de sterren!",
+  "uitspraak": "Met het Galaxypak zwaai ik tussen de sterren!"
  },
  {
   "sleutel": "spin|En je hebt een nieuw pak vrijgespeeld: Vuur! Wil je het aantrekken?",
@@ -280,11 +350,74 @@
   "uitspraak": "Je draagt nu het pak Vuur!"
  },
  {
+  "sleutel": "spin|Het Vuurpak is heet, heet, heet!",
+  "bestand": "spin-16g2m8b.mp3",
+  "held": "spin",
+  "tekst": "Het Vuurpak is heet, heet, heet!",
+  "uitspraak": "Het Vuurpak is heet, heet, heet!"
+ },
+ {
   "sleutel": "spin|Dit pak zit nog op slot. Verzamel nog meer sterren!",
   "bestand": "spin-0m398ph.mp3",
   "held": "spin",
   "tekst": "Dit pak zit nog op slot. Verzamel nog meer sterren!",
   "uitspraak": "Dit pak zit nog op slot. Verzamel nog meer sterren!"
+ },
+ {
+  "sleutel": "spin|Geeft niks, probeer het nog eens!",
+  "bestand": "spin-06fay21.mp3",
+  "held": "spin",
+  "tekst": "Geeft niks, probeer het nog eens!",
+  "uitspraak": "Geeft niks, probeer het nog eens!"
+ },
+ {
+  "sleutel": "spin|Oei, bijna! Kijk nog eens goed.",
+  "bestand": "spin-020k58e.mp3",
+  "held": "spin",
+  "tekst": "Oei, bijna! Kijk nog eens goed.",
+  "uitspraak": "Oei, bijna! Kijk nog eens goed."
+ },
+ {
+  "sleutel": "spin|Niet erg, helden oefenen ook!",
+  "bestand": "spin-0d90szl.mp3",
+  "held": "spin",
+  "tekst": "Niet erg, helden oefenen ook!",
+  "uitspraak": "Niet erg, helden oefenen ook!"
+ },
+ {
+  "sleutel": "spin|Hihi, dat kietelt!",
+  "bestand": "spin-0m4v6fr.mp3",
+  "held": "spin",
+  "tekst": "Hihi, dat kietelt!",
+  "uitspraak": "Hihi, dat kietelt!"
+ },
+ {
+  "sleutel": "spin|Hé, ik ben klaar voor actie!",
+  "bestand": "spin-0sp6n3r.mp3",
+  "held": "spin",
+  "tekst": "Hé, ik ben klaar voor actie!",
+  "uitspraak": "Hé, ik ben klaar voor actie!"
+ },
+ {
+  "sleutel": "spin|Wil je mijn spinnenweb zien?",
+  "bestand": "spin-0lnshj2.mp3",
+  "held": "spin",
+  "tekst": "Wil je mijn spinnenweb zien?",
+  "uitspraak": "Wil je mijn spinnenweb zien?"
+ },
+ {
+  "sleutel": "spin|Pats! Spinnenweb!",
+  "bestand": "spin-0hujltw.mp3",
+  "held": "spin",
+  "tekst": "Pats! Spinnenweb!",
+  "uitspraak": "Pats! Spinnenweb!"
+ },
+ {
+  "sleutel": "spin|Tot de volgende keer, held!",
+  "bestand": "spin-0x0dj4a.mp3",
+  "held": "spin",
+  "tekst": "Tot de volgende keer, held!",
+  "uitspraak": "Tot de volgende keer, held!"
  },
  {
   "sleutel": "ijzer|Hoi",
@@ -348,6 +481,20 @@
   "held": "ijzer",
   "tekst": "IJzersterk!",
   "uitspraak": "IJzersterk!"
+ },
+ {
+  "sleutel": "ijzer|Turbo goed!",
+  "bestand": "ijzer-1k4t8dd.mp3",
+  "held": "ijzer",
+  "tekst": "Turbo goed!",
+  "uitspraak": "Turbo goed!"
+ },
+ {
+  "sleutel": "ijzer|Jouw brein is van ijzer!",
+  "bestand": "ijzer-1rkok22.mp3",
+  "held": "ijzer",
+  "tekst": "Jouw brein is van ijzer!",
+  "uitspraak": "Jouw brein is van ijzer!"
  },
  {
   "sleutel": "ijzer|Je bent naar een nieuw niveau: Beginklank!",
@@ -483,6 +630,13 @@
   "uitspraak": "Je draagt nu het pak Klassiek!"
  },
  {
+  "sleutel": "ijzer|Mijn rood met gouden harnas, sterk en snel!",
+  "bestand": "ijzer-1qri6bb.mp3",
+  "held": "ijzer",
+  "tekst": "Mijn rood met gouden harnas, sterk en snel!",
+  "uitspraak": "Mijn rood met gouden harnas, sterk en snel!"
+ },
+ {
   "sleutel": "ijzer|En je hebt een nieuw pak vrijgespeeld: Zilver! Wil je het aantrekken?",
   "bestand": "ijzer-14d5syc.mp3",
   "held": "ijzer",
@@ -495,6 +649,13 @@
   "held": "ijzer",
   "tekst": "Je draagt nu het pak Zilver!",
   "uitspraak": "Je draagt nu het pak Zilver!"
+ },
+ {
+  "sleutel": "ijzer|Het Zilveren harnas glanst als een spiegel!",
+  "bestand": "ijzer-13bs3bt.mp3",
+  "held": "ijzer",
+  "tekst": "Het Zilveren harnas glanst als een spiegel!",
+  "uitspraak": "Het Zilveren harnas glanst als een spiegel!"
  },
  {
   "sleutel": "ijzer|En je hebt een nieuw pak vrijgespeeld: Stealth! Wil je het aantrekken?",
@@ -511,6 +672,13 @@
   "uitspraak": "Je draagt nu het pak Stealth!"
  },
  {
+  "sleutel": "ijzer|Met het Stealthpak ben ik bijna onzichtbaar!",
+  "bestand": "ijzer-1v6yc26.mp3",
+  "held": "ijzer",
+  "tekst": "Met het Stealthpak ben ik bijna onzichtbaar!",
+  "uitspraak": "Met het Stealthpak ben ik bijna onzichtbaar!"
+ },
+ {
   "sleutel": "ijzer|En je hebt een nieuw pak vrijgespeeld: Ruimte! Wil je het aantrekken?",
   "bestand": "ijzer-14mr37w.mp3",
   "held": "ijzer",
@@ -523,6 +691,13 @@
   "held": "ijzer",
   "tekst": "Je draagt nu het pak Ruimte!",
   "uitspraak": "Je draagt nu het pak Ruimte!"
+ },
+ {
+  "sleutel": "ijzer|Met het Ruimtepak kan ik naar de maan!",
+  "bestand": "ijzer-0okelln.mp3",
+  "held": "ijzer",
+  "tekst": "Met het Ruimtepak kan ik naar de maan!",
+  "uitspraak": "Met het Ruimtepak kan ik naar de maan!"
  },
  {
   "sleutel": "ijzer|En je hebt een nieuw pak vrijgespeeld: Goud! Wil je het aantrekken?",
@@ -539,6 +714,13 @@
   "uitspraak": "Je draagt nu het pak Goud!"
  },
  {
+  "sleutel": "ijzer|Het Gouden harnas is extra sterk!",
+  "bestand": "ijzer-0pxk553.mp3",
+  "held": "ijzer",
+  "tekst": "Het Gouden harnas is extra sterk!",
+  "uitspraak": "Het Gouden harnas is extra sterk!"
+ },
+ {
   "sleutel": "ijzer|En je hebt een nieuw pak vrijgespeeld: Neon! Wil je het aantrekken?",
   "bestand": "ijzer-0ixpleg.mp3",
   "held": "ijzer",
@@ -551,6 +733,13 @@
   "held": "ijzer",
   "tekst": "Je draagt nu het pak Neon!",
   "uitspraak": "Je draagt nu het pak Neon!"
+ },
+ {
+  "sleutel": "ijzer|Het Neonpak licht op in het donker!",
+  "bestand": "ijzer-1skfoxh.mp3",
+  "held": "ijzer",
+  "tekst": "Het Neonpak licht op in het donker!",
+  "uitspraak": "Het Neonpak licht op in het donker!"
  },
  {
   "sleutel": "ijzer|En je hebt een nieuw pak vrijgespeeld: Lava! Wil je het aantrekken?",
@@ -567,11 +756,95 @@
   "uitspraak": "Je draagt nu het pak Lava!"
  },
  {
+  "sleutel": "ijzer|Het Lavapak is gloeiend heet!",
+  "bestand": "ijzer-16in4we.mp3",
+  "held": "ijzer",
+  "tekst": "Het Lavapak is gloeiend heet!",
+  "uitspraak": "Het Lavapak is gloeiend heet!"
+ },
+ {
   "sleutel": "ijzer|Dit pak zit nog op slot. Verzamel nog meer sterren!",
   "bestand": "ijzer-0ev1x1v.mp3",
   "held": "ijzer",
   "tekst": "Dit pak zit nog op slot. Verzamel nog meer sterren!",
   "uitspraak": "Dit pak zit nog op slot. Verzamel nog meer sterren!"
+ },
+ {
+  "sleutel": "ijzer|Geeft niks, we proberen het samen!",
+  "bestand": "ijzer-143s6zc.mp3",
+  "held": "ijzer",
+  "tekst": "Geeft niks, we proberen het samen!",
+  "uitspraak": "Geeft niks, we proberen het samen!"
+ },
+ {
+  "sleutel": "ijzer|Bijna goed! Nog een keer.",
+  "bestand": "ijzer-0isej6e.mp3",
+  "held": "ijzer",
+  "tekst": "Bijna goed! Nog een keer.",
+  "uitspraak": "Bijna goed! Nog een keer."
+ },
+ {
+  "sleutel": "ijzer|Rustig aan, jij kunt dit!",
+  "bestand": "ijzer-1i8rqva.mp3",
+  "held": "ijzer",
+  "tekst": "Rustig aan, jij kunt dit!",
+  "uitspraak": "Rustig aan, jij kunt dit!"
+ },
+ {
+  "sleutel": "ijzer|Pas op, ik ben van ijzer!",
+  "bestand": "ijzer-1tvpay5.mp3",
+  "held": "ijzer",
+  "tekst": "Pas op, ik ben van ijzer!",
+  "uitspraak": "Pas op, ik ben van ijzer!"
+ },
+ {
+  "sleutel": "ijzer|Bliep bloep, alle systemen staan aan!",
+  "bestand": "ijzer-1d8m6yp.mp3",
+  "held": "ijzer",
+  "tekst": "Bliep bloep, alle systemen staan aan!",
+  "uitspraak": "Bliep bloep, alle systemen staan aan!"
+ },
+ {
+  "sleutel": "ijzer|Hihi, mijn harnas kietelt!",
+  "bestand": "ijzer-12cp7ql.mp3",
+  "held": "ijzer",
+  "tekst": "Hihi, mijn harnas kietelt!",
+  "uitspraak": "Hihi, mijn harnas kietelt!"
+ },
+ {
+  "sleutel": "ijzer|Zoef! Laserstraal!",
+  "bestand": "ijzer-1ca9vjj.mp3",
+  "held": "ijzer",
+  "tekst": "Zoef! Laserstraal!",
+  "uitspraak": "Zoef! Laserstraal!"
+ },
+ {
+  "sleutel": "ijzer|Doei! Kom snel weer oefenen!",
+  "bestand": "ijzer-0cvva18.mp3",
+  "held": "ijzer",
+  "tekst": "Doei! Kom snel weer oefenen!",
+  "uitspraak": "Doei! Kom snel weer oefenen!"
+ },
+ {
+  "sleutel": "spin|Zullen we samen een spelletje doen?",
+  "bestand": "spin-0ujhz22.mp3",
+  "held": "spin",
+  "tekst": "Zullen we samen een spelletje doen?",
+  "uitspraak": "Zullen we samen een spelletje doen?"
+ },
+ {
+  "sleutel": "spin|Hoi! Zullen we samen een spelletje doen?",
+  "bestand": "spin-1cpv3z7.mp3",
+  "held": "spin",
+  "tekst": "Hoi! Zullen we samen een spelletje doen?",
+  "uitspraak": "Hoi! Zullen we samen een spelletje doen?"
+ },
+ {
+  "sleutel": "ijzer|Kies maar: rekenen, letters of samen op missie!",
+  "bestand": "ijzer-1sjcts2.mp3",
+  "held": "ijzer",
+  "tekst": "Kies maar: rekenen, letters of samen op missie!",
+  "uitspraak": "Kies maar: rekenen, letters of samen op missie!"
  },
  {
   "sleutel": "spin|De spinnenheld en de ijzerheld gaan samen op missie!",
@@ -581,11 +854,11 @@
   "uitspraak": "De spinnenheld en de ijzerheld gaan samen op missie!"
  },
  {
-  "sleutel": "spin|Bijna! Tel maar mee.",
-  "bestand": "spin-0m7u5nr.mp3",
+  "sleutel": "spin|Tel maar mee.",
+  "bestand": "spin-18zh3du.mp3",
   "held": "spin",
-  "tekst": "Bijna! Tel maar mee.",
-  "uitspraak": "Bijna! Tel maar mee."
+  "tekst": "Tel maar mee.",
+  "uitspraak": "Tel maar mee."
  },
  {
   "sleutel": "spin|één",
@@ -595,25 +868,11 @@
   "uitspraak": "één"
  },
  {
-  "sleutel": "spin|Bijna! Zoek het web met 1 spinnetjes.",
-  "bestand": "spin-1uut3pi.mp3",
-  "held": "spin",
-  "tekst": "Bijna! Zoek het web met 1 spinnetjes.",
-  "uitspraak": "Bijna! Zoek het web met één spinnetjes."
- },
- {
   "sleutel": "spin|twee",
   "bestand": "spin-1u8iy1c.mp3",
   "held": "spin",
   "tekst": "twee",
   "uitspraak": "twee"
- },
- {
-  "sleutel": "spin|Bijna! Zoek het web met 2 spinnetjes.",
-  "bestand": "spin-0rcv3mv.mp3",
-  "held": "spin",
-  "tekst": "Bijna! Zoek het web met 2 spinnetjes.",
-  "uitspraak": "Bijna! Zoek het web met twee spinnetjes."
  },
  {
   "sleutel": "spin|drie",
@@ -623,25 +882,11 @@
   "uitspraak": "drie"
  },
  {
-  "sleutel": "spin|Bijna! Zoek het web met 3 spinnetjes.",
-  "bestand": "spin-0vnj0bs.mp3",
-  "held": "spin",
-  "tekst": "Bijna! Zoek het web met 3 spinnetjes.",
-  "uitspraak": "Bijna! Zoek het web met drie spinnetjes."
- },
- {
   "sleutel": "spin|vier",
   "bestand": "spin-12vyutt.mp3",
   "held": "spin",
   "tekst": "vier",
   "uitspraak": "vier"
- },
- {
-  "sleutel": "spin|Bijna! Zoek het web met 4 spinnetjes.",
-  "bestand": "spin-1741lt5.mp3",
-  "held": "spin",
-  "tekst": "Bijna! Zoek het web met 4 spinnetjes.",
-  "uitspraak": "Bijna! Zoek het web met vier spinnetjes."
  },
  {
   "sleutel": "spin|vijf",
@@ -651,25 +896,11 @@
   "uitspraak": "vijf"
  },
  {
-  "sleutel": "spin|Bijna! Zoek het web met 5 spinnetjes.",
-  "bestand": "spin-060d5oi.mp3",
-  "held": "spin",
-  "tekst": "Bijna! Zoek het web met 5 spinnetjes.",
-  "uitspraak": "Bijna! Zoek het web met vijf spinnetjes."
- },
- {
   "sleutel": "spin|zes",
   "bestand": "spin-1vm7cav.mp3",
   "held": "spin",
   "tekst": "zes",
   "uitspraak": "zes"
- },
- {
-  "sleutel": "spin|Bijna! Zoek het web met 6 spinnetjes.",
-  "bestand": "spin-1clomnn.mp3",
-  "held": "spin",
-  "tekst": "Bijna! Zoek het web met 6 spinnetjes.",
-  "uitspraak": "Bijna! Zoek het web met zes spinnetjes."
  },
  {
   "sleutel": "spin|zeven",
@@ -679,25 +910,11 @@
   "uitspraak": "zeven"
  },
  {
-  "sleutel": "spin|Bijna! Zoek het web met 7 spinnetjes.",
-  "bestand": "spin-1alnysk.mp3",
-  "held": "spin",
-  "tekst": "Bijna! Zoek het web met 7 spinnetjes.",
-  "uitspraak": "Bijna! Zoek het web met zeven spinnetjes."
- },
- {
   "sleutel": "spin|acht",
   "bestand": "spin-0gvdmpz.mp3",
   "held": "spin",
   "tekst": "acht",
   "uitspraak": "acht"
- },
- {
-  "sleutel": "spin|Bijna! Zoek het web met 8 spinnetjes.",
-  "bestand": "spin-14evlw5.mp3",
-  "held": "spin",
-  "tekst": "Bijna! Zoek het web met 8 spinnetjes.",
-  "uitspraak": "Bijna! Zoek het web met acht spinnetjes."
  },
  {
   "sleutel": "spin|negen",
@@ -707,13 +924,6 @@
   "uitspraak": "negen"
  },
  {
-  "sleutel": "spin|Bijna! Zoek het web met 9 spinnetjes.",
-  "bestand": "spin-1xwfcxq.mp3",
-  "held": "spin",
-  "tekst": "Bijna! Zoek het web met 9 spinnetjes.",
-  "uitspraak": "Bijna! Zoek het web met negen spinnetjes."
- },
- {
   "sleutel": "spin|tien",
   "bestand": "spin-193s0ij.mp3",
   "held": "spin",
@@ -721,11 +931,144 @@
   "uitspraak": "tien"
  },
  {
-  "sleutel": "spin|Bijna! Zoek het web met 10 spinnetjes.",
-  "bestand": "spin-14xwlts.mp3",
+  "sleutel": "spin|elf",
+  "bestand": "spin-1gf7e0w.mp3",
   "held": "spin",
-  "tekst": "Bijna! Zoek het web met 10 spinnetjes.",
-  "uitspraak": "Bijna! Zoek het web met tien spinnetjes."
+  "tekst": "elf",
+  "uitspraak": "elf"
+ },
+ {
+  "sleutel": "spin|twaalf",
+  "bestand": "spin-0zyqsmm.mp3",
+  "held": "spin",
+  "tekst": "twaalf",
+  "uitspraak": "twaalf"
+ },
+ {
+  "sleutel": "spin|dertien",
+  "bestand": "spin-1g0i78u.mp3",
+  "held": "spin",
+  "tekst": "dertien",
+  "uitspraak": "dertien"
+ },
+ {
+  "sleutel": "spin|veertien",
+  "bestand": "spin-1c48h3p.mp3",
+  "held": "spin",
+  "tekst": "veertien",
+  "uitspraak": "veertien"
+ },
+ {
+  "sleutel": "spin|vijftien",
+  "bestand": "spin-1xzu536.mp3",
+  "held": "spin",
+  "tekst": "vijftien",
+  "uitspraak": "vijftien"
+ },
+ {
+  "sleutel": "spin|zestien",
+  "bestand": "spin-0zna9gj.mp3",
+  "held": "spin",
+  "tekst": "zestien",
+  "uitspraak": "zestien"
+ },
+ {
+  "sleutel": "spin|zeventien",
+  "bestand": "spin-1j8vgrz.mp3",
+  "held": "spin",
+  "tekst": "zeventien",
+  "uitspraak": "zeventien"
+ },
+ {
+  "sleutel": "spin|achttien",
+  "bestand": "spin-1lzlaqr.mp3",
+  "held": "spin",
+  "tekst": "achttien",
+  "uitspraak": "achttien"
+ },
+ {
+  "sleutel": "spin|negentien",
+  "bestand": "spin-0vg9qyo.mp3",
+  "held": "spin",
+  "tekst": "negentien",
+  "uitspraak": "negentien"
+ },
+ {
+  "sleutel": "spin|twintig",
+  "bestand": "spin-0sv56pf.mp3",
+  "held": "spin",
+  "tekst": "twintig",
+  "uitspraak": "twintig"
+ },
+ {
+  "sleutel": "spin|Zoek het web met 1 spinnetjes.",
+  "bestand": "spin-0ivx3np.mp3",
+  "held": "spin",
+  "tekst": "Zoek het web met 1 spinnetjes.",
+  "uitspraak": "Zoek het web met één spinnetjes."
+ },
+ {
+  "sleutel": "spin|Zoek het web met 2 spinnetjes.",
+  "bestand": "spin-03c5xu8.mp3",
+  "held": "spin",
+  "tekst": "Zoek het web met 2 spinnetjes.",
+  "uitspraak": "Zoek het web met twee spinnetjes."
+ },
+ {
+  "sleutel": "spin|Zoek het web met 3 spinnetjes.",
+  "bestand": "spin-1ap8jvz.mp3",
+  "held": "spin",
+  "tekst": "Zoek het web met 3 spinnetjes.",
+  "uitspraak": "Zoek het web met drie spinnetjes."
+ },
+ {
+  "sleutel": "spin|Zoek het web met 4 spinnetjes.",
+  "bestand": "spin-1np3x3e.mp3",
+  "held": "spin",
+  "tekst": "Zoek het web met 4 spinnetjes.",
+  "uitspraak": "Zoek het web met vier spinnetjes."
+ },
+ {
+  "sleutel": "spin|Zoek het web met 5 spinnetjes.",
+  "bestand": "spin-0exbte9.mp3",
+  "held": "spin",
+  "tekst": "Zoek het web met 5 spinnetjes.",
+  "uitspraak": "Zoek het web met vijf spinnetjes."
+ },
+ {
+  "sleutel": "spin|Zoek het web met 6 spinnetjes.",
+  "bestand": "spin-0g16uks.mp3",
+  "held": "spin",
+  "tekst": "Zoek het web met 6 spinnetjes.",
+  "uitspraak": "Zoek het web met zes spinnetjes."
+ },
+ {
+  "sleutel": "spin|Zoek het web met 7 spinnetjes.",
+  "bestand": "spin-0rulvln.mp3",
+  "held": "spin",
+  "tekst": "Zoek het web met 7 spinnetjes.",
+  "uitspraak": "Zoek het web met zeven spinnetjes."
+ },
+ {
+  "sleutel": "spin|Zoek het web met 8 spinnetjes.",
+  "bestand": "spin-1az3tfa.mp3",
+  "held": "spin",
+  "tekst": "Zoek het web met 8 spinnetjes.",
+  "uitspraak": "Zoek het web met acht spinnetjes."
+ },
+ {
+  "sleutel": "spin|Zoek het web met 9 spinnetjes.",
+  "bestand": "spin-0zx0k19.mp3",
+  "held": "spin",
+  "tekst": "Zoek het web met 9 spinnetjes.",
+  "uitspraak": "Zoek het web met negen spinnetjes."
+ },
+ {
+  "sleutel": "spin|Zoek het web met 10 spinnetjes.",
+  "bestand": "spin-15q9rsx.mp3",
+  "held": "spin",
+  "tekst": "Zoek het web met 10 spinnetjes.",
+  "uitspraak": "Zoek het web met tien spinnetjes."
  },
  {
   "sleutel": "spin|Hoeveel spinnetjes zie je?",
@@ -1435,32 +1778,2062 @@
   "uitspraak": "tien spinnetjes. Er slingeren er negen weg. Hoeveel blijven er over?"
  },
  {
-  "sleutel": "ijzer|Bijna! Luister goed.",
-  "bestand": "ijzer-04ecmmz.mp3",
-  "held": "ijzer",
-  "tekst": "Bijna! Luister goed.",
-  "uitspraak": "Bijna! Luister goed."
+  "sleutel": "spin|1 plus 10. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0fie6bb.mp3",
+  "held": "spin",
+  "tekst": "1 plus 10. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "één plus tien. Hoeveel spinnetjes zijn het samen?"
  },
  {
-  "sleutel": "ijzer|Bijna! Luister maar.",
-  "bestand": "ijzer-14rmidh.mp3",
-  "held": "ijzer",
-  "tekst": "Bijna! Luister maar.",
-  "uitspraak": "Bijna! Luister maar."
+  "sleutel": "spin|2 plus 9. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0dj8tl6.mp3",
+  "held": "spin",
+  "tekst": "2 plus 9. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "twee plus negen. Hoeveel spinnetjes zijn het samen?"
  },
  {
-  "sleutel": "ijzer|Bijna! Luister nog een keer.",
-  "bestand": "ijzer-0cyvutb.mp3",
-  "held": "ijzer",
-  "tekst": "Bijna! Luister nog een keer.",
-  "uitspraak": "Bijna! Luister nog een keer."
+  "sleutel": "spin|3 plus 8. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1mncr3o.mp3",
+  "held": "spin",
+  "tekst": "3 plus 8. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "drie plus acht. Hoeveel spinnetjes zijn het samen?"
  },
  {
-  "sleutel": "ijzer|Bijna! We hakken het woord samen.",
-  "bestand": "ijzer-0k2rhcy.mp3",
+  "sleutel": "spin|4 plus 7. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-12j0n92.mp3",
+  "held": "spin",
+  "tekst": "4 plus 7. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "vier plus zeven. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|5 plus 6. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0xr6pas.mp3",
+  "held": "spin",
+  "tekst": "5 plus 6. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "vijf plus zes. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|6 plus 5. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-088itze.mp3",
+  "held": "spin",
+  "tekst": "6 plus 5. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zes plus vijf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|7 plus 4. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0ajm78k.mp3",
+  "held": "spin",
+  "tekst": "7 plus 4. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zeven plus vier. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|8 plus 3. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0yn9er2.mp3",
+  "held": "spin",
+  "tekst": "8 plus 3. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "acht plus drie. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|9 plus 2. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-04rm4pg.mp3",
+  "held": "spin",
+  "tekst": "9 plus 2. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "negen plus twee. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|10 plus 1. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1q410u9.mp3",
+  "held": "spin",
+  "tekst": "10 plus 1. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "tien plus één. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|1 plus 11. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-11ynj30.mp3",
+  "held": "spin",
+  "tekst": "1 plus 11. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "één plus elf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 10. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1yphuv2.mp3",
+  "held": "spin",
+  "tekst": "2 plus 10. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "twee plus tien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|3 plus 9. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1ewrmz3.mp3",
+  "held": "spin",
+  "tekst": "3 plus 9. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "drie plus negen. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|4 plus 8. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1xq2kvj.mp3",
+  "held": "spin",
+  "tekst": "4 plus 8. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "vier plus acht. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|5 plus 7. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0fnhx4f.mp3",
+  "held": "spin",
+  "tekst": "5 plus 7. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "vijf plus zeven. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|6 plus 6. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0598j13.mp3",
+  "held": "spin",
+  "tekst": "6 plus 6. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zes plus zes. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|7 plus 5. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-05hlce7.mp3",
+  "held": "spin",
+  "tekst": "7 plus 5. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zeven plus vijf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|8 plus 4. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-02sqnlb.mp3",
+  "held": "spin",
+  "tekst": "8 plus 4. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "acht plus vier. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|9 plus 3. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0i3eylr.mp3",
+  "held": "spin",
+  "tekst": "9 plus 3. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "negen plus drie. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|10 plus 2. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1hub5gw.mp3",
+  "held": "spin",
+  "tekst": "10 plus 2. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "tien plus twee. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|11 plus 1. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1249qss.mp3",
+  "held": "spin",
+  "tekst": "11 plus 1. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "elf plus één. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|1 plus 12. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0r9dg19.mp3",
+  "held": "spin",
+  "tekst": "1 plus 12. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "één plus twaalf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 11. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0lsgu69.mp3",
+  "held": "spin",
+  "tekst": "2 plus 11. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "twee plus elf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|3 plus 10. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0p94ap1.mp3",
+  "held": "spin",
+  "tekst": "3 plus 10. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "drie plus tien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|4 plus 9. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1ke9qz8.mp3",
+  "held": "spin",
+  "tekst": "4 plus 9. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "vier plus negen. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|5 plus 8. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-16z9awm.mp3",
+  "held": "spin",
+  "tekst": "5 plus 8. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "vijf plus acht. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|6 plus 7. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0tkc27w.mp3",
+  "held": "spin",
+  "tekst": "6 plus 7. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zes plus zeven. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|7 plus 6. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0i2mj5e.mp3",
+  "held": "spin",
+  "tekst": "7 plus 6. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zeven plus zes. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|8 plus 5. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0kwffro.mp3",
+  "held": "spin",
+  "tekst": "8 plus 5. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "acht plus vijf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|9 plus 4. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-19c32cu.mp3",
+  "held": "spin",
+  "tekst": "9 plus 4. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "negen plus vier. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|10 plus 3. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0d7m30b.mp3",
+  "held": "spin",
+  "tekst": "10 plus 3. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "tien plus drie. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|11 plus 2. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-052uge5.mp3",
+  "held": "spin",
+  "tekst": "11 plus 2. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "elf plus twee. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|12 plus 1. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1wcfevf.mp3",
+  "held": "spin",
+  "tekst": "12 plus 1. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "twaalf plus één. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|1 plus 13. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0y90f6y.mp3",
+  "held": "spin",
+  "tekst": "1 plus 13. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "één plus dertien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 12. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-055spm8.mp3",
+  "held": "spin",
+  "tekst": "2 plus 12. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "twee plus twaalf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|3 plus 11. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1bosqsi.mp3",
+  "held": "spin",
+  "tekst": "3 plus 11. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "drie plus elf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|4 plus 10. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-013txxg.mp3",
+  "held": "spin",
+  "tekst": "4 plus 10. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "vier plus tien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|5 plus 9. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1jwyvzt.mp3",
+  "held": "spin",
+  "tekst": "5 plus 9. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "vijf plus negen. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|6 plus 8. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-007apzl.mp3",
+  "held": "spin",
+  "tekst": "6 plus 8. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zes plus acht. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|7 plus 7. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0t5iohh.mp3",
+  "held": "spin",
+  "tekst": "7 plus 7. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zeven plus zeven. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|8 plus 6. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1tfunfp.mp3",
+  "held": "spin",
+  "tekst": "8 plus 6. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "acht plus zes. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|9 plus 5. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0jwf9yp.mp3",
+  "held": "spin",
+  "tekst": "9 plus 5. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "negen plus vijf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|10 plus 4. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-00qj6ia.mp3",
+  "held": "spin",
+  "tekst": "10 plus 4. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "tien plus vier. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|11 plus 3. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1628shm.mp3",
+  "held": "spin",
+  "tekst": "11 plus 3. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "elf plus drie. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|12 plus 2. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0fl2owe.mp3",
+  "held": "spin",
+  "tekst": "12 plus 2. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "twaalf plus twee. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|13 plus 1. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0c8pnfq.mp3",
+  "held": "spin",
+  "tekst": "13 plus 1. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "dertien plus één. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|1 plus 14. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0aa57v7.mp3",
+  "held": "spin",
+  "tekst": "1 plus 14. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "één plus veertien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 13. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0uut52z.mp3",
+  "held": "spin",
+  "tekst": "2 plus 13. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "twee plus dertien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|3 plus 12. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0xn4ctr.mp3",
+  "held": "spin",
+  "tekst": "3 plus 12. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "drie plus twaalf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|4 plus 11. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1lb83mn.mp3",
+  "held": "spin",
+  "tekst": "4 plus 11. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "vier plus elf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|5 plus 10. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0hh665v.mp3",
+  "held": "spin",
+  "tekst": "5 plus 10. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "vijf plus tien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|6 plus 9. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0mrxiby.mp3",
+  "held": "spin",
+  "tekst": "6 plus 9. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zes plus negen. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|7 plus 8. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1r2defs.mp3",
+  "held": "spin",
+  "tekst": "7 plus 8. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zeven plus acht. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|8 plus 7. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0guf1k2.mp3",
+  "held": "spin",
+  "tekst": "8 plus 7. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "acht plus zeven. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|9 plus 6. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1752dy8.mp3",
+  "held": "spin",
+  "tekst": "9 plus 6. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "negen plus zes. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|10 plus 5. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0d54iid.mp3",
+  "held": "spin",
+  "tekst": "10 plus 5. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "tien plus vijf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|11 plus 4. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0bakhr7.mp3",
+  "held": "spin",
+  "tekst": "11 plus 4. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "elf plus vier. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|12 plus 3. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1s1jyj5.mp3",
+  "held": "spin",
+  "tekst": "12 plus 3. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "twaalf plus drie. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|13 plus 2. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-16icrr7.mp3",
+  "held": "spin",
+  "tekst": "13 plus 2. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "dertien plus twee. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|14 plus 1. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1u74kel.mp3",
+  "held": "spin",
+  "tekst": "14 plus 1. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "veertien plus één. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|1 plus 15. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1btango.mp3",
+  "held": "spin",
+  "tekst": "1 plus 15. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "één plus vijftien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 14. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1sus4qa.mp3",
+  "held": "spin",
+  "tekst": "2 plus 14. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "twee plus veertien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|3 plus 13. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1fqt504.mp3",
+  "held": "spin",
+  "tekst": "3 plus 13. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "drie plus dertien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|4 plus 12. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-13qhmmq.mp3",
+  "held": "spin",
+  "tekst": "4 plus 12. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "vier plus twaalf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|5 plus 11. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-193pje0.mp3",
+  "held": "spin",
+  "tekst": "5 plus 11. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "vijf plus elf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|6 plus 10. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1gxtiai.mp3",
+  "held": "spin",
+  "tekst": "6 plus 10. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zes plus tien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|7 plus 9. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0luvq1v.mp3",
+  "held": "spin",
+  "tekst": "7 plus 9. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zeven plus negen. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|8 plus 8. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0l0pzdf.mp3",
+  "held": "spin",
+  "tekst": "8 plus 8. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "acht plus acht. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|9 plus 7. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1v558yz.mp3",
+  "held": "spin",
+  "tekst": "9 plus 7. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "negen plus zeven. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|10 plus 6. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0r9qpno.mp3",
+  "held": "spin",
+  "tekst": "10 plus 6. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "tien plus zes. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|11 plus 5. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1qalg9k.mp3",
+  "held": "spin",
+  "tekst": "11 plus 5. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "elf plus vijf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|12 plus 4. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0yh23hw.mp3",
+  "held": "spin",
+  "tekst": "12 plus 4. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "twaalf plus vier. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|13 plus 3. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1f1554o.mp3",
+  "held": "spin",
+  "tekst": "13 plus 3. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "dertien plus drie. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|14 plus 2. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-07lwrp8.mp3",
+  "held": "spin",
+  "tekst": "14 plus 2. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "veertien plus twee. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|15 plus 1. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1iypeqw.mp3",
+  "held": "spin",
+  "tekst": "15 plus 1. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "vijftien plus één. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|1 plus 16. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0ojafy1.mp3",
+  "held": "spin",
+  "tekst": "1 plus 16. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "één plus zestien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 15. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-04wk839.mp3",
+  "held": "spin",
+  "tekst": "2 plus 15. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "twee plus vijftien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|3 plus 14. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0x3eu7l.mp3",
+  "held": "spin",
+  "tekst": "3 plus 14. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "drie plus veertien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|4 plus 13. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1osuwut.mp3",
+  "held": "spin",
+  "tekst": "4 plus 13. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "vier plus dertien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|5 plus 12. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0e8pzkp.mp3",
+  "held": "spin",
+  "tekst": "5 plus 12. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "vijf plus twaalf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|6 plus 11. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1xld2fx.mp3",
+  "held": "spin",
+  "tekst": "6 plus 11. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zes plus elf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|7 plus 10. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0w2eahd.mp3",
+  "held": "spin",
+  "tekst": "7 plus 10. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zeven plus tien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|8 plus 9. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-12q6wso.mp3",
+  "held": "spin",
+  "tekst": "8 plus 9. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "acht plus negen. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|9 plus 8. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1358gyy.mp3",
+  "held": "spin",
+  "tekst": "9 plus 8. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "negen plus acht. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|10 plus 7. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0zipk5b.mp3",
+  "held": "spin",
+  "tekst": "10 plus 7. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "tien plus zeven. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|11 plus 6. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-02aa8qx.mp3",
+  "held": "spin",
+  "tekst": "11 plus 6. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "elf plus zes. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|12 plus 5. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0qqgzdb.mp3",
+  "held": "spin",
+  "tekst": "12 plus 5. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "twaalf plus vijf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|13 plus 4. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1npco7x.mp3",
+  "held": "spin",
+  "tekst": "13 plus 4. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "dertien plus vier. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|14 plus 3. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1ibxahj.mp3",
+  "held": "spin",
+  "tekst": "14 plus 3. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "veertien plus drie. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|15 plus 2. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0o3puxl.mp3",
+  "held": "spin",
+  "tekst": "15 plus 2. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "vijftien plus twee. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|16 plus 1. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-01p5ko7.mp3",
+  "held": "spin",
+  "tekst": "16 plus 1. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zestien plus één. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|1 plus 17. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1h1916e.mp3",
+  "held": "spin",
+  "tekst": "1 plus 17. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "één plus zeventien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 16. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1lbrstg.mp3",
+  "held": "spin",
+  "tekst": "2 plus 16. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "twee plus zestien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|3 plus 15. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1thn3zi.mp3",
+  "held": "spin",
+  "tekst": "3 plus 15. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "drie plus vijftien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|4 plus 14. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-14m3uhc.mp3",
+  "held": "spin",
+  "tekst": "4 plus 14. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "vier plus veertien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|5 plus 13. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1bymtee.mp3",
+  "held": "spin",
+  "tekst": "5 plus 13. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "vijf plus dertien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|6 plus 12. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0yr8o7g.mp3",
+  "held": "spin",
+  "tekst": "6 plus 12. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zes plus twaalf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|7 plus 11. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1in12tq.mp3",
+  "held": "spin",
+  "tekst": "7 plus 11. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zeven plus elf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|8 plus 10. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-170460w.mp3",
+  "held": "spin",
+  "tekst": "8 plus 10. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "acht plus tien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|9 plus 9. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0w5lht9.mp3",
+  "held": "spin",
+  "tekst": "9 plus 9. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "negen plus negen. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|10 plus 8. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1qrmvd2.mp3",
+  "held": "spin",
+  "tekst": "10 plus 8. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "tien plus acht. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|11 plus 7. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0s55tty.mp3",
+  "held": "spin",
+  "tekst": "11 plus 7. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "elf plus zeven. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|12 plus 6. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1ifvz2a.mp3",
+  "held": "spin",
+  "tekst": "12 plus 6. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "twaalf plus zes. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|13 plus 5. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-171t42i.mp3",
+  "held": "spin",
+  "tekst": "13 plus 5. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "dertien plus vijf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|14 plus 4. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1gz9kwm.mp3",
+  "held": "spin",
+  "tekst": "14 plus 4. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "veertien plus vier. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|15 plus 3. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1ltmora.mp3",
+  "held": "spin",
+  "tekst": "15 plus 3. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "vijftien plus drie. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|16 plus 2. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-14284nu.mp3",
+  "held": "spin",
+  "tekst": "16 plus 2. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zestien plus twee. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|17 plus 1. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-061g74i.mp3",
+  "held": "spin",
+  "tekst": "17 plus 1. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zeventien plus één. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|1 plus 18. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0d76wtr.mp3",
+  "held": "spin",
+  "tekst": "1 plus 18. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "één plus achttien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 17. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1g9qxz3.mp3",
+  "held": "spin",
+  "tekst": "2 plus 17. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "twee plus zeventien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|3 plus 16. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1o43rvv.mp3",
+  "held": "spin",
+  "tekst": "3 plus 16. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "drie plus zestien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|4 plus 15. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0tbabq3.mp3",
+  "held": "spin",
+  "tekst": "4 plus 15. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "vier plus vijftien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|5 plus 14. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-160ujyv.mp3",
+  "held": "spin",
+  "tekst": "5 plus 14. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "vijf plus veertien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|6 plus 13. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0m0hxk7.mp3",
+  "held": "spin",
+  "tekst": "6 plus 13. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zes plus dertien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|7 plus 12. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-10d9qtn.mp3",
+  "held": "spin",
+  "tekst": "7 plus 12. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zeven plus twaalf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|8 plus 11. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1a1ifij.mp3",
+  "held": "spin",
+  "tekst": "8 plus 11. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "acht plus elf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|9 plus 10. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0ho3yof.mp3",
+  "held": "spin",
+  "tekst": "9 plus 10. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "negen plus tien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|10 plus 9. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-10wraa1.mp3",
+  "held": "spin",
+  "tekst": "10 plus 9. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "tien plus negen. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|11 plus 8. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-00w8im7.mp3",
+  "held": "spin",
+  "tekst": "11 plus 8. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "elf plus acht. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|12 plus 7. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-07ddc5h.mp3",
+  "held": "spin",
+  "tekst": "12 plus 7. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "twaalf plus zeven. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|13 plus 6. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0c4hjc7.mp3",
+  "held": "spin",
+  "tekst": "13 plus 6. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "dertien plus zes. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|14 plus 5. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0wjot95.mp3",
+  "held": "spin",
+  "tekst": "14 plus 5. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "veertien plus vijf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|15 plus 4. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1fvufbr.mp3",
+  "held": "spin",
+  "tekst": "15 plus 4. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "vijftien plus vier. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|16 plus 3. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-119oj8d.mp3",
+  "held": "spin",
+  "tekst": "16 plus 3. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zestien plus drie. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|17 plus 2. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1o2ssdb.mp3",
+  "held": "spin",
+  "tekst": "17 plus 2. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zeventien plus twee. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|18 plus 1. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1qiu6bt.mp3",
+  "held": "spin",
+  "tekst": "18 plus 1. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "achttien plus één. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|1 plus 19. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1ywi4wk.mp3",
+  "held": "spin",
+  "tekst": "1 plus 19. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "één plus negentien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 18. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0jj1dvq.mp3",
+  "held": "spin",
+  "tekst": "2 plus 18. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "twee plus achttien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|3 plus 17. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-012a8o0.mp3",
+  "held": "spin",
+  "tekst": "3 plus 17. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "drie plus zeventien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|4 plus 16. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1dac82m.mp3",
+  "held": "spin",
+  "tekst": "4 plus 16. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "vier plus zestien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|5 plus 15. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0w78dq4.mp3",
+  "held": "spin",
+  "tekst": "5 plus 15. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "vijf plus vijftien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|6 plus 14. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0m4q1nq.mp3",
+  "held": "spin",
+  "tekst": "6 plus 14. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zes plus veertien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|7 plus 13. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0xbvhc0.mp3",
+  "held": "spin",
+  "tekst": "7 plus 13. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zeven plus dertien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|8 plus 12. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1sb9rim.mp3",
+  "held": "spin",
+  "tekst": "8 plus 12. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "acht plus twaalf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|9 plus 11. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1v200ok.mp3",
+  "held": "spin",
+  "tekst": "9 plus 11. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "negen plus elf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|10 plus 10. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-161m8ar.mp3",
+  "held": "spin",
+  "tekst": "10 plus 10. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "tien plus tien. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|11 plus 9. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1rodq3o.mp3",
+  "held": "spin",
+  "tekst": "11 plus 9. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "elf plus negen. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|12 plus 8. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0erfhrc.mp3",
+  "held": "spin",
+  "tekst": "12 plus 8. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "twaalf plus acht. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|13 plus 7. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0ov89zg.mp3",
+  "held": "spin",
+  "tekst": "13 plus 7. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "dertien plus zeven. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|14 plus 6. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1z0z2nc.mp3",
+  "held": "spin",
+  "tekst": "14 plus 6. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "veertien plus zes. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|15 plus 5. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1628930.mp3",
+  "held": "spin",
+  "tekst": "15 plus 5. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "vijftien plus vijf. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|16 plus 4. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1adpji0.mp3",
+  "held": "spin",
+  "tekst": "16 plus 4. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zestien plus vier. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|17 plus 3. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1y6n51g.mp3",
+  "held": "spin",
+  "tekst": "17 plus 3. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "zeventien plus drie. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|18 plus 2. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-1wi3brs.mp3",
+  "held": "spin",
+  "tekst": "18 plus 2. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "achttien plus twee. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|19 plus 1. Hoeveel spinnetjes zijn het samen?",
+  "bestand": "spin-0pmx644.mp3",
+  "held": "spin",
+  "tekst": "19 plus 1. Hoeveel spinnetjes zijn het samen?",
+  "uitspraak": "negentien plus één. Hoeveel spinnetjes zijn het samen?"
+ },
+ {
+  "sleutel": "spin|11 spinnetjes. Er slingeren er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-01pg9jp.mp3",
+  "held": "spin",
+  "tekst": "11 spinnetjes. Er slingeren er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "elf spinnetjes. Er slingeren er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|11 spinnetjes. Er slingeren er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1rfw51o.mp3",
+  "held": "spin",
+  "tekst": "11 spinnetjes. Er slingeren er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "elf spinnetjes. Er slingeren er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|11 spinnetjes. Er slingeren er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0y2leq3.mp3",
+  "held": "spin",
+  "tekst": "11 spinnetjes. Er slingeren er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "elf spinnetjes. Er slingeren er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|11 spinnetjes. Er slingeren er 4 weg. Hoeveel blijven er over?",
+  "bestand": "spin-078x7pm.mp3",
+  "held": "spin",
+  "tekst": "11 spinnetjes. Er slingeren er 4 weg. Hoeveel blijven er over?",
+  "uitspraak": "elf spinnetjes. Er slingeren er vier weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|11 spinnetjes. Er slingeren er 5 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1onfd29.mp3",
+  "held": "spin",
+  "tekst": "11 spinnetjes. Er slingeren er 5 weg. Hoeveel blijven er over?",
+  "uitspraak": "elf spinnetjes. Er slingeren er vijf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|11 spinnetjes. Er slingeren er 6 weg. Hoeveel blijven er over?",
+  "bestand": "spin-16b583s.mp3",
+  "held": "spin",
+  "tekst": "11 spinnetjes. Er slingeren er 6 weg. Hoeveel blijven er over?",
+  "uitspraak": "elf spinnetjes. Er slingeren er zes weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|11 spinnetjes. Er slingeren er 7 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1y7n0vb.mp3",
+  "held": "spin",
+  "tekst": "11 spinnetjes. Er slingeren er 7 weg. Hoeveel blijven er over?",
+  "uitspraak": "elf spinnetjes. Er slingeren er zeven weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|11 spinnetjes. Er slingeren er 8 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0iewg3q.mp3",
+  "held": "spin",
+  "tekst": "11 spinnetjes. Er slingeren er 8 weg. Hoeveel blijven er over?",
+  "uitspraak": "elf spinnetjes. Er slingeren er acht weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|11 spinnetjes. Er slingeren er 9 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1anekt9.mp3",
+  "held": "spin",
+  "tekst": "11 spinnetjes. Er slingeren er 9 weg. Hoeveel blijven er over?",
+  "uitspraak": "elf spinnetjes. Er slingeren er negen weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|11 spinnetjes. Er slingeren er 10 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0b5al2l.mp3",
+  "held": "spin",
+  "tekst": "11 spinnetjes. Er slingeren er 10 weg. Hoeveel blijven er over?",
+  "uitspraak": "elf spinnetjes. Er slingeren er tien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|12 spinnetjes. Er slingeren er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0mw2s90.mp3",
+  "held": "spin",
+  "tekst": "12 spinnetjes. Er slingeren er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "twaalf spinnetjes. Er slingeren er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|12 spinnetjes. Er slingeren er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-007fd71.mp3",
+  "held": "spin",
+  "tekst": "12 spinnetjes. Er slingeren er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "twaalf spinnetjes. Er slingeren er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|12 spinnetjes. Er slingeren er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-03eqlbq.mp3",
+  "held": "spin",
+  "tekst": "12 spinnetjes. Er slingeren er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "twaalf spinnetjes. Er slingeren er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|12 spinnetjes. Er slingeren er 4 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1i5rt1b.mp3",
+  "held": "spin",
+  "tekst": "12 spinnetjes. Er slingeren er 4 weg. Hoeveel blijven er over?",
+  "uitspraak": "twaalf spinnetjes. Er slingeren er vier weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|12 spinnetjes. Er slingeren er 5 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1ozxao0.mp3",
+  "held": "spin",
+  "tekst": "12 spinnetjes. Er slingeren er 5 weg. Hoeveel blijven er over?",
+  "uitspraak": "twaalf spinnetjes. Er slingeren er vijf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|12 spinnetjes. Er slingeren er 6 weg. Hoeveel blijven er over?",
+  "bestand": "spin-17shbfd.mp3",
+  "held": "spin",
+  "tekst": "12 spinnetjes. Er slingeren er 6 weg. Hoeveel blijven er over?",
+  "uitspraak": "twaalf spinnetjes. Er slingeren er zes weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|12 spinnetjes. Er slingeren er 7 weg. Hoeveel blijven er over?",
+  "bestand": "spin-064tkpu.mp3",
+  "held": "spin",
+  "tekst": "12 spinnetjes. Er slingeren er 7 weg. Hoeveel blijven er over?",
+  "uitspraak": "twaalf spinnetjes. Er slingeren er zeven weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|12 spinnetjes. Er slingeren er 8 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1denit7.mp3",
+  "held": "spin",
+  "tekst": "12 spinnetjes. Er slingeren er 8 weg. Hoeveel blijven er over?",
+  "uitspraak": "twaalf spinnetjes. Er slingeren er acht weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|12 spinnetjes. Er slingeren er 9 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1herflo.mp3",
+  "held": "spin",
+  "tekst": "12 spinnetjes. Er slingeren er 9 weg. Hoeveel blijven er over?",
+  "uitspraak": "twaalf spinnetjes. Er slingeren er negen weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|12 spinnetjes. Er slingeren er 10 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0m8f9uu.mp3",
+  "held": "spin",
+  "tekst": "12 spinnetjes. Er slingeren er 10 weg. Hoeveel blijven er over?",
+  "uitspraak": "twaalf spinnetjes. Er slingeren er tien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|12 spinnetjes. Er slingeren er 11 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1jyam0t.mp3",
+  "held": "spin",
+  "tekst": "12 spinnetjes. Er slingeren er 11 weg. Hoeveel blijven er over?",
+  "uitspraak": "twaalf spinnetjes. Er slingeren er elf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|13 spinnetjes. Er slingeren er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0238a1f.mp3",
+  "held": "spin",
+  "tekst": "13 spinnetjes. Er slingeren er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "dertien spinnetjes. Er slingeren er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|13 spinnetjes. Er slingeren er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0679wfa.mp3",
+  "held": "spin",
+  "tekst": "13 spinnetjes. Er slingeren er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "dertien spinnetjes. Er slingeren er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|13 spinnetjes. Er slingeren er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1ndshj1.mp3",
+  "held": "spin",
+  "tekst": "13 spinnetjes. Er slingeren er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "dertien spinnetjes. Er slingeren er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|13 spinnetjes. Er slingeren er 4 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0xtnbg0.mp3",
+  "held": "spin",
+  "tekst": "13 spinnetjes. Er slingeren er 4 weg. Hoeveel blijven er over?",
+  "uitspraak": "dertien spinnetjes. Er slingeren er vier weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|13 spinnetjes. Er slingeren er 5 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0i4zy9b.mp3",
+  "held": "spin",
+  "tekst": "13 spinnetjes. Er slingeren er 5 weg. Hoeveel blijven er over?",
+  "uitspraak": "dertien spinnetjes. Er slingeren er vijf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|13 spinnetjes. Er slingeren er 6 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0j1ws2a.mp3",
+  "held": "spin",
+  "tekst": "13 spinnetjes. Er slingeren er 6 weg. Hoeveel blijven er over?",
+  "uitspraak": "dertien spinnetjes. Er slingeren er zes weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|13 spinnetjes. Er slingeren er 7 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1ldn2x5.mp3",
+  "held": "spin",
+  "tekst": "13 spinnetjes. Er slingeren er 7 weg. Hoeveel blijven er over?",
+  "uitspraak": "dertien spinnetjes. Er slingeren er zeven weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|13 spinnetjes. Er slingeren er 8 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0b5mw6k.mp3",
+  "held": "spin",
+  "tekst": "13 spinnetjes. Er slingeren er 8 weg. Hoeveel blijven er over?",
+  "uitspraak": "dertien spinnetjes. Er slingeren er acht weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|13 spinnetjes. Er slingeren er 9 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0aa0bl7.mp3",
+  "held": "spin",
+  "tekst": "13 spinnetjes. Er slingeren er 9 weg. Hoeveel blijven er over?",
+  "uitspraak": "dertien spinnetjes. Er slingeren er negen weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|13 spinnetjes. Er slingeren er 10 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1n8brzj.mp3",
+  "held": "spin",
+  "tekst": "13 spinnetjes. Er slingeren er 10 weg. Hoeveel blijven er over?",
+  "uitspraak": "dertien spinnetjes. Er slingeren er tien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|13 spinnetjes. Er slingeren er 11 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0w3xn1s.mp3",
+  "held": "spin",
+  "tekst": "13 spinnetjes. Er slingeren er 11 weg. Hoeveel blijven er over?",
+  "uitspraak": "dertien spinnetjes. Er slingeren er elf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|13 spinnetjes. Er slingeren er 12 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0qd9ivd.mp3",
+  "held": "spin",
+  "tekst": "13 spinnetjes. Er slingeren er 12 weg. Hoeveel blijven er over?",
+  "uitspraak": "dertien spinnetjes. Er slingeren er twaalf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|14 spinnetjes. Er slingeren er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1ag0sqi.mp3",
+  "held": "spin",
+  "tekst": "14 spinnetjes. Er slingeren er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "veertien spinnetjes. Er slingeren er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|14 spinnetjes. Er slingeren er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0us985z.mp3",
+  "held": "spin",
+  "tekst": "14 spinnetjes. Er slingeren er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "veertien spinnetjes. Er slingeren er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|14 spinnetjes. Er slingeren er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0vgp20o.mp3",
+  "held": "spin",
+  "tekst": "14 spinnetjes. Er slingeren er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "veertien spinnetjes. Er slingeren er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|14 spinnetjes. Er slingeren er 4 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1uf8sqt.mp3",
+  "held": "spin",
+  "tekst": "14 spinnetjes. Er slingeren er 4 weg. Hoeveel blijven er over?",
+  "uitspraak": "veertien spinnetjes. Er slingeren er vier weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|14 spinnetjes. Er slingeren er 5 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0y40lqm.mp3",
+  "held": "spin",
+  "tekst": "14 spinnetjes. Er slingeren er 5 weg. Hoeveel blijven er over?",
+  "uitspraak": "veertien spinnetjes. Er slingeren er vijf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|14 spinnetjes. Er slingeren er 6 weg. Hoeveel blijven er over?",
+  "bestand": "spin-04pd7y3.mp3",
+  "held": "spin",
+  "tekst": "14 spinnetjes. Er slingeren er 6 weg. Hoeveel blijven er over?",
+  "uitspraak": "veertien spinnetjes. Er slingeren er zes weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|14 spinnetjes. Er slingeren er 7 weg. Hoeveel blijven er over?",
+  "bestand": "spin-08ph4qk.mp3",
+  "held": "spin",
+  "tekst": "14 spinnetjes. Er slingeren er 7 weg. Hoeveel blijven er over?",
+  "uitspraak": "veertien spinnetjes. Er slingeren er zeven weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|14 spinnetjes. Er slingeren er 8 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1y4b2jd.mp3",
+  "held": "spin",
+  "tekst": "14 spinnetjes. Er slingeren er 8 weg. Hoeveel blijven er over?",
+  "uitspraak": "veertien spinnetjes. Er slingeren er acht weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|14 spinnetjes. Er slingeren er 9 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0wgnbtu.mp3",
+  "held": "spin",
+  "tekst": "14 spinnetjes. Er slingeren er 9 weg. Hoeveel blijven er over?",
+  "uitspraak": "veertien spinnetjes. Er slingeren er negen weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|14 spinnetjes. Er slingeren er 10 weg. Hoeveel blijven er over?",
+  "bestand": "spin-18qmx54.mp3",
+  "held": "spin",
+  "tekst": "14 spinnetjes. Er slingeren er 10 weg. Hoeveel blijven er over?",
+  "uitspraak": "veertien spinnetjes. Er slingeren er tien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|14 spinnetjes. Er slingeren er 11 weg. Hoeveel blijven er over?",
+  "bestand": "spin-01m0nxj.mp3",
+  "held": "spin",
+  "tekst": "14 spinnetjes. Er slingeren er 11 weg. Hoeveel blijven er over?",
+  "uitspraak": "veertien spinnetjes. Er slingeren er elf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|14 spinnetjes. Er slingeren er 12 weg. Hoeveel blijven er over?",
+  "bestand": "spin-09oewqy.mp3",
+  "held": "spin",
+  "tekst": "14 spinnetjes. Er slingeren er 12 weg. Hoeveel blijven er over?",
+  "uitspraak": "veertien spinnetjes. Er slingeren er twaalf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|14 spinnetjes. Er slingeren er 13 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1r2x23l.mp3",
+  "held": "spin",
+  "tekst": "14 spinnetjes. Er slingeren er 13 weg. Hoeveel blijven er over?",
+  "uitspraak": "veertien spinnetjes. Er slingeren er dertien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 spinnetjes. Er slingeren er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1agoia1.mp3",
+  "held": "spin",
+  "tekst": "15 spinnetjes. Er slingeren er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien spinnetjes. Er slingeren er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 spinnetjes. Er slingeren er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0mwoqsw.mp3",
+  "held": "spin",
+  "tekst": "15 spinnetjes. Er slingeren er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien spinnetjes. Er slingeren er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 spinnetjes. Er slingeren er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0781dm7.mp3",
+  "held": "spin",
+  "tekst": "15 spinnetjes. Er slingeren er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien spinnetjes. Er slingeren er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 spinnetjes. Er slingeren er 4 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1ubfdra.mp3",
+  "held": "spin",
+  "tekst": "15 spinnetjes. Er slingeren er 4 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien spinnetjes. Er slingeren er vier weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 spinnetjes. Er slingeren er 5 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1cgtwvx.mp3",
+  "held": "spin",
+  "tekst": "15 spinnetjes. Er slingeren er 5 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien spinnetjes. Er slingeren er vijf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 spinnetjes. Er slingeren er 6 weg. Hoeveel blijven er over?",
+  "bestand": "spin-13tktys.mp3",
+  "held": "spin",
+  "tekst": "15 spinnetjes. Er slingeren er 6 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien spinnetjes. Er slingeren er zes weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 spinnetjes. Er slingeren er 7 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1q7drdf.mp3",
+  "held": "spin",
+  "tekst": "15 spinnetjes. Er slingeren er 7 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien spinnetjes. Er slingeren er zeven weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 spinnetjes. Er slingeren er 8 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1etovmy.mp3",
+  "held": "spin",
+  "tekst": "15 spinnetjes. Er slingeren er 8 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien spinnetjes. Er slingeren er acht weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 spinnetjes. Er slingeren er 9 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0kjru81.mp3",
+  "held": "spin",
+  "tekst": "15 spinnetjes. Er slingeren er 9 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien spinnetjes. Er slingeren er negen weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 spinnetjes. Er slingeren er 10 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1oomj21.mp3",
+  "held": "spin",
+  "tekst": "15 spinnetjes. Er slingeren er 10 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien spinnetjes. Er slingeren er tien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 spinnetjes. Er slingeren er 11 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0hy77cy.mp3",
+  "held": "spin",
+  "tekst": "15 spinnetjes. Er slingeren er 11 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien spinnetjes. Er slingeren er elf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 spinnetjes. Er slingeren er 12 weg. Hoeveel blijven er over?",
+  "bestand": "spin-112g8in.mp3",
+  "held": "spin",
+  "tekst": "15 spinnetjes. Er slingeren er 12 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien spinnetjes. Er slingeren er twaalf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 spinnetjes. Er slingeren er 13 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0a74m8w.mp3",
+  "held": "spin",
+  "tekst": "15 spinnetjes. Er slingeren er 13 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien spinnetjes. Er slingeren er dertien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 spinnetjes. Er slingeren er 14 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0zm6b8t.mp3",
+  "held": "spin",
+  "tekst": "15 spinnetjes. Er slingeren er 14 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien spinnetjes. Er slingeren er veertien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 spinnetjes. Er slingeren er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0wasjbc.mp3",
+  "held": "spin",
+  "tekst": "16 spinnetjes. Er slingeren er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien spinnetjes. Er slingeren er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 spinnetjes. Er slingeren er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1en2o9t.mp3",
+  "held": "spin",
+  "tekst": "16 spinnetjes. Er slingeren er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien spinnetjes. Er slingeren er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 spinnetjes. Er slingeren er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1w9okwa.mp3",
+  "held": "spin",
+  "tekst": "16 spinnetjes. Er slingeren er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien spinnetjes. Er slingeren er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 spinnetjes. Er slingeren er 4 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0o28pxn.mp3",
+  "held": "spin",
+  "tekst": "16 spinnetjes. Er slingeren er 4 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien spinnetjes. Er slingeren er vier weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 spinnetjes. Er slingeren er 5 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1hfjg98.mp3",
+  "held": "spin",
+  "tekst": "16 spinnetjes. Er slingeren er 5 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien spinnetjes. Er slingeren er vijf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 spinnetjes. Er slingeren er 6 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1qq7mqd.mp3",
+  "held": "spin",
+  "tekst": "16 spinnetjes. Er slingeren er 6 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien spinnetjes. Er slingeren er zes weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 spinnetjes. Er slingeren er 7 weg. Hoeveel blijven er over?",
+  "bestand": "spin-10862zi.mp3",
+  "held": "spin",
+  "tekst": "16 spinnetjes. Er slingeren er 7 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien spinnetjes. Er slingeren er zeven weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 spinnetjes. Er slingeren er 8 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0pagdhr.mp3",
+  "held": "spin",
+  "tekst": "16 spinnetjes. Er slingeren er 8 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien spinnetjes. Er slingeren er acht weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 spinnetjes. Er slingeren er 9 weg. Hoeveel blijven er over?",
+  "bestand": "spin-064wpu8.mp3",
+  "held": "spin",
+  "tekst": "16 spinnetjes. Er slingeren er 9 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien spinnetjes. Er slingeren er negen weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 spinnetjes. Er slingeren er 10 weg. Hoeveel blijven er over?",
+  "bestand": "spin-135jxjm.mp3",
+  "held": "spin",
+  "tekst": "16 spinnetjes. Er slingeren er 10 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien spinnetjes. Er slingeren er tien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 spinnetjes. Er slingeren er 11 weg. Hoeveel blijven er over?",
+  "bestand": "spin-06g66fd.mp3",
+  "held": "spin",
+  "tekst": "16 spinnetjes. Er slingeren er 11 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien spinnetjes. Er slingeren er elf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 spinnetjes. Er slingeren er 12 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1hxagxc.mp3",
+  "held": "spin",
+  "tekst": "16 spinnetjes. Er slingeren er 12 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien spinnetjes. Er slingeren er twaalf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 spinnetjes. Er slingeren er 13 weg. Hoeveel blijven er over?",
+  "bestand": "spin-128n3qn.mp3",
+  "held": "spin",
+  "tekst": "16 spinnetjes. Er slingeren er 13 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien spinnetjes. Er slingeren er dertien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 spinnetjes. Er slingeren er 14 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0qax1wm.mp3",
+  "held": "spin",
+  "tekst": "16 spinnetjes. Er slingeren er 14 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien spinnetjes. Er slingeren er veertien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 spinnetjes. Er slingeren er 15 weg. Hoeveel blijven er over?",
+  "bestand": "spin-08gbl19.mp3",
+  "held": "spin",
+  "tekst": "16 spinnetjes. Er slingeren er 15 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien spinnetjes. Er slingeren er vijftien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 spinnetjes. Er slingeren er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0tchdpz.mp3",
+  "held": "spin",
+  "tekst": "17 spinnetjes. Er slingeren er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien spinnetjes. Er slingeren er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 spinnetjes. Er slingeren er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1jy51ui.mp3",
+  "held": "spin",
+  "tekst": "17 spinnetjes. Er slingeren er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien spinnetjes. Er slingeren er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 spinnetjes. Er slingeren er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-08d5u7l.mp3",
+  "held": "spin",
+  "tekst": "17 spinnetjes. Er slingeren er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien spinnetjes. Er slingeren er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 spinnetjes. Er slingeren er 4 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1p6dkkc.mp3",
+  "held": "spin",
+  "tekst": "17 spinnetjes. Er slingeren er 4 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien spinnetjes. Er slingeren er vier weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 spinnetjes. Er slingeren er 5 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1i2tl3v.mp3",
+  "held": "spin",
+  "tekst": "17 spinnetjes. Er slingeren er 5 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien spinnetjes. Er slingeren er vijf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 spinnetjes. Er slingeren er 6 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1ikgfxq.mp3",
+  "held": "spin",
+  "tekst": "17 spinnetjes. Er slingeren er 6 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien spinnetjes. Er slingeren er zes weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 spinnetjes. Er slingeren er 7 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1j5rehx.mp3",
+  "held": "spin",
+  "tekst": "17 spinnetjes. Er slingeren er 7 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien spinnetjes. Er slingeren er zeven weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 spinnetjes. Er slingeren er 8 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0709wbk.mp3",
+  "held": "spin",
+  "tekst": "17 spinnetjes. Er slingeren er 8 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien spinnetjes. Er slingeren er acht weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 spinnetjes. Er slingeren er 9 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1sxijq7.mp3",
+  "held": "spin",
+  "tekst": "17 spinnetjes. Er slingeren er 9 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien spinnetjes. Er slingeren er negen weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 spinnetjes. Er slingeren er 10 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1avkajf.mp3",
+  "held": "spin",
+  "tekst": "17 spinnetjes. Er slingeren er 10 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien spinnetjes. Er slingeren er tien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 spinnetjes. Er slingeren er 11 weg. Hoeveel blijven er over?",
+  "bestand": "spin-19t1gnw.mp3",
+  "held": "spin",
+  "tekst": "17 spinnetjes. Er slingeren er 11 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien spinnetjes. Er slingeren er elf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 spinnetjes. Er slingeren er 12 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0k9uput.mp3",
+  "held": "spin",
+  "tekst": "17 spinnetjes. Er slingeren er 12 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien spinnetjes. Er slingeren er twaalf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 spinnetjes. Er slingeren er 13 weg. Hoeveel blijven er over?",
+  "bestand": "spin-01orlri.mp3",
+  "held": "spin",
+  "tekst": "17 spinnetjes. Er slingeren er 13 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien spinnetjes. Er slingeren er dertien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 spinnetjes. Er slingeren er 14 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1n1581j.mp3",
+  "held": "spin",
+  "tekst": "17 spinnetjes. Er slingeren er 14 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien spinnetjes. Er slingeren er veertien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 spinnetjes. Er slingeren er 15 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1nml3o8.mp3",
+  "held": "spin",
+  "tekst": "17 spinnetjes. Er slingeren er 15 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien spinnetjes. Er slingeren er vijftien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 spinnetjes. Er slingeren er 16 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0ivg9kh.mp3",
+  "held": "spin",
+  "tekst": "17 spinnetjes. Er slingeren er 16 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien spinnetjes. Er slingeren er zestien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 spinnetjes. Er slingeren er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1n5ci8e.mp3",
+  "held": "spin",
+  "tekst": "18 spinnetjes. Er slingeren er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien spinnetjes. Er slingeren er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 spinnetjes. Er slingeren er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1sn7liz.mp3",
+  "held": "spin",
+  "tekst": "18 spinnetjes. Er slingeren er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien spinnetjes. Er slingeren er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 spinnetjes. Er slingeren er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1anibgc.mp3",
+  "held": "spin",
+  "tekst": "18 spinnetjes. Er slingeren er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien spinnetjes. Er slingeren er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 spinnetjes. Er slingeren er 4 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0k17ioh.mp3",
+  "held": "spin",
+  "tekst": "18 spinnetjes. Er slingeren er 4 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien spinnetjes. Er slingeren er vier weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 spinnetjes. Er slingeren er 5 weg. Hoeveel blijven er over?",
+  "bestand": "spin-17r9tx6.mp3",
+  "held": "spin",
+  "tekst": "18 spinnetjes. Er slingeren er 5 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien spinnetjes. Er slingeren er vijf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 spinnetjes. Er slingeren er 6 weg. Hoeveel blijven er over?",
+  "bestand": "spin-06bso2f.mp3",
+  "held": "spin",
+  "tekst": "18 spinnetjes. Er slingeren er 6 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien spinnetjes. Er slingeren er zes weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 spinnetjes. Er slingeren er 7 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0kdcwjc.mp3",
+  "held": "spin",
+  "tekst": "18 spinnetjes. Er slingeren er 7 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien spinnetjes. Er slingeren er zeven weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 spinnetjes. Er slingeren er 8 weg. Hoeveel blijven er over?",
+  "bestand": "spin-087q4b1.mp3",
+  "held": "spin",
+  "tekst": "18 spinnetjes. Er slingeren er 8 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien spinnetjes. Er slingeren er acht weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 spinnetjes. Er slingeren er 9 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0pmpcfq.mp3",
+  "held": "spin",
+  "tekst": "18 spinnetjes. Er slingeren er 9 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien spinnetjes. Er slingeren er negen weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 spinnetjes. Er slingeren er 10 weg. Hoeveel blijven er over?",
+  "bestand": "spin-147ai10.mp3",
+  "held": "spin",
+  "tekst": "18 spinnetjes. Er slingeren er 10 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien spinnetjes. Er slingeren er tien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 spinnetjes. Er slingeren er 11 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1uv92ar.mp3",
+  "held": "spin",
+  "tekst": "18 spinnetjes. Er slingeren er 11 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien spinnetjes. Er slingeren er elf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 spinnetjes. Er slingeren er 12 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1i29s52.mp3",
+  "held": "spin",
+  "tekst": "18 spinnetjes. Er slingeren er 12 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien spinnetjes. Er slingeren er twaalf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 spinnetjes. Er slingeren er 13 weg. Hoeveel blijven er over?",
+  "bestand": "spin-10nak0d.mp3",
+  "held": "spin",
+  "tekst": "18 spinnetjes. Er slingeren er 13 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien spinnetjes. Er slingeren er dertien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 spinnetjes. Er slingeren er 14 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1t5qg00.mp3",
+  "held": "spin",
+  "tekst": "18 spinnetjes. Er slingeren er 14 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien spinnetjes. Er slingeren er veertien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 spinnetjes. Er slingeren er 15 weg. Hoeveel blijven er over?",
+  "bestand": "spin-07zic5b.mp3",
+  "held": "spin",
+  "tekst": "18 spinnetjes. Er slingeren er 15 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien spinnetjes. Er slingeren er vijftien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 spinnetjes. Er slingeren er 16 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1bg1gma.mp3",
+  "held": "spin",
+  "tekst": "18 spinnetjes. Er slingeren er 16 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien spinnetjes. Er slingeren er zestien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 spinnetjes. Er slingeren er 17 weg. Hoeveel blijven er over?",
+  "bestand": "spin-007pk61.mp3",
+  "held": "spin",
+  "tekst": "18 spinnetjes. Er slingeren er 17 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien spinnetjes. Er slingeren er zeventien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 spinnetjes. Er slingeren er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1n7j3il.mp3",
+  "held": "spin",
+  "tekst": "19 spinnetjes. Er slingeren er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien spinnetjes. Er slingeren er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 spinnetjes. Er slingeren er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0av2glg.mp3",
+  "held": "spin",
+  "tekst": "19 spinnetjes. Er slingeren er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien spinnetjes. Er slingeren er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 spinnetjes. Er slingeren er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-12a41ib.mp3",
+  "held": "spin",
+  "tekst": "19 spinnetjes. Er slingeren er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien spinnetjes. Er slingeren er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 spinnetjes. Er slingeren er 4 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1t4xb1e.mp3",
+  "held": "spin",
+  "tekst": "19 spinnetjes. Er slingeren er 4 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien spinnetjes. Er slingeren er vier weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 spinnetjes. Er slingeren er 5 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0vrgzrt.mp3",
+  "held": "spin",
+  "tekst": "19 spinnetjes. Er slingeren er 5 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien spinnetjes. Er slingeren er vijf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 spinnetjes. Er slingeren er 6 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1cywz0g.mp3",
+  "held": "spin",
+  "tekst": "19 spinnetjes. Er slingeren er 6 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien spinnetjes. Er slingeren er zes weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 spinnetjes. Er slingeren er 7 weg. Hoeveel blijven er over?",
+  "bestand": "spin-164rhdr.mp3",
+  "held": "spin",
+  "tekst": "19 spinnetjes. Er slingeren er 7 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien spinnetjes. Er slingeren er zeven weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 spinnetjes. Er slingeren er 8 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1usaky6.mp3",
+  "held": "spin",
+  "tekst": "19 spinnetjes. Er slingeren er 8 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien spinnetjes. Er slingeren er acht weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 spinnetjes. Er slingeren er 9 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0s2epz9.mp3",
+  "held": "spin",
+  "tekst": "19 spinnetjes. Er slingeren er 9 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien spinnetjes. Er slingeren er negen weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 spinnetjes. Er slingeren er 10 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0gtnkmt.mp3",
+  "held": "spin",
+  "tekst": "19 spinnetjes. Er slingeren er 10 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien spinnetjes. Er slingeren er tien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 spinnetjes. Er slingeren er 11 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0v1i1vi.mp3",
+  "held": "spin",
+  "tekst": "19 spinnetjes. Er slingeren er 11 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien spinnetjes. Er slingeren er elf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 spinnetjes. Er slingeren er 12 weg. Hoeveel blijven er over?",
+  "bestand": "spin-13u6y3v.mp3",
+  "held": "spin",
+  "tekst": "19 spinnetjes. Er slingeren er 12 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien spinnetjes. Er slingeren er twaalf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 spinnetjes. Er slingeren er 13 weg. Hoeveel blijven er over?",
+  "bestand": "spin-14ptip8.mp3",
+  "held": "spin",
+  "tekst": "19 spinnetjes. Er slingeren er 13 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien spinnetjes. Er slingeren er dertien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 spinnetjes. Er slingeren er 14 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1p0x1dt.mp3",
+  "held": "spin",
+  "tekst": "19 spinnetjes. Er slingeren er 14 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien spinnetjes. Er slingeren er veertien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 spinnetjes. Er slingeren er 15 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0k9q0tm.mp3",
+  "held": "spin",
+  "tekst": "19 spinnetjes. Er slingeren er 15 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien spinnetjes. Er slingeren er vijftien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 spinnetjes. Er slingeren er 16 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1hkt47b.mp3",
+  "held": "spin",
+  "tekst": "19 spinnetjes. Er slingeren er 16 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien spinnetjes. Er slingeren er zestien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 spinnetjes. Er slingeren er 17 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0xe7jmw.mp3",
+  "held": "spin",
+  "tekst": "19 spinnetjes. Er slingeren er 17 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien spinnetjes. Er slingeren er zeventien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 spinnetjes. Er slingeren er 18 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0hwv22l.mp3",
+  "held": "spin",
+  "tekst": "19 spinnetjes. Er slingeren er 18 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien spinnetjes. Er slingeren er achttien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 spinnetjes. Er slingeren er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1qcfgoh.mp3",
+  "held": "spin",
+  "tekst": "20 spinnetjes. Er slingeren er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig spinnetjes. Er slingeren er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 spinnetjes. Er slingeren er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1c1j5p4.mp3",
+  "held": "spin",
+  "tekst": "20 spinnetjes. Er slingeren er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig spinnetjes. Er slingeren er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 spinnetjes. Er slingeren er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0camy7r.mp3",
+  "held": "spin",
+  "tekst": "20 spinnetjes. Er slingeren er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig spinnetjes. Er slingeren er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 spinnetjes. Er slingeren er 4 weg. Hoeveel blijven er over?",
+  "bestand": "spin-11im0fi.mp3",
+  "held": "spin",
+  "tekst": "20 spinnetjes. Er slingeren er 4 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig spinnetjes. Er slingeren er vier weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 spinnetjes. Er slingeren er 5 weg. Hoeveel blijven er over?",
+  "bestand": "spin-123wyzp.mp3",
+  "held": "spin",
+  "tekst": "20 spinnetjes. Er slingeren er 5 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig spinnetjes. Er slingeren er vijf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 spinnetjes. Er slingeren er 6 weg. Hoeveel blijven er over?",
+  "bestand": "spin-184j524.mp3",
+  "held": "spin",
+  "tekst": "20 spinnetjes. Er slingeren er 6 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig spinnetjes. Er slingeren er zes weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 spinnetjes. Er slingeren er 7 weg. Hoeveel blijven er over?",
+  "bestand": "spin-110z5ln.mp3",
+  "held": "spin",
+  "tekst": "20 spinnetjes. Er slingeren er 7 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig spinnetjes. Er slingeren er zeven weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 spinnetjes. Er slingeren er 8 weg. Hoeveel blijven er over?",
+  "bestand": "spin-034yloi.mp3",
+  "held": "spin",
+  "tekst": "20 spinnetjes. Er slingeren er 8 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig spinnetjes. Er slingeren er acht weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 spinnetjes. Er slingeren er 9 weg. Hoeveel blijven er over?",
+  "bestand": "spin-09hd5bt.mp3",
+  "held": "spin",
+  "tekst": "20 spinnetjes. Er slingeren er 9 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig spinnetjes. Er slingeren er negen weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 spinnetjes. Er slingeren er 10 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1jbslch.mp3",
+  "held": "spin",
+  "tekst": "20 spinnetjes. Er slingeren er 10 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig spinnetjes. Er slingeren er tien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 spinnetjes. Er slingeren er 11 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1tlccje.mp3",
+  "held": "spin",
+  "tekst": "20 spinnetjes. Er slingeren er 11 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig spinnetjes. Er slingeren er elf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 spinnetjes. Er slingeren er 12 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1dxkryv.mp3",
+  "held": "spin",
+  "tekst": "20 spinnetjes. Er slingeren er 12 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig spinnetjes. Er slingeren er twaalf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 spinnetjes. Er slingeren er 13 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1em0ltk.mp3",
+  "held": "spin",
+  "tekst": "20 spinnetjes. Er slingeren er 13 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig spinnetjes. Er slingeren er dertien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 spinnetjes. Er slingeren er 14 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0ejgakl.mp3",
+  "held": "spin",
+  "tekst": "20 spinnetjes. Er slingeren er 14 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig spinnetjes. Er slingeren er veertien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 spinnetjes. Er slingeren er 15 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1h9c5ji.mp3",
+  "held": "spin",
+  "tekst": "20 spinnetjes. Er slingeren er 15 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig spinnetjes. Er slingeren er vijftien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 spinnetjes. Er slingeren er 16 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0nuorqz.mp3",
+  "held": "spin",
+  "tekst": "20 spinnetjes. Er slingeren er 16 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig spinnetjes. Er slingeren er zestien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 spinnetjes. Er slingeren er 17 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0rusojg.mp3",
+  "held": "spin",
+  "tekst": "20 spinnetjes. Er slingeren er 17 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig spinnetjes. Er slingeren er zeventien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 spinnetjes. Er slingeren er 18 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0i8ikd5.mp3",
+  "held": "spin",
+  "tekst": "20 spinnetjes. Er slingeren er 18 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig spinnetjes. Er slingeren er achttien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 spinnetjes. Er slingeren er 19 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1flyvmq.mp3",
+  "held": "spin",
+  "tekst": "20 spinnetjes. Er slingeren er 19 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig spinnetjes. Er slingeren er negentien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "ijzer|Luister goed.",
+  "bestand": "ijzer-09f3eum.mp3",
   "held": "ijzer",
-  "tekst": "Bijna! We hakken het woord samen.",
-  "uitspraak": "Bijna! We hakken het woord samen."
+  "tekst": "Luister goed.",
+  "uitspraak": "Luister goed."
+ },
+ {
+  "sleutel": "ijzer|Luister maar.",
+  "bestand": "ijzer-1yutzp0.mp3",
+  "held": "ijzer",
+  "tekst": "Luister maar.",
+  "uitspraak": "Luister maar."
+ },
+ {
+  "sleutel": "ijzer|Luister nog een keer.",
+  "bestand": "ijzer-10jlt5i.mp3",
+  "held": "ijzer",
+  "tekst": "Luister nog een keer.",
+  "uitspraak": "Luister nog een keer."
+ },
+ {
+  "sleutel": "ijzer|We hakken het woord samen.",
+  "bestand": "ijzer-1aswjsh.mp3",
+  "held": "ijzer",
+  "tekst": "We hakken het woord samen.",
+  "uitspraak": "We hakken het woord samen."
  },
  {
   "sleutel": "ijzer|Welk plaatje begint met",
@@ -2989,6 +5362,20 @@
   "uitspraak": "Gelukt! Alle stoplichten werken weer. Robot Bolt gaat voortaan netjes wachten op groen!"
  },
  {
+  "sleutel": "spin|Kijk, Robot Bolt wordt boos! Zijn lampjes knipperen!",
+  "bestand": "spin-0jsrx6r.mp3",
+  "held": "spin",
+  "tekst": "Kijk, Robot Bolt wordt boos! Zijn lampjes knipperen!",
+  "uitspraak": "Kijk, Robot Bolt wordt boos! Zijn lampjes knipperen!"
+ },
+ {
+  "sleutel": "spin|Robot Bolt probeert weg te rollen. Snel, nog een paar!",
+  "bestand": "spin-1fh88mw.mp3",
+  "held": "spin",
+  "tekst": "Robot Bolt probeert weg te rollen. Snel, nog een paar!",
+  "uitspraak": "Robot Bolt probeert weg te rollen. Snel, nog een paar!"
+ },
+ {
   "sleutel": "spin|Robot Bolt is weer bezig! De spinnenheld en de ijzerheld gaan samen op missie!",
   "bestand": "spin-1bp7diw.mp3",
   "held": "spin",
@@ -3015,6 +5402,20 @@
   "held": "spin",
   "tekst": "Hoera! Alle ballonnen zijn terug en het feest kan beginnen. Kat Kladder mag ook een ballon!",
   "uitspraak": "Hoera! Alle ballonnen zijn terug en het feest kan beginnen. Kat Kladder mag ook een ballon!"
+ },
+ {
+  "sleutel": "spin|Kat Kladder blaast van schrik! Ga zo door!",
+  "bestand": "spin-0lc5qop.mp3",
+  "held": "spin",
+  "tekst": "Kat Kladder blaast van schrik! Ga zo door!",
+  "uitspraak": "Kat Kladder blaast van schrik! Ga zo door!"
+ },
+ {
+  "sleutel": "spin|Kat Kladder rent over het dak. We hebben hem bijna!",
+  "bestand": "spin-0dhicq1.mp3",
+  "held": "spin",
+  "tekst": "Kat Kladder rent over het dak. We hebben hem bijna!",
+  "uitspraak": "Kat Kladder rent over het dak. We hebben hem bijna!"
  },
  {
   "sleutel": "spin|Kat Kladder is weer bezig! De spinnenheld en de ijzerheld gaan samen op missie!",
@@ -3045,6 +5446,20 @@
   "uitspraak": "De zon schijnt weer! De Mopperwolk moet lachen en de kermis gaat weer open!"
  },
  {
+  "sleutel": "spin|De Mopperwolk moppert: brrr, wat een zon!",
+  "bestand": "spin-1k0s1fh.mp3",
+  "held": "spin",
+  "tekst": "De Mopperwolk moppert: brrr, wat een zon!",
+  "uitspraak": "De Mopperwolk moppert: brrr, wat een zon!"
+ },
+ {
+  "sleutel": "spin|De Mopperwolk wordt steeds kleiner!",
+  "bestand": "spin-1pulmxp.mp3",
+  "held": "spin",
+  "tekst": "De Mopperwolk wordt steeds kleiner!",
+  "uitspraak": "De Mopperwolk wordt steeds kleiner!"
+ },
+ {
   "sleutel": "spin|De Mopperwolk is weer bezig! De spinnenheld en de ijzerheld gaan samen op missie!",
   "bestand": "spin-0mgzgqs.mp3",
   "held": "spin",
@@ -3071,6 +5486,20 @@
   "held": "spin",
   "tekst": "Klaar! De brug staat weer stevig. Professor Wiebel belooft dat hij voortaan alleen nog pudding laat wiebelen!",
   "uitspraak": "Klaar! De brug staat weer stevig. Professor Wiebel belooft dat hij voortaan alleen nog pudding laat wiebelen!"
+ },
+ {
+  "sleutel": "spin|Professor Wiebel krabt op zijn hoofd. Hij snapt er niks van!",
+  "bestand": "spin-16g5ted.mp3",
+  "held": "spin",
+  "tekst": "Professor Wiebel krabt op zijn hoofd. Hij snapt er niks van!",
+  "uitspraak": "Professor Wiebel krabt op zijn hoofd. Hij snapt er niks van!"
+ },
+ {
+  "sleutel": "spin|Professor Wiebel laat zijn sleutel vallen!",
+  "bestand": "spin-1ilance.mp3",
+  "held": "spin",
+  "tekst": "Professor Wiebel laat zijn sleutel vallen!",
+  "uitspraak": "Professor Wiebel laat zijn sleutel vallen!"
  },
  {
   "sleutel": "spin|Professor Wiebel is weer bezig! De spinnenheld en de ijzerheld gaan samen op missie!",
@@ -3101,6 +5530,20 @@
   "uitspraak": "Gelukt! De snoepwinkel is weer vol. En de Snoepslurper? Die krijgt één snoepje, maar alleen als hij het eerlijk vraagt!"
  },
  {
+  "sleutel": "spin|De Snoepslurper krijgt de hik! Hik!",
+  "bestand": "spin-1t7usis.mp3",
+  "held": "spin",
+  "tekst": "De Snoepslurper krijgt de hik! Hik!",
+  "uitspraak": "De Snoepslurper krijgt de hik! Hik!"
+ },
+ {
+  "sleutel": "spin|De Snoepslurper zijn slurf raakt in de knoop!",
+  "bestand": "spin-1e5pmh4.mp3",
+  "held": "spin",
+  "tekst": "De Snoepslurper zijn slurf raakt in de knoop!",
+  "uitspraak": "De Snoepslurper zijn slurf raakt in de knoop!"
+ },
+ {
   "sleutel": "spin|De Snoepslurper is weer bezig! De spinnenheld en de ijzerheld gaan samen op missie!",
   "bestand": "spin-1np7kg2.mp3",
   "held": "spin",
@@ -3127,6 +5570,20 @@
   "held": "ijzer",
   "tekst": "Alle letters zijn terug! Letterdief Lodewijk gaat nu zelf leren lezen in de klas!",
   "uitspraak": "Alle letters zijn terug! Letterdief Lodewijk gaat nu zelf leren lezen in de klas!"
+ },
+ {
+  "sleutel": "ijzer|Letterdief Lodewijk laat letters vallen uit zijn zak!",
+  "bestand": "ijzer-1e9j8mp.mp3",
+  "held": "ijzer",
+  "tekst": "Letterdief Lodewijk laat letters vallen uit zijn zak!",
+  "uitspraak": "Letterdief Lodewijk laat letters vallen uit zijn zak!"
+ },
+ {
+  "sleutel": "ijzer|Letterdief Lodewijk struikelt over een a!",
+  "bestand": "ijzer-0k7x30b.mp3",
+  "held": "ijzer",
+  "tekst": "Letterdief Lodewijk struikelt over een a!",
+  "uitspraak": "Letterdief Lodewijk struikelt over een a!"
  },
  {
   "sleutel": "spin|Letterdief Lodewijk is weer bezig! De spinnenheld en de ijzerheld gaan samen op missie!",
@@ -3157,6 +5614,20 @@
   "uitspraak": "Alle lampjes branden weer! De Robotkrab knipt voortaan alleen nog papier!"
  },
  {
+  "sleutel": "ijzer|De Robotkrab klappert boos met zijn scharen!",
+  "bestand": "ijzer-1upzpk8.mp3",
+  "held": "ijzer",
+  "tekst": "De Robotkrab klappert boos met zijn scharen!",
+  "uitspraak": "De Robotkrab klappert boos met zijn scharen!"
+ },
+ {
+  "sleutel": "ijzer|De Robotkrab loopt zijwaarts weg!",
+  "bestand": "ijzer-13f8kuz.mp3",
+  "held": "ijzer",
+  "tekst": "De Robotkrab loopt zijwaarts weg!",
+  "uitspraak": "De Robotkrab loopt zijwaarts weg!"
+ },
+ {
   "sleutel": "spin|De Robotkrab is weer bezig! De spinnenheld en de ijzerheld gaan samen op missie!",
   "bestand": "spin-0ag89fq.mp3",
   "held": "spin",
@@ -3183,6 +5654,20 @@
   "held": "ijzer",
   "tekst": "Alle mist is weg! De stad is weer helder, en Mevrouw Mist gaat lekker zweven boven de zee!",
   "uitspraak": "Alle mist is weg! De stad is weer helder, en Mevrouw Mist gaat lekker zweven boven de zee!"
+ },
+ {
+  "sleutel": "ijzer|Mevrouw Mist zucht: oeh, wat een wind!",
+  "bestand": "ijzer-07eaygc.mp3",
+  "held": "ijzer",
+  "tekst": "Mevrouw Mist zucht: oeh, wat een wind!",
+  "uitspraak": "Mevrouw Mist zucht: oeh, wat een wind!"
+ },
+ {
+  "sleutel": "ijzer|Mevrouw Mist wordt steeds doorzichtiger!",
+  "bestand": "ijzer-1dqb1tt.mp3",
+  "held": "ijzer",
+  "tekst": "Mevrouw Mist wordt steeds doorzichtiger!",
+  "uitspraak": "Mevrouw Mist wordt steeds doorzichtiger!"
  },
  {
   "sleutel": "spin|Mevrouw Mist is weer bezig! De spinnenheld en de ijzerheld gaan samen op missie!",
@@ -3213,6 +5698,20 @@
   "uitspraak": "Alles is los! De Magneetmuis gebruikt haar magneet nu alleen nog om haar kaas op te ruimen!"
  },
  {
+  "sleutel": "ijzer|De Magneetmuis piept: hé, mijn fietsen!",
+  "bestand": "ijzer-01ctobv.mp3",
+  "held": "ijzer",
+  "tekst": "De Magneetmuis piept: hé, mijn fietsen!",
+  "uitspraak": "De Magneetmuis piept: hé, mijn fietsen!"
+ },
+ {
+  "sleutel": "ijzer|De Magneetmuis haar magneet begint te wiebelen!",
+  "bestand": "ijzer-15u2muc.mp3",
+  "held": "ijzer",
+  "tekst": "De Magneetmuis haar magneet begint te wiebelen!",
+  "uitspraak": "De Magneetmuis haar magneet begint te wiebelen!"
+ },
+ {
   "sleutel": "spin|De Magneetmuis is weer bezig! De spinnenheld en de ijzerheld gaan samen op missie!",
   "bestand": "spin-1m1m609.mp3",
   "held": "spin",
@@ -3239,6 +5738,20 @@
   "held": "ijzer",
   "tekst": "De schatkist is gevonden! Kapitein Kriebel krijgt een cracker en deelt de schat met iedereen!",
   "uitspraak": "De schatkist is gevonden! Kapitein Kriebel krijgt een cracker en deelt de schat met iedereen!"
+ },
+ {
+  "sleutel": "ijzer|Kapitein Kriebel krijst: mijn goud, mijn goud!",
+  "bestand": "ijzer-0o5dnwc.mp3",
+  "held": "ijzer",
+  "tekst": "Kapitein Kriebel krijst: mijn goud, mijn goud!",
+  "uitspraak": "Kapitein Kriebel krijst: mijn goud, mijn goud!"
+ },
+ {
+  "sleutel": "ijzer|Kapitein Kriebel verliest zijn piratenhoed!",
+  "bestand": "ijzer-0zn3uox.mp3",
+  "held": "ijzer",
+  "tekst": "Kapitein Kriebel verliest zijn piratenhoed!",
+  "uitspraak": "Kapitein Kriebel verliest zijn piratenhoed!"
  },
  {
   "sleutel": "spin|Kapitein Kriebel is weer bezig! De spinnenheld en de ijzerheld gaan samen op missie!",
