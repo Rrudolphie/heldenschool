@@ -1,4 +1,5 @@
 // Voorlezen met de Nederlandse stem van het apparaat (Web Speech API).
+import { stopSpeler } from './opnames'
 
 let stem: SpeechSynthesisVoice | undefined
 
@@ -18,10 +19,11 @@ if ('speechSynthesis' in window) {
 
 let beurt = 0
 
-/** Stop wat er nu gezegd wordt. */
+/** Stop wat er nu gezegd of afgespeeld wordt. */
 export function stil() {
   beurt++
   if ('speechSynthesis' in window) speechSynthesis.cancel()
+  stopSpeler()
 }
 
 /** Zeg een zin; de promise is klaar als de zin uit is (of afgebroken). */

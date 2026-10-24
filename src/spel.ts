@@ -3,6 +3,7 @@
 export type Soort = 'tellen' | 'cijfers' | 'plus' | 'min'
 
 export const NIVEAUS: Soort[] = ['tellen', 'cijfers', 'plus', 'min']
+export const NIVEAU_NAAM = ['Tellen', 'Cijfers', 'Plussommen', 'Minsommen']
 export const SOMMEN_PER_RONDE = 10
 const OMHOOG_NA = 5 // goed op rij (in één keer) → niveau omhoog
 const OMLAAG_NA = 3 // fout op rij → niveau omlaag

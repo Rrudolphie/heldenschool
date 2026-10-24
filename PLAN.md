@@ -35,8 +35,10 @@ Rekenapp voor een kind van 5, met een spinnenheld in Spider-Man-stijl. Alleen vo
 ## Versie 1 (eerst bouwen)
 - Held (SVG), 4 somsoorten, 3 antwoordknoppen, voorlezen, hulp bij fouten, rondes van 10, sterren tellen, meegroeiend niveau, PWA (offline, beginscherm).
 
-## Versie 2
-- Pakken vrijspelen met sterren, ouderscherm (naam, voortgang, niveau), eigen stemopnames.
+## Versie 2 (klaar)
+- **Pakken:** 7 pakken (Klassiek, Nacht, Jungle, Goud, IJs, Galaxy, Vuur), vrij bij 0, 10, 25, 40, 60, 80 en 100 sterren in totaal. Sterren worden niet uitgegeven. Kledingkast via "👕 Pakken"; na een ronde volgt een feestje met een knop "Aantrekken!".
+- **Ouderscherm:** slotje rechtsonder 2,5 seconde vasthouden. Naam, niveau, voortgang per somsoort (oranje = nog moeite), stemopnames en voortgang wissen.
+- **Eigen stem:** 5 zinnetjes (welkom, 3 complimenten, missie klaar), max. 5 seconden, bewaard in IndexedDB op de iPad. Complimenten wisselen af met de iPad-stem.
 
 ## Nog open
 - GitHub-account: regelen pas bij het online zetten.
