@@ -2,6 +2,14 @@
 
 Rekenapp voor de iPad met een spinnenheld. Zie [PLAN.md](PLAN.md) voor alle keuzes.
 
+## Online en offline
+
+De app staat op **https://rrudolphie.github.io/spider-sommen/**.
+
+Op de iPad: open dit adres in Safari, tik op Deel → "Zet op beginscherm". Na het eerste openen werkt de app ook zonder internet.
+
+Een nieuwe versie online zetten: commit en `git push`. GitHub bouwt de app dan vanzelf (zie het tabblad Actions). De iPad haalt de nieuwe versie op de eerstvolgende keer dat hij de app met internet opent.
+
 ## Testen op de pc
 
 ```bash
@@ -20,7 +28,7 @@ Open daarna http://localhost:5174 in de browser.
 npm run build
 ```
 
-De klare app staat dan in de map `dist`. Die zetten we straks op GitHub Pages.
+De klare app staat dan in de map `dist`. Met `npm run preview` kun je die versie (met offline werken) op de pc testen.
 
 ## Icoontjes opnieuw maken
 
