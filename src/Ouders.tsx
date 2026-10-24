@@ -58,13 +58,13 @@ export function OudersScherm({
       </section>
 
       <section className="ouders-blok">
-        <h2>🕷️ Rekenen</h2>
+        <h2>Rekenen · spinnenheld</h2>
         <NiveauKeuze held="spin" namen={NIVEAU_NAAM} data={data} updateHeld={updateHeld} />
         <Voortgang held="spin" soorten={NIVEAUS} namen={NIVEAU_NAAM} data={data} />
       </section>
 
       <section className="ouders-blok">
-        <h2>🦾 Letters</h2>
+        <h2>Letters · ijzerheld</h2>
         <h3>Welke letters kent hij al?</h3>
         <div className="letter-raster">
           {ALLE_LETTERS.map((l) => (
@@ -102,15 +102,15 @@ export function OudersScherm({
       </section>
 
       <section className="ouders-blok">
-        <h2>🎙️ Eigen stem</h2>
+        <h2>Eigen stem</h2>
         {kanOpnemen() ? (
           <>
             <p className="uitleg">
-              Neem zinnetjes op met je eigen stem (max. {MAX_SECONDEN} seconden). De helden spelen ze af in plaats van de
-              iPad-stem. Ze blijven alleen op deze iPad.
+              Neem de naam van je kind en eventueel een paar zinnetjes op met je eigen stem (max. {MAX_SECONDEN} seconden).
+              De helden gebruiken ze tussen hun eigen zinnen door. Ze blijven alleen op deze iPad.
             </p>
             {OPNAMES.map((o) => (
-              <OpnameRij key={o.id} id={o.id} titel={o.titel} voorbeeld={`bijv. "${o.voorbeeld}"`} />
+              <OpnameRij key={o.id} id={o.id} titel={o.titel} voorbeeld={o.voorbeeld} />
             ))}
           </>
         ) : (
@@ -120,7 +120,7 @@ export function OudersScherm({
 
       {kanOpnemen() && (
         <section className="ouders-blok">
-          <h2>🔤 Klanken</h2>
+          <h2>Klanken</h2>
           <p className="uitleg">
             Spreek de klanken uit zoals op school: "mmm", niet "em". Ze worden gebruikt bij hakken en plakken, woordjes lezen
             en bij de hulp. Zonder opname doet de iPad-stem zijn best.

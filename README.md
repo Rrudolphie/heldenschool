@@ -30,6 +30,30 @@ npm run build
 
 De klare app staat dan in de map `dist`. Met `npm run preview` kun je die versie (met offline werken) op de pc testen.
 
+## Stemmen (vooraf ingesproken)
+
+Alle zinnen van de helden staan als mp3 in `public/stem/`. Ze zijn gemaakt met het AI-stemmodel Chatterbox, dat lokaal op de videokaart draait (`C:\Users\robbi\Tools\ai-stem`). Komen er zinnen bij of veranderen er zinnen in `src/zinnen.ts`, maak ze dan zo opnieuw (alleen nieuwe zinnen worden ingesproken):
+
+```bash
+npx tsx scripts/zinnen-lijst.ts
+```
+
+```bash
+C:\Users\robbi\Tools\ai-stem\venv\Scripts\python.exe scripts\maak-stem.py
+```
+
+Ontbreekt een zin toch, dan zegt de iPad-stem hem als reserve.
+
+## Plaatjes (helden en avonturen)
+
+De helden (stripstijl, 7 pakken × 3 houdingen per held) en de begin- en eindplaatjes van de avonturen staan in `public/beeld/`. Ze zijn gemaakt met het lokale AI-beeldmodel Stable Diffusion XL (`C:\Users\robbi\Tools\ai-beeld`). Nieuwe of verwijderde plaatjes maak je zo opnieuw (bestaande worden overgeslagen):
+
+```bash
+C:\Users\robbi\Tools\ai-beeld\venv\Scripts\python.exe scripts\maak-beeld.py
+```
+
+De avonturen zelf staan in `src/verhalen.ts`.
+
 ## Icoontjes opnieuw maken
 
 ```bash

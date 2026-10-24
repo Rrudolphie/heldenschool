@@ -1,11 +1,27 @@
 import { type CSSProperties, useCallback, useEffect, useRef, useState } from 'react'
-import { HoekWeb, Held, type Humeur, Ster } from './figuren'
+import { HoekWeb, Held, type Humeur, laadBeelden, Ster } from './figuren'
+import { mixIntro, type Verhaal, VERHALEN, verhalenVan } from './verhalen'
+import { Pad, VerhaalBeeld } from './VerhaalWeergave'
+import { IcoonHuis, IcoonLuidspreker, IcoonMix, IcoonShirt, IcoonSlot } from './iconen'
 import { kies, NIVEAU_NAAM, SOMMEN_PER_RONDE, verwerk } from './spel'
 import { LETTER_NIVEAU_NAAM } from './letters'
 import { bewaar, type Bewaard, type HeldData, type HeldId, heldNaam, laad, toegestaan } from './opslag'
-import { huidigeBeurt, nogBezig, stil, zeg, zegKlank, zegKlanken } from './stem'
+import {
+  effect,
+  huidigeBeurt,
+  laadStemmen,
+  nogBezig,
+  ontgrendel,
+  pauze,
+  speelOpname,
+  stil,
+  zeg,
+  zegKlank,
+  zegKlanken,
+} from './stem'
+import { LOF, LOF_HELD, TELWOORD, Z } from './zinnen'
 import { nieuwVrij, type Pak, pakVan, volgendPak } from './pakken'
-import { heeftOpname, laadOpnames, ontgrendelGeluid, speel } from './opnames'
+import { heeftOpname, laadOpnames } from './opnames'
 import {
   antwoordVan,
   heldVoor,
@@ -21,16 +37,22 @@ import { LetterOpgave, LetterOptie } from './LetterWeergave'
 import { KastScherm } from './Kast'
 import { OudersScherm } from './Ouders'
 
-type Scherm = 'start' | 'spel' | 'klaar' | 'kast' | 'ouders'
+type Scherm = 'start' | 'intro' | 'spel' | 'klaar' | 'kast' | 'ouders'
 type PerHeld = Record<HeldId, number>
 
-const LOF = ['Super!', 'Goed zo!', 'Wauw, knap!', 'Helemaal goed!', 'Top gedaan!']
-const LOF_HELD: Record<HeldId, string[]> = { spin: ['Spinnentastisch!'], ijzer: ['IJzersterk!'] }
 const OUDER_HOUDEN_MS = 2500
 const NUL: PerHeld = { spin: 0, ijzer: 0 }
 
 const NIVEAU_NAMEN: Record<HeldId, string[]> = { spin: NIVEAU_NAAM, ijzer: LETTER_NIVEAU_NAAM }
-const wacht = (ms: number) => new Promise((r) => setTimeout(r, ms))
+
+/** Begroeting: met de opgenomen naam van het kind als die er is. */
+function begroet(held: HeldId) {
+  if (heeftOpname('welkom')) return speelOpname('welkom')
+  if (!heeftOpname('naam')) return zeg(Z.welkom(held), held)
+  zeg(Z.hoi, held)
+  speelOpname('naam')
+  return zeg(Z.welkomRest(held), held)
+}
 
 type Updaters = {
   update: (n: Partial<Bewaard>) => void
@@ -43,9 +65,13 @@ export default function App() {
   const [wereld, setWereld] = useState<Wereld>('rekenen')
   const [rondeSterren, setRondeSterren] = useState<PerHeld>(NUL)
   const [sterrenBijStart, setSterrenBijStart] = useState<PerHeld>(NUL)
+  const [verhaal, setVerhaal] = useState<Verhaal>(VERHALEN[0])
+  const [, setBeeldenGeladen] = useState(false)
 
   useEffect(() => {
     laadOpnames()
+    laadStemmen()
+    laadBeelden().then(() => setBeeldenGeladen(true))
   }, [])
 
   const update = useCallback((nieuw: Partial<Bewaard>) => {
@@ -68,7 +94,10 @@ export default function App() {
     setWereld(w)
     setRondeSterren(NUL)
     setSterrenBijStart({ spin: data.helden.spin.sterren, ijzer: data.helden.ijzer.sterren })
-    setScherm('spel')
+    // een ander avontuur dan de vorige keer
+    const keuze = w === 'mix' ? VERHALEN : verhalenVan(w === 'rekenen' ? 'spin' : 'ijzer')
+    setVerhaal((vorige) => kies(keuze.filter((v) => v.id !== vorige.id)))
+    setScherm('intro')
   }
 
   const naarStart = () => {
@@ -83,8 +112,6 @@ export default function App() {
 
   return (
     <div className="app">
-      <HoekWeb className="hoek-lb" />
-      <HoekWeb className="hoek-rb" />
       {scherm === 'start' && (
         <StartScherm
           data={data}
@@ -94,9 +121,13 @@ export default function App() {
           onOuders={() => setScherm('ouders')}
         />
       )}
+      {scherm === 'intro' && (
+        <IntroScherm wereld={wereld} verhaal={verhaal} pakken={pakken} onVerder={() => setScherm('spel')} onStop={naarStart} />
+      )}
       {scherm === 'spel' && (
         <SpelScherm
           wereld={wereld}
+          verhaal={verhaal}
           data={data}
           pakken={pakken}
           updateHeld={updateHeld}
@@ -111,8 +142,8 @@ export default function App() {
       {scherm === 'klaar' && (
         <KlaarScherm
           wereld={wereld}
+          verhaal={verhaal}
           sterren={rondeSterren}
-          naam={data.naam}
           pakken={pakken}
           nieuwePakken={[
             ...nieuwVrij('spin', sterrenBijStart.spin, data.helden.spin.sterren),
@@ -146,11 +177,8 @@ function StartScherm({
 }) {
   const begin = (w: Wereld) => {
     // eerste tik ontgrendelt het geluid op de iPad
-    ontgrendelGeluid()
-    if (heeftOpname('welkom')) speel('welkom')
-    else if (w === 'rekenen') zeg(`Hoi! Ik ben ${heldNaam('spin', data.naam)}. Zullen we rekenen?`)
-    else if (w === 'letters') zeg(`Hoi! Ik ben ${heldNaam('ijzer', data.naam)}. Zullen we letters oefenen?`)
-    else zeg(`${heldNaam('spin', data.naam)} en ${heldNaam('ijzer', data.naam)} gaan samen op missie!`)
+    ontgrendel()
+    stil()
     onStart(w)
   }
 
@@ -163,16 +191,16 @@ function StartScherm({
       </div>
       <div className="start-knoppen">
         <button className="knop-start knop-mix" onClick={() => begin('mix')}>
-          🔀 Mix-missie
+          <IcoonMix /> Mix-missie
         </button>
         <button
           className="knop-zacht"
           onClick={() => {
-            ontgrendelGeluid()
+            ontgrendel()
             onKast()
           }}
         >
-          👕 Pakken
+          <IcoonShirt /> Pakken
         </button>
       </div>
       <OuderSlot onOpen={onOuders} />
@@ -241,23 +269,66 @@ function OuderSlot({ onOpen }: { onOpen: () => void }) {
       onPointerCancel={los}
       onContextMenu={(e) => e.preventDefault()}
     >
-      🔒
+      <IcoonSlot />
     </button>
+  )
+}
+
+/** Begin van het avontuur: plaatje van de schurk en de held vertelt wat er aan de hand is. */
+function IntroScherm({
+  wereld,
+  verhaal,
+  pakken,
+  onVerder,
+  onStop,
+}: {
+  wereld: Wereld
+  verhaal: Verhaal
+  pakken: Record<HeldId, Pak>
+  onVerder: () => void
+  onStop: () => void
+}) {
+  useEffect(() => {
+    if (wereld === 'mix') zeg(mixIntro(verhaal), 'spin')
+    else {
+      begroet(verhaal.held)
+      zeg(verhaal.intro, verhaal.held)
+    }
+  }, []) // alleen bij het openen van het scherm
+
+  return (
+    <main className={`intro intro-${verhaal.held}`}>
+      <button className="knop-rond intro-terug" onClick={onStop} aria-label="Naar het begin">
+        <IcoonHuis />
+      </button>
+      <VerhaalBeeld verhaal={verhaal} deel="begin" pak={pakken[verhaal.held]} />
+      <h1 className="intro-titel">{verhaal.schurk.replace(/^de /, 'De ')}</h1>
+      <button
+        className="knop-start"
+        onClick={() => {
+          stil()
+          onVerder()
+        }}
+      >
+        Op missie!
+      </button>
+    </main>
   )
 }
 
 /** De vraag stellen: voorlezen, plus eventueel klanken of een opgenomen klank. */
 async function stelVraag(o: Opdracht) {
   if (o.held === 'ijzer' && o.taak.soort === 'herkennen' && heeftOpname(`klank-${o.taak.letter}`)) {
-    await zeg('Welk plaatje begint met')
-    return speel(`klank-${o.taak.letter}`)
+    zeg(Z.beginMet, 'ijzer')
+    return speelOpname(`klank-${o.taak.letter}`)
   }
-  await zeg(vraagVan(o))
+  await zeg(vraagVan(o), o.held)
   if (o.held === 'ijzer' && o.taak.soort === 'hakken') await zegKlanken(o.taak.woord.klanken ?? [])
 }
 
 function SpelScherm({
   wereld,
+  verhaal,
   data,
   pakken,
   updateHeld,
@@ -266,6 +337,7 @@ function SpelScherm({
   onStop,
 }: Pick<Updaters, 'updateHeld'> & {
   wereld: Wereld
+  verhaal: Verhaal
   data: Bewaard
   pakken: Record<HeldId, Pak>
   onSter: (h: HeldId) => void
@@ -307,38 +379,42 @@ function SpelScherm({
     const beurt = huidigeBeurt()
     if (opdracht.held === 'spin') {
       const som = opdracht.som
-      if (som.soort === 'cijfers') return zeg(`Bijna! Zoek het web met ${som.a} spinnetjes.`)
-      await zeg('Bijna! Tel maar mee.')
+      if (som.soort === 'cijfers') return zeg(Z.zoekWeb(som.a), 'spin')
+      await zeg(Z.telMee, 'spin')
       const aantal = som.soort === 'min' ? som.a - som.b : som.soort === 'plus' ? som.a + som.b : som.a
       for (let i = 1; i <= aantal; i++) {
         if (!nogBezig(beurt)) return
         setLicht(i)
-        await zeg(String(i), { snelheid: 1 })
+        await zeg(TELWOORD[i], 'spin')
       }
       return
     }
     const taak = opdracht.taak
+    const woord = taak.woord.woord
     switch (taak.soort) {
       case 'beginklank':
-        await zeg(`Bijna! Luister goed: ${taak.woord.woord}... ${taak.woord.woord}.`, { snelheid: 0.7 })
+        zeg(Z.luisterGoed, 'ijzer')
+        zeg(woord, 'ijzer')
+        await pauze(400)
+        await zeg(woord, 'ijzer')
         if (nogBezig(beurt) && heeftOpname(`klank-${taak.letter}`)) await zegKlank(taak.letter)
         return
       case 'herkennen':
-        // elk plaatje langzaam noemen: dan hoort hij de beginklank
-        await zeg('Bijna! Luister maar.')
+        // elk plaatje noemen: dan hoort hij de beginklank
+        await zeg(Z.luisterMaar, 'ijzer')
         for (const w of nogOver) {
           if (!nogBezig(beurt)) return
           setLichtOptie(w)
-          await zeg(w, { snelheid: 0.7 })
-          await wacht(300)
+          await zeg(w, 'ijzer')
+          await pauze(350)
         }
         if (nogBezig(beurt)) setLichtOptie(null)
         return
       case 'hakken':
-        await zeg('Bijna! Luister nog een keer.')
+        await zeg(Z.nogEenKeer, 'ijzer')
         return zegKlanken(taak.woord.klanken ?? [], 700)
       case 'lezen':
-        await zeg('Bijna! We hakken het woord samen.')
+        await zeg(Z.samenHakken, 'ijzer')
         await zegKlanken(taak.woord.klanken ?? [], 500, (i) => setLicht(i + 1))
         return
     }
@@ -353,6 +429,7 @@ function SpelScherm({
     if (keuze !== antwoordKey) {
       const nieuweFouten = [...fouten, keuze]
       setFouten(nieuweFouten)
+      effect('boing')
       setHumeur('denk')
       setLicht(0)
       setLichtOptie(null)
@@ -366,26 +443,29 @@ function SpelScherm({
 
     // goed!
     setGoed(true)
+    effect('pling')
     setHumeur('blij')
     setLichtOptie(null)
     onSter(held)
-    let tekst = kies([...LOF, ...LOF_HELD[held]])
-    let nieuwNiveau = false
+    let nieuwNiveau = ''
     const nieuw: Partial<HeldData> = { sterren: dataRef.current.helden[held].sterren + 1 }
     if (eersteKeer) {
       const v = verwerk(dataRef.current.helden[held], true, toe)
       Object.assign(nieuw, { niveau: v.niveau, goedOpRij: v.goedOpRij, foutOpRij: v.foutOpRij, stats: telStat('goed') })
       if (v.veranderd === 1) {
-        nieuwNiveau = true
-        tekst += ` Je bent naar een nieuw niveau: ${NIVEAU_NAMEN[held][v.niveau]}!`
-        setMelding(`Nieuw niveau: ${NIVEAU_NAMEN[held][v.niveau]}!`)
+        nieuwNiveau = NIVEAU_NAMEN[held][v.niveau]
+        setMelding(`Nieuw niveau: ${nieuwNiveau}!`)
       }
     }
     updateHeld(held, nieuw)
 
-    // eigen opnames af en toe gebruiken, afgewisseld met de iPad-stem
+    // compliment: soms een eigen opname, soms met de naam erachter
     const opnames = ['lof1', 'lof2', 'lof3'].filter(heeftOpname)
-    const lof = !nieuwNiveau && opnames.length && Math.random() < 0.6 ? speel(kies(opnames)) : zeg(tekst)
+    let lof =
+      opnames.length && Math.random() < 0.5 ? speelOpname(kies(opnames)) : zeg(kies([...LOF, ...LOF_HELD[held]]), held)
+    if (heeftOpname('naam') && Math.random() < 0.3) lof = speelOpname('naam')
+    if (nieuwNiveau) lof = zeg(Z.nieuwNiveau(nieuwNiveau), held)
+    if (nr + 1 === SOMMEN_PER_RONDE / 2) lof = zeg(verhaal.halverwege, verhaal.held)
 
     lof.then(() => {
       setTimeout(() => {
@@ -406,18 +486,22 @@ function SpelScherm({
 
   return (
     <main className={`spel spel-${held}`}>
+      {held === 'spin' && (
+        <>
+          <HoekWeb className="hoek-lb" />
+          <HoekWeb className="hoek-rb" />
+        </>
+      )}
       <header className="balk">
         <button className="knop-rond" onClick={onStop} aria-label="Naar het begin">
-          🏠
+          <IcoonHuis />
         </button>
-        <div className="voortgang" aria-label={`Opdracht ${nr + 1} van ${SOMMEN_PER_RONDE}`}>
-          {Array.from({ length: SOMMEN_PER_RONDE }, (_, i) => (
-            <span
-              key={i}
-              className={`stip stip-${heldVoor(wereld, i)} ${i < nr || (i === nr && goed) ? 'stip-af' : ''} ${i === nr ? 'stip-nu' : ''}`}
-            />
-          ))}
-        </div>
+        <Pad
+          stap={nr + (goed ? 1 : 0)}
+          totaal={SOMMEN_PER_RONDE}
+          pak={pakken[held]}
+          kleuren={Array.from({ length: SOMMEN_PER_RONDE }, (_, i) => (heldVoor(wereld, i) === 'spin' ? 'var(--rood)' : 'var(--goud)'))}
+        />
         <div className="sterren-teller klein">
           <Ster className={goed ? 'ster-pop' : ''} /> <span>{heldData.sterren}</span>
         </div>
@@ -429,7 +513,7 @@ function SpelScherm({
           }}
           aria-label="Nog een keer voorlezen"
         >
-          🔊
+          <IcoonLuidspreker />
         </button>
       </header>
 
@@ -437,7 +521,7 @@ function SpelScherm({
 
       <section className="speelveld">
         <Held humeur={humeur} pak={pakken[held]} className={`held-klein ${goed ? 'spring' : ''}`} />
-        <div className="opgave">
+        <div className="opgave" key={nr}>
           {opdracht.held === 'spin' ? (
             <SomOpgave som={opdracht.som} licht={licht} />
           ) : (
@@ -446,7 +530,7 @@ function SpelScherm({
         </div>
       </section>
 
-      <section className={`keuzes ${breed ? 'keuzes-webben' : ''}`}>
+      <section className={`keuzes ${breed ? 'keuzes-webben' : ''}`} key={nr}>
         {optiesVan(opdracht).map((o) =>
           fouten.includes(o) ? (
             <span key={o} className="knop-keuze leeg" />
@@ -471,8 +555,8 @@ function SpelScherm({
 
 function KlaarScherm({
   wereld,
+  verhaal,
   sterren,
-  naam,
   pakken,
   nieuwePakken,
   onAantrekken,
@@ -480,8 +564,8 @@ function KlaarScherm({
   onStop,
 }: {
   wereld: Wereld
+  verhaal: Verhaal
   sterren: PerHeld
-  naam: string
   pakken: Record<HeldId, Pak>
   nieuwePakken: Pak[]
   onAantrekken: (p: Pak) => void
@@ -495,14 +579,17 @@ function KlaarScherm({
   const helden: HeldId[] = wereld === 'rekenen' ? ['spin'] : wereld === 'letters' ? ['ijzer'] : ['spin', 'ijzer']
 
   useEffect(() => {
-    const beurt = huidigeBeurt()
-    const gezegd = heeftOpname('klaar')
-      ? speel('klaar').then(() => zeg(`Je hebt ${totaal} sterren verdiend.`))
-      : zeg(`Missie klaar! Je hebt ${totaal} sterren verdiend. Dankjewel, ${naam || 'superheld'}!`)
-    if (nieuw)
-      gezegd.then(() => {
-        if (nogBezig(beurt)) zeg(`En je hebt een nieuw pak vrijgespeeld: ${nieuw.naam}! Wil je het aantrekken?`)
-      })
+    // de held van deze wereld praat (bij de mix de spinnenheld); alles staat netjes in de rij
+    const held = helden[0]
+    effect('tadaa')
+    zeg(verhaal.slot, verhaal.held)
+    if (heeftOpname('klaar')) speelOpname('klaar')
+    zeg(Z.klaar(totaal), held)
+    if (heeftOpname('naam')) {
+      zeg(Z.bedankt, held)
+      speelOpname('naam')
+    } else zeg(Z.bedanktZonderNaam, held)
+    if (nieuw) zeg(Z.nieuwPak(nieuw.naam), nieuw.held)
   }, []) // alleen bij het openen van het scherm
 
   return (
@@ -514,7 +601,7 @@ function KlaarScherm({
         {nieuw ? (
           <Held humeur="blij" pak={nieuw} className="held-groot spring-steeds" />
         ) : (
-          helden.map((h) => <Held key={h} humeur="blij" pak={pakken[h]} className="held-groot spring-steeds" />)
+          <VerhaalBeeld verhaal={verhaal} deel="eind" pak={pakken[helden[0]]} />
         )}
       </div>
       {nieuw && !aangetrokken && (
@@ -524,10 +611,10 @@ function KlaarScherm({
             stil()
             onAantrekken(nieuw)
             setAangetrokken(true)
-            zeg(`Je draagt nu het pak ${nieuw.naam}!`)
+            zeg(Z.draagtPak(nieuw.naam), nieuw.held)
           }}
         >
-          👕 Aantrekken!
+          <IcoonShirt /> Aantrekken!
         </button>
       )}
       <div className="ronde-sterren">

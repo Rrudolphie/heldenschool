@@ -4,6 +4,8 @@ import { Held, Ster } from './figuren'
 import { isVrij, PAKKEN } from './pakken'
 import type { Bewaard, HeldData, HeldId } from './opslag'
 import { stil, zeg } from './stem'
+import { Z } from './zinnen'
+import { IcoonSlot, IcoonTerug } from './iconen'
 
 export function KastScherm({
   data,
@@ -21,7 +23,7 @@ export function KastScherm({
     <main className="kast">
       <header className="balk">
         <button className="knop-rond" onClick={onTerug} aria-label="Terug">
-          ⬅️
+          <IcoonTerug />
         </button>
         <div className="kast-tabs">
           {(['spin', 'ijzer'] as HeldId[]).map((h) => (
@@ -55,18 +57,15 @@ export function KastScherm({
                 stil()
                 if (vrij) {
                   updateHeld(held, { pak: pak.id })
-                  zeg(`Je draagt nu het pak ${pak.naam}!`)
-                } else {
-                  const nog = pak.sterren - sterren
-                  zeg(`Nog ${nog} ${nog === 1 ? 'ster' : 'sterren'} verzamelen voor dit pak!`)
-                }
+                  zeg(Z.draagtPak(pak.naam), held)
+                } else zeg(Z.opSlot, held)
               }}
             >
               <Held pak={pak} humeur={gekozen ? 'blij' : 'normaal'} className="pak-held" />
               <span className="pak-naam">{pak.naam}</span>
               {!vrij && (
                 <span className="pak-slot">
-                  🔒 <Ster /> {pak.sterren}
+                  <IcoonSlot /> <Ster /> {pak.sterren}
                 </span>
               )}
             </button>

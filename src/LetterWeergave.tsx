@@ -1,5 +1,6 @@
 // Weergave van de letteropdrachten (ijzerheld).
 import { type LetterTaak, optieWoord } from './letters'
+import { IcoonLuidspreker } from './iconen'
 
 /** Een woord met plaatje (emoji). */
 function Plaatje({ woord, groot = false }: { woord: string; groot?: boolean }) {
@@ -28,7 +29,7 @@ export function LetterOpgave({ taak, licht }: { taak: LetterTaak; licht: number 
       return (
         <>
           <div className="luister" aria-hidden="true">
-            👂
+            <IcoonLuidspreker />
           </div>
           <p className="vraag">Luister goed!</p>
         </>

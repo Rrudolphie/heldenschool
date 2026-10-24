@@ -1,28 +1,94 @@
 // Alle figuren worden in code getekend (SVG), zodat ze scherp zijn en makkelijk aan te passen.
-import { useId } from 'react'
+// De helden hebben heldhaftige verhoudingen (breed, gespierd, kleiner hoofd) met schaduw en glans.
+import { type ReactNode, useId } from 'react'
 import { type IjzerPak, type Pak, PAKKEN, type SpinPak } from './pakken'
 import type { HeldId } from './opslag'
 
 export type Humeur = 'normaal' | 'blij' | 'denk'
 
-const LIJN = '#111827'
+const LIJN = '#1b1f2e'
+
+type Punt = [number, number]
+
+/** Houding van de armen: [schouder, elleboog, hand] per arm. */
+const ARMEN: Record<Humeur, { links: Punt[]; rechts: Punt[] }> = {
+  // handen in de zij
+  normaal: { links: [[57, 100], [36, 140], [70, 170]], rechts: [[143, 100], [164, 140], [130, 170]] },
+  // vuist omhoog
+  blij: { links: [[57, 100], [36, 140], [70, 170]], rechts: [[143, 100], [168, 66], [158, 26]] },
+  // hand aan de kin
+  denk: { links: [[57, 100], [36, 140], [70, 170]], rechts: [[143, 100], [152, 146], [114, 82]] },
+}
+
+const pad = (punten: Punt[]) => `M${punten.map((p) => p.join(' ')).join(' L')}`
+
+/** Een gespierde arm als dikke lijnen: bovenarm, onderarm en hand, met een glanslijn. */
+function Arm({
+  punten,
+  boven,
+  onder,
+  hand,
+  extra,
+}: {
+  punten: Punt[]
+  boven: string
+  onder: string
+  hand: string
+  extra?: ReactNode
+}) {
+  const [s, e, h] = punten
+  return (
+    <g fill="none" strokeLinecap="round" strokeLinejoin="round" className="arm">
+      <path d={pad([s, e])} stroke={LIJN} strokeWidth={25} />
+      <path d={pad([e, h])} stroke={LIJN} strokeWidth={22} />
+      <path d={pad([s, e])} stroke={boven} strokeWidth={20} />
+      <path d={pad([e, h])} stroke={onder} strokeWidth={17} />
+      <path d={pad([s, e])} stroke="#fff" strokeOpacity={0.22} strokeWidth={5} transform="translate(-3 -2)" />
+      <circle cx={h[0]} cy={h[1]} r={11} fill={hand} stroke={LIJN} strokeWidth={2.5} />
+      {extra}
+    </g>
+  )
+}
+
+/** Gedeelde verlopen: licht van linksboven, schaduw rechtsonder. */
+function Licht({ id }: { id: string }) {
+  return (
+    <>
+      <linearGradient id={`schaduw-${id}`} x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stopColor="#fff" stopOpacity={0.28} />
+        <stop offset="0.45" stopColor="#fff" stopOpacity={0} />
+        <stop offset="1" stopColor="#000" stopOpacity={0.28} />
+      </linearGradient>
+      <radialGradient id={`glans-${id}`} cx="0.35" cy="0.3" r="0.7">
+        <stop offset="0" stopColor="#fff" stopOpacity={0.45} />
+        <stop offset="0.5" stopColor="#fff" stopOpacity={0} />
+      </radialGradient>
+    </>
+  )
+}
+
+// gedeelde vormen
+const ROMP = 'M57 92 Q100 78 143 92 L136 150 Q118 172 112 182 L88 182 Q82 172 64 150 Z'
+const HEUP = 'M76 178 L124 178 L130 202 L70 202 Z'
+const BEEN_L = 'M71 196 L100 196 L94 248 L90 290 L66 290 L68 248 Z'
+const BEEN_R = 'M100 196 L129 196 L132 248 L134 290 L110 290 L106 248 Z'
 
 /** Webpatroon over een vorm: lijnen vanuit het midden + kringen. */
-function Web({ cx, cy, r, clip, kleur }: { cx: number; cy: number; r: number; clip: string; kleur: string }) {
-  const stralen = Array.from({ length: 12 }, (_, i) => {
-    const a = (i / 12) * Math.PI * 2
+function Web({ cx, cy, r, clip, kleur, dik = 1 }: { cx: number; cy: number; r: number; clip: string; kleur: string; dik?: number }) {
+  const stralen = Array.from({ length: 14 }, (_, i) => {
+    const a = (i / 14) * Math.PI * 2
     return <line key={i} x1={cx} y1={cy} x2={cx + Math.cos(a) * r} y2={cy + Math.sin(a) * r} />
   })
-  const kringen = [0.25, 0.5, 0.75, 1].map((f) => <circle key={f} cx={cx} cy={cy} r={r * f} />)
+  const kringen = [0.2, 0.4, 0.6, 0.8, 1].map((f) => <circle key={f} cx={cx} cy={cy} r={r * f} />)
   return (
-    <g clipPath={`url(#${clip})`} stroke={kleur} strokeWidth={1.4} fill="none" opacity={0.55}>
+    <g clipPath={`url(#${clip})`} stroke={kleur} strokeWidth={dik} fill="none" opacity={0.5}>
       {stralen}
       {kringen}
     </g>
   )
 }
 
-/** Kleine spin op de borst. */
+/** Spin op de borst. */
 function Embleem({ x, y, s = 1, kleur }: { x: number; y: number; s?: number; kleur: string }) {
   return (
     <g transform={`translate(${x} ${y}) scale(${s})`} stroke={kleur} strokeWidth={2.2} strokeLinecap="round" fill="none">
@@ -36,9 +102,38 @@ function Embleem({ x, y, s = 1, kleur }: { x: number; y: number; s?: number; kle
 
 type HeldProps = { humeur?: Humeur; pak: Pak; className?: string }
 
-/** Tekent de held die bij het pak hoort (spinnenheld of ijzerheld). */
-export function Held({ pak, ...rest }: HeldProps) {
-  return pak.held === 'spin' ? <SpinHeld pak={pak} {...rest} /> : <IjzerHeld pak={pak} {...rest} />
+// ---------- AI-plaatjes (public/beeld/, gemaakt met scripts/maak-beeld.py) ----------
+
+let beelden = new Set<string>()
+
+/** Laad de lijst met beschikbare plaatjes (één keer bij het opstarten). */
+export async function laadBeelden() {
+  try {
+    beelden = new Set(await (await fetch('./beeld/index.json')).json())
+  } catch {
+    // nog geen plaatjes: dan de getekende helden
+  }
+}
+
+export const heeftBeeld = (naam: string) => beelden.has(naam)
+
+/** Toont de held: het AI-plaatje als dat er is, anders de getekende versie. */
+export function Held({ pak, humeur = 'normaal', className = '' }: HeldProps) {
+  const foto = `held-${pak.held}-${pak.id}-${humeur}.webp`
+  if (heeftBeeld(foto))
+    return (
+      <img
+        src={`./beeld/${foto}`}
+        className={`held held-foto held-${humeur} ${className}`}
+        alt={pak.held === 'spin' ? 'Spinnenheld' : 'IJzerheld'}
+        draggable={false}
+      />
+    )
+  return pak.held === 'spin' ? (
+    <SpinHeld pak={pak} humeur={humeur} className={className} />
+  ) : (
+    <IjzerHeld pak={pak} humeur={humeur} className={className} />
+  )
 }
 
 export const standaardPak = (held: HeldId) => PAKKEN[held][0]
@@ -46,59 +141,60 @@ export const standaardPak = (held: HeldId) => PAKKEN[held][0]
 function SpinHeld({ humeur = 'normaal', pak, className = '' }: HeldProps & { pak: SpinPak }) {
   // unieke namen, zodat meerdere helden op één scherm (kledingkast) elkaar niet storen
   const id = useId().replace(/:/g, '')
-  const hoofdClip = `hoofd-${id}`
-  const lijfClip = `lijf-${id}`
   const { hoofd, zijkant, web, embleem } = pak
-  const armHoek = humeur === 'blij' ? 150 : humeur === 'denk' ? 35 : 18
+  const armen = ARMEN[humeur]
   const ogen =
     humeur === 'blij'
-      ? // blije, iets dichtgeknepen ogen
-        ['M94 72 C86 58, 66 52, 54 56 C58 70, 76 78, 94 72 Z', 'M106 72 C114 58, 134 52, 146 56 C142 70, 124 78, 106 72 Z']
-      : ['M94 74 C86 50, 64 42, 52 48 C54 70, 74 88, 94 74 Z', 'M106 74 C114 50, 136 42, 148 48 C146 70, 126 88, 106 74 Z']
+      ? ['M98 47 C94 39, 83 36, 77 39 C79 46, 87 51, 98 47 Z', 'M102 47 C106 39, 117 36, 123 39 C121 46, 113 51, 102 47 Z']
+      : humeur === 'denk'
+        ? ['M98 48 C94 37, 82 33, 76 37 C77 46, 86 54, 98 48 Z', 'M102 46 C106 41, 117 39, 123 41 C121 47, 113 50, 102 46 Z']
+        : ['M98 48 C94 36, 82 32, 76 36 C77 46, 86 54, 98 48 Z', 'M102 48 C106 36, 118 32, 124 36 C123 46, 114 54, 102 48 Z']
 
   return (
-    <svg viewBox="0 0 200 250" className={`held held-${humeur} ${className}`} role="img" aria-label="Spinnenheld">
+    <svg viewBox="0 0 200 300" className={`held held-${humeur} ${className}`} role="img" aria-label="Spinnenheld">
       <defs>
-        <clipPath id={hoofdClip}>
-          <ellipse cx={100} cy={70} rx={58} ry={62} />
+        <Licht id={id} />
+        <clipPath id={`hoofd-${id}`}>
+          <ellipse cx={100} cy={46} rx={24} ry={28} />
         </clipPath>
-        <clipPath id={lijfClip}>
-          <path d="M60 128 Q100 116 140 128 L146 208 Q100 220 54 208 Z" />
+        <clipPath id={`borst-${id}`}>
+          <path d="M66 92 Q100 82 134 92 L126 150 Q110 170 104 182 L96 182 Q90 170 74 150 Z" />
         </clipPath>
       </defs>
 
-      {/* benen */}
-      <rect x={66} y={196} width={28} height={44} rx={10} fill={zijkant} stroke={LIJN} strokeWidth={3} />
-      <rect x={106} y={196} width={28} height={44} rx={10} fill={zijkant} stroke={LIJN} strokeWidth={3} />
-      <rect x={63} y={226} width={34} height={18} rx={8} fill={hoofd} stroke={LIJN} strokeWidth={3} />
-      <rect x={103} y={226} width={34} height={18} rx={8} fill={hoofd} stroke={LIJN} strokeWidth={3} />
+      {/* benen met laarzen */}
+      <path d={HEUP} fill={zijkant} stroke={LIJN} strokeWidth={2.5} />
+      <path d={BEEN_L} fill={zijkant} stroke={LIJN} strokeWidth={2.5} />
+      <path d={BEEN_R} fill={zijkant} stroke={LIJN} strokeWidth={2.5} />
+      <path d="M67 256 L93 256 L90 290 L66 290 Z M107 256 L133 256 L134 290 L110 290 Z" fill={hoofd} stroke={LIJN} strokeWidth={2.5} />
+      <path d={`${BEEN_L} ${BEEN_R}`} fill={`url(#schaduw-${id})`} />
+      <path d="M86 205 Q84 228 82 246 M114 205 Q116 228 118 246" stroke={LIJN} strokeOpacity={0.25} strokeWidth={1.5} fill="none" />
+
+      {/* romp: zijkanten, rood borstpaneel met web, spin */}
+      <path d={ROMP} fill={zijkant} stroke={LIJN} strokeWidth={2.5} />
+      <path d="M66 92 Q100 82 134 92 L126 150 Q110 170 104 182 L96 182 Q90 170 74 150 Z" fill={hoofd} />
+      <Web cx={100} cy={112} r={80} clip={`borst-${id}`} kleur={web} />
+      <path d={ROMP} fill={`url(#schaduw-${id})`} stroke={LIJN} strokeWidth={2.5} />
+      <path d="M76 122 Q88 131 100 124 Q112 131 124 122" stroke={LIJN} strokeOpacity={0.3} strokeWidth={1.6} fill="none" />
+      <path d="M92 140 L108 140 M93 152 L107 152 M95 164 L105 164" stroke={LIJN} strokeOpacity={0.18} strokeWidth={1.4} />
+      <Embleem x={100} y={110} s={1.25} kleur={embleem} />
 
       {/* armen */}
-      <g className="arm arm-links" style={{ transform: `rotate(${armHoek}deg)`, transformOrigin: '62px 138px' }}>
-        <rect x={50} y={132} width={24} height={66} rx={12} fill={zijkant} stroke={LIJN} strokeWidth={3} />
-        <circle cx={62} cy={200} r={13} fill={hoofd} stroke={LIJN} strokeWidth={3} />
-      </g>
-      <g className="arm arm-rechts" style={{ transform: `rotate(${-armHoek}deg)`, transformOrigin: '138px 138px' }}>
-        <rect x={126} y={132} width={24} height={66} rx={12} fill={zijkant} stroke={LIJN} strokeWidth={3} />
-        <circle cx={138} cy={200} r={13} fill={hoofd} stroke={LIJN} strokeWidth={3} />
-      </g>
+      <Arm punten={armen.links} boven={hoofd} onder={hoofd} hand={hoofd} />
+      <Arm punten={armen.rechts} boven={hoofd} onder={hoofd} hand={hoofd} />
+      <circle cx={57} cy={100} r={15} fill={hoofd} stroke={LIJN} strokeWidth={2.5} />
+      <circle cx={143} cy={100} r={15} fill={hoofd} stroke={LIJN} strokeWidth={2.5} />
+      <circle cx={57} cy={100} r={15} fill={`url(#glans-${id})`} />
+      <circle cx={143} cy={100} r={15} fill={`url(#glans-${id})`} />
 
-      {/* lijf: zijkanten, midden met web */}
-      <path d="M60 128 Q100 116 140 128 L146 208 Q100 220 54 208 Z" fill={zijkant} stroke={LIJN} strokeWidth={3} />
-      <path d="M72 124 Q100 118 128 124 L132 210 Q100 218 68 210 Z" fill={hoofd} />
-      <Web cx={100} cy={150} r={70} clip={lijfClip} kleur={web} />
-      <path d="M60 128 Q100 116 140 128 L146 208 Q100 220 54 208 Z" fill="none" stroke={LIJN} strokeWidth={3} />
-      <rect x={58} y={194} width={84} height={10} rx={4} fill={hoofd} stroke={LIJN} strokeWidth={2.5} />
-      <Embleem x={100} y={160} s={1.3} kleur={embleem} />
-
-      {/* hoofd */}
-      <ellipse cx={100} cy={70} rx={58} ry={62} fill={hoofd} />
-      <Web cx={100} cy={78} r={80} clip={hoofdClip} kleur={web} />
-      <ellipse cx={100} cy={70} rx={58} ry={62} fill="none" stroke={LIJN} strokeWidth={4} />
+      {/* hals en hoofd */}
+      <rect x={91} y={66} width={18} height={18} rx={6} fill={hoofd} stroke={LIJN} strokeWidth={2.5} />
+      <ellipse cx={100} cy={46} rx={24} ry={28} fill={hoofd} stroke={LIJN} strokeWidth={2.5} />
+      <Web cx={100} cy={50} r={34} clip={`hoofd-${id}`} kleur={web} dik={0.8} />
+      <ellipse cx={100} cy={46} rx={24} ry={28} fill={`url(#glans-${id})`} />
       {ogen.map((d) => (
-        <path key={d} d={d} fill="#fff" stroke={LIJN} strokeWidth={5} strokeLinejoin="round" />
+        <path key={d} d={d} fill="#fff" stroke={LIJN} strokeWidth={3} strokeLinejoin="round" />
       ))}
-      {humeur === 'denk' && <path d="M84 104 Q100 98 116 104" stroke={web} strokeWidth={3} fill="none" strokeLinecap="round" />}
     </svg>
   )
 }
@@ -107,19 +203,22 @@ function IjzerHeld({ humeur = 'normaal', pak, className = '' }: HeldProps & { pa
   const id = useId().replace(/:/g, '')
   const gloed = `gloed-${id}`
   const { harnas, accent, licht } = pak
-  const armHoek = humeur === 'blij' ? 150 : humeur === 'denk' ? 35 : 18
+  const armen = ARMEN[humeur]
+  const lichtGlow = { filter: `url(#${gloed})` }
   const ogen =
     humeur === 'blij'
-      ? // blije, omhoog gebogen ogen
-        ['M68 78 Q80 68 93 77 L91 81 Q80 74 70 82 Z', 'M132 78 Q120 68 107 77 L109 81 Q120 74 130 82 Z']
-      : ['M67 70 L93 75 L91 82 L69 78 Z', 'M133 70 L107 75 L109 82 L131 78 Z']
-  const lichtGlow = { filter: `url(#${gloed})` }
+      ? ['M86 48 Q91 43 97 47 L96 50 Q91 47 87 51 Z', 'M114 48 Q109 43 103 47 L104 50 Q109 47 113 51 Z']
+      : humeur === 'denk'
+        ? ['M86 44 L97 46 L96 50 L87 48 Z', 'M114 46 L103 47 L104 49.5 L113 49 Z']
+        : ['M86 44 L97 46 L96 50 L87 48 Z', 'M114 44 L103 46 L104 50 L113 48 Z']
+  const palm = (h: Punt) => <circle cx={h[0]} cy={h[1]} r={4.5} fill={licht} style={lichtGlow} />
 
   return (
-    <svg viewBox="0 0 200 250" className={`held held-${humeur} ${className}`} role="img" aria-label="IJzerheld">
+    <svg viewBox="0 0 200 300" className={`held held-${humeur} ${className}`} role="img" aria-label="IJzerheld">
       <defs>
-        <filter id={gloed} x="-50%" y="-50%" width="200%" height="200%">
-          <feGaussianBlur stdDeviation="2.5" result="b" />
+        <Licht id={id} />
+        <filter id={gloed} x="-80%" y="-80%" width="260%" height="260%">
+          <feGaussianBlur stdDeviation="2.2" result="b" />
           <feMerge>
             <feMergeNode in="b" />
             <feMergeNode in="SourceGraphic" />
@@ -127,47 +226,49 @@ function IjzerHeld({ humeur = 'normaal', pak, className = '' }: HeldProps & { pa
         </filter>
       </defs>
 
-      {/* benen: gouden scheenplaten, laarzen in harnaskleur */}
-      <rect x={66} y={196} width={28} height={44} rx={10} fill={accent} stroke={LIJN} strokeWidth={3} />
-      <rect x={106} y={196} width={28} height={44} rx={10} fill={accent} stroke={LIJN} strokeWidth={3} />
-      <rect x={63} y={226} width={34} height={18} rx={8} fill={harnas} stroke={LIJN} strokeWidth={3} />
-      <rect x={103} y={226} width={34} height={18} rx={8} fill={harnas} stroke={LIJN} strokeWidth={3} />
+      {/* benen: gouden dijen, rode schenen en laarzen */}
+      <path d={HEUP} fill={harnas} stroke={LIJN} strokeWidth={2.5} />
+      <path d={BEEN_L} fill={harnas} stroke={LIJN} strokeWidth={2.5} />
+      <path d={BEEN_R} fill={harnas} stroke={LIJN} strokeWidth={2.5} />
+      <path d="M71 200 L99 200 L96 236 L69 236 Z M101 200 L129 200 L131 236 L104 236 Z" fill={accent} stroke={LIJN} strokeWidth={2} />
+      <path d="M69 242 Q81 238 95 242 M105 242 Q119 238 131 242" stroke={LIJN} strokeWidth={2} fill="none" />
+      <path d={`${BEEN_L} ${BEEN_R}`} fill={`url(#schaduw-${id})`} />
 
-      {/* armen met handpalm-lampjes */}
-      <g className="arm arm-links" style={{ transform: `rotate(${armHoek}deg)`, transformOrigin: '62px 138px' }}>
-        <rect x={50} y={132} width={24} height={66} rx={12} fill={harnas} stroke={LIJN} strokeWidth={3} />
-        <rect x={52} y={160} width={20} height={10} rx={4} fill={accent} stroke={LIJN} strokeWidth={2} />
-        <circle cx={62} cy={200} r={13} fill={harnas} stroke={LIJN} strokeWidth={3} />
-        <circle cx={62} cy={203} r={5} fill={licht} style={lichtGlow} />
-      </g>
-      <g className="arm arm-rechts" style={{ transform: `rotate(${-armHoek}deg)`, transformOrigin: '138px 138px' }}>
-        <rect x={126} y={132} width={24} height={66} rx={12} fill={harnas} stroke={LIJN} strokeWidth={3} />
-        <rect x={128} y={160} width={20} height={10} rx={4} fill={accent} stroke={LIJN} strokeWidth={2} />
-        <circle cx={138} cy={200} r={13} fill={harnas} stroke={LIJN} strokeWidth={3} />
-        <circle cx={138} cy={203} r={5} fill={licht} style={lichtGlow} />
-      </g>
-
-      {/* lijf: harnas met gouden buikplaten en een gloeiende borstlamp */}
-      <path d="M60 128 Q100 116 140 128 L146 208 Q100 220 54 208 Z" fill={harnas} stroke={LIJN} strokeWidth={3} />
-      <path d="M74 134 Q100 128 126 134 L122 146 Q100 142 78 146 Z" fill={accent} stroke={LIJN} strokeWidth={2} />
-      {[176, 190].map((y) => (
+      {/* romp met gouden kraag, buikplaten, riem en gloeiende borstlamp */}
+      <path d={ROMP} fill={harnas} stroke={LIJN} strokeWidth={2.5} />
+      <path d="M72 94 Q100 86 128 94 L124 104 Q100 98 76 104 Z" fill={accent} stroke={LIJN} strokeWidth={2} />
+      <path d="M70 110 Q84 104 96 110 L94 130 Q82 134 72 128 Z M130 110 Q116 104 104 110 L106 130 Q118 134 128 128 Z" fill="none" stroke={LIJN} strokeOpacity={0.35} strokeWidth={1.6} />
+      {[140, 153, 166].map((y) => (
         <g key={y}>
-          <rect x={80} y={y} width={18} height={11} rx={4} fill={accent} stroke={LIJN} strokeWidth={2} />
-          <rect x={102} y={y} width={18} height={11} rx={4} fill={accent} stroke={LIJN} strokeWidth={2} />
+          <rect x={86} y={y} width={13} height={10} rx={3} fill={accent} stroke={LIJN} strokeWidth={1.6} />
+          <rect x={101} y={y} width={13} height={10} rx={3} fill={accent} stroke={LIJN} strokeWidth={1.6} />
         </g>
       ))}
-      <rect x={58} y={200} width={84} height={9} rx={4} fill={accent} stroke={LIJN} strokeWidth={2.5} />
-      <circle cx={100} cy={160} r={13} fill="#e5e7eb" stroke={LIJN} strokeWidth={3} />
-      <circle cx={100} cy={160} r={8} fill={licht} style={lichtGlow} />
+      <rect x={76} y={177} width={48} height={8} rx={3} fill={accent} stroke={LIJN} strokeWidth={2} />
+      <path d={ROMP} fill={`url(#schaduw-${id})`} />
+      <circle cx={100} cy={118} r={10} fill="#e5e7eb" stroke={LIJN} strokeWidth={2.5} />
+      <circle cx={100} cy={118} r={6.5} fill={licht} style={lichtGlow} />
+
+      {/* armen: rood harnas, gouden ellebogen, gloeiende handpalmen */}
+      <Arm punten={armen.links} boven={harnas} onder={harnas} hand={harnas} extra={palm(armen.links[2])} />
+      <Arm punten={armen.rechts} boven={harnas} onder={harnas} hand={harnas} extra={palm(armen.rechts[2])} />
+      <circle cx={armen.links[1][0]} cy={armen.links[1][1]} r={6} fill={accent} stroke={LIJN} strokeWidth={1.8} />
+      <circle cx={armen.rechts[1][0]} cy={armen.rechts[1][1]} r={6} fill={accent} stroke={LIJN} strokeWidth={1.8} />
+      <circle cx={57} cy={100} r={16} fill={harnas} stroke={LIJN} strokeWidth={2.5} />
+      <circle cx={143} cy={100} r={16} fill={harnas} stroke={LIJN} strokeWidth={2.5} />
+      <circle cx={57} cy={100} r={16} fill={`url(#glans-${id})`} />
+      <circle cx={143} cy={100} r={16} fill={`url(#glans-${id})`} />
 
       {/* helm met gouden gezichtsmasker */}
-      <path d="M44 72 Q44 10 100 10 Q156 10 156 72 Q156 118 130 128 L70 128 Q44 118 44 72 Z" fill={harnas} stroke={LIJN} strokeWidth={4} />
-      <path d="M60 54 Q100 42 140 54 L137 100 Q128 122 100 124 Q72 122 63 100 Z" fill={accent} stroke={LIJN} strokeWidth={3} />
-      <path d="M100 44 L100 56" stroke={LIJN} strokeWidth={2} />
+      <rect x={90} y={66} width={20} height={18} rx={5} fill={accent} stroke={LIJN} strokeWidth={2.5} />
+      <path d="M75 46 Q75 16 100 16 Q125 16 125 46 Q125 70 113 77 L87 77 Q75 70 75 46 Z" fill={harnas} stroke={LIJN} strokeWidth={2.5} />
+      <path d="M83 34 Q100 28 117 34 L115 58 Q111 73 100 74 Q89 73 85 58 Z" fill={accent} stroke={LIJN} strokeWidth={2.2} />
+      <path d="M75 46 Q75 16 100 16 Q125 16 125 46 Q125 70 113 77 L87 77 Q75 70 75 46 Z" fill={`url(#glans-${id})`} />
+      <path d="M100 29 L100 36" stroke={LIJN} strokeWidth={1.6} />
       {ogen.map((d) => (
-        <path key={d} d={d} fill={licht} stroke={LIJN} strokeWidth={2} strokeLinejoin="round" style={lichtGlow} />
+        <path key={d} d={d} fill={licht} stroke={LIJN} strokeWidth={1.4} strokeLinejoin="round" style={lichtGlow} />
       ))}
-      <path d={humeur === 'blij' ? 'M86 106 Q100 114 114 106' : 'M87 108 L113 108'} stroke={LIJN} strokeWidth={3} fill="none" strokeLinecap="round" />
+      <path d={humeur === 'blij' ? 'M93 63 Q100 68 107 63' : 'M93 64 L107 64'} stroke={LIJN} strokeWidth={2} fill="none" strokeLinecap="round" />
     </svg>
   )
 }
@@ -218,13 +319,13 @@ export function Ster({ className = '' }: { className?: string }) {
   )
 }
 
-/** Decoratief spinnenweb voor in de hoek van het scherm. */
+/** Decoratief spinnenweb voor in de hoek van het scherm (kleur via CSS). */
 export function HoekWeb({ className = '' }: { className?: string }) {
   const stralen = Array.from({ length: 7 }, (_, i) => (i / 6) * (Math.PI / 2))
   const ringen = [40, 80, 120, 160, 200]
   return (
     <svg viewBox="0 0 220 220" className={`hoekweb ${className}`} aria-hidden="true">
-      <g stroke="#fff" strokeWidth={2} fill="none" opacity={0.35}>
+      <g stroke="currentColor" strokeWidth={2} fill="none">
         {stralen.map((a) => (
           <line key={a} x1={0} y1={0} x2={Math.cos(a) * 220} y2={Math.sin(a) * 220} />
         ))}

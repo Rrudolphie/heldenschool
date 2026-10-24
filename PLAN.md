@@ -94,3 +94,62 @@ De app wordt breder: rekenen én letters, voor groep 2 en 3. Nieuwe naam: **Held
 3. Letters: beginklank en letter herkennen, met letterraster in het ouderscherm.
 4. Mix-missie.
 5. Woordjes lezen en hakken en plakken (met klankopnames), achter de schakelaar.
+
+---
+
+# Versie 4: natuurlijke stem en strak ontwerp
+
+## Stem
+- **Vooraf gemaakte, natuurlijke stem** in plaats van de robotstem van de iPad. Alle vaste zinnen (ongeveer 500) worden één keer op de pc gemaakt en als geluidjes in de app gezet. Dat werkt offline, kost niets en is samen ongeveer 5 tot 8 MB.
+- **Eerst een stemproef:** proefzinnen met de Microsoft-stemmen (via een Node-hulpprogramma, eenmalig via internet) en met Piper (helemaal lokaal, los programma met Nederlandse stem). De ouder luistert en kiest.
+- **Elke held een eigen stem:** bijvoorbeeld vrolijk voor de spinnenheld en stoer voor de ijzerheld.
+- **Naam van het kind:** de ouder neemt de naam één keer op in het ouderscherm. De helden plakken die achter hun zinnen. De naam staat niet in de openbare app.
+- **Eén spreker met wachtrij:** al het geluid gaat erdoorheen, dus vooraf gemaakte zinnen, eigen opnames, klanken en geluidseffecten. Er klinkt nooit meer iets door elkaar heen; een tik op een antwoord breekt het huidige geluid netjes af.
+- **Eigen opnames** (welkom, complimenten, klanken) blijven werken en gaan voor op de vooraf gemaakte stem.
+- **Zinnen met getallen** (bijv. "3 plus 4") worden als hele zin gemaakt. Voor tot 10 zijn dat er ongeveer 100.
+
+## Ontwerp
+- **Stijl A, rustig modern** (voorlopig; B en C kunnen nog): lichte achtergrond, witte kaarten, kleur alleen waar het telt, geen dikke zwarte randen en geen Comic Sans.
+- **Lettertype Nunito** voor titels en knoppen; de oefenletters blijven in Andika.
+- **Helden opnieuw getekend:** heldhaftige verhoudingen (breed, gespierd, kleiner hoofd), met schaduw en glans, in een stoere houding (handen in de zij). Blij: vuist omhoog. Denken: hand aan de kin.
+- **Strakke eigen icoontjes** in plaats van de emoji-knoppen (huisje, luidspreker, slot, terug).
+- **Achtergrond per held:** rekenen een rode sfeer met subtiele spinnenwebben, letters een gouden sfeer.
+- **Vloeiende overgangen** tussen schermen en opdrachten.
+- **Geluidseffecten:** "pling" bij goed, een zacht "boing" bij fout, "tadaa" bij missie klaar.
+
+## Bouwvolgorde
+1. Stemproef maken en de ouder laten kiezen (per held).
+2. Alle zinnen maken, plus de spreker met wachtrij; de robotstem verdwijnt.
+3. Nieuw ontwerp: kleuren, lettertype, icoontjes, achtergronden en overgangen.
+4. Helden opnieuw tekenen (beide helden en alle pakken).
+5. Geluidseffecten en het opnemen van de naam in het ouderscherm.
+6. Testen en online zetten.
+
+## Stemkeuze (stemproef afgerond)
+- De Microsoft-dienst weigerde de verbinding; Piper klonk niet natuurlijk genoeg.
+- Gekozen: het **AI-stemmodel Chatterbox (meertalig)**, lokaal op de videokaart van de pc (RTX 5060). Het staat in `C:\Users\robbi\Tools\ai-stem` (Python-omgeving `venv`, modelbestanden in `model`).
+- **Spinnenheld:** de standaardstem van Chatterbox. **IJzerheld:** Chatterbox met de klankkleur van de Piper-stem Alex (`stemproef/piper-alex-spin.wav` als voorbeeld).
+- Het script voor de proef staat in `scripts/ai-stemproef.py`.
+
+## Bijsturing versie 4 (na feedback)
+- **Helden:** de in code getekende helden zijn afgekeurd. Nieuwe aanpak: **realistische AI-plaatjes**, gemaakt met een lokaal beeldmodel (Stable Diffusion XL op de videokaart, `C:\Users\robbi\Tools\ai-beeld`). Ze zijn stoer en echt, duidelijk herkenbaar als spinnenheld en ijzerheld, maar geen exacte kopie en zonder officiële logo's, omdat de site openbaar is. Per held: 3 houdingen (stoer, juichen, denken) en de pakken.
+- **Stemmen:** de eerste stemkeuze blijft (spin: standaard, ijzer: Alex), opnieuw ingesproken in een rustiger tempo en gecontroleerd door de spraakherkenner Whisper. Is een poging niet goed, dan volgt een nieuwe; de beste wordt bewaard.
+
+## Verhalen: elke missie een kort avontuur
+- Elke missie heeft een **ondeugende (niet enge) schurk**.
+- **Begin:** een plaatje en een korte inleiding door de held.
+- **Onderweg:** een pad met 10 stappen naar de schurk toe, met een aanmoediging halverwege.
+- **Eind:** een feestplaatje en een slotzin.
+- **Spinnenheld (rekenen):**
+  1. Robot Bolt (stoplichten door elkaar)
+  2. Kat Kladder (ballonnen van het kinderfeest gepikt)
+  3. De Mopperwolk (regen op de kermis)
+  4. Professor Wiebel (bouten uit de brug)
+  5. De Snoepslurper (snoepwinkel leeggezogen)
+- **IJzerheld (letters):**
+  1. Letterdief Lodewijk (letters van het schoolbord)
+  2. De Robotkrab (lichtjes van de haven)
+  3. Mevrouw Mist (mist over de stad)
+  4. De Magneetmuis (trekt fietsen en auto's naar zich toe)
+  5. Kapitein Kriebel (piratenpapegaai met de verstopte schatkist)
+- **Mix-missie:** beide helden samen tegen een van de schurken.

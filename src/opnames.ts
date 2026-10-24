@@ -4,11 +4,16 @@
 export type Opname = { id: string; titel: string; voorbeeld: string }
 
 export const OPNAMES: Opname[] = [
-  { id: 'welkom', titel: 'Welkom', voorbeeld: 'Hoi! Zullen we samen rekenen?' },
-  { id: 'lof1', titel: 'Compliment 1', voorbeeld: 'Super gedaan!' },
-  { id: 'lof2', titel: 'Compliment 2', voorbeeld: 'Wauw, wat knap!' },
-  { id: 'lof3', titel: 'Compliment 3', voorbeeld: 'Jij bent een echte rekenheld!' },
-  { id: 'klaar', titel: 'Missie klaar', voorbeeld: 'Missie klaar! Ik ben trots op je!' },
+  {
+    id: 'naam',
+    titel: 'Naam van je kind',
+    voorbeeld: 'Zeg alleen de naam, vrolijk. De helden plakken hem achter hun zinnen ("Hoi …!", "Dankjewel …!").',
+  },
+  { id: 'welkom', titel: 'Welkom', voorbeeld: 'bijv. "Hoi! Zullen we samen rekenen?"' },
+  { id: 'lof1', titel: 'Compliment 1', voorbeeld: 'bijv. "Super gedaan!"' },
+  { id: 'lof2', titel: 'Compliment 2', voorbeeld: 'bijv. "Wauw, wat knap!"' },
+  { id: 'lof3', titel: 'Compliment 3', voorbeeld: 'bijv. "Jij bent een echte rekenheld!"' },
+  { id: 'klaar', titel: 'Missie klaar', voorbeeld: 'bijv. "Missie klaar! Ik ben trots op je!"' },
 ]
 
 export const MAX_SECONDEN = 5
@@ -107,13 +112,21 @@ export function stopSpeler() {
   speler.pause()
 }
 
-/** Speel een opname af; de promise is klaar als hij uit is. */
+/**
+ * Speel een eigen opname af; de promise is klaar als hij uit is.
+ * Let op: in het spel loopt alles via de wachtrij in stem.ts (speelOpname), niet direct hiermee.
+ */
 export function speel(id: string | Blob): Promise<void> {
   const blob = typeof id === 'string' ? geheugen.get(id) : id
   if (!blob) return Promise.resolve()
   if (huidigeUrl) URL.revokeObjectURL(huidigeUrl)
   huidigeUrl = URL.createObjectURL(blob)
-  speler.src = huidigeUrl
+  return speelBron(huidigeUrl)
+}
+
+/** Speel een geluidsbestand (adres) af met de vaste speler. */
+export function speelBron(bron: string): Promise<void> {
+  speler.src = bron
   return new Promise((klaar) => {
     const einde = () => {
       speler.onended = null
