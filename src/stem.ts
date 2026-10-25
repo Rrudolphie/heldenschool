@@ -52,7 +52,9 @@ export function huidigeBeurt() {
 
 // ---------- wie zegt wat (voor het tekstwolkje) ----------
 
-export type Spreekt = { tekst: string; held: HeldId } | null
+/** Wie er praat: een van de helden, of de schurk (één gekke stem voor alle schurken). */
+export type Spreker = HeldId | 'schurk'
+export type Spreekt = { tekst: string; held: Spreker } | null
 const luisteraars = new Set<(s: Spreekt) => void>()
 
 /** Volg wat er gezegd wordt; geeft een functie terug om te stoppen met volgen. */
@@ -64,13 +66,13 @@ export function volgSpreken(cb: (s: Spreekt) => void) {
 }
 const meld = (s: Spreekt) => luisteraars.forEach((cb) => cb(s))
 
-/** Laat een held een zin zeggen (achteraan in de rij). */
-export function zeg(tekst: string, held: HeldId = 'spin'): Promise<void> {
+/** Laat een held (of de schurk) een zin zeggen (achteraan in de rij). */
+export function zeg(tekst: string, held: Spreker = 'spin'): Promise<void> {
   return inRij(async () => {
     const bestand = zinnen[`${held}|${tekst}`]
     meld({ tekst, held })
     try {
-      await (bestand ? speelBron(`./stem/${bestand}`) : ipadStem(tekst))
+      await (bestand ? speelBron(`./stem/${bestand}`) : ipadStem(tekst, held === 'schurk'))
     } finally {
       meld(null)
     }
@@ -174,14 +176,14 @@ if ('speechSynthesis' in window) {
   speechSynthesis.addEventListener?.('voiceschanged', kiesIpadStem)
 }
 
-function ipadStem(tekst: string): Promise<void> {
+function ipadStem(tekst: string, gek = false): Promise<void> {
   if (!('speechSynthesis' in window)) return Promise.resolve()
   return new Promise((klaar) => {
     const u = new SpeechSynthesisUtterance(tekst)
     u.lang = 'nl-NL'
     if (ipadVoorkeur) u.voice = ipadVoorkeur
     u.rate = 0.95
-    u.pitch = 1.1
+    u.pitch = gek ? 1.6 : 1.1
     let af = false
     const einde = () => {
       if (!af) {

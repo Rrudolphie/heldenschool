@@ -1,7 +1,17 @@
 import { type CSSProperties, useCallback, useEffect, useRef, useState } from 'react'
 import { Held, type Humeur, laadBeelden, Ster } from './figuren'
 import { mixIntro, type Verhaal, VERHALEN, verhalenVan } from './verhalen'
-import { HeldKaart, Reddingsrij, SchurkKaart, Superkracht, useSpreekt, VerhaalAchtergrond, VerhaalBeeld } from './VerhaalWeergave'
+import {
+  HeldKaart,
+  Reddingsrij,
+  SchurkKaart,
+  Schot,
+  Stripmoment,
+  useSpreekt,
+  Vangst,
+  VerhaalAchtergrond,
+  VerhaalBeeld,
+} from './VerhaalWeergave'
 import { IcoonHuis, IcoonLuidspreker, IcoonMix, IcoonShirt, IcoonSlot } from './iconen'
 import { kies, NIVEAU_NAAM, SNEL_MS, SOMMEN_PER_RONDE, verwerk } from './spel'
 import { LETTER_NIVEAU_NAAM } from './letters'
@@ -19,7 +29,7 @@ import {
   zegKlank,
   zegKlanken,
 } from './stem'
-import { AFSCHEID, KRACHT, LOF, LOF_HELD, TELWOORD, TIK, TROOST, Z } from './zinnen'
+import { AANVAL, AFSCHEID, GEVANGEN, LOF, LOF_HELD, PLAAG, TELWOORD, TIK, TROOST, Z } from './zinnen'
 import { nieuwVrij, type Pak, pakVan, volgendPak } from './pakken'
 import { heeftOpname, laadOpnames } from './opnames'
 import {
@@ -385,9 +395,9 @@ function SpelScherm({
   const [goed, setGoed] = useState(false)
   const [melding, setMelding] = useState('')
   const [reactie, setReactie] = useState<'spring' | 'schud' | ''>('')
-  const [schrik, setSchrik] = useState(0) // aantal reddingen: elke redding laat de schurk schrikken
-  const [kracht, setKracht] = useState(false) // superkracht in beeld
-  const reeks = useRef(0) // goed op rij in deze missie (voor de superkracht)
+  const [schrik, setSchrik] = useState(0) // aantal reddingen: bij elke redding schiet de held en struikelt de schurk
+  const [strip, setStrip] = useState('') // strijdkreet van het stripmoment dat in beeld is
+  const [vangst, setVangst] = useState<'net' | 'politie' | null>(null) // het einde: schurk gevangen
   const begonnen = useRef(Date.now()) // wanneer de opdracht verscheen (voor snel en goed)
   const spreekt = useSpreekt()
   const dataRef = useRef(data)
@@ -472,7 +482,6 @@ function SpelScherm({
       effect('boing')
       setHumeur('denk')
       setReactie('schud')
-      reeks.current = 0
       setLicht(0)
       setLichtOptie(null)
       if (eersteKeer) {
@@ -491,7 +500,6 @@ function SpelScherm({
     setSchrik((s) => s + 1)
     setLichtOptie(null)
     onSter(held)
-    reeks.current += 1
     const snel = Date.now() - begonnen.current < SNEL_MS
     let nieuwNiveau = ''
     const nieuw: Partial<HeldData> = { sterren: dataRef.current.helden[held].sterren + 1 }
@@ -511,19 +519,26 @@ function SpelScherm({
       opnames.length && Math.random() < 0.5 ? speelOpname(kies(opnames)) : zeg(kies([...LOF, ...LOF_HELD[held]]), held)
     if (heeftOpname('naam') && Math.random() < 0.3) lof = speelOpname('naam')
     if (nieuwNiveau) lof = zeg(Z.nieuwNiveau(nieuwNiveau), held)
-    if (nr + 1 === SOMMEN_PER_RONDE / 2) lof = zeg(verhaal.halverwege, verhaal.held)
-    // de schurk reageert onderweg
-    if (nr + 1 === 3) lof = zeg(verhaal.reacties[0], verhaal.held)
-    if (nr + 1 === 7) lof = zeg(verhaal.reacties[1], verhaal.held)
-    // superkracht na 3 keer goed op rij
-    if (reeks.current === 3) {
-      reeks.current = 0
-      setKracht(true)
-      setTimeout(() => setKracht(false), 1400)
-      lof = zeg(KRACHT[held], held)
+    // na 3, 6 en 9 keer goed: stripmoment waarin de held de schurk aanvalt, daarna gaat het verhaal verder
+    const stap = nr + 1
+    if (stap % 3 === 0 && stap < SOMMEN_PER_RONDE) {
+      const kreet = AANVAL[held][stap / 3 - 1]
+      setStrip(kreet)
+      const vervolg = [verhaal.reacties[0], verhaal.halverwege, verhaal.reacties[1]][stap / 3 - 1]
+      lof = zeg(kreet, held)
+        .then(() => setStrip(''))
+        .then(() => zeg(vervolg, verhaal.held))
+    }
+    // het einde: de schurk raakt gevangen en de politie neemt hem mee
+    if (stap >= SOMMEN_PER_RONDE) {
+      setVangst('net')
+      zeg(GEVANGEN.held(verhaal.held, verhaal.schurk), verhaal.held)
+      zeg(GEVANGEN.schurk, 'schurk').then(() => setVangst('politie'))
+      lof = zeg(GEVANGEN.politie, verhaal.held).then(() => new Promise((r) => setTimeout(r, 1600)))
     }
 
     lof.then(() => {
+      setStrip('')
       setTimeout(() => {
         if (nr + 1 >= SOMMEN_PER_RONDE) return onKlaar()
         setNr(nr + 1)
@@ -586,7 +601,18 @@ function SpelScherm({
             <LetterOpgave taak={opdracht.taak} licht={licht} />
           )}
         </div>
-        <SchurkKaart verhaal={verhaal} schrik={schrik} geraakt={kracht} verslagen={schrik >= SOMMEN_PER_RONDE} />
+        <SchurkKaart
+          verhaal={verhaal}
+          geraakt={schrik}
+          weg={vangst !== null}
+          spreekt={spreekt}
+          onTik={() => {
+            if (vangst) return
+            stil()
+            zeg(kies(PLAAG), 'schurk')
+          }}
+        />
+        {goed && <Schot key={schrik} held={held} />}
       </section>
 
       <section className={`keuzes ${breed ? 'keuzes-webben' : ''}`} key={nr}>
@@ -609,7 +635,8 @@ function SpelScherm({
         )}
       </section>
 
-      {kracht && <Superkracht held={held} />}
+      {strip && <Stripmoment verhaal={verhaal} pak={pakken[held]} kreet={strip} />}
+      {vangst && <Vangst verhaal={verhaal} fase={vangst} />}
     </main>
   )
 }

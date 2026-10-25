@@ -4,6 +4,7 @@ import type { HeldId } from './opslag'
 import { NIVEAU_NAAM, type Som, vraagTekst } from './spel'
 import { KLANK_UITSPRAAK, LETTER_NIVEAU_NAAM, LETTER_NIVEAUS, letterVraag, type LetterTaak, WOORDEN } from './letters'
 import { PAKKEN } from './pakken'
+import type { Spreker } from './stem'
 import { mixIntro, VERHALEN } from './verhalen'
 
 export const HELD_TITEL: Record<HeldId, string> = { spin: 'de spinnenheld', ijzer: 'de ijzerheld' }
@@ -26,8 +27,26 @@ export const TIK: Record<HeldId, string[]> = {
   spin: ['Hihi, dat kietelt!', 'Hé, ik ben klaar voor actie!', 'Wil je mijn spinnenweb zien?'],
   ijzer: ['Pas op, ik ben van ijzer!', 'Bliep bloep, alle systemen staan aan!', 'Hihi, mijn harnas kietelt!'],
 }
-/** Superkracht na 3 keer goed op rij. */
-export const KRACHT: Record<HeldId, string> = { spin: 'Pats! Spinnenweb!', ijzer: 'Zoef! Laserstraal!' }
+/** Strip-aanval op de schurk na 3, 6 en 9 goede antwoorden. */
+export const AANVAL: Record<HeldId, string[]> = {
+  spin: ['Pats! Spinnenweb!', 'Hup, vastgeplakt!', 'Hier komt mijn web!'],
+  ijzer: ['Zoef! Laserstraal!', 'Bliep! Magneetkracht!', 'IJzerkracht, aan!'],
+}
+/** De schurk plaagt als je op hem tikt (in de gekke schurkenstem). */
+export const PLAAG = [
+  'Hahaha, dat lukt je nooit!',
+  'Je krijgt me toch niet!',
+  'Nananana, ik ben veel te snel!',
+  'Hihi, ik ben lekker ondeugend!',
+  'Probeer me maar te pakken!',
+]
+/** Aan het eind: de schurk zit gevangen en de politie neemt hem mee. */
+export const GEVANGEN = {
+  held: (held: HeldId, schurk: string) =>
+    `Hebbes! ${schurk.replace(/^de /, 'De ')} zit vast in mijn ${held === 'spin' ? 'web' : 'energienet'}!`,
+  schurk: 'Oei! Ik zal nooit meer ondeugend zijn!',
+  politie: 'Daar komt de politie. Tatuu, tatuu!',
+}
 export const AFSCHEID: Record<HeldId, string> = {
   spin: 'Tot de volgende keer, held!',
   ijzer: 'Doei! Kom snel weer oefenen!',
@@ -61,7 +80,7 @@ export const Z = {
   beginMet: 'Welk plaatje begint met',
 }
 
-type Zin = { held: HeldId; tekst: string }
+type Zin = { held: Spreker; tekst: string }
 
 /** Alle sommen die kunnen voorkomen (tot 20). */
 function alleSommen(): Som[] {
@@ -81,7 +100,7 @@ function alleSommen(): Som[] {
 /** De complete lijst, per held, zonder dubbele zinnen. */
 export function alleZinnen(): Zin[] {
   const lijst: Zin[] = []
-  const zeg = (held: HeldId, tekst: string) => lijst.push({ held, tekst })
+  const zeg = (held: Spreker, tekst: string) => lijst.push({ held, tekst })
 
   for (const held of ['spin', 'ijzer'] as HeldId[]) {
     zeg(held, Z.hoi)
@@ -98,7 +117,7 @@ export function alleZinnen(): Zin[] {
       zeg(held, p.praatje)
     }
     zeg(held, Z.opSlot)
-    for (const z of [...TROOST[held], ...TIK[held], KRACHT[held], AFSCHEID[held]]) zeg(held, z)
+    for (const z of [...TROOST[held], ...TIK[held], ...AANVAL[held], AFSCHEID[held], GEVANGEN.politie]) zeg(held, z)
   }
   zeg('spin', Z.openSpin)
   zeg('spin', Z.openSpinVol)
@@ -127,8 +146,11 @@ export function alleZinnen(): Zin[] {
     zeg(v.held, v.halverwege)
     zeg(v.held, v.slot)
     for (const r of v.reacties) zeg(v.held, r)
+    zeg(v.held, GEVANGEN.held(v.held, v.schurk))
     zeg('spin', mixIntro(v))
   }
+  // de schurken
+  for (const z of [...PLAAG, GEVANGEN.schurk]) zeg('schurk', z)
 
   const gezien = new Set<string>()
   return lijst.filter((z) => {

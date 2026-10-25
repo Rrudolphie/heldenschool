@@ -30,8 +30,10 @@ MODEL = Path("C:/Users/robbi/Tools/ai-stem/model")
 # Per held: stemvoorbeeld (None = ingebouwde stem van het model) en expressie.
 STEMMEN = {
     "spin": (None, 0.5),
+    "schurk": (None, 0.9),  # de ingebouwde stem, extra expressief en daarna hoger gezet: een gek schurkenstemmetje
     "ijzer": (PROJECT / "scripts" / "stemvoorbeeld-ijzer.wav", 0.6),
 }
+SCHURK_HOGER = 4  # halve tonen
 CFG = 0.3  # lager = rustiger tempo en duidelijker uitgesproken
 GOED_GENOEG = 0.9  # overeenkomst met de bedoelde tekst waarbij we stoppen met proberen
 MAX_POGINGEN = 4
@@ -117,19 +119,49 @@ def main():
         eind = min(len(wav), int((laatste["end"] + 0.22) * sr))
         return wav[begin:eind]
 
+    def kort_pauzes(wav: np.ndarray, sr: int) -> np.ndarray:
+        """Te lange pauzes tussen woorden (waarin het model soms hoorbaar ademhaalt)
+        vervangen door een korte stilte."""
+        uitslag = oor.transcribe(librosa.resample(wav, orig_sr=sr, target_sr=16000), language="nl", fp16=True,
+                                 word_timestamps=True)
+        woorden = [w for s in uitslag["segments"] for w in s.get("words", [])]
+        stukken, vorige = [], 0
+        for a, b in zip(woorden, woorden[1:]):
+            van = int((a["end"] + 0.06) * sr)  # een klein beetje naklank van het woord laten staan
+            tot = int((b["start"] - 0.05) * sr)
+            if tot - van > int(0.22 * sr):  # gat van meer dan ~0,3 s: inkorten
+                stukken.append(wav[vorige:van])
+                stukken.append(np.zeros(int(0.12 * sr), dtype=wav.dtype))
+                vorige = tot
+        stukken.append(wav[vorige:])
+        return np.concatenate(stukken)
+
+    def pauzes_in_een_keer(wav: np.ndarray, sr: int) -> np.ndarray:
+        """Snelle variant voor bestaande opnames: één keer luisteren en daarmee alleen
+        te lange pauzes tussen woorden inkorten (begin en eind zijn al eerder geknipt)."""
+        uitslag = oor.transcribe(librosa.resample(wav, orig_sr=sr, target_sr=16000), language="nl", fp16=True,
+                                 word_timestamps=True)
+        woorden = [w for s in uitslag["segments"] for w in s.get("words", [])]
+        stukken, vorige = [], 0
+        for a, b in zip(woorden, woorden[1:]):
+            van = int((a["end"] + 0.06) * sr)
+            tot = int((b["start"] - 0.05) * sr)
+            if tot - van > int(0.22 * sr):
+                stukken.append(wav[vorige:van])
+                stukken.append(np.zeros(int(0.12 * sr), dtype=wav.dtype))
+                vorige = tot
+        stukken.append(wav[vorige:])
+        return np.concatenate(stukken)
+
     if knippen:
-        # bestaande opnames bijknippen, zonder opnieuw in te spreken
+        # bestaande opnames bijwerken, zonder opnieuw in te spreken
         for i, z in enumerate(zinnen, 1):
             pad = UIT / z["bestand"]
-            if not pad.exists() or is_klank(z["uitspraak"]):
-                continue
+            if not pad.exists() or is_klank(z["uitspraak"]) or " " not in z["uitspraak"].strip():
+                continue  # losse woorden en klanken hebben geen pauzes tussen woorden
             wav, sr = librosa.load(str(pad), sr=None, mono=True)
-            wav = nabewerken(knip_zin(wav, sr, z["uitspraak"]), sr)
-            sf.write(str(pad), wav, sr, format="MP3")
-            gehoord = luister(wav, sr)
-            score = difflib.SequenceMatcher(None, gewoon(gehoord), gewoon(z["uitspraak"])).ratio()
-            rapport[z["sleutel"]] = {"score": round(score, 2), "gehoord": gehoord.strip()}
-            print(f"geknipt {i}/{len(zinnen)} [{score:.2f}]: {z['tekst']}", flush=True)
+            sf.write(str(pad), nabewerken(pauzes_in_een_keer(wav, sr), sr), sr, format="MP3")
+            print(f"bijgewerkt {i}/{len(zinnen)}: {z['tekst']}", flush=True)
         RAPPORT.write_text(json.dumps(rapport, ensure_ascii=False, indent=1), encoding="utf-8")
         if not te_doen:
             return
@@ -150,9 +182,9 @@ def main():
         eind = min(len(wav), int((doel["end"] + 0.15) * sr))
         return wav[begin:eind], doel["word"]
 
-    # eerst de spinnenheld (ingebouwde stem), daarna de ijzerheld: een stemvoorbeeld
-    # vervangt de ingebouwde stem in het model
-    for held in ("spin", "ijzer"):
+    # eerst de stemmen met de ingebouwde stem (spinnenheld, schurk), daarna de ijzerheld: een
+    # stemvoorbeeld vervangt de ingebouwde stem in het model
+    for held in ("spin", "schurk", "ijzer"):
         voorbeeld, expressie = STEMMEN[held]
         lijst = [z for z in te_doen if z["held"] == held]
         for i, z in enumerate(lijst, 1):
@@ -178,7 +210,7 @@ def main():
                     if wav is None or len(wav) < tts.sr * 0.15:
                         continue
                 elif not is_klank(z["uitspraak"]):
-                    wav = knip_zin(wav, tts.sr, z["uitspraak"])
+                    wav = kort_pauzes(knip_zin(wav, tts.sr, z["uitspraak"]), tts.sr)
                 wav = nabewerken(wav, tts.sr)
                 if is_klank(z["uitspraak"]):
                     beste = (1.0, wav, "(klank)")
@@ -193,6 +225,8 @@ def main():
             if wav is None:
                 print(f"{held} {i}/{len(lijst)}: OVERGESLAGEN {z['tekst']}", flush=True)
                 continue
+            if held == "schurk":  # pas na de controle: Whisper verstaat de gewone stem beter
+                wav = librosa.effects.pitch_shift(wav, sr=tts.sr, n_steps=SCHURK_HOGER)
             sf.write(str(UIT / z["bestand"]), wav, tts.sr, format="MP3")
             rapport[z["sleutel"]] = {"score": round(score, 2), "gehoord": gehoord.strip()}
             RAPPORT.write_text(json.dumps(rapport, ensure_ascii=False, indent=1), encoding="utf-8")

@@ -413,11 +413,32 @@
   "uitspraak": "Pats! Spinnenweb!"
  },
  {
+  "sleutel": "spin|Hup, vastgeplakt!",
+  "bestand": "spin-079etf1.mp3",
+  "held": "spin",
+  "tekst": "Hup, vastgeplakt!",
+  "uitspraak": "Hup, vastgeplakt!"
+ },
+ {
+  "sleutel": "spin|Hier komt mijn web!",
+  "bestand": "spin-1tfkna5.mp3",
+  "held": "spin",
+  "tekst": "Hier komt mijn web!",
+  "uitspraak": "Hier komt mijn web!"
+ },
+ {
   "sleutel": "spin|Tot de volgende keer, held!",
   "bestand": "spin-0x0dj4a.mp3",
   "held": "spin",
   "tekst": "Tot de volgende keer, held!",
   "uitspraak": "Tot de volgende keer, held!"
+ },
+ {
+  "sleutel": "spin|Daar komt de politie. Tatuu, tatuu!",
+  "bestand": "spin-0jkgdds.mp3",
+  "held": "spin",
+  "tekst": "Daar komt de politie. Tatuu, tatuu!",
+  "uitspraak": "Daar komt de politie. Tatuu, tatuu!"
  },
  {
   "sleutel": "ijzer|Hoi",
@@ -819,11 +840,32 @@
   "uitspraak": "Zoef! Laserstraal!"
  },
  {
+  "sleutel": "ijzer|Bliep! Magneetkracht!",
+  "bestand": "ijzer-1cpd03b.mp3",
+  "held": "ijzer",
+  "tekst": "Bliep! Magneetkracht!",
+  "uitspraak": "Bliep! Magneetkracht!"
+ },
+ {
+  "sleutel": "ijzer|IJzerkracht, aan!",
+  "bestand": "ijzer-19wkr2p.mp3",
+  "held": "ijzer",
+  "tekst": "IJzerkracht, aan!",
+  "uitspraak": "IJzerkracht, aan!"
+ },
+ {
   "sleutel": "ijzer|Doei! Kom snel weer oefenen!",
   "bestand": "ijzer-0cvva18.mp3",
   "held": "ijzer",
   "tekst": "Doei! Kom snel weer oefenen!",
   "uitspraak": "Doei! Kom snel weer oefenen!"
+ },
+ {
+  "sleutel": "ijzer|Daar komt de politie. Tatuu, tatuu!",
+  "bestand": "ijzer-1x2fo8a.mp3",
+  "held": "ijzer",
+  "tekst": "Daar komt de politie. Tatuu, tatuu!",
+  "uitspraak": "Daar komt de politie. Tatuu, tatuu!"
  },
  {
   "sleutel": "spin|Zullen we samen een spelletje doen?",
@@ -5376,6 +5418,13 @@
   "uitspraak": "Robot Bolt probeert weg te rollen. Snel, nog een paar!"
  },
  {
+  "sleutel": "spin|Hebbes! Robot Bolt zit vast in mijn web!",
+  "bestand": "spin-01ly2s7.mp3",
+  "held": "spin",
+  "tekst": "Hebbes! Robot Bolt zit vast in mijn web!",
+  "uitspraak": "Hebbes! Robot Bolt zit vast in mijn web!"
+ },
+ {
   "sleutel": "spin|Robot Bolt is weer bezig! De spinnenheld en de ijzerheld gaan samen op missie!",
   "bestand": "spin-1bp7diw.mp3",
   "held": "spin",
@@ -5416,6 +5465,13 @@
   "held": "spin",
   "tekst": "Kat Kladder rent over het dak. We hebben hem bijna!",
   "uitspraak": "Kat Kladder rent over het dak. We hebben hem bijna!"
+ },
+ {
+  "sleutel": "spin|Hebbes! Kat Kladder zit vast in mijn web!",
+  "bestand": "spin-0c0ooab.mp3",
+  "held": "spin",
+  "tekst": "Hebbes! Kat Kladder zit vast in mijn web!",
+  "uitspraak": "Hebbes! Kat Kladder zit vast in mijn web!"
  },
  {
   "sleutel": "spin|Kat Kladder is weer bezig! De spinnenheld en de ijzerheld gaan samen op missie!",
@@ -5460,6 +5516,13 @@
   "uitspraak": "De Mopperwolk wordt steeds kleiner!"
  },
  {
+  "sleutel": "spin|Hebbes! De Mopperwolk zit vast in mijn web!",
+  "bestand": "spin-16s95ab.mp3",
+  "held": "spin",
+  "tekst": "Hebbes! De Mopperwolk zit vast in mijn web!",
+  "uitspraak": "Hebbes! De Mopperwolk zit vast in mijn web!"
+ },
+ {
   "sleutel": "spin|De Mopperwolk is weer bezig! De spinnenheld en de ijzerheld gaan samen op missie!",
   "bestand": "spin-0mgzgqs.mp3",
   "held": "spin",
@@ -5500,6 +5563,13 @@
   "held": "spin",
   "tekst": "Professor Wiebel laat zijn sleutel vallen!",
   "uitspraak": "Professor Wiebel laat zijn sleutel vallen!"
+ },
+ {
+  "sleutel": "spin|Hebbes! Professor Wiebel zit vast in mijn web!",
+  "bestand": "spin-0l5fua9.mp3",
+  "held": "spin",
+  "tekst": "Hebbes! Professor Wiebel zit vast in mijn web!",
+  "uitspraak": "Hebbes! Professor Wiebel zit vast in mijn web!"
  },
  {
   "sleutel": "spin|Professor Wiebel is weer bezig! De spinnenheld en de ijzerheld gaan samen op missie!",
@@ -5544,6 +5614,13 @@
   "uitspraak": "De Snoepslurper zijn slurf raakt in de knoop!"
  },
  {
+  "sleutel": "spin|Hebbes! De Snoepslurper zit vast in mijn web!",
+  "bestand": "spin-172o8dl.mp3",
+  "held": "spin",
+  "tekst": "Hebbes! De Snoepslurper zit vast in mijn web!",
+  "uitspraak": "Hebbes! De Snoepslurper zit vast in mijn web!"
+ },
+ {
   "sleutel": "spin|De Snoepslurper is weer bezig! De spinnenheld en de ijzerheld gaan samen op missie!",
   "bestand": "spin-1np7kg2.mp3",
   "held": "spin",
@@ -5584,6 +5661,13 @@
   "held": "ijzer",
   "tekst": "Letterdief Lodewijk struikelt over een a!",
   "uitspraak": "Letterdief Lodewijk struikelt over een a!"
+ },
+ {
+  "sleutel": "ijzer|Hebbes! Letterdief Lodewijk zit vast in mijn energienet!",
+  "bestand": "ijzer-17e05bx.mp3",
+  "held": "ijzer",
+  "tekst": "Hebbes! Letterdief Lodewijk zit vast in mijn energienet!",
+  "uitspraak": "Hebbes! Letterdief Lodewijk zit vast in mijn energienet!"
  },
  {
   "sleutel": "spin|Letterdief Lodewijk is weer bezig! De spinnenheld en de ijzerheld gaan samen op missie!",
@@ -5628,6 +5712,13 @@
   "uitspraak": "De Robotkrab loopt zijwaarts weg!"
  },
  {
+  "sleutel": "ijzer|Hebbes! De Robotkrab zit vast in mijn energienet!",
+  "bestand": "ijzer-1fgdi2z.mp3",
+  "held": "ijzer",
+  "tekst": "Hebbes! De Robotkrab zit vast in mijn energienet!",
+  "uitspraak": "Hebbes! De Robotkrab zit vast in mijn energienet!"
+ },
+ {
   "sleutel": "spin|De Robotkrab is weer bezig! De spinnenheld en de ijzerheld gaan samen op missie!",
   "bestand": "spin-0ag89fq.mp3",
   "held": "spin",
@@ -5668,6 +5759,13 @@
   "held": "ijzer",
   "tekst": "Mevrouw Mist wordt steeds doorzichtiger!",
   "uitspraak": "Mevrouw Mist wordt steeds doorzichtiger!"
+ },
+ {
+  "sleutel": "ijzer|Hebbes! Mevrouw Mist zit vast in mijn energienet!",
+  "bestand": "ijzer-0tirbmw.mp3",
+  "held": "ijzer",
+  "tekst": "Hebbes! Mevrouw Mist zit vast in mijn energienet!",
+  "uitspraak": "Hebbes! Mevrouw Mist zit vast in mijn energienet!"
  },
  {
   "sleutel": "spin|Mevrouw Mist is weer bezig! De spinnenheld en de ijzerheld gaan samen op missie!",
@@ -5712,6 +5810,13 @@
   "uitspraak": "De Magneetmuis haar magneet begint te wiebelen!"
  },
  {
+  "sleutel": "ijzer|Hebbes! De Magneetmuis zit vast in mijn energienet!",
+  "bestand": "ijzer-08zsewe.mp3",
+  "held": "ijzer",
+  "tekst": "Hebbes! De Magneetmuis zit vast in mijn energienet!",
+  "uitspraak": "Hebbes! De Magneetmuis zit vast in mijn energienet!"
+ },
+ {
   "sleutel": "spin|De Magneetmuis is weer bezig! De spinnenheld en de ijzerheld gaan samen op missie!",
   "bestand": "spin-1m1m609.mp3",
   "held": "spin",
@@ -5754,10 +5859,59 @@
   "uitspraak": "Kapitein Kriebel verliest zijn piratenhoed!"
  },
  {
+  "sleutel": "ijzer|Hebbes! Kapitein Kriebel zit vast in mijn energienet!",
+  "bestand": "ijzer-14edb7v.mp3",
+  "held": "ijzer",
+  "tekst": "Hebbes! Kapitein Kriebel zit vast in mijn energienet!",
+  "uitspraak": "Hebbes! Kapitein Kriebel zit vast in mijn energienet!"
+ },
+ {
   "sleutel": "spin|Kapitein Kriebel is weer bezig! De spinnenheld en de ijzerheld gaan samen op missie!",
   "bestand": "spin-03iohza.mp3",
   "held": "spin",
   "tekst": "Kapitein Kriebel is weer bezig! De spinnenheld en de ijzerheld gaan samen op missie!",
   "uitspraak": "Kapitein Kriebel is weer bezig! De spinnenheld en de ijzerheld gaan samen op missie!"
+ },
+ {
+  "sleutel": "schurk|Hahaha, dat lukt je nooit!",
+  "bestand": "schurk-1rl48rq.mp3",
+  "held": "schurk",
+  "tekst": "Hahaha, dat lukt je nooit!",
+  "uitspraak": "Hahaha, dat lukt je nooit!"
+ },
+ {
+  "sleutel": "schurk|Je krijgt me toch niet!",
+  "bestand": "schurk-0tivlqa.mp3",
+  "held": "schurk",
+  "tekst": "Je krijgt me toch niet!",
+  "uitspraak": "Je krijgt me toch niet!"
+ },
+ {
+  "sleutel": "schurk|Nananana, ik ben veel te snel!",
+  "bestand": "schurk-0q3boi0.mp3",
+  "held": "schurk",
+  "tekst": "Nananana, ik ben veel te snel!",
+  "uitspraak": "Nananana, ik ben veel te snel!"
+ },
+ {
+  "sleutel": "schurk|Hihi, ik ben lekker ondeugend!",
+  "bestand": "schurk-1k3kz1g.mp3",
+  "held": "schurk",
+  "tekst": "Hihi, ik ben lekker ondeugend!",
+  "uitspraak": "Hihi, ik ben lekker ondeugend!"
+ },
+ {
+  "sleutel": "schurk|Probeer me maar te pakken!",
+  "bestand": "schurk-0af1fg1.mp3",
+  "held": "schurk",
+  "tekst": "Probeer me maar te pakken!",
+  "uitspraak": "Probeer me maar te pakken!"
+ },
+ {
+  "sleutel": "schurk|Oei! Ik zal nooit meer ondeugend zijn!",
+  "bestand": "schurk-0zmrykr.mp3",
+  "held": "schurk",
+  "tekst": "Oei! Ik zal nooit meer ondeugend zijn!",
+  "uitspraak": "Oei! Ik zal nooit meer ondeugend zijn!"
  }
 ]

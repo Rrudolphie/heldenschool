@@ -117,15 +117,11 @@ export async function laadBeelden() {
 
 export const heeftBeeld = (naam: string) => beelden.has(naam)
 
-/** De bewegende versie (gemaakt met scripts/maak-film.py) als die er is, anders het stilstaande plaatje. */
-export const levend = (naam: string) => {
-  const anim = naam.replace(/\.webp$/, '.anim.webp')
-  return beelden.has(anim) ? anim : naam
-}
-
-/** Toont de held: het AI-plaatje als dat er is, anders de getekende versie. */
+/** Toont de held: het AI-plaatje (losgeknipt) als dat er is, anders de getekende versie. */
 export function Held({ pak, humeur = 'normaal', className = '' }: HeldProps) {
-  const foto = levend(`held-${pak.held}-${pak.id}-${humeur}.webp`)
+  // houdingen die niet aan de regels voldeden (huid of cape) zijn weggelaten: dan de gewone houding van dat pak
+  let foto = `held-${pak.held}-${pak.id}-${humeur}.webp`
+  if (!heeftBeeld(foto)) foto = `held-${pak.held}-${pak.id}-normaal.webp`
   if (heeftBeeld(foto))
     return (
       <img
@@ -279,7 +275,18 @@ function IjzerHeld({ humeur = 'normaal', pak, className = '' }: HeldProps & { pa
   )
 }
 
-/** Een vrolijk spinnetje om te tellen. */
+/** Kleurtint per spinnetjeskleur (het 3D-spinnetje is paars; een filter geeft de andere kleuren). */
+const TINT: Record<string, number> = {
+  '#7c3aed': 0,
+  '#16a34a': -150,
+  '#ea580c': 110,
+  '#0891b2': -80,
+  '#db2777': 60,
+  '#e11d2a': 90,
+  '#2563eb': -40,
+}
+
+/** Een vrolijk spinnetje om te tellen: het 3D-plaatje als dat er is, anders de tekening. */
 export function Spinnetje({
   kleur = '#7c3aed',
   weg = false,
@@ -291,6 +298,13 @@ export function Spinnetje({
   licht?: boolean
   label?: number
 }) {
+  if (heeftBeeld('spinnetje.webp'))
+    return (
+      <span className={`spin ${weg ? 'spin-weg' : ''} ${licht ? 'spin-licht' : ''}`}>
+        <img src="./beeld/spinnetje.webp" alt="" draggable={false} style={{ filter: `hue-rotate(${TINT[kleur] ?? 0}deg) saturate(1.5) brightness(1.08)` }} />
+        {label !== undefined && <span className="spin-label">{label}</span>}
+      </span>
+    )
   return (
     <span className={`spin ${weg ? 'spin-weg' : ''} ${licht ? 'spin-licht' : ''}`}>
       <svg viewBox="0 0 60 56" aria-hidden="true">

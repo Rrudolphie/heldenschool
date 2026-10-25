@@ -20,15 +20,31 @@ PROJECT = Path(__file__).resolve().parent.parent
 UIT = PROJECT / "public" / "beeld"
 PROEF = PROJECT / "stemproef" / "beeld"
 MODEL = Path("C:/Users/robbi/Tools/ai-beeld/sdxl")
+KNIPMODEL = "C:/Users/robbi/Tools/ai-beeld/birefnet"
 
 STIJLEN = {
     "animatie": "3D animated movie style, highly detailed, cinematic soft lighting, vibrant colors, kid friendly",
     "film": "photorealistic movie still, realistic fabric and metal textures, cinematic lighting, highly detailed, friendly mood",
     "strip": "comic book illustration, bold ink outlines, vibrant flat colors, dynamic superhero comic art, clean",
+    # kinderlijke 3D-tekenfilmstijl, zoals populaire kleuterseries
+    "kleuter": "cute 3D cartoon render, preschool animated TV series style, soft rounded shapes, bright cheerful colors, glossy, adorable, kid friendly",
 }
+
+# helden voor kleuters: jong, groot hoofd (eigen ontwerp, geen kopie).
+# Afspraak: in een pak zie je NOOIT ogen of huid, alleen effen lenzen.
+KLEUTER_HELD = {
+    "spin": "little kid superhero, chibi, big round head, {masker} spider mask with web lines covering the whole face, flat solid white teardrop mask lenses with thick black outline, {kleur} spider suit, spider logo on chest",
+    "ijzer": "little kid superhero, chibi, big round helmet covering the whole face, {kleur} shiny robot armor, round glowing light on the chest, two glowing eye slits",
+}
+KLEUTER_ACHTERGROND = "full body, standing, centered, plain simple light background"
+KLEUTER_ZAAD = {"spin": 300, "ijzer": 301}  # de gekozen proefvarianten (spin 1, ijzer 2)
+KLEUTER_SCHURK = "cute 3D cartoon villain character, {portret}, funny and mischievous, not scary, full body, standing, plain simple light background"
+KLEUTER_SCENE = "{beschrijving}, cute 3D cartoon render, preschool animated TV series style, bright cheerful colors, soft lighting, wide shot"
+SPINNETJE = "one cute tiny cartoon spider with big friendly eyes and a smile, round purple body, eight little legs, 3D cartoon render, preschool style, plain simple light background"
 # de gekozen stijl voor alle plaatjes (na de proef vastgezet)
 STIJL = STIJLEN["strip"]
 NEGATIEF = "text, words, letters, logo, watermark, signature, blurry, deformed, extra limbs, extra fingers, missing limbs, scary, gore, cropped, out of frame"
+KLEUTER_NEGATIEF = NEGATIEF + ", pupils, iris, eyeballs, visible eyes, eyelashes, reflections in lenses, gray lenses, skin, nose, mouth, human face, cape"
 
 HELD = {
     # het masker vooraan: het model leest maar de eerste 77 woorddelen van de opdracht
@@ -46,7 +62,7 @@ PAKKEN = {
         "goud": "gold and red", "ijs": "icy light blue and white", "galaxy": "purple and pink starry", "vuur": "orange and dark red",
     },
     "ijzer": {
-        "klassiek": "red and gold", "zilver": "silver and white", "stealth": "matte black and dark gray with red glowing eyes",
+        "klassiek": "red and gold", "zilver": "silver and white", "stealth": "matte black and dark gray",
         "ruimte": "dark blue and silver", "goud": "shiny gold", "neon": "purple and cyan neon", "lava": "dark red and glowing orange",
     },
 }
@@ -103,7 +119,101 @@ def scene_beeld(pijp, held: str, beschrijving: str, eind: bool, zaad: int, stijl
     return beeld
 
 
+_knipper = None
+
+
+def knip_los(beeld: Image.Image) -> Image.Image:
+    """Knipt de figuur netjes los van de achtergrond met BiRefNet (lokaal, vrije licentie)."""
+    global _knipper
+    import torchvision.transforms as T
+    from transformers import AutoModelForImageSegmentation
+
+    if _knipper is None:
+        _knipper = AutoModelForImageSegmentation.from_pretrained(KNIPMODEL, trust_remote_code=True)
+        _knipper.eval().half()
+    omzetten = T.Compose([T.Resize((1024, 1024)), T.ToTensor(), T.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])])
+    x = omzetten(beeld.convert("RGB")).unsqueeze(0).to("cuda").half()
+    # alleen even op de videokaart: blijft hij er staan, dan past het tekenmodel niet meer en wordt alles traag
+    _knipper.to("cuda")
+    with torch.no_grad():
+        masker = _knipper(x)[-1].sigmoid()[0, 0].float().cpu()
+    _knipper.to("cpu")
+    del x
+    torch.cuda.empty_cache()
+    alfa = T.functional.to_pil_image(masker).resize(beeld.size, Image.LANCZOS)
+    los = beeld.convert("RGBA")
+    los.putalpha(alfa)
+    return los.crop(los.getbbox())
+
+
+def kleuter(pijp, prompt: str, zaad: int, breed: int, hoog: int) -> Image.Image:
+    gen = torch.Generator("cpu").manual_seed(zaad)
+    return pijp(prompt=prompt, negative_prompt=KLEUTER_NEGATIEF, width=breed, height=hoog, num_inference_steps=30,
+                guidance_scale=6.5, generator=gen).images[0]
+
+
+def kleuter_held(pijp, held: str, pak: str, houding: str, zaad: int) -> Image.Image:
+    held_tekst = KLEUTER_HELD[held].format(kleur=PAKKEN[held][pak], masker=MASKER.get(pak, "full red"))
+    # de stijl vooraan: het model leest maar ~77 woorddelen, en "3D" mag er niet af vallen
+    prompt = f"{STIJLEN['kleuter']}, {held_tekst}, {HOUDING[houding]}, {KLEUTER_ACHTERGROND}"
+    los = knip_los(kleuter(pijp, prompt, zaad, 896, 1152))
+    los.thumbnail((520, 700))
+    return los
+
+
+def kleuter_alles(pijp):
+    """Alle plaatjes in de kinderlijke 3D-stijl. Helden, schurken en het spinnetje losgeknipt."""
+    BEELD = UIT
+    for oud in BEELD.glob("*.anim.webp"):  # de flikkerende filmpjes zijn vervallen
+        oud.unlink()
+    klaar_lijst = BEELD / ".kleuter-klaar.json"
+    klaar = set(json.loads(klaar_lijst.read_text())) if klaar_lijst.exists() else set()
+
+    def maak_als_nodig(naam: str, functie):
+        if naam in klaar:
+            return
+        functie().save(BEELD / naam, quality=88)
+        klaar.add(naam)
+        klaar_lijst.write_text(json.dumps(sorted(klaar)))
+        print("klaar:", naam, flush=True)
+
+    maak_als_nodig("spinnetje.webp", lambda: knip_los(kleuter(pijp, SPINNETJE, 5, 1024, 1024)).resize((256, 256)))
+    for held in ("spin", "ijzer"):
+        for pak in PAKKEN[held]:
+            for houding in HOUDING:
+                maak_als_nodig(f"held-{held}-{pak}-{houding}.webp",
+                               lambda h=held, p=pak, ho=houding: kleuter_held(pijp, h, p, ho, KLEUTER_ZAAD[h]))
+    for v in verhalen():
+        def schurk(v=v):
+            los = knip_los(kleuter(pijp, KLEUTER_SCHURK.format(portret=v["schurk"]), 77, 896, 1152))
+            los.thumbnail((440, 600))
+            return los
+        maak_als_nodig(f"schurk-{v['id']}.webp", schurk)
+        for deel in ("begin", "eind"):
+            def scene(v=v, deel=deel):
+                extra = ""
+                if deel == "eind":
+                    extra = ", " + KLEUTER_HELD[v["held"]].format(kleur=PAKKEN[v["held"]]["klassiek"], masker=MASKER["klassiek"]) + " celebrating"
+                beeld = kleuter(pijp, KLEUTER_SCENE.format(beschrijving=v[deel] + extra), 42, 1216, 832)
+                beeld.thumbnail((1100, 760))
+                return beeld
+            maak_als_nodig(f"verhaal-{v['id']}-{deel}.webp", scene)
+    (BEELD / "index.json").write_text(json.dumps(sorted(p.name for p in BEELD.glob("*.webp"))), encoding="utf-8")
+
+
 def main():
+    if "--proef-kleuter" in sys.argv:
+        # de gekozen varianten opnieuw (zonder ogen), strak losgeknipt
+        pijp = laad()
+        PROEF.mkdir(parents=True, exist_ok=True)
+        for variant in range(6):
+            kleuter_held(pijp, "spin", "klassiek", "normaal", 300 + variant).save(PROEF / f"lens-spin-{variant + 1}.webp", quality=90)
+            print("klaar: spin", variant + 1, flush=True)
+        return
+    if "--kleuter" in sys.argv:
+        kleuter_alles(laad())
+        return
+
     proef = "--proef" in sys.argv
     pijp = laad()
     doel = PROEF if proef else UIT

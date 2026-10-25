@@ -3354,5 +3354,93 @@
  "ijzer|Kapitein Kriebel verliest zijn piratenhoed!": {
   "score": 0.95,
   "gehoord": "Kapitein Kleebel verliest zijn piratenhoed."
+ },
+ "spin|Hup, vastgeplakt!": {
+  "score": 0.97,
+  "gehoord": "Hup, vast geplakt."
+ },
+ "spin|Hier komt mijn web!": {
+  "score": 1.0,
+  "gehoord": "Hier komt mijn web."
+ },
+ "spin|Daar komt de politie. Tatuu, tatuu!": {
+  "score": 0.85,
+  "gehoord": "Daar komt de politie. Tattoo, tattoo."
+ },
+ "spin|Hebbes! Robot Bolt zit vast in mijn web!": {
+  "score": 1.0,
+  "gehoord": "Hebbes, Robot Bolt zit vast in mijn web."
+ },
+ "spin|Hebbes! Kat Kladder zit vast in mijn web!": {
+  "score": 0.78,
+  "gehoord": "Kat klater, zit vast in mij met..."
+ },
+ "spin|Hebbes! De Mopperwolk zit vast in mijn web!": {
+  "score": 1.0,
+  "gehoord": "Hebbes, de mopperwolk zit vast in mijn web."
+ },
+ "spin|Hebbes! Professor Wiebel zit vast in mijn web!": {
+  "score": 0.94,
+  "gehoord": "Eppes, professor Wiebel zit vast in mijn web."
+ },
+ "spin|Hebbes! De Snoepslurper zit vast in mijn web!": {
+  "score": 0.89,
+  "gehoord": "Eppes, de snoezleurper zit vast in mijn web."
+ },
+ "schurk|Hahaha, dat lukt je nooit!": {
+  "score": 0.96,
+  "gehoord": "Haha, dat lukt je nooit!"
+ },
+ "schurk|Je krijgt me toch niet!": {
+  "score": 1.0,
+  "gehoord": "Je krijgt me toch niet?"
+ },
+ "schurk|Nananana, ik ben veel te snel!": {
+  "score": 0.93,
+  "gehoord": "Na na na, ik ben veel te snel."
+ },
+ "schurk|Hihi, ik ben lekker ondeugend!": {
+  "score": 0.98,
+  "gehoord": "Hi hi, ik ben lekker ondeugend."
+ },
+ "schurk|Probeer me maar te pakken!": {
+  "score": 0.9,
+  "gehoord": "Kopeer me maar te pakken."
+ },
+ "schurk|Oei! Ik zal nooit meer ondeugend zijn!": {
+  "score": 1.0,
+  "gehoord": "Oei, ik zal nooit meer ondeugend zijn."
+ },
+ "ijzer|Bliep! Magneetkracht!": {
+  "score": 0.97,
+  "gehoord": "Blip, magneetkracht."
+ },
+ "ijzer|IJzerkracht, aan!": {
+  "score": 1.0,
+  "gehoord": "IJzerkracht aan."
+ },
+ "ijzer|Daar komt de politie. Tatuu, tatuu!": {
+  "score": 0.88,
+  "gehoord": "Daar komt de politie. Dat u, dat u."
+ },
+ "ijzer|Hebbes! Letterdief Lodewijk zit vast in mijn energienet!": {
+  "score": 0.97,
+  "gehoord": "Hebbes, letterief Loodewijk, zit vast in mijn energie net."
+ },
+ "ijzer|Hebbes! De Robotkrab zit vast in mijn energienet!": {
+  "score": 1.0,
+  "gehoord": "Hebbes, de robotkrab zit vast in mijn energienet."
+ },
+ "ijzer|Hebbes! Mevrouw Mist zit vast in mijn energienet!": {
+  "score": 1.0,
+  "gehoord": "Hebbes, mevrouw Mist zit vast in mijn energienet."
+ },
+ "ijzer|Hebbes! De Magneetmuis zit vast in mijn energienet!": {
+  "score": 1.0,
+  "gehoord": "Hebbes, de magneetmuis zit vast in mijn energienet."
+ },
+ "ijzer|Hebbes! Kapitein Kriebel zit vast in mijn energienet!": {
+  "score": 0.96,
+  "gehoord": "Hebbers, kapitein Kliebel, zit vast in mijn energie net."
  }
 }

@@ -38,9 +38,12 @@ export function Spinnen({
   )
 }
 
-/** Spingrootte: hoe minder spinnetjes naast elkaar, hoe groter ze worden. */
+/** Spingrootte: hoe minder spinnetjes naast en onder elkaar, hoe groter ze worden.
+ *  Ook de hoogte telt mee, anders vallen bij sommen tot 20 de onderste rijen buiten het blok. */
 const kolommen = (n: number) => Math.min(n, 5)
-const maat = (kol: number) => ({ '--s': `min(calc(var(--breed) / ${Math.max(kol, 1)}), 15vh)` }) as CSSProperties
+const rijen = (n: number) => Math.max(Math.ceil(n / 5), 1)
+const maat = (kol: number, rij: number) =>
+  ({ '--s': `min(calc(var(--breed) / ${Math.max(kol, 1)}), calc(34vh / ${rij * 1.15}), 15vh)` }) as CSSProperties
 
 export function SomOpgave({ som, licht }: { som: Som; licht: number }) {
   switch (som.soort) {
@@ -48,7 +51,7 @@ export function SomOpgave({ som, licht }: { som: Som; licht: number }) {
       return (
         <>
           <p className="vraag">Hoeveel?</p>
-          <div style={maat(kolommen(som.a))}>
+          <div style={maat(kolommen(som.a), rijen(som.a))}>
             <Spinnen aantal={som.a} kleur={som.kleur} licht={licht} />
           </div>
         </>
@@ -67,7 +70,7 @@ export function SomOpgave({ som, licht }: { som: Som; licht: number }) {
           <p className="som">
             {som.a} + {som.b} = ?
           </p>
-          <div className="groepen" style={maat(kolommen(som.a) + kolommen(som.b) + 1)}>
+          <div className="groepen" style={maat(kolommen(som.a) + kolommen(som.b) + 1, Math.max(rijen(som.a), rijen(som.b)))}>
             <Spinnen aantal={som.a} kleur={EERSTE_KLEUR} licht={licht} />
             <span className="teken">+</span>
             <Spinnen aantal={som.b} kleur={TWEEDE_KLEUR} vanaf={som.a} licht={licht} />
@@ -81,7 +84,7 @@ export function SomOpgave({ som, licht }: { som: Som; licht: number }) {
           <p className="som">
             {som.a} − {som.b} = ?
           </p>
-          <div style={maat(kolommen(som.a))}>
+          <div style={maat(kolommen(som.a), rijen(som.a))}>
             <Spinnen aantal={som.a} kleur={som.kleur} weg={som.b} licht={licht} />
           </div>
         </>

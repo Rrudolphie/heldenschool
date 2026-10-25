@@ -198,3 +198,18 @@ De app wordt breder: rekenen én letters, voor groep 2 en 3. Nieuwe naam: **Held
 - "Interactief" betekent: de plaatjes moeten echt bewegen. Daarom maakt het AI-videomodel **Stable Video Diffusion** (lokaal, ca. 4 GB, `C:\Users\robbi\Tools\ai-beeld\svd`) korte bewegende versies, als geanimeerde WebP die heen en terug loopt (ca. 3 seconden).
 - Wat beweegt: de helden in hun stoere houding (alle 14 pakken), de 10 schurken en de 10 beginplaatjes van de avonturen. De app gebruikt de bewegende versie automatisch zodra die bestaat (`*.anim.webp`).
 - Script: `scripts/maak-film.py`.
+
+# Versie 6: kinderlijke 3D-stijl en een echt verhaal
+
+## Beelden
+- Alles opnieuw met het lokale beeldmodel FLUX.1-schnell (scripts/maak-flux.py): één vrolijke 3D-stijl voor helden, schurken, achtergronden, spinnetje en politieauto.
+- Regel: in een pak zie je nooit ogen of huid, en de spinnenheld heeft geen cape. Houdingen waarvoor geen goede versie te vinden was, zijn weggelaten (WEGLATEN); de app toont dan de gewone houding van dat pak.
+- Achtergronden bevatten geen held (het model houdt zich daar niet aan de regels); de app zet het goedgekeurde heldenplaatje erop.
+- Werkwijze: eerst een proef in het echte spelscherm laten zien, pas daarna alles maken.
+
+## Verhaal en interactie
+- Elk goed antwoord: de held springt en schiet een web of laserstraal, de schurk struikelt.
+- Na 3, 6 en 9 goede antwoorden: een stripmoment waarin de held de schurk aanvalt, daarna gaat het verhaal verder.
+- Tikken op de schurk: hij plaagt in een eigen gekke stem (ingebouwde stem, expressief en hoger gezet).
+- Einde: de schurk raakt gevangen (web of energienet) en de politieauto neemt hem mee.
+- De voortgang bovenin is een rij bolletjes; spinnetjes worden kleiner als er veel rijen zijn (sommen tot 20).

@@ -374,13 +374,29 @@ button {
   white-space: nowrap;
 }
 
+/* vaste indeling: held | opdracht | schurk. De opdracht kan nooit iets opzij duwen. */
 .speelveld {
   position: relative;
-  z-index: 1;
+  z-index: 2; /* boven de antwoordknoppen: het tekstwolkje mag eroverheen (tikken gaat er dwars doorheen) */
   min-height: 0;
-  display: flex;
+  display: grid;
+  grid-template-columns: 17vw minmax(0, 1fr) 15vw;
+  grid-template-areas: 'held opgave schurk';
   align-items: center;
   gap: 2vmin;
+}
+.speelveld > .held-kaart {
+  grid-area: held;
+  width: 100%;
+}
+.speelveld > .opgave {
+  grid-area: opgave;
+  min-width: 0;
+  overflow: hidden;
+}
+.speelveld > .schurk-kaart {
+  grid-area: schurk;
+  width: 100%;
 }
 
 .held-klein {
@@ -403,7 +419,7 @@ button {
   gap: 4vmin;
   padding: 3vmin;
   --s: min(10vw, 15vh);
-  --breed: 56vw; /* ruimte voor spinnetjes naast elkaar */
+  --breed: 46vw; /* ruimte voor spinnetjes naast elkaar (middelste kolom) */
   animation: schuif-in 0.35s ease-out;
 }
 
@@ -459,10 +475,12 @@ button {
 .spin:nth-child(2n) {
   animation-delay: -1.2s;
 }
-.spin svg {
+.spin svg,
+.spin img {
   width: 100%;
   height: 100%;
   display: block;
+  object-fit: contain;
 }
 .spin-weg {
   opacity: 0.3;
@@ -589,8 +607,18 @@ button {
 
 /* staand (portret): held boven, kleiner */
 @media (orientation: portrait) {
+  /* staand: held en schurk naast elkaar boven de opdracht */
   .speelveld {
-    flex-direction: column;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto minmax(0, 1fr);
+    grid-template-areas:
+      'held schurk'
+      'opgave opgave';
+  }
+  .speelveld > .held-kaart,
+  .speelveld > .schurk-kaart {
+    width: 26vw;
+    justify-self: center;
   }
   .held-klein {
     height: 18vh;
@@ -658,6 +686,24 @@ button {
   border-radius: 28px;
   box-shadow: var(--schaduw-hoog);
   animation: pop 0.5s ease-out;
+}
+.verhaal-eind {
+  position: relative;
+  overflow: hidden;
+}
+.verhaal-eind > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.verhaal-eind .eind-held,
+.verhaal-eind .eind-held.held-foto {
+  position: absolute;
+  left: 6%;
+  bottom: 2%;
+  height: 82%;
+  width: auto;
+  animation: spring 1.2s ease-in-out infinite;
 }
 .verhaal-reserve {
   display: flex;
@@ -793,6 +839,16 @@ button {
   height: 100%;
   object-fit: cover;
   transition: opacity 0.9s ease;
+  /* langzaam schuiven en zoomen als een camera: levendig zonder flikkeren */
+  animation: camera 24s ease-in-out infinite alternate;
+}
+@keyframes camera {
+  from {
+    transform: scale(1.04) translate(-1%, 0);
+  }
+  to {
+    transform: scale(1.14) translate(1.5%, -1.5%);
+  }
 }
 .achtergrond-sluier {
   position: absolute;
@@ -822,14 +878,25 @@ button {
   gap: 0.8vmin;
 }
 .redding {
-  font-size: clamp(20px, 3.6vmin, 36px);
-  line-height: 1;
-  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
-  transition: filter 0.4s, opacity 0.4s;
+  width: clamp(18px, 3.2vmin, 30px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  transition: background 0.3s;
+}
+.redding svg {
+  width: 75%;
 }
 .redding.kapot {
-  filter: grayscale(1);
-  opacity: 0.35;
+  background: rgba(31, 42, 68, 0.08);
+  box-shadow: inset 0 0 0 2.5px rgba(31, 42, 68, 0.2);
+}
+.spel-spin .redding.gered {
+  background: var(--spin, #e11d2a);
+}
+.spel-ijzer .redding.gered {
+  background: #d97706;
 }
 .redding.net-gered {
   animation: gered 0.7s cubic-bezier(0.3, 1.6, 0.5, 1);
@@ -857,15 +924,41 @@ button {
   align-items: center;
   gap: 0.6vmin;
   align-self: center;
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
-.schurk-kaart img,
+.schurk-lijf {
+  display: block;
+  width: 100%;
+}
+.schurk-kaart:active .schurk-lijf {
+  transform: scale(0.94);
+}
+.schurk-kaart img {
+  width: 100%;
+  max-height: 46vh;
+  object-fit: contain;
+  object-position: bottom;
+  filter: drop-shadow(0 10px 12px rgba(31, 42, 68, 0.25));
+  animation: ondeugend 2.6s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+@keyframes ondeugend {
+  25% {
+    transform: rotate(-3deg) translateY(-0.6vmin);
+  }
+  75% {
+    transform: rotate(3deg);
+  }
+}
 .schurk-reserve {
   width: 100%;
   aspect-ratio: 3 / 4;
-  object-fit: cover;
   border-radius: 20px;
-  box-shadow: var(--schaduw-hoog);
-  border: 4px solid #fff;
   background: var(--kaart);
 }
 .schurk-reserve {
@@ -881,41 +974,85 @@ button {
   padding: 0.2em 0.7em;
   border-radius: 999px;
 }
-.schurk-schrikt {
-  animation: schrik 0.6s ease;
+/* geraakt door het schot: even oplichten en achteruit struikelen (begint als het schot aankomt) */
+.schurk-struikelt {
+  animation: struikel 0.7s 0.3s ease-out;
+  transform-origin: bottom center;
 }
-@keyframes schrik {
-  20% {
-    transform: translateX(-8px) rotate(-4deg);
+@keyframes struikel {
+  15% {
+    transform: translateX(3vw) rotate(14deg);
+    filter: brightness(1.8);
+  }
+  45% {
+    transform: translateX(1.5vw) rotate(-6deg);
+  }
+  70% {
+    transform: translateX(0.5vw) rotate(3deg);
+  }
+}
+.schurk-weg {
+  visibility: hidden; /* de vangst-scène neemt het over */
+}
+.tekstwolk.tekstwolk-schurk {
+  left: auto;
+  right: 4%;
+  top: auto;
+  bottom: calc(100% + 10px);
+  text-align: right;
+}
+.tekstwolk.tekstwolk-schurk::before {
+  left: auto;
+  right: 22px;
+  top: auto;
+  bottom: -20px;
+  border-bottom-color: transparent;
+  border-top: 12px solid var(--inkt);
+}
+
+/* schot bij elk goed antwoord: van de held naar de schurk */
+.schot {
+  position: absolute;
+  z-index: 6;
+  left: 14vw;
+  right: 9vw;
+  top: 42%;
+  pointer-events: none;
+  transform-origin: left center;
+  animation: schot 0.9s ease-out forwards;
+}
+.schot-spin {
+  height: 1.4vmin;
+  border-radius: 999px;
+  background: #fff;
+  box-shadow: 0 0 0 3px var(--inkt), 0 0 14px rgba(255, 255, 255, 0.9);
+}
+.schot-ijzer {
+  height: 1.6vmin;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #fff, #67e8f9, #fff);
+  box-shadow: 0 0 20px 6px rgba(103, 232, 249, 0.8);
+}
+@keyframes schot {
+  0% {
+    transform: scaleX(0);
+    opacity: 1;
   }
   40% {
-    transform: translateX(8px) rotate(4deg);
-  }
-  60% {
-    transform: translateX(-5px) rotate(-2deg);
-  }
-  80% {
-    transform: translateX(5px);
-  }
-}
-.schurk-geraakt img {
-  animation: geraakt 0.25s ease 4;
-}
-@keyframes geraakt {
-  50% {
-    filter: brightness(2.2) saturate(0.3);
-  }
-}
-.schurk-vlucht {
-  animation: vlucht 1.2s ease-in forwards;
-}
-@keyframes vlucht {
-  30% {
-    transform: translateX(-12px) rotate(-6deg);
+    transform: scaleX(1);
+    opacity: 1;
   }
   100% {
-    transform: translateX(60vw) rotate(25deg) scale(0.4);
+    transform: scaleX(1);
     opacity: 0;
+  }
+}
+.held-kaart.spring .held {
+  animation: aanval 0.6s ease-out;
+}
+@keyframes aanval {
+  35% {
+    transform: translate(3vw, -3vmin) rotate(6deg);
   }
 }
 
@@ -941,9 +1078,6 @@ button {
     transform: translateY(-1.2vmin) scale(1.015);
   }
 }
-.held-kaart.spring .held {
-  animation: spring 0.6s ease-out;
-}
 .held-kaart.schud .held {
   animation: schud 0.5s ease;
 }
@@ -959,11 +1093,12 @@ button {
 }
 .tekstwolk {
   position: absolute;
-  left: 78%;
-  top: 6%;
+  left: 6%;
+  top: calc(100% + 10px);
   z-index: 4;
+  pointer-events: none; /* tikken gaat gewoon door naar de knoppen eronder */
   width: max-content;
-  max-width: 34vw;
+  max-width: 30vw;
   background: #fff;
   color: var(--inkt);
   font-size: clamp(15px, 2.6vmin, 24px);
@@ -979,74 +1114,276 @@ button {
 .tekstwolk::before {
   content: '';
   position: absolute;
-  left: -14px;
-  top: 18px;
+  left: 22px;
+  top: -20px;
   border: 8px solid transparent;
-  border-right: 12px solid var(--inkt);
+  border-bottom: 12px solid var(--inkt);
 }
 
-/* superkracht */
-.superkracht {
+/* stripmoment: groot stripvak waarin de held de schurk aanvalt */
+.strip {
   position: absolute;
   inset: 0;
   z-index: 8;
   pointer-events: none;
   display: grid;
   place-items: center;
+  background: rgba(31, 42, 68, 0.35);
+  animation: verschijn 0.2s ease-out;
 }
-.kracht-web {
-  width: 90vmin;
-  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.4));
-  animation: webschot 1.4s ease-out forwards;
+.strip-vak {
+  position: relative;
+  width: min(86vw, 130vh);
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border: 0.9vmin solid var(--inkt);
+  border-radius: 2vmin;
+  box-shadow: 1.4vmin 1.4vmin 0 var(--inkt);
+  transform: rotate(-1.5deg);
+  animation: strip-in 0.35s cubic-bezier(0.3, 1.5, 0.5, 1);
+  background: #fde68a;
 }
-@keyframes webschot {
+@keyframes strip-in {
   0% {
-    transform: scale(0.1) rotate(-30deg);
-    opacity: 0;
+    transform: rotate(-8deg) scale(0.3);
   }
-  30% {
-    opacity: 1;
+}
+.strip-spin {
+  background: radial-gradient(circle at 55% 50%, #fef3c7, #fbbf24);
+}
+.strip-ijzer {
+  background: radial-gradient(circle at 55% 50%, #e0f2fe, #38bdf8);
+}
+/* stripstralen achter de knal */
+.strip-vak::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-conic-gradient(from 0deg at 55% 50%, rgba(255, 255, 255, 0.45) 0 6deg, transparent 6deg 18deg);
+}
+.strip-held,
+.strip-schurk,
+.strip-straal,
+.strip-knal,
+.strip-kreet {
+  position: absolute;
+  z-index: 1;
+}
+.strip-held {
+  left: 4%;
+  bottom: 4%;
+  width: 30%;
+  animation: strip-sprong 0.6s ease-out both;
+}
+.strip-held .held-klein,
+.strip-held .held-klein.held-foto {
+  width: 100%;
+  height: auto;
+  max-height: none;
+}
+@keyframes strip-sprong {
+  0% {
+    transform: translate(-60%, 20%) rotate(-15deg);
+  }
+  70% {
+    transform: translate(8%, -6%) rotate(8deg);
+  }
+}
+.strip-schurk {
+  right: 5%;
+  bottom: 6%;
+  width: 26%;
+  animation: strip-raak 0.9s 0.45s ease-out both;
+  transform-origin: bottom center;
+}
+.strip-schurk img {
+  width: 100%;
+  filter: drop-shadow(0 8px 10px rgba(0, 0, 0, 0.3));
+}
+@keyframes strip-raak {
+  0% {
+    transform: none;
+  }
+  20% {
+    transform: translateX(8%) rotate(18deg);
+    filter: brightness(2);
   }
   100% {
-    transform: scale(1.2) rotate(0deg);
-    opacity: 0;
+    transform: translateX(14%) rotate(12deg);
   }
 }
-.kracht-laser {
-  position: absolute;
-  left: 18vw;
-  right: 14vw;
-  top: 48%;
-  height: 2.4vmin;
+.strip-straal {
+  left: 28%;
+  right: 22%;
+  top: 46%;
+  height: 1.6vmin;
   border-radius: 999px;
-  background: linear-gradient(90deg, #fff, #67e8f9, #fff);
-  box-shadow: 0 0 24px 8px rgba(103, 232, 249, 0.8);
   transform-origin: left center;
-  animation: laser 1.4s ease-out forwards;
+  animation: straal 0.35s 0.25s ease-out both;
 }
-@keyframes laser {
+.strip-web {
+  background: #fff;
+  box-shadow: 0 0 0 3px var(--inkt);
+}
+.strip-laser {
+  height: 2.6vmin;
+  background: linear-gradient(90deg, #fff, #67e8f9, #fff);
+  box-shadow: 0 0 24px 8px rgba(103, 232, 249, 0.9);
+}
+@keyframes straal {
   0% {
     transform: scaleX(0);
   }
-  35% {
-    transform: scaleX(1);
-    opacity: 1;
+}
+.strip-knal {
+  left: 50%;
+  top: 14%;
+  font-size: 11vmin;
+  font-weight: 900;
+  color: #facc15;
+  -webkit-text-stroke: 0.6vmin var(--inkt);
+  paint-order: stroke fill;
+  text-shadow: 0.8vmin 0.8vmin 0 var(--inkt);
+  transform: translateX(-50%) rotate(-8deg);
+  animation: knal 0.5s 0.45s cubic-bezier(0.3, 1.8, 0.5, 1) both;
+}
+@keyframes knal {
+  0% {
+    transform: translateX(-50%) rotate(-8deg) scale(0);
   }
-  100% {
-    transform: scaleX(1);
+}
+.strip-kreet {
+  left: 3%;
+  top: 4%;
+  max-width: 45%;
+  background: #fff;
+  color: var(--inkt);
+  font-size: clamp(16px, 3.4vmin, 32px);
+  font-weight: 900;
+  padding: 0.4em 0.8em;
+  border: 0.5vmin solid var(--inkt);
+  border-radius: 1.6vmin;
+}
+
+/* het einde: de schurk zit gevangen en de politieauto neemt hem mee */
+.vangst .strip-vak {
+  transform: none;
+}
+.vangst-rij {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+.vangst-schurk {
+  position: absolute;
+  left: 34%;
+  bottom: 8%;
+  width: 26%;
+  animation: vangst-schurk-in 0.6s ease-out both;
+}
+.vangst-schurk img {
+  width: 100%;
+  filter: drop-shadow(0 10px 12px rgba(0, 0, 0, 0.3));
+}
+@keyframes vangst-schurk-in {
+  0% {
+    transform: translateX(30vw) scale(0.8);
+  }
+}
+.vangst-net {
+  position: absolute;
+  inset: -12%;
+  width: 124%;
+  height: 124%;
+  filter: drop-shadow(0 0 3px var(--inkt));
+  animation: net-val 0.5s 0.5s cubic-bezier(0.3, 1.4, 0.5, 1) both;
+}
+.vangst-energie {
+  border-radius: 50%;
+  border: 0.8vmin solid #67e8f9;
+  background: radial-gradient(circle, rgba(103, 232, 249, 0.15), rgba(103, 232, 249, 0.45));
+  box-shadow: 0 0 30px 10px rgba(103, 232, 249, 0.7);
+}
+@keyframes net-val {
+  0% {
+    transform: translateY(-60vh) scale(1.6);
     opacity: 0;
   }
 }
+.vangst-auto {
+  position: absolute;
+  left: 105%;
+  bottom: 6%;
+  width: 34%;
+  transition: left 1.6s cubic-bezier(0.2, 0.8, 0.3, 1);
+}
+.vangst-auto img {
+  width: 100%;
+}
+.vangst-auto-reserve {
+  font-size: 20vmin;
+  line-height: 1;
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+}
+.zwaailicht {
+  position: absolute;
+  left: 40%;
+  top: 3%;
+  width: 3vmin;
+  height: 3vmin;
+  border-radius: 50%;
+  opacity: 0.85;
+  animation: zwaai 0.5s steps(1) infinite;
+}
+@keyframes zwaai {
+  0% {
+    background: #3b82f6;
+    box-shadow: 0 0 24px 10px rgba(59, 130, 246, 0.8);
+  }
+  50% {
+    background: #ef4444;
+    box-shadow: 0 0 24px 10px rgba(239, 68, 68, 0.8);
+  }
+}
+/* fase 2: de auto rijdt naar de schurk, daarna rijden ze samen weg */
+.vangst-politie .vangst-auto {
+  left: 58%;
+}
+.vangst-politie .vangst-rij {
+  animation: wegrijden 1.8s 2.2s ease-in forwards;
+}
+@keyframes wegrijden {
+  100% {
+    transform: translateX(-120%);
+  }
+}
+.vangst-tekst {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 6%;
+  translate: -50% 0;
+  font-size: 10vmin;
+  font-weight: 900;
+  color: #facc15;
+  -webkit-text-stroke: 0.5vmin var(--inkt);
+  paint-order: stroke fill;
+  text-shadow: 0.7vmin 0.7vmin 0 var(--inkt);
+  transform: rotate(-4deg);
+  animation: knal-plat 0.5s 0.9s cubic-bezier(0.3, 1.8, 0.5, 1) both;
+}
+@keyframes knal-plat {
+  0% {
+    transform: rotate(-4deg) scale(0);
+  }
+}
 
-/* AI-plaatje van de held: een stripkaart met ronde hoeken */
+/* AI-plaatje van de held: losgeknipt 3D-figuurtje met een zachte schaduw eronder */
 img.held-foto {
-  aspect-ratio: 520 / 760;
   width: auto;
-  object-fit: cover;
-  object-position: top;
-  border-radius: 24px;
-  box-shadow: var(--schaduw-hoog);
-  background: var(--kaart);
+  object-fit: contain;
+  object-position: bottom;
+  filter: drop-shadow(0 10px 12px rgba(31, 42, 68, 0.25));
 }
 .held-klein.held-foto {
   height: min(54vh, 100%);
