@@ -1,0 +1,3383 @@
+{
+ "spin|Hoi": {
+  "score": 0.8,
+  "gehoord": "Ho!"
+ },
+ "spin|Ik ben Super-Kick. Zullen we samen rekenen?": {
+  "score": 0.99,
+  "gehoord": "Ik ben superkick. Zullen we samen rekenen?"
+ },
+ "spin|Hoi! Ik ben Super-Kick. Zullen we samen rekenen?": {
+  "score": 0.99,
+  "gehoord": "Hoi, ik ben Superkick. Zullen we samen rekenen?"
+ },
+ "spin|Super!": {
+  "score": 1.0,
+  "gehoord": "Super."
+ },
+ "spin|Goed gedaan!": {
+  "score": 0.67,
+  "gehoord": "Hoedheraan."
+ },
+ "spin|Wauw, knap!": {
+  "score": 0.82,
+  "gehoord": "Wow, knap."
+ },
+ "spin|Helemaal goed!": {
+  "score": 1.0,
+  "gehoord": "Helemaal goed."
+ },
+ "spin|Top gedaan!": {
+  "score": 1.0,
+  "gehoord": "Top gedaan."
+ },
+ "spin|Goooal!": {
+  "score": 0.8,
+  "gehoord": "Goal."
+ },
+ "spin|Wat een knaller!": {
+  "score": 1.0,
+  "gehoord": "Wat een knaller."
+ },
+ "spin|Jij bent een echte topspeler!": {
+  "score": 1.0,
+  "gehoord": "Jij bent een echte topspeler."
+ },
+ "spin|Je bent naar een nieuw niveau: Tellen!": {
+  "score": 0.91,
+  "gehoord": "Je bent naar een nieuw niveau tellen. Tellen?"
+ },
+ "spin|Je bent naar een nieuw niveau: Cijfers!": {
+  "score": 1.0,
+  "gehoord": "Je bent naar een nieuw niveau, cijfers."
+ },
+ "spin|Je bent naar een nieuw niveau: Plussommen!": {
+  "score": 0.99,
+  "gehoord": "Je bent naar een nieuw niveau, plus sommen."
+ },
+ "spin|Je bent naar een nieuw niveau: Minsommen!": {
+  "score": 0.99,
+  "gehoord": "Je bent naar een nieuw niveau, min sommen."
+ },
+ "spin|Je bent naar een nieuw niveau: Plus tot 20!": {
+  "score": 1.0,
+  "gehoord": "Je bent naar een nieuw niveau plus tot 20."
+ },
+ "spin|Je bent naar een nieuw niveau: Min tot 20!": {
+  "score": 1.0,
+  "gehoord": "Je bent naar een nieuw niveau min tot 20."
+ },
+ "spin|Missie klaar! Je hebt 0 sterren verdiend.": {
+  "score": 0.93,
+  "gehoord": "Misschien klaar, je hebt nul steden verdiend."
+ },
+ "spin|Missie klaar! Je hebt 1 ster verdiend.": {
+  "score": 1.0,
+  "gehoord": "Missie klaar, je hebt 1 ster verdiend."
+ },
+ "spin|Missie klaar! Je hebt 2 sterren verdiend.": {
+  "score": 0.96,
+  "gehoord": "Missie klaar, je hebt twee steden verdiend."
+ },
+ "spin|Missie klaar! Je hebt 3 sterren verdiend.": {
+  "score": 1.0,
+  "gehoord": "Missie klaar, je hebt drie sterren verdiend."
+ },
+ "spin|Missie klaar! Je hebt 4 sterren verdiend.": {
+  "score": 0.95,
+  "gehoord": "Missie klaar, je hebt vier stena verdiend."
+ },
+ "spin|Missie klaar! Je hebt 5 sterren verdiend.": {
+  "score": 0.96,
+  "gehoord": "Missie klaar, je hebt 5 steden verdiend."
+ },
+ "spin|Missie klaar! Je hebt 6 sterren verdiend.": {
+  "score": 1.0,
+  "gehoord": "Missie klaar, je hebt zes sterren verdiend."
+ },
+ "spin|Missie klaar! Je hebt 7 sterren verdiend.": {
+  "score": 1.0,
+  "gehoord": "Missie klaar, je hebt 7 sterren verdiend."
+ },
+ "spin|Missie klaar! Je hebt 8 sterren verdiend.": {
+  "score": 1.0,
+  "gehoord": "Missie klaar, je hebt 8 sterren verdiend."
+ },
+ "spin|Missie klaar! Je hebt 9 sterren verdiend.": {
+  "score": 1.0,
+  "gehoord": "Missie klaar, je hebt 9 sterren verdiend."
+ },
+ "spin|Missie klaar! Je hebt 10 sterren verdiend.": {
+  "score": 0.94,
+  "gehoord": "Missie klaar, je hebt 10 steder verdiend."
+ },
+ "spin|Dankjewel": {
+  "score": 1.0,
+  "gehoord": "Dankjewel."
+ },
+ "spin|Dankjewel, superheld!": {
+  "score": 1.0,
+  "gehoord": "Dankjewel, superheld!"
+ },
+ "spin|En je hebt een nieuw pak vrijgespeeld: Klassiek! Wil je het aantrekken?": {
+  "score": 1.0,
+  "gehoord": "en je hebt een nieuw pak vrijgespeeld klassiek. Wil je het aantrekken?"
+ },
+ "spin|Je draagt nu het pak Klassiek!": {
+  "score": 0.86,
+  "gehoord": "Ik draag nu het bakklassiek."
+ },
+ "spin|Mijn blauwe tenue, daar scoor ik alles mee!": {
+  "score": 1.0,
+  "gehoord": "Mijn blauwe tenue, daar scoor ik alles mee."
+ },
+ "spin|En je hebt een nieuw pak vrijgespeeld: Nacht! Wil je het aantrekken?": {
+  "score": 0.96,
+  "gehoord": "En je hebt een nieuw pakvrij verspeeld nacht. Wil je het aantrekken?"
+ },
+ "spin|Je draagt nu het pak Nacht!": {
+  "score": 0.94,
+  "gehoord": "Je draagt nu het baknacht."
+ },
+ "spin|In het Nachttenue zie je mij in het donker bijna niet!": {
+  "score": 0.95,
+  "gehoord": "In het nachtenieuw zie je mij in het donker bijna niet."
+ },
+ "spin|En je hebt een nieuw pak vrijgespeeld: Jungle! Wil je het aantrekken?": {
+  "score": 0.93,
+  "gehoord": "En je hebt een nieuw Pakvijer gespeeld, Jungle. Wil je het aanplekken?"
+ },
+ "spin|Je draagt nu het pak Jungle!": {
+  "score": 0.96,
+  "gehoord": "Je draagt nu het pak jangle."
+ },
+ "spin|Met het Jungletenue ren ik door het bos!": {
+  "score": 0.86,
+  "gehoord": "Met het Junkel Tenuen eek door het bos."
+ },
+ "spin|En je hebt een nieuw pak vrijgespeeld: Goud! Wil je het aantrekken?": {
+  "score": 1.0,
+  "gehoord": "en je hebt een nieuw pak vrijgespeeld goud, wil je het aantrekken?"
+ },
+ "spin|Je draagt nu het pak Goud!": {
+  "score": 0.94,
+  "gehoord": "Je draagt nu het bakgoud."
+ },
+ "spin|Het Gouden tenue glimt als een beker!": {
+  "score": 0.96,
+  "gehoord": "Het houden tenu glimt als een beker."
+ },
+ "spin|En je hebt een nieuw pak vrijgespeeld: IJs! Wil je het aantrekken?": {
+  "score": 0.98,
+  "gehoord": "En je hebt een nieuw pakvrij gespeeld. IJs, wil je het aantrekken?"
+ },
+ "spin|Je draagt nu het pak IJs!": {
+  "score": 0.96,
+  "gehoord": "Je draagt nu het bak ijs."
+ },
+ "spin|Brrr, het IJstenue is lekker koel!": {
+  "score": 0.86,
+  "gehoord": "Bleh, het ijs te nu is lekker koel."
+ },
+ "spin|En je hebt een nieuw pak vrijgespeeld: Galaxy! Wil je het aantrekken?": {
+  "score": 0.98,
+  "gehoord": "En je hebt een nieuw pak vrijgespeeld, Halaxy. Wil je het aantrekken?"
+ },
+ "spin|Je draagt nu het pak Galaxy!": {
+  "score": 1.0,
+  "gehoord": "Je draagt nu het pak Galaxy."
+ },
+ "spin|Met het Galaxytenue schiet ik tot de sterren!": {
+  "score": 0.91,
+  "gehoord": "Met het galaxiet in u schiet ik tot de sterren."
+ },
+ "spin|En je hebt een nieuw pak vrijgespeeld: Vuur! Wil je het aantrekken?": {
+  "score": 0.95,
+  "gehoord": "En je hebt een nieuw pak 5 gespeeld, vuur. Wil je het aantrekken?"
+ },
+ "spin|Je draagt nu het pak Vuur!": {
+  "score": 0.92,
+  "gehoord": "Je draagt nu het pakjur."
+ },
+ "spin|Het Vuurtenue is heet, heet, heet!": {
+  "score": 0.95,
+  "gehoord": "Het vuur te nu is heet, heet, heet."
+ },
+ "spin|Dit pak zit nog op slot. Verzamel nog meer sterren!": {
+  "score": 1.0,
+  "gehoord": "Dit pak zit nog op slot. Verzamel nog meer sterren."
+ },
+ "spin|Geeft niks, probeer het nog eens!": {
+  "score": 0.98,
+  "gehoord": "Geef niks, probeer het nog eens."
+ },
+ "spin|Oei, bijna! Kijk nog eens goed.": {
+  "score": 1.0,
+  "gehoord": "Oei, bijna. Kijk nog eens goed."
+ },
+ "spin|Niet erg, helden oefenen ook!": {
+  "score": 1.0,
+  "gehoord": "Niet erg, helden oefenen ook."
+ },
+ "spin|Hihi, dat kietelt!": {
+  "score": 0.77,
+  "gehoord": "Hey, dat kittelt!"
+ },
+ "spin|Hé, ik ben klaar voor actie!": {
+  "score": 0.94,
+  "gehoord": "Hey, ik ben klaar voor actie."
+ },
+ "spin|Zullen we een balletje trappen?": {
+  "score": 1.0,
+  "gehoord": "Zullen we een balletje trappen?"
+ },
+ "spin|Pats! Superbal!": {
+  "score": 0.96,
+  "gehoord": "Pats, superbaal!"
+ },
+ "spin|Knal, in de roos!": {
+  "score": 0.9,
+  "gehoord": "Knauw in de roos."
+ },
+ "spin|Hier komt mijn superschot!": {
+  "score": 1.0,
+  "gehoord": "Hier komt mijn superschot."
+ },
+ "spin|Tot de volgende keer, held!": {
+  "score": 1.0,
+  "gehoord": "Tot de volgende keer, held."
+ },
+ "spin|Daar komt de politie. Tatuu, tatuu!": {
+  "score": 0.85,
+  "gehoord": "Daar komt de politie. Tattoo, tattoo!"
+ },
+ "spin|Zullen we samen een spelletje doen?": {
+  "score": 1.0,
+  "gehoord": "Zullen we samen een spelletje doen?"
+ },
+ "spin|Hoi! Zullen we samen een spelletje doen?": {
+  "score": 1.0,
+  "gehoord": "Hoi, zullen we samen een spelletje doen?"
+ },
+ "spin|Super-Kick en Agent Vroem gaan samen op missie!": {
+  "score": 0.97,
+  "gehoord": "Superkick en agent Vloem gaan samen op missie."
+ },
+ "spin|Tel maar mee.": {
+  "score": 0.67,
+  "gehoord": "Don't marmee."
+ },
+ "spin|één": {
+  "score": 1.0,
+  "gehoord": "1."
+ },
+ "spin|twee": {
+  "score": 1.0,
+  "gehoord": "Twee."
+ },
+ "spin|drie": {
+  "score": 1.0,
+  "gehoord": "3."
+ },
+ "spin|vier": {
+  "score": 1.0,
+  "gehoord": "4"
+ },
+ "spin|vijf": {
+  "score": 1.0,
+  "gehoord": "5."
+ },
+ "spin|zes": {
+  "score": 1.0,
+  "gehoord": "6"
+ },
+ "spin|zeven": {
+  "score": 1.0,
+  "gehoord": "7"
+ },
+ "spin|acht": {
+  "score": 1.0,
+  "gehoord": "8"
+ },
+ "spin|negen": {
+  "score": 1.0,
+  "gehoord": "9."
+ },
+ "spin|tien": {
+  "score": 1.0,
+  "gehoord": "Tien."
+ },
+ "spin|elf": {
+  "score": 1.0,
+  "gehoord": "Elf."
+ },
+ "spin|twaalf": {
+  "score": 1.0,
+  "gehoord": "12."
+ },
+ "spin|dertien": {
+  "score": 1.0,
+  "gehoord": "13"
+ },
+ "spin|veertien": {
+  "score": 1.0,
+  "gehoord": "14."
+ },
+ "spin|vijftien": {
+  "score": 1.0,
+  "gehoord": "15."
+ },
+ "spin|zestien": {
+  "score": 1.0,
+  "gehoord": "16."
+ },
+ "spin|zeventien": {
+  "score": 1.0,
+  "gehoord": "17."
+ },
+ "spin|achttien": {
+  "score": 1.0,
+  "gehoord": "18."
+ },
+ "spin|negentien": {
+  "score": 1.0,
+  "gehoord": "19"
+ },
+ "spin|twintig": {
+  "score": 1.0,
+  "gehoord": "20"
+ },
+ "spin|Zoek de groep met 1 ballen.": {
+  "score": 0.91,
+  "gehoord": "Zoek de groep met eenballen."
+ },
+ "spin|Zoek de groep met 2 ballen.": {
+  "score": 1.0,
+  "gehoord": "Zoek de groep met twee ballen."
+ },
+ "spin|Zoek de groep met 3 ballen.": {
+  "score": 1.0,
+  "gehoord": "Zoek de groep met drie ballen."
+ },
+ "spin|Zoek de groep met 4 ballen.": {
+  "score": 1.0,
+  "gehoord": "Zoek de groep met vier ballen."
+ },
+ "spin|Zoek de groep met 5 ballen.": {
+  "score": 1.0,
+  "gehoord": "Zoek de groep met 5 ballen."
+ },
+ "spin|Zoek de groep met 6 ballen.": {
+  "score": 1.0,
+  "gehoord": "Zoek de groep met 6 ballen."
+ },
+ "spin|Zoek de groep met 7 ballen.": {
+  "score": 1.0,
+  "gehoord": "Zoek de groep met 7 ballen."
+ },
+ "spin|Zoek de groep met 8 ballen.": {
+  "score": 1.0,
+  "gehoord": "Zoek de groep met acht ballen."
+ },
+ "spin|Zoek de groep met 9 ballen.": {
+  "score": 1.0,
+  "gehoord": "Zoek de groep met 9 ballen."
+ },
+ "spin|Zoek de groep met 10 ballen.": {
+  "score": 1.0,
+  "gehoord": "Zoek de groep met 10 ballen."
+ },
+ "spin|Hoeveel ballen zie je?": {
+  "score": 1.0,
+  "gehoord": "Hoeveel ballen zie je?"
+ },
+ "spin|Waar liggen 1 ballen?": {
+  "score": 1.0,
+  "gehoord": "Waar liggen 1 ballen?"
+ },
+ "spin|Waar liggen 2 ballen?": {
+  "score": 1.0,
+  "gehoord": "Waar liggen twee ballen?"
+ },
+ "spin|Waar liggen 3 ballen?": {
+  "score": 1.0,
+  "gehoord": "Waar liggen drie ballen?"
+ },
+ "spin|Waar liggen 4 ballen?": {
+  "score": 1.0,
+  "gehoord": "Waar liggen vier ballen?"
+ },
+ "spin|Waar liggen 5 ballen?": {
+  "score": 1.0,
+  "gehoord": "Waar liggen vijf ballen?"
+ },
+ "spin|Waar liggen 6 ballen?": {
+  "score": 1.0,
+  "gehoord": "Waar liggen zes ballen?"
+ },
+ "spin|Waar liggen 7 ballen?": {
+  "score": 1.0,
+  "gehoord": "Waar liggen zeven ballen?"
+ },
+ "spin|Waar liggen 8 ballen?": {
+  "score": 1.0,
+  "gehoord": "Waar liggen acht ballen?"
+ },
+ "spin|Waar liggen 9 ballen?": {
+  "score": 1.0,
+  "gehoord": "Waar liggen 9 ballen?"
+ },
+ "spin|Waar liggen 10 ballen?": {
+  "score": 1.0,
+  "gehoord": "Waar liggen 10 ballen?"
+ },
+ "spin|1 plus 1. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "1 plus 1. Hoeveel ballen zijn het samen?"
+ },
+ "spin|1 plus 2. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "1 plus 2, hoeveel ballen zijn het samen?"
+ },
+ "spin|1 plus 3. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "1 plus 3. Hoeveel ballen zijn het samen?"
+ },
+ "spin|1 plus 4. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "1 plus 4, hoeveel ballen zijn het samen?"
+ },
+ "spin|1 plus 5. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "1 plus 5, hoeveel ballen zijn het samen?"
+ },
+ "spin|1 plus 6. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "1 plus 6, hoeveel ballen zijn het samen?"
+ },
+ "spin|1 plus 7. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "1 plus 7, hoeveel ballen zijn het samen?"
+ },
+ "spin|1 plus 8. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "1 plus 8. Hoeveel ballen zijn het samen?"
+ },
+ "spin|1 plus 9. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "1 plus 9, hoeveel ballen zijn het samen?"
+ },
+ "spin|2 plus 1. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "2 plus 1, hoeveel ballen zijn het samen?"
+ },
+ "spin|2 plus 2. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "2 plus 2. Hoeveel ballen zijn het samen?"
+ },
+ "spin|2 plus 3. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "2 plus 3, hoeveel ballen zijn het samen?"
+ },
+ "spin|2 plus 4. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "2 plus 4, hoeveel ballen zijn het samen?"
+ },
+ "spin|2 plus 5. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "2 plus 5, hoeveel ballen zijn het samen?"
+ },
+ "spin|2 plus 6. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "2 plus 6. Hoeveel ballen zijn het samen?"
+ },
+ "spin|2 plus 7. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "2 plus 7. Hoeveel ballen zijn het samen?"
+ },
+ "spin|2 plus 8. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "2 plus 8. Hoeveel ballen zijn het samen?"
+ },
+ "spin|3 plus 1. Hoeveel ballen zijn het samen?": {
+  "score": 0.93,
+  "gehoord": "3 plus 1. Hoeveel ballen zijn het samen? Samen..."
+ },
+ "spin|3 plus 2. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "3 plus 2. Hoeveel ballen zijn het samen?"
+ },
+ "spin|3 plus 3. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "3 plus 3. Hoeveel ballen zijn het samen?"
+ },
+ "spin|3 plus 4. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "3 plus 4. Hoeveel ballen zijn het samen?"
+ },
+ "spin|3 plus 5. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "3 plus 5. Hoeveel ballen zijn het samen?"
+ },
+ "spin|3 plus 6. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "3 plus 6. Hoeveel ballen zijn het samen?"
+ },
+ "spin|3 plus 7. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "3 plus 7. Hoeveel ballen zijn het samen?"
+ },
+ "spin|4 plus 1. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "4 plus 1. Hoeveel ballen zijn het samen?"
+ },
+ "spin|4 plus 2. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "4 plus 2. Hoeveel ballen zijn het samen?"
+ },
+ "spin|4 plus 3. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "4 plus 3. Hoeveel ballen zijn het samen?"
+ },
+ "spin|4 plus 4. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "4 plus 4, hoeveel ballen zijn het samen?"
+ },
+ "spin|4 plus 5. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "4 plus 5. Hoeveel ballen zijn het samen?"
+ },
+ "spin|4 plus 6. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "4 plus 6. Hoeveel ballen zijn het samen?"
+ },
+ "spin|5 plus 1. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "Vijf plus één. Hoeveel ballen zijn het samen?"
+ },
+ "spin|5 plus 2. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "5 plus 2. Hoeveel ballen zijn het samen?"
+ },
+ "spin|5 plus 3. Hoeveel ballen zijn het samen?": {
+  "score": 0.97,
+  "gehoord": "5 plus 3, hoeveel pallen zijn het samen?"
+ },
+ "spin|5 plus 4. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "5 plus 4. Hoeveel ballen zijn het samen?"
+ },
+ "spin|5 plus 5. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "Vijf plus vijf. Hoeveel ballen zijn het samen?"
+ },
+ "spin|6 plus 1. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "6 plus 1. Hoeveel ballen zijn het samen?"
+ },
+ "spin|6 plus 2. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "6 plus 2. Hoeveel ballen zijn het samen?"
+ },
+ "spin|6 plus 3. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "6 plus 3. Hoeveel ballen zijn het samen?"
+ },
+ "spin|6 plus 4. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "6 plus 4. Hoeveel ballen zijn het samen?"
+ },
+ "spin|7 plus 1. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "7 plus 1. Hoeveel ballen zijn het samen?"
+ },
+ "spin|7 plus 2. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "7 plus 2. Hoeveel ballen zijn het samen?"
+ },
+ "spin|7 plus 3. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "7 plus 3. Hoeveel ballen zijn het samen?"
+ },
+ "spin|8 plus 1. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "8 plus 1, hoeveel ballen zijn het samen?"
+ },
+ "spin|8 plus 2. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "8 plus 2, hoeveel ballen zijn het samen?"
+ },
+ "spin|9 plus 1. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "9 plus 1. Hoeveel ballen zijn het samen?"
+ },
+ "spin|2 ballen. Er rollen er 1 weg. Hoeveel blijven er over?": {
+  "score": 0.97,
+  "gehoord": "Twee ballen en rollen er één weg. Hoeveel blijven erover?"
+ },
+ "spin|3 ballen. Er rollen er 1 weg. Hoeveel blijven er over?": {
+  "score": 0.93,
+  "gehoord": "Drie ballen en rollen er één dag. Hoeveel blijven erover?"
+ },
+ "spin|3 ballen. Er rollen er 2 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "3 ballen, er rollen er 2 weg, hoeveel blijven er over?"
+ },
+ "spin|4 ballen. Er rollen er 1 weg. Hoeveel blijven er over?": {
+  "score": 0.99,
+  "gehoord": "Vier ballen er rollen er één weg. Hoeveel blijven erover?"
+ },
+ "spin|4 ballen. Er rollen er 2 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "Vier ballen. Er rollen er twee weg. Hoeveel blijven er over?"
+ },
+ "spin|4 ballen. Er rollen er 3 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "Vier ballen en rollen er drie weg. Hoeveel blijven er over?"
+ },
+ "spin|5 ballen. Er rollen er 1 weg. Hoeveel blijven er over?": {
+  "score": 0.93,
+  "gehoord": "Vijf ballen. En rollen er één mes. Hoeveel blijven erover?"
+ },
+ "spin|5 ballen. Er rollen er 2 weg. Hoeveel blijven er over?": {
+  "score": 0.97,
+  "gehoord": "Vijf ballen en rollen er twee weg. Hoeveel blijven erover?"
+ },
+ "spin|5 ballen. Er rollen er 3 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "Vijf ballen en rollen er drie weg. Hoeveel blijven er over?"
+ },
+ "spin|5 ballen. Er rollen er 4 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "Vijf ballen en rollen er vier weg. Hoeveel blijven er over?"
+ },
+ "spin|6 ballen. Er rollen er 1 weg. Hoeveel blijven er over?": {
+  "score": 0.97,
+  "gehoord": "Zes ballen en rollen er één weg. Hoeveel blijven erover?"
+ },
+ "spin|6 ballen. Er rollen er 2 weg. Hoeveel blijven er over?": {
+  "score": 0.99,
+  "gehoord": "Zes ballen. Er rollen er twee weg. Hoeveel blijven erover?"
+ },
+ "spin|6 ballen. Er rollen er 3 weg. Hoeveel blijven er over?": {
+  "score": 0.97,
+  "gehoord": "Zes ballen. En rollen er drie weg. Hoeveel blijven erover?"
+ },
+ "spin|6 ballen. Er rollen er 4 weg. Hoeveel blijven er over?": {
+  "score": 0.99,
+  "gehoord": "Zes ballen. Er rollen er vier weg, hoeveel blijven erover?"
+ },
+ "spin|6 ballen. Er rollen er 5 weg. Hoeveel blijven er over?": {
+  "score": 0.99,
+  "gehoord": "Zes ballen. Er rollen er vijf weg. Hoeveel blijven erover?"
+ },
+ "spin|7 ballen. Er rollen er 1 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "Zeven ballen. Er rollen er één weg. Hoeveel blijven er over?"
+ },
+ "spin|7 ballen. Er rollen er 2 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "Zeven ballen. Er rollen er twee weg. Hoeveel blijven er over?"
+ },
+ "spin|7 ballen. Er rollen er 3 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "Zeven ballen en rollen er drie weg. Hoeveel blijven er over?"
+ },
+ "spin|7 ballen. Er rollen er 4 weg. Hoeveel blijven er over?": {
+  "score": 0.96,
+  "gehoord": "Zeven ballen. Het rolle er vier weg. Hoeveel blijven er over?"
+ },
+ "spin|7 ballen. Er rollen er 5 weg. Hoeveel blijven er over?": {
+  "score": 0.93,
+  "gehoord": "7 ballen en rollen er 5 weg, hoeveel blijft er over?"
+ },
+ "spin|7 ballen. Er rollen er 6 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "7 ballen en rollen er 6 weg. Hoeveel blijven er over?"
+ },
+ "spin|8 ballen. Er rollen er 1 weg. Hoeveel blijven er over?": {
+  "score": 0.96,
+  "gehoord": "Ach ballen, er rollen er één weg, hoeveel blijven er over?"
+ },
+ "spin|8 ballen. Er rollen er 2 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "Acht ballen, er rollen er twee weg. Hoeveel blijven er over?"
+ },
+ "spin|8 ballen. Er rollen er 3 weg. Hoeveel blijven er over?": {
+  "score": 0.96,
+  "gehoord": "Ach ballen, er rollen er 3 weg, hoeveel blijven er over?"
+ },
+ "spin|8 ballen. Er rollen er 4 weg. Hoeveel blijven er over?": {
+  "score": 0.93,
+  "gehoord": "Ach, ballen. Er rollen R4 weg. Hoeveel blijven erover?"
+ },
+ "spin|8 ballen. Er rollen er 5 weg. Hoeveel blijven er over?": {
+  "score": 0.91,
+  "gehoord": "8 ballen. Een rollen er 5 weg. Hoeveel blijf je erover?"
+ },
+ "spin|8 ballen. Er rollen er 6 weg. Hoeveel blijven er over?": {
+  "score": 0.99,
+  "gehoord": "8 ballen, er rollen er 6 weg. Hoeveel blijven erover?"
+ },
+ "spin|8 ballen. Er rollen er 7 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "8 ballen en rollen er 7 weg, hoeveel blijven er over?"
+ },
+ "spin|9 ballen. Er rollen er 1 weg. Hoeveel blijven er over?": {
+  "score": 0.93,
+  "gehoord": "9 ballen, er rolde er 1 met, hoeveel blijven er over?"
+ },
+ "spin|9 ballen. Er rollen er 2 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "9 ballen. Er rollen er 2 weg. Hoeveel blijven er over?"
+ },
+ "spin|9 ballen. Er rollen er 3 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "9 ballen. Er rollen er 3 weg. Hoeveel blijven er over?"
+ },
+ "spin|9 ballen. Er rollen er 4 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "9 ballen. Er rollen er 4 weg. Hoeveel blijven er over?"
+ },
+ "spin|9 ballen. Er rollen er 5 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "9 ballen. Er rollen er 5 weg. Hoeveel blijven er over?"
+ },
+ "spin|9 ballen. Er rollen er 6 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "9 ballen. Er rollen er 6 weg. Hoeveel blijven er over?"
+ },
+ "spin|9 ballen. Er rollen er 7 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "9 ballen. Er rollen er 7 weg. Hoeveel blijven er over?"
+ },
+ "spin|9 ballen. Er rollen er 8 weg. Hoeveel blijven er over?": {
+  "score": 0.97,
+  "gehoord": "9 ballen. Er rollen er 8 weg. Hoeveel blijzen erover?"
+ },
+ "spin|10 ballen. Er rollen er 1 weg. Hoeveel blijven er over?": {
+  "score": 0.92,
+  "gehoord": "10 ballen. Het rollen het 1 weg. Hoeveel blijven het over?"
+ },
+ "spin|10 ballen. Er rollen er 2 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "10 ballen en rollen er 2 weg. Hoeveel blijven er over?"
+ },
+ "spin|10 ballen. Er rollen er 3 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "10 ballen. Er rollen er 3 weg. Hoeveel blijven er over?"
+ },
+ "spin|10 ballen. Er rollen er 4 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "10 ballen. En rollen er 4 weg. Hoeveel blijven er over?"
+ },
+ "spin|10 ballen. Er rollen er 5 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "10 ballen en rollen er 5 weg, hoeveel blijven er over?"
+ },
+ "spin|10 ballen. Er rollen er 6 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "10 ballen. En rollen er 6 weg. Hoeveel blijven er over?"
+ },
+ "spin|10 ballen. Er rollen er 7 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "10 ballen. Er rollen er 7 weg. Hoeveel blijven er over?"
+ },
+ "spin|10 ballen. Er rollen er 8 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "10 ballen en rollen er 8 weg. Hoeveel blijven er over?"
+ },
+ "spin|10 ballen. Er rollen er 9 weg. Hoeveel blijven er over?": {
+  "score": 0.99,
+  "gehoord": "10 ballen. Er rollen er 9 weg. Hoeveel blijven erover?"
+ },
+ "spin|1 plus 10. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "1 plus 10. Hoeveel ballen zijn het samen?"
+ },
+ "spin|2 plus 9. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "2 plus 9. Hoeveel ballen zijn het samen?"
+ },
+ "spin|3 plus 8. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "3 plus 8, hoeveel ballen zijn het samen?"
+ },
+ "spin|4 plus 7. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "4 plus 7, hoeveel ballen zijn het samen?"
+ },
+ "spin|5 plus 6. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "5 plus 6. Hoeveel ballen zijn het samen?"
+ },
+ "spin|6 plus 5. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "6 plus 5. Hoeveel ballen zijn het samen?"
+ },
+ "spin|7 plus 4. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "7 plus 4, hoeveel ballen zijn het samen?"
+ },
+ "spin|8 plus 3. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "8 plus 3. Hoeveel ballen zijn het samen?"
+ },
+ "spin|9 plus 2. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "9 plus 2. Hoeveel ballen zijn het samen?"
+ },
+ "spin|10 plus 1. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "10 plus 1. Hoeveel ballen zijn het samen?"
+ },
+ "spin|1 plus 11. Hoeveel ballen zijn het samen?": {
+  "score": 0.91,
+  "gehoord": "1 Chris 11. Hoeveel ballen zijn het samen?"
+ },
+ "spin|2 plus 10. Hoeveel ballen zijn het samen?": {
+  "score": 0.97,
+  "gehoord": "2 plus 10, hoeveel pallen zijn het samen?"
+ },
+ "spin|3 plus 9. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "3 plus 9. Hoeveel ballen zijn het samen?"
+ },
+ "spin|4 plus 8. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "4 plus 8. Hoeveel ballen zijn het samen?"
+ },
+ "spin|5 plus 7. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "5 plus 7, hoeveel ballen zijn het samen?"
+ },
+ "spin|6 plus 6. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "6 plus 6, hoeveel ballen zijn het samen?"
+ },
+ "spin|7 plus 5. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "7 plus 5, hoeveel ballen zijn het samen?"
+ },
+ "spin|8 plus 4. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "8 plus 4, hoeveel ballen zijn het samen?"
+ },
+ "spin|9 plus 3. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "9 plus 3. Hoeveel ballen zijn het samen?"
+ },
+ "spin|10 plus 2. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "10 plus 2, hoeveel ballen zijn het samen?"
+ },
+ "spin|11 plus 1. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "11 plus 1, hoeveel ballen zijn het samen?"
+ },
+ "spin|1 plus 12. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "1 plus 12, hoeveel ballen zijn het samen?"
+ },
+ "spin|2 plus 11. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "2 plus 11. Hoeveel ballen zijn het samen?"
+ },
+ "spin|3 plus 10. Hoeveel ballen zijn het samen?": {
+  "score": 0.95,
+  "gehoord": "3 plus 10. Hoeveel pollen zijn het samen?"
+ },
+ "spin|4 plus 9. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "4 plus 9, hoeveel ballen zijn het samen?"
+ },
+ "spin|5 plus 8. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "5 plus 8. Hoeveel ballen zijn het samen?"
+ },
+ "spin|6 plus 7. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "6 plus 7, hoeveel ballen zijn het samen?"
+ },
+ "spin|7 plus 6. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "7 plus 6, hoeveel ballen zijn het samen?"
+ },
+ "spin|8 plus 5. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "8 plus 5. Hoeveel ballen zijn het samen?"
+ },
+ "spin|9 plus 4. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "9 plus 4, hoeveel ballen zijn het samen?"
+ },
+ "spin|10 plus 3. Hoeveel ballen zijn het samen?": {
+  "score": 0.97,
+  "gehoord": "10 plus 3, hoeveel pallen zijn het samen?"
+ },
+ "spin|11 plus 2. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "11 plus 2. Hoeveel ballen zijn het samen?"
+ },
+ "spin|12 plus 1. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "12 plus 1. Hoeveel ballen zijn het samen?"
+ },
+ "spin|1 plus 13. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "1 plus 13, hoeveel ballen zijn het samen?"
+ },
+ "spin|2 plus 12. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "2 plus 12. Hoeveel ballen zijn het samen?"
+ },
+ "spin|3 plus 11. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "3 plus 11, hoeveel ballen zijn het samen?"
+ },
+ "spin|4 plus 10. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "4 plus 10. Hoeveel ballen zijn het samen?"
+ },
+ "spin|5 plus 9. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "5 plus 9. Hoeveel ballen zijn het samen?"
+ },
+ "spin|6 plus 8. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "6 plus 8. Hoeveel ballen zijn het samen?"
+ },
+ "spin|7 plus 7. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "7 plus 7, hoeveel ballen zijn het samen?"
+ },
+ "spin|8 plus 6. Hoeveel ballen zijn het samen?": {
+  "score": 0.95,
+  "gehoord": "Ach, plus 6? Hoeveel ballen zijn het samen?"
+ },
+ "spin|9 plus 5. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "9 plus 5. Hoeveel ballen zijn het samen?"
+ },
+ "spin|10 plus 4. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "10 plus 4. Hoeveel ballen zijn het samen?"
+ },
+ "spin|11 plus 3. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "11 plus 3. Hoeveel ballen zijn het samen?"
+ },
+ "spin|12 plus 2. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "12 plus 2. Hoeveel ballen zijn het samen?"
+ },
+ "spin|13 plus 1. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "13 plus 1, hoeveel ballen zijn het samen?"
+ },
+ "spin|1 plus 14. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "1 plus 14, hoeveel ballen zijn het samen?"
+ },
+ "spin|2 plus 13. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "2 plus 13, hoeveel ballen zijn het samen?"
+ },
+ "spin|3 plus 12. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "3 plus 12. Hoeveel ballen zijn het samen?"
+ },
+ "spin|4 plus 11. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "4 plus 11. Hoeveel ballen zijn het samen?"
+ },
+ "spin|5 plus 10. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "Vijf plus tien. Hoeveel ballen zijn het samen?"
+ },
+ "spin|6 plus 9. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "6 plus 9. Hoeveel ballen zijn het samen?"
+ },
+ "spin|7 plus 8. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "7 plus 8. Hoeveel ballen zijn het samen?"
+ },
+ "spin|8 plus 7. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "8 plus 7, hoeveel ballen zijn het samen?"
+ },
+ "spin|9 plus 6. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "9 plus 6. Hoeveel ballen zijn het samen?"
+ },
+ "spin|10 plus 5. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "10 plus 5, hoeveel ballen zijn het samen?"
+ },
+ "spin|11 plus 4. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "11 plus 4, hoeveel ballen zijn het samen?"
+ },
+ "spin|12 plus 3. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "12 plus 3. Hoeveel ballen zijn het samen?"
+ },
+ "spin|13 plus 2. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "13 plus 2, hoeveel ballen zijn het samen?"
+ },
+ "spin|14 plus 1. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "14 plus 1, hoeveel ballen zijn het samen?"
+ },
+ "spin|1 plus 15. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "1 plus 15, hoeveel ballen zijn het samen?"
+ },
+ "spin|2 plus 14. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "2 plus 14, hoeveel ballen zijn het samen?"
+ },
+ "spin|3 plus 13. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "3 plus 13, hoeveel ballen zijn het samen?"
+ },
+ "spin|4 plus 12. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "4 plus 12. Hoeveel ballen zijn het samen?"
+ },
+ "spin|5 plus 11. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "5 plus 11. Hoeveel ballen zijn het samen?"
+ },
+ "spin|6 plus 10. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "6 plus 10, hoeveel ballen zijn het samen?"
+ },
+ "spin|7 plus 9. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "7 plus 9. Hoeveel ballen zijn het samen?"
+ },
+ "spin|8 plus 8. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "8 plus 8. Hoeveel ballen zijn het samen?"
+ },
+ "spin|9 plus 7. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "9 plus 7. Hoeveel ballen zijn het samen?"
+ },
+ "spin|10 plus 6. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "10 plus 6, hoeveel ballen zijn het samen?"
+ },
+ "spin|11 plus 5. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "11 plus 5, hoeveel ballen zijn het samen?"
+ },
+ "spin|12 plus 4. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "12 plus 4, hoeveel ballen zijn het samen?"
+ },
+ "spin|13 plus 3. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "13 plus 3, hoeveel ballen zijn het samen?"
+ },
+ "spin|14 plus 2. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "14 plus 2, hoeveel ballen zijn het samen?"
+ },
+ "spin|15 plus 1. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "15 plus 1, hoeveel ballen zijn het samen?"
+ },
+ "spin|1 plus 16. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "1 plus 16, hoeveel ballen zijn het samen?"
+ },
+ "spin|2 plus 15. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "2 plus 15. Hoeveel ballen zijn het samen?"
+ },
+ "spin|3 plus 14. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "3 plus 14. Hoeveel ballen zijn het samen?"
+ },
+ "spin|4 plus 13. Hoeveel ballen zijn het samen?": {
+  "score": 0.95,
+  "gehoord": "4 plus 13. Hoeveel ballen zijn dit samen?"
+ },
+ "spin|5 plus 12. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "5 plus 12. Hoeveel ballen zijn het samen?"
+ },
+ "spin|6 plus 11. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "6 plus 11, hoeveel ballen zijn het samen?"
+ },
+ "spin|7 plus 10. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "7 plus 10. Hoeveel ballen zijn het samen?"
+ },
+ "spin|8 plus 9. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "8 plus 9, hoeveel ballen zijn het samen?"
+ },
+ "spin|9 plus 8. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "9 plus 8. Hoeveel ballen zijn het samen?"
+ },
+ "spin|10 plus 7. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "10 plus 7, hoeveel ballen zijn het samen?"
+ },
+ "spin|11 plus 6. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "11 plus 6, hoeveel ballen zijn het samen?"
+ },
+ "spin|12 plus 5. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "12 plus 5. Hoeveel ballen zijn het samen?"
+ },
+ "spin|13 plus 4. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "13 plus 4, hoeveel ballen zijn het samen?"
+ },
+ "spin|14 plus 3. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "14 plus 3, hoeveel ballen zijn het samen?"
+ },
+ "spin|15 plus 2. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "15 plus 2, hoeveel ballen zijn het samen?"
+ },
+ "spin|16 plus 1. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "16 plus 1. Hoeveel ballen zijn het samen?"
+ },
+ "spin|1 plus 17. Hoeveel ballen zijn het samen?": {
+  "score": 0.96,
+  "gehoord": "1 plus 17, hoeveel ballen zijn er samen?"
+ },
+ "spin|2 plus 16. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "2 plus 16, hoeveel ballen zijn het samen?"
+ },
+ "spin|3 plus 15. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "3 plus 15. Hoeveel ballen zijn het samen?"
+ },
+ "spin|4 plus 14. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "4 plus 14, hoeveel ballen zijn het samen?"
+ },
+ "spin|5 plus 13. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "5 plus 13, hoeveel ballen zijn het samen?"
+ },
+ "spin|6 plus 12. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "6 plus 12. Hoeveel ballen zijn het samen?"
+ },
+ "spin|7 plus 11. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "7 plus 11, hoeveel ballen zijn het samen?"
+ },
+ "spin|8 plus 10. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "8 plus 10, hoeveel ballen zijn het samen?"
+ },
+ "spin|9 plus 9. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "9 plus 9. Hoeveel ballen zijn het samen?"
+ },
+ "spin|10 plus 8. Hoeveel ballen zijn het samen?": {
+  "score": 0.94,
+  "gehoord": "10 piers 8. Hoeveel ballen zijn het samen?"
+ },
+ "spin|11 plus 7. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "11 plus 7. Hoeveel ballen zijn het samen?"
+ },
+ "spin|12 plus 6. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "12 plus 6, hoeveel ballen zijn het samen?"
+ },
+ "spin|13 plus 5. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "13 plus 5, hoeveel ballen zijn het samen?"
+ },
+ "spin|14 plus 4. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "14 plus 4. Hoeveel ballen zijn het samen?"
+ },
+ "spin|15 plus 3. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "15 plus 3. Hoeveel ballen zijn het samen?"
+ },
+ "spin|16 plus 2. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "16 plus 2. Hoeveel ballen zijn het samen?"
+ },
+ "spin|17 plus 1. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "17 plus 1, hoeveel ballen zijn het samen?"
+ },
+ "spin|1 plus 18. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "1 plus 18. Hoeveel ballen zijn het samen?"
+ },
+ "spin|2 plus 17. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "2 plus 17, hoeveel ballen zijn het samen?"
+ },
+ "spin|3 plus 16. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "3 plus 16. Hoeveel ballen zijn het samen?"
+ },
+ "spin|4 plus 15. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "4 plus 15, hoeveel ballen zijn het samen?"
+ },
+ "spin|5 plus 14. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "5 plus 14. Hoeveel ballen zijn het samen?"
+ },
+ "spin|6 plus 13. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "6 plus 13, hoeveel ballen zijn het samen?"
+ },
+ "spin|7 plus 12. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "7 plus 12. Hoeveel ballen zijn het samen?"
+ },
+ "spin|8 plus 11. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "8 plus 11, hoeveel ballen zijn het samen?"
+ },
+ "spin|9 plus 10. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "9 plus 10. Hoeveel ballen zijn het samen?"
+ },
+ "spin|10 plus 9. Hoeveel ballen zijn het samen?": {
+  "score": 0.96,
+  "gehoord": "10 plus 9. Hoeveel ballen zijn er samen?"
+ },
+ "spin|11 plus 8. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "11 plus 8, hoeveel ballen zijn het samen?"
+ },
+ "spin|12 plus 7. Hoeveel ballen zijn het samen?": {
+  "score": 0.96,
+  "gehoord": "12, dus 7. Hoeveel ballen zijn het samen?"
+ },
+ "spin|13 plus 6. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "13 plus 6, hoeveel ballen zijn het samen?"
+ },
+ "spin|14 plus 5. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "14 plus 5. Hoeveel ballen zijn het samen?"
+ },
+ "spin|15 plus 4. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "15 plus 4, hoeveel ballen zijn het samen?"
+ },
+ "spin|16 plus 3. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "16 plus 3. Hoeveel ballen zijn het samen?"
+ },
+ "spin|17 plus 2. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "17 plus 2. Hoeveel ballen zijn het samen?"
+ },
+ "spin|18 plus 1. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "18 plus 1, hoeveel ballen zijn het samen?"
+ },
+ "spin|1 plus 19. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "1 plus 19. Hoeveel ballen zijn het samen?"
+ },
+ "spin|2 plus 18. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "2 plus 18, hoeveel ballen zijn het samen?"
+ },
+ "spin|3 plus 17. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "3 plus 17. Hoeveel ballen zijn het samen?"
+ },
+ "spin|4 plus 16. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "4 plus 16, hoeveel ballen zijn het samen?"
+ },
+ "spin|5 plus 15. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "5 plus 15. Hoeveel ballen zijn het samen?"
+ },
+ "spin|6 plus 14. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "6 plus 14, hoeveel ballen zijn het samen?"
+ },
+ "spin|7 plus 13. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "7 plus 13, hoeveel ballen zijn het samen?"
+ },
+ "spin|8 plus 12. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "8 plus 12. Hoeveel ballen zijn het samen?"
+ },
+ "spin|9 plus 11. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "9 plus 11. Hoeveel ballen zijn het samen?"
+ },
+ "spin|10 plus 10. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "10 plus 10. Hoeveel ballen zijn het samen?"
+ },
+ "spin|11 plus 9. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "11 plus 9. Hoeveel ballen zijn het samen?"
+ },
+ "spin|12 plus 8. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "12 plus 8. Hoeveel ballen zijn het samen?"
+ },
+ "spin|13 plus 7. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "13 plus 7, hoeveel ballen zijn het samen?"
+ },
+ "spin|14 plus 6. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "14 plus 6. Hoeveel ballen zijn het samen?"
+ },
+ "spin|15 plus 5. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "15 plus 5. Hoeveel ballen zijn het samen?"
+ },
+ "spin|16 plus 4. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "16 plus 4, hoeveel ballen zijn het samen?"
+ },
+ "spin|17 plus 3. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "17 plus 3. Hoeveel ballen zijn het samen?"
+ },
+ "spin|18 plus 2. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "18 plus 2, hoeveel ballen zijn het samen?"
+ },
+ "spin|19 plus 1. Hoeveel ballen zijn het samen?": {
+  "score": 1.0,
+  "gehoord": "19 plus 1. Hoeveel ballen zijn het samen?"
+ },
+ "spin|11 ballen. Er rollen er 1 weg. Hoeveel blijven er over?": {
+  "score": 0.94,
+  "gehoord": "Elf ballen. Er rollen er één weg. Hoeveel blijf je erover?"
+ },
+ "spin|11 ballen. Er rollen er 2 weg. Hoeveel blijven er over?": {
+  "score": 0.97,
+  "gehoord": "Elf ballen en rollen er twee weg. Hoeveel blijven erover?"
+ },
+ "spin|11 ballen. Er rollen er 3 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "Elf ballen en rollen er drie weg. Hoeveel blijven er over?"
+ },
+ "spin|11 ballen. Er rollen er 4 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "Elf ballen. Er rollen er vier weg. Hoeveel blijven er over?"
+ },
+ "spin|11 ballen. Er rollen er 5 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "Elf ballen. Er rollen er vijf weg, hoeveel blijven er over?"
+ },
+ "spin|11 ballen. Er rollen er 6 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "Elf ballen en rollen er zes weg. Hoeveel blijven er over?"
+ },
+ "spin|11 ballen. Er rollen er 7 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "Elf ballen. Er rollen er zeven weg. Hoeveel blijven er over?"
+ },
+ "spin|11 ballen. Er rollen er 8 weg. Hoeveel blijven er over?": {
+  "score": 0.9,
+  "gehoord": "11 ballen en rol een R8 weg. Hoeveel blijven erover?"
+ },
+ "spin|11 ballen. Er rollen er 9 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "Elf ballen. Er rollen er negen weg. Hoeveel blijven er over?"
+ },
+ "spin|11 ballen. Er rollen er 10 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "11 ballen. Er rollen er 10 weg, hoeveel blijven er over?"
+ },
+ "spin|12 ballen. Er rollen er 1 weg. Hoeveel blijven er over?": {
+  "score": 0.91,
+  "gehoord": "12 ballen. Er rollen uit 1 bag. Hoeveel blijven er over?"
+ },
+ "spin|12 ballen. Er rollen er 2 weg. Hoeveel blijven er over?": {
+  "score": 0.93,
+  "gehoord": "12 ballen en rollen er 2 weg. Hoeveel blijft er over?"
+ },
+ "spin|12 ballen. Er rollen er 3 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "12 ballen. Er rollen er 3 weg. Hoeveel blijven er over?"
+ },
+ "spin|12 ballen. Er rollen er 4 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "12 ballen. Er rollen er 4 weg. Hoeveel blijven er over?"
+ },
+ "spin|12 ballen. Er rollen er 5 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "12 ballen en rollen er 5 weg. Hoeveel blijven er over?"
+ },
+ "spin|12 ballen. Er rollen er 6 weg. Hoeveel blijven er over?": {
+  "score": 0.96,
+  "gehoord": "12 ballen, er rollen er 6 mee. Hoeveel blijven er over?"
+ },
+ "spin|12 ballen. Er rollen er 7 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "12 ballen. Er rollen er 7 weg. Hoeveel blijven er over?"
+ },
+ "spin|12 ballen. Er rollen er 8 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "12 ballen. Er rollen er 8 weg. Hoeveel blijven er over?"
+ },
+ "spin|12 ballen. Er rollen er 9 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "12 ballen. Er rollen er 9 weg. Hoeveel blijven er over?"
+ },
+ "spin|12 ballen. Er rollen er 10 weg. Hoeveel blijven er over?": {
+  "score": 0.99,
+  "gehoord": "12 ballen. Er rollen er 10 weg. Hoeveel blijven erover?"
+ },
+ "spin|12 ballen. Er rollen er 11 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "12 ballen. Er rollen er 11 weg. Hoeveel blijven er over?"
+ },
+ "spin|13 ballen. Er rollen er 1 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "13 ballen en rollen er 1 weg. Hoeveel blijven er over?"
+ },
+ "spin|13 ballen. Er rollen er 2 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "13 ballen. Er rollen er 2 weg. Hoeveel blijven er over?"
+ },
+ "spin|13 ballen. Er rollen er 3 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "13 ballen. Er rollen er 3 weg. Hoeveel blijven er over?"
+ },
+ "spin|13 ballen. Er rollen er 4 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "13 ballen. Er rollen er vier weg. Hoeveel blijven er over?"
+ },
+ "spin|13 ballen. Er rollen er 5 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "13 ballen en rollen er 5 weg, hoeveel blijven er over?"
+ },
+ "spin|13 ballen. Er rollen er 6 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "13 ballen, er rollen er 6 weg. Hoeveel blijven er over?"
+ },
+ "spin|13 ballen. Er rollen er 7 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "13 ballen. Er rollen er 7 weg. Hoeveel blijven er over?"
+ },
+ "spin|13 ballen. Er rollen er 8 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "13 ballen. Er rollen er 8 weg. Hoeveel blijven er over?"
+ },
+ "spin|13 ballen. Er rollen er 9 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "13 ballen. Er rollen er 9 weg. Hoeveel blijven er over?"
+ },
+ "spin|13 ballen. Er rollen er 10 weg. Hoeveel blijven er over?": {
+  "score": 0.99,
+  "gehoord": "13 ballen. Er rollen er 10 weg. Hoeveel blijven erover?"
+ },
+ "spin|13 ballen. Er rollen er 11 weg. Hoeveel blijven er over?": {
+  "score": 0.97,
+  "gehoord": "13 ballen. Het rollen er 11 weg. Hoeveel blijven er over?"
+ },
+ "spin|13 ballen. Er rollen er 12 weg. Hoeveel blijven er over?": {
+  "score": 0.97,
+  "gehoord": "13 ballen. Het rollen er 12 weg. Hoeveel blijven er over?"
+ },
+ "spin|14 ballen. Er rollen er 1 weg. Hoeveel blijven er over?": {
+  "score": 0.97,
+  "gehoord": "14 ballen. Er rollen R1 weg. Hoeveel blijven erover?"
+ },
+ "spin|14 ballen. Er rollen er 2 weg. Hoeveel blijven er over?": {
+  "score": 0.93,
+  "gehoord": "14 ballen en rollen er twee weg hoe we blijven er over."
+ },
+ "spin|14 ballen. Er rollen er 3 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "14 ballen. Er rollen er 3 weg. Hoeveel blijven er over?"
+ },
+ "spin|14 ballen. Er rollen er 4 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "Veertien ballen, er rollen er vier beg. Hoeveel blijven er over?"
+ },
+ "spin|14 ballen. Er rollen er 5 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "14 ballen en rollen er 5 weg hoeveel blijven er over."
+ },
+ "spin|14 ballen. Er rollen er 6 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "14 ballen. En rollen er 6 weg. Hoeveel blijven er over?"
+ },
+ "spin|14 ballen. Er rollen er 7 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "14 ballen, er rollen er 7 weg. Hoeveel blijven er over?"
+ },
+ "spin|14 ballen. Er rollen er 8 weg. Hoeveel blijven er over?": {
+  "score": 0.93,
+  "gehoord": "14 ballen en rollen naar 8 weg. Hoeveel blijven erover?"
+ },
+ "spin|14 ballen. Er rollen er 9 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "14 ballen, er rollen er 9 weg. Hoeveel blijven er over?"
+ },
+ "spin|14 ballen. Er rollen er 10 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "14 ballen. Er rollen er 10 weg, hoeveel blijven er over?"
+ },
+ "spin|14 ballen. Er rollen er 11 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "14 ballen. Er rollen er 11 weg. Hoeveel blijven er over?"
+ },
+ "spin|14 ballen. Er rollen er 12 weg. Hoeveel blijven er over?": {
+  "score": 0.94,
+  "gehoord": "14 ballen en rollen naar 12 weg. Hoeveel blijven er over?"
+ },
+ "spin|14 ballen. Er rollen er 13 weg. Hoeveel blijven er over?": {
+  "score": 0.94,
+  "gehoord": "14 ballen en rollen er 13 mee. Hoeveel blijven er over?"
+ },
+ "spin|15 ballen. Er rollen er 1 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "15 ballen. Er rollen er één weg. Hoeveel blijven er over?"
+ },
+ "spin|15 ballen. Er rollen er 2 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "15 ballen. Er rollen er 2 weg. Hoeveel blijven er over?"
+ },
+ "spin|15 ballen. Er rollen er 3 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "15 ballen. Er rollen er 3 weg. Hoeveel blijven er over?"
+ },
+ "spin|15 ballen. Er rollen er 4 weg. Hoeveel blijven er over?": {
+  "score": 0.91,
+  "gehoord": "Vijstien ballen. Er rollen er vier weg. Hoeveel blijven er over?"
+ },
+ "spin|15 ballen. Er rollen er 5 weg. Hoeveel blijven er over?": {
+  "score": 0.99,
+  "gehoord": "Vijftien ballen. Er rollen er vijf weg. Hoeveel blijven erover?"
+ },
+ "spin|15 ballen. Er rollen er 6 weg. Hoeveel blijven er over?": {
+  "score": 0.96,
+  "gehoord": "15 ballen. Er rollen er 6 mee. Hoeveel blijven er over?"
+ },
+ "spin|15 ballen. Er rollen er 7 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "Vijftien ballen. Er rollen er zeven weg. Hoeveel blijven er over?"
+ },
+ "spin|15 ballen. Er rollen er 8 weg. Hoeveel blijven er over?": {
+  "score": 0.96,
+  "gehoord": "15 ballen. Er rollen naar 8 weg, hoeveel blijven er over?"
+ },
+ "spin|15 ballen. Er rollen er 9 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "Vijftien ballen. Er rollen er negen weg. Hoeveel blijven er over?"
+ },
+ "spin|15 ballen. Er rollen er 10 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "15 ballen. Er rollen er 10 weg. Hoeveel blijven er over?"
+ },
+ "spin|15 ballen. Er rollen er 11 weg. Hoeveel blijven er over?": {
+  "score": 0.99,
+  "gehoord": "15 ballen. Er rollen er 11 weg. Hoeveel blijven erover?"
+ },
+ "spin|15 ballen. Er rollen er 12 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "15 ballen. Er rollen er 12 weg. Hoeveel blijven er over?"
+ },
+ "spin|15 ballen. Er rollen er 13 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "15 ballen. En rollen er 13 weg. Hoeveel blijven er over?"
+ },
+ "spin|15 ballen. Er rollen er 14 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "15 ballen. Er rollen er 14 weg. Hoeveel blijven er over?"
+ },
+ "spin|16 ballen. Er rollen er 1 weg. Hoeveel blijven er over?": {
+  "score": 0.95,
+  "gehoord": "16 ballen, er rollen naar 1 weg, hoeveel blijven erover?"
+ },
+ "spin|16 ballen. Er rollen er 2 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "16 ballen. Er rollen er 2 weg. Hoeveel blijven er over?"
+ },
+ "spin|16 ballen. Er rollen er 3 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "16 ballen. Er rollen er 3 weg. Hoeveel blijven er over?"
+ },
+ "spin|16 ballen. Er rollen er 4 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "16 ballen. Er rollen er 4 weg. Hoeveel blijven er over?"
+ },
+ "spin|16 ballen. Er rollen er 5 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "16 ballen. Er rollen er 5 weg. Hoeveel blijven er over?"
+ },
+ "spin|16 ballen. Er rollen er 6 weg. Hoeveel blijven er over?": {
+  "score": 0.92,
+  "gehoord": "Ballen. Er rollen er zes mech. Hoeveel blijven er over?"
+ },
+ "spin|16 ballen. Er rollen er 7 weg. Hoeveel blijven er over?": {
+  "score": 0.95,
+  "gehoord": "16 ballen. Er rollen er 7 weg. Hoeveel blijft er over?"
+ },
+ "spin|16 ballen. Er rollen er 8 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "16 ballen. Er rollen er 8 weg. Hoeveel blijven er over?"
+ },
+ "spin|16 ballen. Er rollen er 9 weg. Hoeveel blijven er over?": {
+  "score": 0.97,
+  "gehoord": "16 ballen. Er rollen er 9 me. Hoeveel blijven er over?"
+ },
+ "spin|16 ballen. Er rollen er 10 weg. Hoeveel blijven er over?": {
+  "score": 0.99,
+  "gehoord": "16 ballen, er rollen er 10 weg. Hoeveel blijven erover?"
+ },
+ "spin|16 ballen. Er rollen er 11 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "16 ballen en rollen er 11 weg. Hoeveel blijven er over?"
+ },
+ "spin|16 ballen. Er rollen er 12 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "16 ballen. En rollen er 12 weg. Hoeveel blijven er over?"
+ },
+ "spin|16 ballen. Er rollen er 13 weg. Hoeveel blijven er over?": {
+  "score": 0.99,
+  "gehoord": "16 ballen. Er rollen er 13 weg. Hoeveel blijven erover?"
+ },
+ "spin|16 ballen. Er rollen er 14 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "16 ballen, er rollen er 14 weg, hoeveel blijven er over?"
+ },
+ "spin|16 ballen. Er rollen er 15 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "16 ballen. Er rollen er 15 weg. Hoeveel blijven er over?"
+ },
+ "spin|17 ballen. Er rollen er 1 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "17 ballen. Er rollen er 1 weg. Hoeveel blijven er over?"
+ },
+ "spin|17 ballen. Er rollen er 2 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "17 ballen. Er rollen er 2 weg. Hoeveel blijven er over?"
+ },
+ "spin|17 ballen. Er rollen er 3 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "17 ballen. Er rollen er 3 weg. Hoeveel blijven er over?"
+ },
+ "spin|17 ballen. Er rollen er 4 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "17 ballen, er rollen er 4 weg, hoeveel blijven er over?"
+ },
+ "spin|17 ballen. Er rollen er 5 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "17 ballen. Er rollen er 5 weg. Hoeveel blijven er over?"
+ },
+ "spin|17 ballen. Er rollen er 6 weg. Hoeveel blijven er over?": {
+  "score": 0.95,
+  "gehoord": "17 ballen. Er rollen er 6 pech. Hoeveel blijven er over?"
+ },
+ "spin|17 ballen. Er rollen er 7 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "17 ballen. Er rollen er 7 weg, hoeveel blijven er over?"
+ },
+ "spin|17 ballen. Er rollen er 8 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "17 ballen en rollen er 8 weg. Hoeveel blijven er over?"
+ },
+ "spin|17 ballen. Er rollen er 9 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "17 ballen. Er rollen er 9 weg. Hoeveel blijven er over?"
+ },
+ "spin|17 ballen. Er rollen er 10 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "17 ballen, er rollen er 10 weg, hoeveel blijven er over?"
+ },
+ "spin|17 ballen. Er rollen er 11 weg. Hoeveel blijven er over?": {
+  "score": 0.93,
+  "gehoord": "17 ballen en rollen naar 11 weg. Hoeveel blijven erover?"
+ },
+ "spin|17 ballen. Er rollen er 12 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "17 ballen en rollen er 12 weg, hoeveel blijven er over?"
+ },
+ "spin|17 ballen. Er rollen er 13 weg. Hoeveel blijven er over?": {
+  "score": 0.96,
+  "gehoord": "17 ballen. Er rollen er 13 meh. Hoeveel blijven er over?"
+ },
+ "spin|17 ballen. Er rollen er 14 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "17 ballen. Er rollen er 14 weg, hoeveel blijven er over?"
+ },
+ "spin|17 ballen. Er rollen er 15 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "17 ballen. Er rollen er 15 weg. Hoeveel blijven er over?"
+ },
+ "spin|17 ballen. Er rollen er 16 weg. Hoeveel blijven er over?": {
+  "score": 0.96,
+  "gehoord": "17 ballen. Er rollen er 16. Hoeveel blijven er over?"
+ },
+ "spin|18 ballen. Er rollen er 1 weg. Hoeveel blijven er over?": {
+  "score": 0.99,
+  "gehoord": "18 ballen. Er rollen er 1 weg. Hoeveel blijven erover?"
+ },
+ "spin|18 ballen. Er rollen er 2 weg. Hoeveel blijven er over?": {
+  "score": 0.99,
+  "gehoord": "18 ballen. Er rollen er 2 weg. Hoeveel blijven erover?"
+ },
+ "spin|18 ballen. Er rollen er 3 weg. Hoeveel blijven er over?": {
+  "score": 0.97,
+  "gehoord": "18 ballen en rollen er 3 weg. Hoeveel blijven erover?"
+ },
+ "spin|18 ballen. Er rollen er 4 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "18 ballen. Er rollen er 4 weg. Hoeveel blijven er over?"
+ },
+ "spin|18 ballen. Er rollen er 5 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "18 ballen. Er rollen er 5 weg. Hoeveel blijven er over?"
+ },
+ "spin|18 ballen. Er rollen er 6 weg. Hoeveel blijven er over?": {
+  "score": 0.97,
+  "gehoord": "18 ballen. En rollen er 6 weg. Hoeveel blijven erover?"
+ },
+ "spin|18 ballen. Er rollen er 7 weg. Hoeveel blijven er over?": {
+  "score": 0.99,
+  "gehoord": "18 ballen. Er rollen er 7 weg. Hoeveel blijven erover?"
+ },
+ "spin|18 ballen. Er rollen er 8 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "18 ballen. Er rollen er 8 weg. Hoeveel blijven er over?"
+ },
+ "spin|18 ballen. Er rollen er 9 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "18 ballen en rollen er 9 weg. Hoeveel blijven er over?"
+ },
+ "spin|18 ballen. Er rollen er 10 weg. Hoeveel blijven er over?": {
+  "score": 0.92,
+  "gehoord": "18 ballen. En rollen er 10 weg. Hoeveel blijf je erover?"
+ },
+ "spin|18 ballen. Er rollen er 11 weg. Hoeveel blijven er over?": {
+  "score": 0.93,
+  "gehoord": "18 ballen. En rollen er 11 weg. Hoeveel blijft er over?"
+ },
+ "spin|18 ballen. Er rollen er 12 weg. Hoeveel blijven er over?": {
+  "score": 0.97,
+  "gehoord": "18 ballen en rollen er 12 weg. Hoeveel blijven erover?"
+ },
+ "spin|18 ballen. Er rollen er 13 weg. Hoeveel blijven er over?": {
+  "score": 0.94,
+  "gehoord": "18 ballen. Wij rollen er 13 weg. Hoeveel blijven erover?"
+ },
+ "spin|18 ballen. Er rollen er 14 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "18 ballen. Er rollen er 14 weg. Hoeveel blijven er over?"
+ },
+ "spin|18 ballen. Er rollen er 15 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "18 ballen en rollen er 15 weg, hoeveel blijven er over?"
+ },
+ "spin|18 ballen. Er rollen er 16 weg. Hoeveel blijven er over?": {
+  "score": 0.92,
+  "gehoord": "18 pannen. En rollen er 16 weg. Hoeveel blijven er over?"
+ },
+ "spin|18 ballen. Er rollen er 17 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "18 ballen. En rollen er 17 weg. Hoeveel blijven er over?"
+ },
+ "spin|19 ballen. Er rollen er 1 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "19 ballen. Er rollen er één weg. Hoeveel blijven er over?"
+ },
+ "spin|19 ballen. Er rollen er 2 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "19 ballen. Er rollen er 2 weg. Hoeveel blijven er over?"
+ },
+ "spin|19 ballen. Er rollen er 3 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "19 ballen. Er rollen er 3 weg. Hoeveel blijven er over?"
+ },
+ "spin|19 ballen. Er rollen er 4 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "19 ballen. Er rollen er 4 weg. Hoeveel blijven er over?"
+ },
+ "spin|19 ballen. Er rollen er 5 weg. Hoeveel blijven er over?": {
+  "score": 0.94,
+  "gehoord": "19 ballen. Er hollen naar 5 weg. Hoeveel blijven er over?"
+ },
+ "spin|19 ballen. Er rollen er 6 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "19 ballen. Er rollen er 6 weg. Hoeveel blijven er over?"
+ },
+ "spin|19 ballen. Er rollen er 7 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "19 ballen. Er rollen er 7 weg. Hoeveel blijven er over?"
+ },
+ "spin|19 ballen. Er rollen er 8 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "19 ballen. Er rollen er 8 weg. Hoeveel blijven er over?"
+ },
+ "spin|19 ballen. Er rollen er 9 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "19 ballen. Er rollen er 9 weg. Hoeveel blijven er over?"
+ },
+ "spin|19 ballen. Er rollen er 10 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "19 ballen. Er rollen er 10 weg. Hoeveel blijven er over?"
+ },
+ "spin|19 ballen. Er rollen er 11 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "19 ballen. Er rollen er 11 weg. Hoeveel blijven er over?"
+ },
+ "spin|19 ballen. Er rollen er 12 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "19 ballen. Er rollen er 12 weg. Hoeveel blijven er over?"
+ },
+ "spin|19 ballen. Er rollen er 13 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "19 ballen. Er rollen er 13 weg. Hoeveel blijven er over?"
+ },
+ "spin|19 ballen. Er rollen er 14 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "19 ballen. Er rollen er 14 weg. Hoeveel blijven er over?"
+ },
+ "spin|19 ballen. Er rollen er 15 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "19 ballen. Er rollen er 15 weg. Hoeveel blijven er over?"
+ },
+ "spin|19 ballen. Er rollen er 16 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "19 ballen. Er rollen er 16 weg. Hoeveel blijven er over?"
+ },
+ "spin|19 ballen. Er rollen er 17 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "19 ballen. Er rollen er 17 weg. Hoeveel blijven er over?"
+ },
+ "spin|19 ballen. Er rollen er 18 weg. Hoeveel blijven er over?": {
+  "score": 0.96,
+  "gehoord": "19 ballen. Er rollen naar 18 weg. Hoeveel blijven er over?"
+ },
+ "spin|20 ballen. Er rollen er 1 weg. Hoeveel blijven er over?": {
+  "score": 0.99,
+  "gehoord": "Twintig ballen. Er rollen er één weg. Hoeveel blijven erover?"
+ },
+ "spin|20 ballen. Er rollen er 2 weg. Hoeveel blijven er over?": {
+  "score": 0.97,
+  "gehoord": "20 ballen. En rollen er 2 weg, hoeveel blijven erover?"
+ },
+ "spin|20 ballen. Er rollen er 3 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "20 ballen. Er rollen er 2 weg. Hoeveel blijven er over?"
+ },
+ "spin|20 ballen. Er rollen er 4 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "20 ballen. En rollen er 4 weg. Hoeveel blijven er over?"
+ },
+ "spin|20 ballen. Er rollen er 5 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "20 ballen. Er rollen er 5 weg. Hoeveel blijven er over?"
+ },
+ "spin|20 ballen. Er rollen er 6 weg. Hoeveel blijven er over?": {
+  "score": 0.92,
+  "gehoord": "20 ballen. En rollen er 6 bij, hoeveel blijven er over?"
+ },
+ "spin|20 ballen. Er rollen er 7 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "20 ballen. Er rollen er 7 weg. Hoeveel blijven er over?"
+ },
+ "spin|20 ballen. Er rollen er 8 weg. Hoeveel blijven er over?": {
+  "score": 0.93,
+  "gehoord": "20 ballen. En rol hem er 8 weg, hoeveel blijven er over?"
+ },
+ "spin|20 ballen. Er rollen er 9 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "20 ballen. Er rollen er 9 weg. Hoeveel blijven er over?"
+ },
+ "spin|20 ballen. Er rollen er 10 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "20 ballen. Er rollen er 10 weg, hoeveel blijven er over?"
+ },
+ "spin|20 ballen. Er rollen er 11 weg. Hoeveel blijven er over?": {
+  "score": 0.99,
+  "gehoord": "20 ballen. Er rollen er 11 weg. Hoeveel blijven erover?"
+ },
+ "spin|20 ballen. Er rollen er 12 weg. Hoeveel blijven er over?": {
+  "score": 0.98,
+  "gehoord": "20 ballen. En rollen er 12 weg. Hoeveel blijven er over?"
+ },
+ "spin|20 ballen. Er rollen er 13 weg. Hoeveel blijven er over?": {
+  "score": 0.91,
+  "gehoord": "20 ballen en rollen er 13 bij, hoeveel blijven erover?"
+ },
+ "spin|20 ballen. Er rollen er 14 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "20 ballen. Er rollen er 14 weg. Hoeveel blijven er over?"
+ },
+ "spin|20 ballen. Er rollen er 15 weg. Hoeveel blijven er over?": {
+  "score": 1.0,
+  "gehoord": "20 ballen. Er rollen er 15 weg. Hoeveel blijven er over?"
+ },
+ "spin|20 ballen. Er rollen er 16 weg. Hoeveel blijven er over?": {
+  "score": 0.97,
+  "gehoord": "20 ballen en rollen er 16 weg hoeveel blijven erover."
+ },
+ "spin|20 ballen. Er rollen er 17 weg. Hoeveel blijven er over?": {
+  "score": 0.97,
+  "gehoord": "20 ballen en rollen er 17 weg. Hoeveel blijven erover?"
+ },
+ "spin|20 ballen. Er rollen er 18 weg. Hoeveel blijven er over?": {
+  "score": 0.97,
+  "gehoord": "20 ballen. En rollen er 18 weg. Hoeveel blijven erover?"
+ },
+ "spin|20 ballen. Er rollen er 19 weg. Hoeveel blijven er over?": {
+  "score": 0.97,
+  "gehoord": "20 ballen. En rollen er 19 weg. Hoeveel blijven erover?"
+ },
+ "spin|Oh nee! Robot Bolt heeft alle stoplichten in de stad door elkaar gezet. Help jij mij ze te repareren?": {
+  "score": 0.93,
+  "gehoord": "Oh nee, Logopold heeft alle stoplisten in de stad door elkaar gezet. Help jij mij ze te repareren?"
+ },
+ "spin|Goed bezig! De auto’s rijden al een beetje beter. Nog even volhouden!": {
+  "score": 1.0,
+  "gehoord": "Goed bezig, de auto's rijden al een beetje beter. Nog even volhouden."
+ },
+ "spin|Gelukt! Alle stoplichten werken weer. Robot Bolt gaat voortaan netjes wachten op groen!": {
+  "score": 0.97,
+  "gehoord": "Gelukt! Alle stopplichten werken weer. Robot Bolt gaat voortaan nekjes machten op groen."
+ },
+ "spin|Kijk, Robot Bolt wordt boos! Zijn lampjes knipperen!": {
+  "score": 0.96,
+  "gehoord": "Kijk, Harbott Bolt wordt boos, zijn lampjes knipperen."
+ },
+ "spin|Robot Bolt probeert weg te rollen. Snel, nog een paar!": {
+  "score": 1.0,
+  "gehoord": "Robot Bolt probeert weg te rollen, snel nog een paar."
+ },
+ "spin|Hebbes! Robot Bolt zit vast in het vangnet!": {
+  "score": 0.9,
+  "gehoord": "Huppes, RoboBolt zit vast in het vangnet."
+ },
+ "spin|Robot Bolt is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!": {
+  "score": 0.95,
+  "gehoord": "Roboc Bold is weer bezig. Superkick en Agent Vroen gaan samen op missie."
+ },
+ "spin|Kijk daar! Kat Kladder heeft alle ballonnen van het kinderfeest gepikt. Zullen we ze terughalen?": {
+  "score": 1.0,
+  "gehoord": "Kijk daar, Kat Kladder heeft alle ballonnen van het kinderfeest gepikt. Zullen we ze terughalen?"
+ },
+ "spin|Super! De helft van de ballonnen is al terug. Ga zo door!": {
+  "score": 0.91,
+  "gehoord": "Super, de helft van de ballonnen is al terug. Ga zo door. Ga zo door."
+ },
+ "spin|Hoera! Alle ballonnen zijn terug en het feest kan beginnen. Kat Kladder mag ook een ballon!": {
+  "score": 1.0,
+  "gehoord": "Hoera, alle ballonnen zijn terug en het feest kan beginnen. Kat Kladder mag ook een ballon."
+ },
+ "spin|Kat Kladder blaast van schrik! Ga zo door!": {
+  "score": 0.95,
+  "gehoord": "Kapt Kladder, blaas van schrik, ha zo door!"
+ },
+ "spin|Kat Kladder rent over het dak. We hebben hem bijna!": {
+  "score": 1.0,
+  "gehoord": "Kat Kladder rent over het dak. We hebben hem bijna..."
+ },
+ "spin|Hebbes! Kat Kladder zit vast in het vangnet!": {
+  "score": 0.89,
+  "gehoord": "Eppes, kap klodder, zit vast in het vangnet."
+ },
+ "spin|Kat Kladder is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!": {
+  "score": 0.93,
+  "gehoord": "Cappladder is weer bezig. Superkick en agent Vroom gaan samen op missie."
+ },
+ "spin|Brrr! De Mopperwolk laat het regenen op de kermis. Met elke goede som sturen we een zonnestraal!": {
+  "score": 0.97,
+  "gehoord": "Brrrr, de mopperwolk laat het regenen op de kermis. Met elke goede zon sturen we een zonnestraal."
+ },
+ "spin|Kijk, de zon komt al tevoorschijn! Nog een paar zonnestralen!": {
+  "score": 0.98,
+  "gehoord": "Kijk, de zon komt al tevoorschijn. Nog een paar zonnen stralen."
+ },
+ "spin|De zon schijnt weer! De Mopperwolk moet lachen en de kermis gaat weer open!": {
+  "score": 0.99,
+  "gehoord": "De zon schijnt leer, de mopperwolk moet lachen en de kermis gaat weer open."
+ },
+ "spin|De Mopperwolk moppert: brrr, wat een zon!": {
+  "score": 0.93,
+  "gehoord": "De mopperwolk moppert. Bear, wat een zong."
+ },
+ "spin|De Mopperwolk wordt steeds kleiner!": {
+  "score": 0.94,
+  "gehoord": "de mopperhoek wordt steeds kleiner."
+ },
+ "spin|Hebbes! De Mopperwolk zit vast in het vangnet!": {
+  "score": 0.95,
+  "gehoord": "Heppes, de mopperwolk zit vast in het vangnet."
+ },
+ "spin|De Mopperwolk is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!": {
+  "score": 0.97,
+  "gehoord": "De mopperbolk is weer bezig. Superkick en agent Vroom gaan samen op missie."
+ },
+ "spin|Help! Professor Wiebel heeft de bouten uit de grote brug gehaald. Hij wiebelt helemaal! Zullen we ze vastdraaien?": {
+  "score": 1.0,
+  "gehoord": "Help! Professor Wiebel heeft de bouten uit de grote brug gehaald. Hij wiebelt helemaal. Zullen we ze vastdraaien?"
+ },
+ "spin|Mooi zo! De brug wiebelt al veel minder. Nog een paar bouten!": {
+  "score": 1.0,
+  "gehoord": "Mooi zo, de brug wiebelt al veel minder. Nog een paar bouten."
+ },
+ "spin|Klaar! De brug staat weer stevig. Professor Wiebel belooft dat hij voortaan alleen nog pudding laat wiebelen!": {
+  "score": 0.98,
+  "gehoord": "Klaar, de blug staat weer stevig. Professor Wiebel belooft dat hij voortaan alleen nog pudding laat liebelen."
+ },
+ "spin|Professor Wiebel krabt op zijn hoofd. Hij snapt er niks van!": {
+  "score": 0.97,
+  "gehoord": "Professor Wiebel kapt op zijn hoofd. Hij snapt er niks van."
+ },
+ "spin|Professor Wiebel laat zijn sleutel vallen!": {
+  "score": 1.0,
+  "gehoord": "Professor Wiebel laat zijn sleutel vallen."
+ },
+ "spin|Hebbes! Professor Wiebel zit vast in het vangnet!": {
+  "score": 0.92,
+  "gehoord": "Hèpes! Professor Wiegel zit vast in het vangnet."
+ },
+ "spin|Professor Wiebel is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!": {
+  "score": 0.98,
+  "gehoord": "Professor Wiebel is weer bezig. Superkick en agent Vroom gaan samen op missie."
+ },
+ "spin|O jee! De Snoepslurper heeft de hele snoepwinkel leeggezogen. Zullen we het snoep terughalen?": {
+  "score": 0.99,
+  "gehoord": "O jee, de snoepsturper heeft de hele snoepwinkel leeggezogen. Zullen we het snoep terughalen?"
+ },
+ "spin|Lekker bezig! De potten raken alweer vol. Nog even!": {
+  "score": 1.0,
+  "gehoord": "Lekker bezig! De potten raken alweer vol. Nog even."
+ },
+ "spin|Gelukt! De snoepwinkel is weer vol. En de Snoepslurper? Die krijgt één snoepje, maar alleen als hij het eerlijk vraagt!": {
+  "score": 1.0,
+  "gehoord": "Gelukt, de snoepwinkel is weer vol. En de snoepslurper, die krijgt één snoepje, maar alleen als hij het eerlijk vraagt."
+ },
+ "spin|De Snoepslurper krijgt de hik! Hik!": {
+  "score": 0.99,
+  "gehoord": "De snoepsluurper krijgt de hik. Hik!"
+ },
+ "spin|De Snoepslurper zijn slurf raakt in de knoop!": {
+  "score": 0.98,
+  "gehoord": "De snoepshurper zijn slurf raakt in de knoop."
+ },
+ "spin|Hebbes! De Snoepslurper zit vast in het vangnet!": {
+  "score": 0.9,
+  "gehoord": "En dus de snoep slurper zit vast in het vangnet."
+ },
+ "spin|De Snoepslurper is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!": {
+  "score": 0.95,
+  "gehoord": "De snoepsnerper is weer bezig. Superkick en Agent Vroom gaan samen op missie."
+ },
+ "spin|Letterdief Lodewijk is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!": {
+  "score": 0.98,
+  "gehoord": "Letterdief Lodewijk is weer bezig. Superkick en agent Vroom gaan samen op missie."
+ },
+ "spin|De Robotkrab is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!": {
+  "score": 0.98,
+  "gehoord": "De robotkrab is weer bezig. Superkick en Agent Vroen gaan samen op missie."
+ },
+ "spin|Mevrouw Mist is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!": {
+  "score": 0.99,
+  "gehoord": "Mevrouw Mist is weer bezig. Superkick en agent Vrom gaan samen op missie."
+ },
+ "spin|De Magneetmuis is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!": {
+  "score": 0.97,
+  "gehoord": "De magneetmuis is weer bezig. Superkick en AgentVoom gaan samen op missie."
+ },
+ "spin|Kapitein Kriebel is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!": {
+  "score": 0.95,
+  "gehoord": "Kapitein Gribble is weer bezig. Superkick en agent Voem gaan samen op missie."
+ },
+ "schurk|Hahaha, dat lukt je nooit!": {
+  "score": 0.96,
+  "gehoord": "Haha, dat lukt je nooit!"
+ },
+ "schurk|Je krijgt me toch niet!": {
+  "score": 1.0,
+  "gehoord": "Je krijgt me toch niet?"
+ },
+ "schurk|Nananana, ik ben veel te snel!": {
+  "score": 0.93,
+  "gehoord": "Na na na, ik ben veel te snel."
+ },
+ "schurk|Hihi, ik ben lekker ondeugend!": {
+  "score": 0.98,
+  "gehoord": "Hi hi, ik ben lekker ondeugend."
+ },
+ "schurk|Probeer me maar te pakken!": {
+  "score": 0.9,
+  "gehoord": "Kopeer me maar te pakken."
+ },
+ "schurk|Oei! Ik zal nooit meer ondeugend zijn!": {
+  "score": 1.0,
+  "gehoord": "Oei, ik zal nooit meer ondeugend zijn."
+ },
+ "ijzer|Hoi": {
+  "score": 1.0,
+  "gehoord": "Hoi."
+ },
+ "ijzer|Ik ben Agent Vroem. Zullen we letters oefenen?": {
+  "score": 0.98,
+  "gehoord": "Ik ben agent Vroom. Zullen we letters oefenen?"
+ },
+ "ijzer|Hoi! Ik ben Agent Vroem. Zullen we letters oefenen?": {
+  "score": 1.0,
+  "gehoord": "Hoi, ik ben agent Vroem. Zullen we letters oefenen?"
+ },
+ "ijzer|Super!": {
+  "score": 1.0,
+  "gehoord": "Super!"
+ },
+ "ijzer|Goed gedaan!": {
+  "score": 1.0,
+  "gehoord": "Goed gedaan!"
+ },
+ "ijzer|Wauw, knap!": {
+  "score": 0.82,
+  "gehoord": "Wow knap!"
+ },
+ "ijzer|Helemaal goed!": {
+  "score": 1.0,
+  "gehoord": "Helemaal goed."
+ },
+ "ijzer|Top gedaan!": {
+  "score": 1.0,
+  "gehoord": "Top gedaan."
+ },
+ "ijzer|Supersnel!": {
+  "score": 0.95,
+  "gehoord": "super snel"
+ },
+ "ijzer|Turbo goed!": {
+  "score": 1.0,
+  "gehoord": "Turbo goed."
+ },
+ "ijzer|Jij bent een echte agent!": {
+  "score": 1.0,
+  "gehoord": "Jij bent een echte agent."
+ },
+ "ijzer|Je bent naar een nieuw niveau: Beginklank!": {
+  "score": 1.0,
+  "gehoord": "Je bent naar een nieuw niveau, beginklank,"
+ },
+ "ijzer|Je bent naar een nieuw niveau: Letter herkennen!": {
+  "score": 0.98,
+  "gehoord": "Je bent naar een nieuw niveau, let er herkennen!"
+ },
+ "ijzer|Je bent naar een nieuw niveau: Hakken en plakken!": {
+  "score": 1.0,
+  "gehoord": "Je bent naar een nieuw niveau, hakken en plakken."
+ },
+ "ijzer|Je bent naar een nieuw niveau: Woordjes lezen!": {
+  "score": 1.0,
+  "gehoord": "Je bent naar een nieuw niveau woordjes lezen."
+ },
+ "ijzer|Missie klaar! Je hebt 0 sterren verdiend.": {
+  "score": 1.0,
+  "gehoord": "Missie klaar. Je hebt 0 sterren verdiend."
+ },
+ "ijzer|Missie klaar! Je hebt 1 ster verdiend.": {
+  "score": 1.0,
+  "gehoord": "Missie klaar. Je hebt één ster verdiend."
+ },
+ "ijzer|Missie klaar! Je hebt 2 sterren verdiend.": {
+  "score": 1.0,
+  "gehoord": "Missie klaar. Je hebt twee sterren verdiend."
+ },
+ "ijzer|Missie klaar! Je hebt 3 sterren verdiend.": {
+  "score": 1.0,
+  "gehoord": "Missie klaar! Je hebt drie sterren verdiend."
+ },
+ "ijzer|Missie klaar! Je hebt 4 sterren verdiend.": {
+  "score": 1.0,
+  "gehoord": "Missie klaar. Je hebt 4 sterren verdiend."
+ },
+ "ijzer|Missie klaar! Je hebt 5 sterren verdiend.": {
+  "score": 1.0,
+  "gehoord": "Missie klaar. Je hebt 5 sterren verdiend."
+ },
+ "ijzer|Missie klaar! Je hebt 6 sterren verdiend.": {
+  "score": 1.0,
+  "gehoord": "Missie klaar. Je hebt zes sterren verdiend."
+ },
+ "ijzer|Missie klaar! Je hebt 7 sterren verdiend.": {
+  "score": 0.95,
+  "gehoord": "Missie klaar. Je hebt 7 stellen verdiend."
+ },
+ "ijzer|Missie klaar! Je hebt 8 sterren verdiend.": {
+  "score": 1.0,
+  "gehoord": "Missie klaar. Je hebt acht sterren verdiend."
+ },
+ "ijzer|Missie klaar! Je hebt 9 sterren verdiend.": {
+  "score": 1.0,
+  "gehoord": "Missie klaar. Je hebt negen sterren verdiend."
+ },
+ "ijzer|Missie klaar! Je hebt 10 sterren verdiend.": {
+  "score": 1.0,
+  "gehoord": "Missie klaar! Je hebt 10 sterren verdiend!"
+ },
+ "ijzer|Dankjewel": {
+  "score": 1.0,
+  "gehoord": "Dankjewel."
+ },
+ "ijzer|Dankjewel, superheld!": {
+  "score": 1.0,
+  "gehoord": "Dankjewel, superheld."
+ },
+ "ijzer|En je hebt een nieuw pak vrijgespeeld: Klassiek! Wil je het aantrekken?": {
+  "score": 1.0,
+  "gehoord": "En je hebt een nieuw pak vrijgespeeld. Klassiek. Wil je het aantrekken?"
+ },
+ "ijzer|Je draagt nu het pak Klassiek!": {
+  "score": 1.0,
+  "gehoord": "Je draagt nu het pak klassiek."
+ },
+ "ijzer|Mijn zwart-gele uniform, klaar voor actie!": {
+  "score": 1.0,
+  "gehoord": "Mijn zwart gele uniform klaar voor actie."
+ },
+ "ijzer|En je hebt een nieuw pak vrijgespeeld: Zilver! Wil je het aantrekken?": {
+  "score": 1.0,
+  "gehoord": "En je hebt een nieuw pak vrijgespeeld, zilver. Wil je het aantrekken?"
+ },
+ "ijzer|Je draagt nu het pak Zilver!": {
+  "score": 1.0,
+  "gehoord": "Je draagt nu het pak zilver."
+ },
+ "ijzer|Het Zilveren uniform glanst als een spiegel!": {
+  "score": 1.0,
+  "gehoord": "Het zilveren uniform glanst als een spiegel."
+ },
+ "ijzer|En je hebt een nieuw pak vrijgespeeld: Stealth! Wil je het aantrekken?": {
+  "score": 0.93,
+  "gehoord": "En je hebt een nieuw pak vrijgespeeld. Wil je het aantrekken?"
+ },
+ "ijzer|Je draagt nu het pak Stealth!": {
+  "score": 0.91,
+  "gehoord": "Je draagt nu het pakstelf."
+ },
+ "ijzer|In het Stealthuniform ben ik bijna onzichtbaar!": {
+  "score": 0.98,
+  "gehoord": "In het steltuniform ben ik bijna onzichtbaar."
+ },
+ "ijzer|En je hebt een nieuw pak vrijgespeeld: Ruimte! Wil je het aantrekken?": {
+  "score": 0.97,
+  "gehoord": "En je hebt een nieuw pak vrijgespeeld. Puinte wil je het aantrekken."
+ },
+ "ijzer|Je draagt nu het pak Ruimte!": {
+  "score": 0.96,
+  "gehoord": "Je draait nu het pak ruimte."
+ },
+ "ijzer|Met het Ruimte-uniform kan ik naar de maan!": {
+  "score": 0.99,
+  "gehoord": "Met het ruimteuniform kan ik naar de maan."
+ },
+ "ijzer|En je hebt een nieuw pak vrijgespeeld: Goud! Wil je het aantrekken?": {
+  "score": 1.0,
+  "gehoord": "En je hebt een nieuw pak vrijgespeeld, goud. Wil je het aantrekken?"
+ },
+ "ijzer|Je draagt nu het pak Goud!": {
+  "score": 1.0,
+  "gehoord": "Je draagt nu het pak goud."
+ },
+ "ijzer|Het Gouden uniform is extra sterk!": {
+  "score": 0.98,
+  "gehoord": "Het goudenuniform is extra sterk."
+ },
+ "ijzer|En je hebt een nieuw pak vrijgespeeld: Neon! Wil je het aantrekken?": {
+  "score": 0.99,
+  "gehoord": "En je hebt een nieuw pak vrijgespeeld, NON. Wil je het aantrekken?"
+ },
+ "ijzer|Je draagt nu het pak Neon!": {
+  "score": 1.0,
+  "gehoord": "Je draagt nu het pak neon."
+ },
+ "ijzer|Het Neonuniform licht op in het donker!": {
+  "score": 0.95,
+  "gehoord": "Het neon uniform ligt op in het donker."
+ },
+ "ijzer|En je hebt een nieuw pak vrijgespeeld: Lava! Wil je het aantrekken?": {
+  "score": 1.0,
+  "gehoord": "En je hebt een nieuw pak vrijgespeeld, Lava. Wil je het aantrekken?"
+ },
+ "ijzer|Je draagt nu het pak Lava!": {
+  "score": 1.0,
+  "gehoord": "Je draagt nu het pak lava."
+ },
+ "ijzer|Het Lava-uniform is gloeiend heet!": {
+  "score": 0.97,
+  "gehoord": "Het lava-uniform is groeiend heet."
+ },
+ "ijzer|Dit pak zit nog op slot. Verzamel nog meer sterren!": {
+  "score": 1.0,
+  "gehoord": "Dit pak zit nog op slot. Verzamel nog meer sterren."
+ },
+ "ijzer|Geeft niks, we proberen het samen!": {
+  "score": 1.0,
+  "gehoord": "Geeft niks, we proberen het samen."
+ },
+ "ijzer|Bijna goed! Nog een keer.": {
+  "score": 1.0,
+  "gehoord": "Bijna goed, nog een keer."
+ },
+ "ijzer|Rustig aan, jij kunt dit!": {
+  "score": 1.0,
+  "gehoord": "Rustig aan. Jij kunt dit."
+ },
+ "ijzer|Agent Vroem, paraat!": {
+  "score": 0.94,
+  "gehoord": "Agent Vroom paraat."
+ },
+ "ijzer|Zwaailicht aan, we gaan!": {
+  "score": 0.98,
+  "gehoord": "Zwaai licht aan. We gaan."
+ },
+ "ijzer|Hihi, mijn helm kietelt!": {
+  "score": 1.0,
+  "gehoord": "Hihi, mijn helm kietelt."
+ },
+ "ijzer|Zoef! Vangnet!": {
+  "score": 0.92,
+  "gehoord": "Zoef van net."
+ },
+ "ijzer|Halt, politie!": {
+  "score": 1.0,
+  "gehoord": "Halt politie."
+ },
+ "ijzer|Sirene aan!": {
+  "score": 1.0,
+  "gehoord": "Sirene aan."
+ },
+ "ijzer|Doei! Kom snel weer oefenen!": {
+  "score": 1.0,
+  "gehoord": "Doei, kom snel weer oefenen!"
+ },
+ "ijzer|Daar komt de politie. Tatuu, tatuu!": {
+  "score": 0.9,
+  "gehoord": "Daar komt de politie. Datu, datu."
+ },
+ "ijzer|Kies maar: rekenen, letters of samen op missie!": {
+  "score": 1.0,
+  "gehoord": "Kies maar, rekenen, letters of samen op missie."
+ },
+ "ijzer|Luister goed.": {
+  "score": 1.0,
+  "gehoord": "Luister goed!"
+ },
+ "ijzer|Luister maar.": {
+  "score": 1.0,
+  "gehoord": "Luister maar."
+ },
+ "ijzer|Luister nog een keer.": {
+  "score": 1.0,
+  "gehoord": "Luister nog een keer."
+ },
+ "ijzer|We hakken het woord samen.": {
+  "score": 1.0,
+  "gehoord": "We hakken het woord samen."
+ },
+ "ijzer|Welk plaatje begint met": {
+  "score": 1.0,
+  "gehoord": "Welk plaatje begint met?"
+ },
+ "ijzer|aap": {
+  "score": 1.0,
+  "gehoord": "AAP"
+ },
+ "ijzer|Waarmee begint aap?": {
+  "score": 0.91,
+  "gehoord": "Waarmee begint ab?"
+ },
+ "ijzer|appel": {
+  "score": 0.8,
+  "gehoord": "Apple"
+ },
+ "ijzer|Waarmee begint appel?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint appel?"
+ },
+ "ijzer|anker": {
+  "score": 1.0,
+  "gehoord": "Anker."
+ },
+ "ijzer|Waarmee begint anker?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint Anker?"
+ },
+ "ijzer|ananas": {
+  "score": 1.0,
+  "gehoord": "Ananas."
+ },
+ "ijzer|Waarmee begint ananas?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint ananas?"
+ },
+ "ijzer|bal": {
+  "score": 0.86,
+  "gehoord": "Ball."
+ },
+ "ijzer|Waarmee begint bal?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint bal?"
+ },
+ "ijzer|boom": {
+  "score": 1.0,
+  "gehoord": "Boom."
+ },
+ "ijzer|Waarmee begint boom?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint boom?"
+ },
+ "ijzer|bus": {
+  "score": 1.0,
+  "gehoord": "bus"
+ },
+ "ijzer|Waarmee begint bus?": {
+  "score": 0.92,
+  "gehoord": "Waarmee begint de bus?"
+ },
+ "ijzer|boot": {
+  "score": 1.0,
+  "gehoord": "Boot"
+ },
+ "ijzer|Waarmee begint boot?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint boot?"
+ },
+ "ijzer|beer": {
+  "score": 1.0,
+  "gehoord": "Beer."
+ },
+ "ijzer|Waarmee begint beer?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint beer?"
+ },
+ "ijzer|banaan": {
+  "score": 0.91,
+  "gehoord": "Banan."
+ },
+ "ijzer|Waarmee begint banaan?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint banaan?"
+ },
+ "ijzer|cactus": {
+  "score": 1.0,
+  "gehoord": "Cactus."
+ },
+ "ijzer|Waarmee begint cactus?": {
+  "score": 0.93,
+  "gehoord": "Waarmee begint de cactus?"
+ },
+ "ijzer|camera": {
+  "score": 1.0,
+  "gehoord": "Camera."
+ },
+ "ijzer|Waarmee begint camera?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint camera?"
+ },
+ "ijzer|cadeau": {
+  "score": 0.83,
+  "gehoord": "Kadeau."
+ },
+ "ijzer|Waarmee begint cadeau?": {
+  "score": 0.98,
+  "gehoord": "Waarmee beginnt cadeau."
+ },
+ "ijzer|das": {
+  "score": 0.67,
+  "gehoord": "Dus"
+ },
+ "ijzer|Waarmee begint das?": {
+  "score": 0.89,
+  "gehoord": "Waarmee begint ons?"
+ },
+ "ijzer|deur": {
+  "score": 1.0,
+  "gehoord": "Deur."
+ },
+ "ijzer|Waarmee begint deur?": {
+  "score": 0.92,
+  "gehoord": "Waarmee beginnt du?"
+ },
+ "ijzer|dino": {
+  "score": 1.0,
+  "gehoord": "Dino."
+ },
+ "ijzer|Waarmee begint dino?": {
+  "score": 0.92,
+  "gehoord": "Maar mee begint Dino."
+ },
+ "ijzer|duim": {
+  "score": 1.0,
+  "gehoord": "Duim."
+ },
+ "ijzer|Waarmee begint duim?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint duim."
+ },
+ "ijzer|dolfijn": {
+  "score": 1.0,
+  "gehoord": "Dolfijn"
+ },
+ "ijzer|Waarmee begint dolfijn?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint dolfijn?"
+ },
+ "ijzer|eend": {
+  "score": 1.0,
+  "gehoord": "Eend."
+ },
+ "ijzer|Waarmee begint eend?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint Eend?"
+ },
+ "ijzer|egel": {
+  "score": 1.0,
+  "gehoord": "Egel."
+ },
+ "ijzer|Waarmee begint egel?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint Egel?"
+ },
+ "ijzer|emmer": {
+  "score": 1.0,
+  "gehoord": "Emmer"
+ },
+ "ijzer|Waarmee begint emmer?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint emmer?"
+ },
+ "ijzer|fiets": {
+  "score": 1.0,
+  "gehoord": "fiets"
+ },
+ "ijzer|Waarmee begint fiets?": {
+  "score": 1.0,
+  "gehoord": "waarmee begint fiets."
+ },
+ "ijzer|fles": {
+  "score": 1.0,
+  "gehoord": "Fles."
+ },
+ "ijzer|Waarmee begint fles?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint fles."
+ },
+ "ijzer|fee": {
+  "score": 0.67,
+  "gehoord": "see"
+ },
+ "ijzer|Waarmee begint fee?": {
+  "score": 0.92,
+  "gehoord": "waarmee begin te feed."
+ },
+ "ijzer|geit": {
+  "score": 1.0,
+  "gehoord": "Geit."
+ },
+ "ijzer|Waarmee begint geit?": {
+  "score": 0.86,
+  "gehoord": "Waarmee begint hij?"
+ },
+ "ijzer|gitaar": {
+  "score": 0.91,
+  "gehoord": "Gitar"
+ },
+ "ijzer|Waarmee begint gitaar?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint gitaar?"
+ },
+ "ijzer|giraf": {
+  "score": 1.0,
+  "gehoord": "Giraf."
+ },
+ "ijzer|Waarmee begint giraf?": {
+  "score": 0.93,
+  "gehoord": "Waarmee begint hieraf."
+ },
+ "ijzer|huis": {
+  "score": 1.0,
+  "gehoord": "Huis."
+ },
+ "ijzer|Waarmee begint huis?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint huis?"
+ },
+ "ijzer|hond": {
+  "score": 1.0,
+  "gehoord": "Hond."
+ },
+ "ijzer|Waarmee begint hond?": {
+  "score": 0.95,
+  "gehoord": "Waarmee begint rond?"
+ },
+ "ijzer|hoed": {
+  "score": 0.75,
+  "gehoord": "Goed."
+ },
+ "ijzer|Waarmee begint hoed?": {
+  "score": 0.95,
+  "gehoord": "Waarmee begint goed?"
+ },
+ "ijzer|haan": {
+  "score": 1.0,
+  "gehoord": "Haan."
+ },
+ "ijzer|Waarmee begint haan?": {
+  "score": 0.97,
+  "gehoord": "Waarmee begint Han?"
+ },
+ "ijzer|inktvis": {
+  "score": 1.0,
+  "gehoord": "Inktvis"
+ },
+ "ijzer|Waarmee begint inktvis?": {
+  "score": 1.0,
+  "gehoord": "waarmee begint inktvis"
+ },
+ "ijzer|jas": {
+  "score": 1.0,
+  "gehoord": "Jas."
+ },
+ "ijzer|Waarmee begint jas?": {
+  "score": 0.92,
+  "gehoord": "Waarmee begint jazz?"
+ },
+ "ijzer|jurk": {
+  "score": 0.86,
+  "gehoord": "Juk."
+ },
+ "ijzer|Waarmee begint jurk?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint jurk?"
+ },
+ "ijzer|jojo": {
+  "score": 1.0,
+  "gehoord": "Jojo."
+ },
+ "ijzer|Waarmee begint jojo?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint Jojo?"
+ },
+ "ijzer|kat": {
+  "score": 1.0,
+  "gehoord": "Kat."
+ },
+ "ijzer|Waarmee begint kat?": {
+  "score": 0.97,
+  "gehoord": "Waarmee begint Kats."
+ },
+ "ijzer|koe": {
+  "score": 0.57,
+  "gehoord": "koe",
+  "notitie": "gekozen door gebruiker (koe-2-11)"
+ },
+ "ijzer|Waarmee begint koe?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint koe?"
+ },
+ "ijzer|kip": {
+  "score": 1.0,
+  "gehoord": "Kip."
+ },
+ "ijzer|Waarmee begint kip?": {
+  "score": 0.92,
+  "gehoord": "Waarmee begint de kip."
+ },
+ "ijzer|kaas": {
+  "score": 0.86,
+  "gehoord": "KAS"
+ },
+ "ijzer|Waarmee begint kaas?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint kaas?"
+ },
+ "ijzer|koek": {
+  "score": 1.0,
+  "gehoord": "Koek."
+ },
+ "ijzer|Waarmee begint koek?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint koek?"
+ },
+ "ijzer|kroon": {
+  "score": 0.89,
+  "gehoord": "Kron."
+ },
+ "ijzer|Waarmee begint kroon?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint Kroon."
+ },
+ "ijzer|leeuw": {
+  "score": 1.0,
+  "gehoord": "Leeuw!"
+ },
+ "ijzer|Waarmee begint leeuw?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint leeuw?"
+ },
+ "ijzer|lamp": {
+  "score": 1.0,
+  "gehoord": "Lamp."
+ },
+ "ijzer|Waarmee begint lamp?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint LAMP?"
+ },
+ "ijzer|lepel": {
+  "score": 1.0,
+  "gehoord": "Lepel."
+ },
+ "ijzer|Waarmee begint lepel?": {
+  "score": 0.92,
+  "gehoord": "Waarmee begint Lepo?"
+ },
+ "ijzer|lolly": {
+  "score": 1.0,
+  "gehoord": "Lolly?"
+ },
+ "ijzer|Waarmee begint lolly?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint Lolly?"
+ },
+ "ijzer|lama": {
+  "score": 1.0,
+  "gehoord": "Lama"
+ },
+ "ijzer|Waarmee begint lama?": {
+  "score": 1.0,
+  "gehoord": "waarmee begint lama,"
+ },
+ "ijzer|maan": {
+  "score": 0.86,
+  "gehoord": "Man"
+ },
+ "ijzer|Waarmee begint maan?": {
+  "score": 0.97,
+  "gehoord": "Waarmee begint man?"
+ },
+ "ijzer|muis": {
+  "score": 1.0,
+  "gehoord": "Muis."
+ },
+ "ijzer|Waarmee begint muis?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint muis?"
+ },
+ "ijzer|melk": {
+  "score": 0.89,
+  "gehoord": "Mielk"
+ },
+ "ijzer|Waarmee begint melk?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint melk?"
+ },
+ "ijzer|mug": {
+  "score": 0.86,
+  "gehoord": "Mugh"
+ },
+ "ijzer|Waarmee begint mug?": {
+  "score": 0.92,
+  "gehoord": "Waarmee je begint? Mug."
+ },
+ "ijzer|neus": {
+  "score": 1.0,
+  "gehoord": "Neus."
+ },
+ "ijzer|Waarmee begint neus?": {
+  "score": 0.9,
+  "gehoord": "Waarmee begint het neus."
+ },
+ "ijzer|nest": {
+  "score": 0.89,
+  "gehoord": "Neste"
+ },
+ "ijzer|Waarmee begint nest?": {
+  "score": 0.97,
+  "gehoord": "Waarmee begint nests?"
+ },
+ "ijzer|neushoorn": {
+  "score": 1.0,
+  "gehoord": "Neushoorn"
+ },
+ "ijzer|Waarmee begint neushoorn?": {
+  "score": 0.92,
+  "gehoord": "Waarmee begint nu schooren?"
+ },
+ "ijzer|oog": {
+  "score": 1.0,
+  "gehoord": "Oog!"
+ },
+ "ijzer|Waarmee begint oog?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint oog?"
+ },
+ "ijzer|oor": {
+  "score": 1.0,
+  "gehoord": "Oor."
+ },
+ "ijzer|Waarmee begint oor?": {
+  "score": 0.97,
+  "gehoord": "Waarmee begint OR..."
+ },
+ "ijzer|olifant": {
+  "score": 1.0,
+  "gehoord": "Olifant"
+ },
+ "ijzer|Waarmee begint olifant?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint olifant?"
+ },
+ "ijzer|peer": {
+  "score": 0.75,
+  "gehoord": "Pier"
+ },
+ "ijzer|Waarmee begint peer?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint peer?"
+ },
+ "ijzer|pan": {
+  "score": 0.86,
+  "gehoord": "Span."
+ },
+ "ijzer|Waarmee begint pan?": {
+  "score": 0.94,
+  "gehoord": "Waarmee begint PAM?"
+ },
+ "ijzer|pizza": {
+  "score": 1.0,
+  "gehoord": "Pizza"
+ },
+ "ijzer|Waarmee begint pizza?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint pizza?"
+ },
+ "ijzer|paard": {
+  "score": 1.0,
+  "gehoord": "paard"
+ },
+ "ijzer|Waarmee begint paard?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint paard?"
+ },
+ "ijzer|pinguïn": {
+  "score": 0.71,
+  "gehoord": "Penguin"
+ },
+ "ijzer|Waarmee begint pinguïn?": {
+  "score": 1.0,
+  "gehoord": "waarmee begint pinguïn."
+ },
+ "ijzer|roos": {
+  "score": 1.0,
+  "gehoord": "Roos."
+ },
+ "ijzer|Waarmee begint roos?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint roos."
+ },
+ "ijzer|raket": {
+  "score": 1.0,
+  "gehoord": "raket"
+ },
+ "ijzer|Waarmee begint raket?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint raket."
+ },
+ "ijzer|rups": {
+  "score": 1.0,
+  "gehoord": "Rups."
+ },
+ "ijzer|Waarmee begint rups?": {
+  "score": 1.0,
+  "gehoord": "waarmee begint RUPS"
+ },
+ "ijzer|robot": {
+  "score": 1.0,
+  "gehoord": "Robot"
+ },
+ "ijzer|Waarmee begint robot?": {
+  "score": 1.0,
+  "gehoord": "waarmee begint robot"
+ },
+ "ijzer|sok": {
+  "score": 1.0,
+  "gehoord": "Sok."
+ },
+ "ijzer|Waarmee begint sok?": {
+  "score": 0.94,
+  "gehoord": "Waarmee begint ZOK?"
+ },
+ "ijzer|slak": {
+  "score": 1.0,
+  "gehoord": "Slak."
+ },
+ "ijzer|Waarmee begint slak?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint slak."
+ },
+ "ijzer|ster": {
+  "score": 0.89,
+  "gehoord": "Sterk."
+ },
+ "ijzer|Waarmee begint ster?": {
+  "score": 0.92,
+  "gehoord": "Waarmee begint Stead."
+ },
+ "ijzer|slang": {
+  "score": 0.8,
+  "gehoord": "Slaan"
+ },
+ "ijzer|Waarmee begint slang?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint slang?"
+ },
+ "ijzer|soep": {
+  "score": 1.0,
+  "gehoord": "Soep."
+ },
+ "ijzer|Waarmee begint soep?": {
+  "score": 0.97,
+  "gehoord": "Waarmee begin soep."
+ },
+ "ijzer|tent": {
+  "score": 1.0,
+  "gehoord": "Tent."
+ },
+ "ijzer|Waarmee begint tent?": {
+  "score": 0.92,
+  "gehoord": "Waarmee begint het?"
+ },
+ "ijzer|tijger": {
+  "score": 0.92,
+  "gehoord": "Tijgers."
+ },
+ "ijzer|Waarmee begint tijger?": {
+  "score": 0.98,
+  "gehoord": "Waarmee begint tijgers?"
+ },
+ "ijzer|trein": {
+  "score": 1.0,
+  "gehoord": "TREIN"
+ },
+ "ijzer|Waarmee begint trein?": {
+  "score": 0.9,
+  "gehoord": "Waarmee begint trainen?"
+ },
+ "ijzer|tand": {
+  "score": 1.0,
+  "gehoord": "Tand."
+ },
+ "ijzer|Waarmee begint tand?": {
+  "score": 0.92,
+  "gehoord": "Waarmee begint TAM?"
+ },
+ "ijzer|taart": {
+  "score": 0.8,
+  "gehoord": "Tarte."
+ },
+ "ijzer|Waarmee begint taart?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint taart?"
+ },
+ "ijzer|tomaat": {
+  "score": 1.0,
+  "gehoord": "Tomaat."
+ },
+ "ijzer|Waarmee begint tomaat?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint tomaat?"
+ },
+ "ijzer|ufo": {
+  "score": 1.0,
+  "gehoord": "Ufo."
+ },
+ "ijzer|Waarmee begint ufo?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint UFO?"
+ },
+ "ijzer|vis": {
+  "score": 0.67,
+  "gehoord": "FIS"
+ },
+ "ijzer|Waarmee begint vis?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint vis?"
+ },
+ "ijzer|vos": {
+  "score": 0.86,
+  "gehoord": "Voss"
+ },
+ "ijzer|Waarmee begint vos?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint Vos?"
+ },
+ "ijzer|vlinder": {
+  "score": 1.0,
+  "gehoord": "Vlinder"
+ },
+ "ijzer|Waarmee begint vlinder?": {
+  "score": 0.95,
+  "gehoord": "Waarmee begint flinder?"
+ },
+ "ijzer|vork": {
+  "score": 1.0,
+  "gehoord": "Vork"
+ },
+ "ijzer|Waarmee begint vork?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint vork?"
+ },
+ "ijzer|vuur": {
+  "score": 1.0,
+  "gehoord": "Vuur."
+ },
+ "ijzer|Waarmee begint vuur?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint Vuur."
+ },
+ "ijzer|walvis": {
+  "score": 1.0,
+  "gehoord": "Walvis."
+ },
+ "ijzer|Waarmee begint walvis?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint walvis?"
+ },
+ "ijzer|wolk": {
+  "score": 0.86,
+  "gehoord": "Wok"
+ },
+ "ijzer|Waarmee begint wolk?": {
+  "score": 0.95,
+  "gehoord": "Waarmee begint Woke?"
+ },
+ "ijzer|worm": {
+  "score": 1.0,
+  "gehoord": "Worm"
+ },
+ "ijzer|Waarmee begint worm?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint worm?"
+ },
+ "ijzer|wortel": {
+  "score": 0.71,
+  "gehoord": "Wordtool"
+ },
+ "ijzer|Waarmee begint wortel?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint wortel?"
+ },
+ "ijzer|zon": {
+  "score": 0.67,
+  "gehoord": "ZOM"
+ },
+ "ijzer|Waarmee begint zon?": {
+  "score": 0.92,
+  "gehoord": "waarmee begint zoem."
+ },
+ "ijzer|zee": {
+  "score": 1.0,
+  "gehoord": "Zee."
+ },
+ "ijzer|Waarmee begint zee?": {
+  "score": 1.0,
+  "gehoord": "Waarmee begint zee?"
+ },
+ "ijzer|zebra": {
+  "score": 1.0,
+  "gehoord": "Zebra"
+ },
+ "ijzer|Waarmee begint zebra?": {
+  "score": 0.9,
+  "gehoord": "Waarmee begint Subra?"
+ },
+ "ijzer|zaag": {
+  "score": 0.86,
+  "gehoord": "Zag!"
+ },
+ "ijzer|Waarmee begint zaag?": {
+  "score": 0.95,
+  "gehoord": "Waarmee begint saag?"
+ },
+ "ijzer|Welk plaatje begint met deze letter?": {
+  "score": 0.93,
+  "gehoord": "Het plaatje begint met deze letter."
+ },
+ "ijzer|Luister goed. Welk plaatje hoor je?": {
+  "score": 0.91,
+  "gehoord": "Luister goed. Lodplaatje hoor je."
+ },
+ "ijzer|Lees het woord. Welk plaatje hoort erbij?": {
+  "score": 1.0,
+  "gehoord": "Lees het woord. Welk plaatje hoort erbij?"
+ },
+ "ijzer|ah": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|eh": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|ih": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|oh": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|uh": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|aa": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|ee": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|oo": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|uu": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|oe": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|eu": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|ui": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|ei": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|buh": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|duh": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|fff": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|ggg": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|hhh": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|juh": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|kuh": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|lll": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|mmm": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|nnn": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|puh": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|rrr": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|sss": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|tuh": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|vvv": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|wuh": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|zzz": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ },
+ "ijzer|Wat is dit? Letterdief Lodewijk heeft alle letters van het schoolbord gestolen! Help jij mij ze terug te zetten?": {
+  "score": 0.99,
+  "gehoord": "Wat is dit? Letterdief Lodewijk heeft alle letters van het schootbord gestolen. Help jij mij ze terug te zetten?"
+ },
+ "ijzer|Knap! De helft van de letters staat alweer op het bord. Nog even!": {
+  "score": 1.0,
+  "gehoord": "Knap! De helft van de letters staat alweer op het bord. Nog even."
+ },
+ "ijzer|Alle letters zijn terug! Letterdief Lodewijk gaat nu zelf leren lezen in de klas!": {
+  "score": 0.99,
+  "gehoord": "Alle letters zijn terug. Lettertief Lodewijk gaat nu zelf leren lezen in de klas."
+ },
+ "ijzer|Letterdief Lodewijk laat letters vallen uit zijn zak!": {
+  "score": 1.0,
+  "gehoord": "Letterdief Lodewijk laat letters vallen uit zijn zak."
+ },
+ "ijzer|Letterdief Lodewijk struikelt over een a!": {
+  "score": 0.97,
+  "gehoord": "Letterdief Lodewijk strijkelt over een A."
+ },
+ "ijzer|Hebbes! Letterdief Lodewijk zit vast in het vangnet!": {
+  "score": 1.0,
+  "gehoord": "Hebbes, letterdief Lodewijk, zit vast in het vangnet."
+ },
+ "ijzer|Het is donker in de haven! De Robotkrab heeft alle lampjes doorgeknipt. Zullen we ze weer laten branden?": {
+  "score": 1.0,
+  "gehoord": "Het is donker in de haven. De robotkrab heeft alle lampjes doorgeknipt. Zullen we ze weer laten branden?"
+ },
+ "ijzer|Het wordt al lichter in de haven! Nog een paar lampjes!": {
+  "score": 1.0,
+  "gehoord": "Het wordt al lichter in de haven. Nog een paar lampjes."
+ },
+ "ijzer|Alle lampjes branden weer! De Robotkrab knipt voortaan alleen nog papier!": {
+  "score": 1.0,
+  "gehoord": "Alle lampjes branden weer. De robotkrab knipt voortaan alleen nog papier."
+ },
+ "ijzer|De Robotkrab klappert boos met zijn scharen!": {
+  "score": 1.0,
+  "gehoord": "De robotkrab klappert boos met zijn scharen."
+ },
+ "ijzer|De Robotkrab loopt zijwaarts weg!": {
+  "score": 0.94,
+  "gehoord": "De robotknap loopt zijwaarts weg."
+ },
+ "ijzer|Hebbes! De Robotkrab zit vast in het vangnet!": {
+  "score": 1.0,
+  "gehoord": "Hebbes. De robotkrab zit vast in het vangnet."
+ },
+ "ijzer|Ik zie bijna niks! Mevrouw Mist heeft de hele stad in dikke mist gehuld. Met elk goed antwoord blazen we mist weg!": {
+  "score": 1.0,
+  "gehoord": "Ik zie bijna niks. Mevrouw Mist heeft de hele stad in dikke mist gehuld. Met elk goed antwoord blazen we mist weg."
+ },
+ "ijzer|Ik zie de huizen alweer! Nog een beetje mist!": {
+  "score": 1.0,
+  "gehoord": "Ik zie de huizen alweer nog een beetje mist."
+ },
+ "ijzer|Alle mist is weg! De stad is weer helder, en Mevrouw Mist gaat lekker zweven boven de zee!": {
+  "score": 0.98,
+  "gehoord": "Alle mist is weg. De stot is weer helder en mevrouw mist gaat lekker zweven boven de zee."
+ },
+ "ijzer|Mevrouw Mist zucht: oeh, wat een wind!": {
+  "score": 1.0,
+  "gehoord": "Mevrouw mist zucht. Oeh, wat een wind!"
+ },
+ "ijzer|Mevrouw Mist wordt steeds doorzichtiger!": {
+  "score": 1.0,
+  "gehoord": "Mevrouw Mist wordt steeds doorzichtiger."
+ },
+ "ijzer|Hebbes! Mevrouw Mist zit vast in het vangnet!": {
+  "score": 1.0,
+  "gehoord": "Hebbes, mevrouw Mist, zit vast in het vangnet."
+ },
+ "ijzer|Wat gebeurt er? De Magneetmuis trekt alle fietsen en auto’s naar zich toe! Help jij mij ze los te halen?": {
+  "score": 1.0,
+  "gehoord": "Wat gebeurt er? De magneetmuis trekt alle fietsen en auto's naar zich toe. Help jij mij ze los te halen?"
+ },
+ "ijzer|Goed zo! Al veel fietsen zijn los. Nog even!": {
+  "score": 1.0,
+  "gehoord": "Goed zo, al veel fietsen zijn los. Nog even."
+ },
+ "ijzer|Alles is los! De Magneetmuis gebruikt haar magneet nu alleen nog om haar kaas op te ruimen!": {
+  "score": 0.97,
+  "gehoord": "Alles is los. De magneetmuis gebruikt de magneet nu alleen nog om haar kaas op te ruimen."
+ },
+ "ijzer|De Magneetmuis piept: hé, mijn fietsen!": {
+  "score": 1.0,
+  "gehoord": "De magneetmuis piept. Hé, mijn fietsen."
+ },
+ "ijzer|De Magneetmuis haar magneet begint te wiebelen!": {
+  "score": 1.0,
+  "gehoord": "De magneetmuis, haar magneet, begint te wiebelen."
+ },
+ "ijzer|Hebbes! De Magneetmuis zit vast in het vangnet!": {
+  "score": 1.0,
+  "gehoord": "Hebbes. De magneetmuis zit vast in het vangnet."
+ },
+ "ijzer|Ahoi! Kapitein Kriebel, de piratenpapegaai, heeft de schatkist verstopt. Met elk goed antwoord vinden we een gouden muntje!": {
+  "score": 0.97,
+  "gehoord": "Ahoy, kapitein Kribbel de piratenpapagai heeft de schatkist verstopt. Met elk goed antwoord vinden we een gouden muntje."
+ },
+ "ijzer|Kijk eens hoeveel goud! We zijn al halverwege!": {
+  "score": 1.0,
+  "gehoord": "Kijk eens hoeveel goud, we zijn al halverwege."
+ },
+ "ijzer|De schatkist is gevonden! Kapitein Kriebel krijgt een cracker en deelt de schat met iedereen!": {
+  "score": 0.97,
+  "gehoord": "De schatkist is gevonden. Kapitein Kribbel krijgt een krakker en deelt de schat met iedereen."
+ },
+ "ijzer|Kapitein Kriebel krijst: mijn goud, mijn goud!": {
+  "score": 0.98,
+  "gehoord": "Kapitein Kribbel krijst mijn goud, mijn goud."
+ },
+ "ijzer|Kapitein Kriebel verliest zijn piratenhoed!": {
+  "score": 0.94,
+  "gehoord": "Kapitein Kribbo verliest zijn piratenhoed."
+ },
+ "ijzer|Hebbes! Kapitein Kriebel zit vast in het vangnet!": {
+  "score": 0.97,
+  "gehoord": "Hebbes, kapitein Kiebel zit vast in het van net."
+ },
+ "ijzer|ie": {
+  "score": 1.0,
+  "gehoord": "(klank)"
+ }
+}

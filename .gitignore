@@ -1,0 +1,8 @@
+node_modules
+dist
+.claude
+vite.config.ts.timestamp-*
+stemproef
+*.log
+.env
+.env.*

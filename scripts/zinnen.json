@@ -1,0 +1,5917 @@
+[
+ {
+  "sleutel": "spin|Hoi",
+  "bestand": "spin-0a0il9h.mp3",
+  "held": "spin",
+  "tekst": "Hoi",
+  "uitspraak": "Hoi"
+ },
+ {
+  "sleutel": "spin|Ik ben Super-Kick. Zullen we samen rekenen?",
+  "bestand": "spin-00101uh.mp3",
+  "held": "spin",
+  "tekst": "Ik ben Super-Kick. Zullen we samen rekenen?",
+  "uitspraak": "Ik ben Super-Kick. Zullen we samen rekenen?"
+ },
+ {
+  "sleutel": "spin|Hoi! Ik ben Super-Kick. Zullen we samen rekenen?",
+  "bestand": "spin-15e3vqk.mp3",
+  "held": "spin",
+  "tekst": "Hoi! Ik ben Super-Kick. Zullen we samen rekenen?",
+  "uitspraak": "Hoi! Ik ben Super-Kick. Zullen we samen rekenen?"
+ },
+ {
+  "sleutel": "spin|Super!",
+  "bestand": "spin-19fvnjt.mp3",
+  "held": "spin",
+  "tekst": "Super!",
+  "uitspraak": "Super!"
+ },
+ {
+  "sleutel": "spin|Goed gedaan!",
+  "bestand": "spin-0aj3zq3.mp3",
+  "held": "spin",
+  "tekst": "Goed gedaan!",
+  "uitspraak": "Goed gedaan!"
+ },
+ {
+  "sleutel": "spin|Wauw, knap!",
+  "bestand": "spin-1jb7ftq.mp3",
+  "held": "spin",
+  "tekst": "Wauw, knap!",
+  "uitspraak": "Wauw, knap!"
+ },
+ {
+  "sleutel": "spin|Helemaal goed!",
+  "bestand": "spin-1qx0qum.mp3",
+  "held": "spin",
+  "tekst": "Helemaal goed!",
+  "uitspraak": "Helemaal goed!"
+ },
+ {
+  "sleutel": "spin|Top gedaan!",
+  "bestand": "spin-09oq5j9.mp3",
+  "held": "spin",
+  "tekst": "Top gedaan!",
+  "uitspraak": "Top gedaan!"
+ },
+ {
+  "sleutel": "spin|Goooal!",
+  "bestand": "spin-144ohzh.mp3",
+  "held": "spin",
+  "tekst": "Goooal!",
+  "uitspraak": "Goooal!"
+ },
+ {
+  "sleutel": "spin|Wat een knaller!",
+  "bestand": "spin-0yp5g39.mp3",
+  "held": "spin",
+  "tekst": "Wat een knaller!",
+  "uitspraak": "Wat een knaller!"
+ },
+ {
+  "sleutel": "spin|Jij bent een echte topspeler!",
+  "bestand": "spin-1v7u849.mp3",
+  "held": "spin",
+  "tekst": "Jij bent een echte topspeler!",
+  "uitspraak": "Jij bent een echte topspeler!"
+ },
+ {
+  "sleutel": "spin|Je bent naar een nieuw niveau: Tellen!",
+  "bestand": "spin-0hao5ly.mp3",
+  "held": "spin",
+  "tekst": "Je bent naar een nieuw niveau: Tellen!",
+  "uitspraak": "Je bent naar een nieuw niveau: Tellen!"
+ },
+ {
+  "sleutel": "spin|Je bent naar een nieuw niveau: Cijfers!",
+  "bestand": "spin-06il02c.mp3",
+  "held": "spin",
+  "tekst": "Je bent naar een nieuw niveau: Cijfers!",
+  "uitspraak": "Je bent naar een nieuw niveau: Cijfers!"
+ },
+ {
+  "sleutel": "spin|Je bent naar een nieuw niveau: Plussommen!",
+  "bestand": "spin-1qrymxz.mp3",
+  "held": "spin",
+  "tekst": "Je bent naar een nieuw niveau: Plussommen!",
+  "uitspraak": "Je bent naar een nieuw niveau: Plussommen!"
+ },
+ {
+  "sleutel": "spin|Je bent naar een nieuw niveau: Minsommen!",
+  "bestand": "spin-05rn28l.mp3",
+  "held": "spin",
+  "tekst": "Je bent naar een nieuw niveau: Minsommen!",
+  "uitspraak": "Je bent naar een nieuw niveau: Minsommen!"
+ },
+ {
+  "sleutel": "spin|Je bent naar een nieuw niveau: Plus tot 20!",
+  "bestand": "spin-1lv7oip.mp3",
+  "held": "spin",
+  "tekst": "Je bent naar een nieuw niveau: Plus tot 20!",
+  "uitspraak": "Je bent naar een nieuw niveau: Plus tot twintig!"
+ },
+ {
+  "sleutel": "spin|Je bent naar een nieuw niveau: Min tot 20!",
+  "bestand": "spin-0yei6e7.mp3",
+  "held": "spin",
+  "tekst": "Je bent naar een nieuw niveau: Min tot 20!",
+  "uitspraak": "Je bent naar een nieuw niveau: Min tot twintig!"
+ },
+ {
+  "sleutel": "spin|Missie klaar! Je hebt 0 sterren verdiend.",
+  "bestand": "spin-1e227gn.mp3",
+  "held": "spin",
+  "tekst": "Missie klaar! Je hebt 0 sterren verdiend.",
+  "uitspraak": "Missie klaar! Je hebt nul sterren verdiend."
+ },
+ {
+  "sleutel": "spin|Missie klaar! Je hebt 1 ster verdiend.",
+  "bestand": "spin-1nuhj41.mp3",
+  "held": "spin",
+  "tekst": "Missie klaar! Je hebt 1 ster verdiend.",
+  "uitspraak": "Missie klaar! Je hebt één ster verdiend."
+ },
+ {
+  "sleutel": "spin|Missie klaar! Je hebt 2 sterren verdiend.",
+  "bestand": "spin-0h2x4e1.mp3",
+  "held": "spin",
+  "tekst": "Missie klaar! Je hebt 2 sterren verdiend.",
+  "uitspraak": "Missie klaar! Je hebt twee sterren verdiend."
+ },
+ {
+  "sleutel": "spin|Missie klaar! Je hebt 3 sterren verdiend.",
+  "bestand": "spin-1ymrtpy.mp3",
+  "held": "spin",
+  "tekst": "Missie klaar! Je hebt 3 sterren verdiend.",
+  "uitspraak": "Missie klaar! Je hebt drie sterren verdiend."
+ },
+ {
+  "sleutel": "spin|Missie klaar! Je hebt 4 sterren verdiend.",
+  "bestand": "spin-1ocrzc3.mp3",
+  "held": "spin",
+  "tekst": "Missie klaar! Je hebt 4 sterren verdiend.",
+  "uitspraak": "Missie klaar! Je hebt vier sterren verdiend."
+ },
+ {
+  "sleutel": "spin|Missie klaar! Je hebt 5 sterren verdiend.",
+  "bestand": "spin-106ywx4.mp3",
+  "held": "spin",
+  "tekst": "Missie klaar! Je hebt 5 sterren verdiend.",
+  "uitspraak": "Missie klaar! Je hebt vijf sterren verdiend."
+ },
+ {
+  "sleutel": "spin|Missie klaar! Je hebt 6 sterren verdiend.",
+  "bestand": "spin-0s4e3n9.mp3",
+  "held": "spin",
+  "tekst": "Missie klaar! Je hebt 6 sterren verdiend.",
+  "uitspraak": "Missie klaar! Je hebt zes sterren verdiend."
+ },
+ {
+  "sleutel": "spin|Missie klaar! Je hebt 7 sterren verdiend.",
+  "bestand": "spin-0daik4y.mp3",
+  "held": "spin",
+  "tekst": "Missie klaar! Je hebt 7 sterren verdiend.",
+  "uitspraak": "Missie klaar! Je hebt zeven sterren verdiend."
+ },
+ {
+  "sleutel": "spin|Missie klaar! Je hebt 8 sterren verdiend.",
+  "bestand": "spin-032rcvj.mp3",
+  "held": "spin",
+  "tekst": "Missie klaar! Je hebt 8 sterren verdiend.",
+  "uitspraak": "Missie klaar! Je hebt acht sterren verdiend."
+ },
+ {
+  "sleutel": "spin|Missie klaar! Je hebt 9 sterren verdiend.",
+  "bestand": "spin-12wg5n8.mp3",
+  "held": "spin",
+  "tekst": "Missie klaar! Je hebt 9 sterren verdiend.",
+  "uitspraak": "Missie klaar! Je hebt negen sterren verdiend."
+ },
+ {
+  "sleutel": "spin|Missie klaar! Je hebt 10 sterren verdiend.",
+  "bestand": "spin-0hokym0.mp3",
+  "held": "spin",
+  "tekst": "Missie klaar! Je hebt 10 sterren verdiend.",
+  "uitspraak": "Missie klaar! Je hebt tien sterren verdiend."
+ },
+ {
+  "sleutel": "spin|Dankjewel",
+  "bestand": "spin-1yrpumm.mp3",
+  "held": "spin",
+  "tekst": "Dankjewel",
+  "uitspraak": "Dankjewel"
+ },
+ {
+  "sleutel": "spin|Dankjewel, superheld!",
+  "bestand": "spin-1mrmy09.mp3",
+  "held": "spin",
+  "tekst": "Dankjewel, superheld!",
+  "uitspraak": "Dankjewel, superheld!"
+ },
+ {
+  "sleutel": "spin|En je hebt een nieuw pak vrijgespeeld: Klassiek! Wil je het aantrekken?",
+  "bestand": "spin-04ru215.mp3",
+  "held": "spin",
+  "tekst": "En je hebt een nieuw pak vrijgespeeld: Klassiek! Wil je het aantrekken?",
+  "uitspraak": "En je hebt een nieuw pak vrijgespeeld: Klassiek! Wil je het aantrekken?"
+ },
+ {
+  "sleutel": "spin|Je draagt nu het pak Klassiek!",
+  "bestand": "spin-11mphy9.mp3",
+  "held": "spin",
+  "tekst": "Je draagt nu het pak Klassiek!",
+  "uitspraak": "Je draagt nu het pak Klassiek!"
+ },
+ {
+  "sleutel": "spin|Mijn blauwe tenue, daar scoor ik alles mee!",
+  "bestand": "spin-0f5mo9h.mp3",
+  "held": "spin",
+  "tekst": "Mijn blauwe tenue, daar scoor ik alles mee!",
+  "uitspraak": "Mijn blauwe tenue, daar scoor ik alles mee!"
+ },
+ {
+  "sleutel": "spin|En je hebt een nieuw pak vrijgespeeld: Nacht! Wil je het aantrekken?",
+  "bestand": "spin-0tgzo58.mp3",
+  "held": "spin",
+  "tekst": "En je hebt een nieuw pak vrijgespeeld: Nacht! Wil je het aantrekken?",
+  "uitspraak": "En je hebt een nieuw pak vrijgespeeld: Nacht! Wil je het aantrekken?"
+ },
+ {
+  "sleutel": "spin|Je draagt nu het pak Nacht!",
+  "bestand": "spin-0vwymys.mp3",
+  "held": "spin",
+  "tekst": "Je draagt nu het pak Nacht!",
+  "uitspraak": "Je draagt nu het pak Nacht!"
+ },
+ {
+  "sleutel": "spin|In het Nachttenue zie je mij in het donker bijna niet!",
+  "bestand": "spin-1czs24d.mp3",
+  "held": "spin",
+  "tekst": "In het Nachttenue zie je mij in het donker bijna niet!",
+  "uitspraak": "In het Nachttenue zie je mij in het donker bijna niet!"
+ },
+ {
+  "sleutel": "spin|En je hebt een nieuw pak vrijgespeeld: Jungle! Wil je het aantrekken?",
+  "bestand": "spin-1fi5m4r.mp3",
+  "held": "spin",
+  "tekst": "En je hebt een nieuw pak vrijgespeeld: Jungle! Wil je het aantrekken?",
+  "uitspraak": "En je hebt een nieuw pak vrijgespeeld: Jungle! Wil je het aantrekken?"
+ },
+ {
+  "sleutel": "spin|Je draagt nu het pak Jungle!",
+  "bestand": "spin-1dprfxz.mp3",
+  "held": "spin",
+  "tekst": "Je draagt nu het pak Jungle!",
+  "uitspraak": "Je draagt nu het pak Jungle!"
+ },
+ {
+  "sleutel": "spin|Met het Jungletenue ren ik door het bos!",
+  "bestand": "spin-0iz4j5v.mp3",
+  "held": "spin",
+  "tekst": "Met het Jungletenue ren ik door het bos!",
+  "uitspraak": "Met het Jungletenue ren ik door het bos!"
+ },
+ {
+  "sleutel": "spin|En je hebt een nieuw pak vrijgespeeld: Goud! Wil je het aantrekken?",
+  "bestand": "spin-07a81g5.mp3",
+  "held": "spin",
+  "tekst": "En je hebt een nieuw pak vrijgespeeld: Goud! Wil je het aantrekken?",
+  "uitspraak": "En je hebt een nieuw pak vrijgespeeld: Goud! Wil je het aantrekken?"
+ },
+ {
+  "sleutel": "spin|Je draagt nu het pak Goud!",
+  "bestand": "spin-0x9itcp.mp3",
+  "held": "spin",
+  "tekst": "Je draagt nu het pak Goud!",
+  "uitspraak": "Je draagt nu het pak Goud!"
+ },
+ {
+  "sleutel": "spin|Het Gouden tenue glimt als een beker!",
+  "bestand": "spin-18zdaak.mp3",
+  "held": "spin",
+  "tekst": "Het Gouden tenue glimt als een beker!",
+  "uitspraak": "Het Gouden tenue glimt als een beker!"
+ },
+ {
+  "sleutel": "spin|En je hebt een nieuw pak vrijgespeeld: IJs! Wil je het aantrekken?",
+  "bestand": "spin-1039u7m.mp3",
+  "held": "spin",
+  "tekst": "En je hebt een nieuw pak vrijgespeeld: IJs! Wil je het aantrekken?",
+  "uitspraak": "En je hebt een nieuw pak vrijgespeeld: IJs! Wil je het aantrekken?"
+ },
+ {
+  "sleutel": "spin|Je draagt nu het pak IJs!",
+  "bestand": "spin-0y9f2cm.mp3",
+  "held": "spin",
+  "tekst": "Je draagt nu het pak IJs!",
+  "uitspraak": "Je draagt nu het pak IJs!"
+ },
+ {
+  "sleutel": "spin|Brrr, het IJstenue is lekker koel!",
+  "bestand": "spin-13xmqml.mp3",
+  "held": "spin",
+  "tekst": "Brrr, het IJstenue is lekker koel!",
+  "uitspraak": "Brrr, het IJstenue is lekker koel!"
+ },
+ {
+  "sleutel": "spin|En je hebt een nieuw pak vrijgespeeld: Galaxy! Wil je het aantrekken?",
+  "bestand": "spin-1gqoh0y.mp3",
+  "held": "spin",
+  "tekst": "En je hebt een nieuw pak vrijgespeeld: Galaxy! Wil je het aantrekken?",
+  "uitspraak": "En je hebt een nieuw pak vrijgespeeld: Galaxy! Wil je het aantrekken?"
+ },
+ {
+  "sleutel": "spin|Je draagt nu het pak Galaxy!",
+  "bestand": "spin-1058p6w.mp3",
+  "held": "spin",
+  "tekst": "Je draagt nu het pak Galaxy!",
+  "uitspraak": "Je draagt nu het pak Galaxy!"
+ },
+ {
+  "sleutel": "spin|Met het Galaxytenue schiet ik tot de sterren!",
+  "bestand": "spin-14mly65.mp3",
+  "held": "spin",
+  "tekst": "Met het Galaxytenue schiet ik tot de sterren!",
+  "uitspraak": "Met het Galaxytenue schiet ik tot de sterren!"
+ },
+ {
+  "sleutel": "spin|En je hebt een nieuw pak vrijgespeeld: Vuur! Wil je het aantrekken?",
+  "bestand": "spin-0aur3no.mp3",
+  "held": "spin",
+  "tekst": "En je hebt een nieuw pak vrijgespeeld: Vuur! Wil je het aantrekken?",
+  "uitspraak": "En je hebt een nieuw pak vrijgespeeld: Vuur! Wil je het aantrekken?"
+ },
+ {
+  "sleutel": "spin|Je draagt nu het pak Vuur!",
+  "bestand": "spin-1i0pb4u.mp3",
+  "held": "spin",
+  "tekst": "Je draagt nu het pak Vuur!",
+  "uitspraak": "Je draagt nu het pak Vuur!"
+ },
+ {
+  "sleutel": "spin|Het Vuurtenue is heet, heet, heet!",
+  "bestand": "spin-0pykstk.mp3",
+  "held": "spin",
+  "tekst": "Het Vuurtenue is heet, heet, heet!",
+  "uitspraak": "Het Vuurtenue is heet, heet, heet!"
+ },
+ {
+  "sleutel": "spin|Dit pak zit nog op slot. Verzamel nog meer sterren!",
+  "bestand": "spin-0m398ph.mp3",
+  "held": "spin",
+  "tekst": "Dit pak zit nog op slot. Verzamel nog meer sterren!",
+  "uitspraak": "Dit pak zit nog op slot. Verzamel nog meer sterren!"
+ },
+ {
+  "sleutel": "spin|Geeft niks, probeer het nog eens!",
+  "bestand": "spin-06fay21.mp3",
+  "held": "spin",
+  "tekst": "Geeft niks, probeer het nog eens!",
+  "uitspraak": "Geeft niks, probeer het nog eens!"
+ },
+ {
+  "sleutel": "spin|Oei, bijna! Kijk nog eens goed.",
+  "bestand": "spin-020k58e.mp3",
+  "held": "spin",
+  "tekst": "Oei, bijna! Kijk nog eens goed.",
+  "uitspraak": "Oei, bijna! Kijk nog eens goed."
+ },
+ {
+  "sleutel": "spin|Niet erg, helden oefenen ook!",
+  "bestand": "spin-0d90szl.mp3",
+  "held": "spin",
+  "tekst": "Niet erg, helden oefenen ook!",
+  "uitspraak": "Niet erg, helden oefenen ook!"
+ },
+ {
+  "sleutel": "spin|Hihi, dat kietelt!",
+  "bestand": "spin-0m4v6fr.mp3",
+  "held": "spin",
+  "tekst": "Hihi, dat kietelt!",
+  "uitspraak": "Hihi, dat kietelt!"
+ },
+ {
+  "sleutel": "spin|Hé, ik ben klaar voor actie!",
+  "bestand": "spin-0sp6n3r.mp3",
+  "held": "spin",
+  "tekst": "Hé, ik ben klaar voor actie!",
+  "uitspraak": "Hé, ik ben klaar voor actie!"
+ },
+ {
+  "sleutel": "spin|Zullen we een balletje trappen?",
+  "bestand": "spin-1qdmzqv.mp3",
+  "held": "spin",
+  "tekst": "Zullen we een balletje trappen?",
+  "uitspraak": "Zullen we een balletje trappen?"
+ },
+ {
+  "sleutel": "spin|Pats! Superbal!",
+  "bestand": "spin-1dq0c19.mp3",
+  "held": "spin",
+  "tekst": "Pats! Superbal!",
+  "uitspraak": "Pats! Superbal!"
+ },
+ {
+  "sleutel": "spin|Knal, in de roos!",
+  "bestand": "spin-0folcar.mp3",
+  "held": "spin",
+  "tekst": "Knal, in de roos!",
+  "uitspraak": "Knal, in de roos!"
+ },
+ {
+  "sleutel": "spin|Hier komt mijn superschot!",
+  "bestand": "spin-1ipkhur.mp3",
+  "held": "spin",
+  "tekst": "Hier komt mijn superschot!",
+  "uitspraak": "Hier komt mijn superschot!"
+ },
+ {
+  "sleutel": "spin|Tot de volgende keer, held!",
+  "bestand": "spin-0x0dj4a.mp3",
+  "held": "spin",
+  "tekst": "Tot de volgende keer, held!",
+  "uitspraak": "Tot de volgende keer, held!"
+ },
+ {
+  "sleutel": "spin|Daar komt de politie. Tatuu, tatuu!",
+  "bestand": "spin-0jkgdds.mp3",
+  "held": "spin",
+  "tekst": "Daar komt de politie. Tatuu, tatuu!",
+  "uitspraak": "Daar komt de politie. Tatuu, tatuu!"
+ },
+ {
+  "sleutel": "ijzer|Hoi",
+  "bestand": "ijzer-1urm93z.mp3",
+  "held": "ijzer",
+  "tekst": "Hoi",
+  "uitspraak": "Hoi"
+ },
+ {
+  "sleutel": "ijzer|Ik ben Agent Vroem. Zullen we letters oefenen?",
+  "bestand": "ijzer-1xti2ny.mp3",
+  "held": "ijzer",
+  "tekst": "Ik ben Agent Vroem. Zullen we letters oefenen?",
+  "uitspraak": "Ik ben Agent Vroem. Zullen we letters oefenen?"
+ },
+ {
+  "sleutel": "ijzer|Hoi! Ik ben Agent Vroem. Zullen we letters oefenen?",
+  "bestand": "ijzer-1c3rsbp.mp3",
+  "held": "ijzer",
+  "tekst": "Hoi! Ik ben Agent Vroem. Zullen we letters oefenen?",
+  "uitspraak": "Hoi! Ik ben Agent Vroem. Zullen we letters oefenen?"
+ },
+ {
+  "sleutel": "ijzer|Super!",
+  "bestand": "ijzer-1e84r1n.mp3",
+  "held": "ijzer",
+  "tekst": "Super!",
+  "uitspraak": "Super!"
+ },
+ {
+  "sleutel": "ijzer|Goed gedaan!",
+  "bestand": "ijzer-17zt57h.mp3",
+  "held": "ijzer",
+  "tekst": "Goed gedaan!",
+  "uitspraak": "Goed gedaan!"
+ },
+ {
+  "sleutel": "ijzer|Wauw, knap!",
+  "bestand": "ijzer-0fqmwbo.mp3",
+  "held": "ijzer",
+  "tekst": "Wauw, knap!",
+  "uitspraak": "Wauw, knap!"
+ },
+ {
+  "sleutel": "ijzer|Helemaal goed!",
+  "bestand": "ijzer-0pv6aog.mp3",
+  "held": "ijzer",
+  "tekst": "Helemaal goed!",
+  "uitspraak": "Helemaal goed!"
+ },
+ {
+  "sleutel": "ijzer|Top gedaan!",
+  "bestand": "ijzer-17gaj7z.mp3",
+  "held": "ijzer",
+  "tekst": "Top gedaan!",
+  "uitspraak": "Top gedaan!"
+ },
+ {
+  "sleutel": "ijzer|Supersnel!",
+  "bestand": "ijzer-044sf5j.mp3",
+  "held": "ijzer",
+  "tekst": "Supersnel!",
+  "uitspraak": "Supersnel!"
+ },
+ {
+  "sleutel": "ijzer|Turbo goed!",
+  "bestand": "ijzer-1k4t8dd.mp3",
+  "held": "ijzer",
+  "tekst": "Turbo goed!",
+  "uitspraak": "Turbo goed!"
+ },
+ {
+  "sleutel": "ijzer|Jij bent een echte agent!",
+  "bestand": "ijzer-0i0q7ra.mp3",
+  "held": "ijzer",
+  "tekst": "Jij bent een echte agent!",
+  "uitspraak": "Jij bent een echte agent!"
+ },
+ {
+  "sleutel": "ijzer|Je bent naar een nieuw niveau: Beginklank!",
+  "bestand": "ijzer-0iquddi.mp3",
+  "held": "ijzer",
+  "tekst": "Je bent naar een nieuw niveau: Beginklank!",
+  "uitspraak": "Je bent naar een nieuw niveau: Beginklank!"
+ },
+ {
+  "sleutel": "ijzer|Je bent naar een nieuw niveau: Letter herkennen!",
+  "bestand": "ijzer-0iyjaxs.mp3",
+  "held": "ijzer",
+  "tekst": "Je bent naar een nieuw niveau: Letter herkennen!",
+  "uitspraak": "Je bent naar een nieuw niveau: Letter herkennen!"
+ },
+ {
+  "sleutel": "ijzer|Je bent naar een nieuw niveau: Hakken en plakken!",
+  "bestand": "ijzer-0mlp0pz.mp3",
+  "held": "ijzer",
+  "tekst": "Je bent naar een nieuw niveau: Hakken en plakken!",
+  "uitspraak": "Je bent naar een nieuw niveau: Hakken en plakken!"
+ },
+ {
+  "sleutel": "ijzer|Je bent naar een nieuw niveau: Woordjes lezen!",
+  "bestand": "ijzer-05c6jvf.mp3",
+  "held": "ijzer",
+  "tekst": "Je bent naar een nieuw niveau: Woordjes lezen!",
+  "uitspraak": "Je bent naar een nieuw niveau: Woordjes lezen!"
+ },
+ {
+  "sleutel": "ijzer|Missie klaar! Je hebt 0 sterren verdiend.",
+  "bestand": "ijzer-043uy8l.mp3",
+  "held": "ijzer",
+  "tekst": "Missie klaar! Je hebt 0 sterren verdiend.",
+  "uitspraak": "Missie klaar! Je hebt nul sterren verdiend."
+ },
+ {
+  "sleutel": "ijzer|Missie klaar! Je hebt 1 ster verdiend.",
+  "bestand": "ijzer-1ntbgwb.mp3",
+  "held": "ijzer",
+  "tekst": "Missie klaar! Je hebt 1 ster verdiend.",
+  "uitspraak": "Missie klaar! Je hebt één ster verdiend."
+ },
+ {
+  "sleutel": "ijzer|Missie klaar! Je hebt 2 sterren verdiend.",
+  "bestand": "ijzer-0lo2ltv.mp3",
+  "held": "ijzer",
+  "tekst": "Missie klaar! Je hebt 2 sterren verdiend.",
+  "uitspraak": "Missie klaar! Je hebt twee sterren verdiend."
+ },
+ {
+  "sleutel": "ijzer|Missie klaar! Je hebt 3 sterren verdiend.",
+  "bestand": "ijzer-03hgfbc.mp3",
+  "held": "ijzer",
+  "tekst": "Missie klaar! Je hebt 3 sterren verdiend.",
+  "uitspraak": "Missie klaar! Je hebt drie sterren verdiend."
+ },
+ {
+  "sleutel": "ijzer|Missie klaar! Je hebt 4 sterren verdiend.",
+  "bestand": "ijzer-0wbafvd.mp3",
+  "held": "ijzer",
+  "tekst": "Missie klaar! Je hebt 4 sterren verdiend.",
+  "uitspraak": "Missie klaar! Je hebt vier sterren verdiend."
+ },
+ {
+  "sleutel": "ijzer|Missie klaar! Je hebt 5 sterren verdiend.",
+  "bestand": "ijzer-0unxx5i.mp3",
+  "held": "ijzer",
+  "tekst": "Missie klaar! Je hebt 5 sterren verdiend.",
+  "uitspraak": "Missie klaar! Je hebt vijf sterren verdiend."
+ },
+ {
+  "sleutel": "ijzer|Missie klaar! Je hebt 6 sterren verdiend.",
+  "bestand": "ijzer-1pt6ujr.mp3",
+  "held": "ijzer",
+  "tekst": "Missie klaar! Je hebt 6 sterren verdiend.",
+  "uitspraak": "Missie klaar! Je hebt zes sterren verdiend."
+ },
+ {
+  "sleutel": "ijzer|Missie klaar! Je hebt 7 sterren verdiend.",
+  "bestand": "ijzer-1cag1vw.mp3",
+  "held": "ijzer",
+  "tekst": "Missie klaar! Je hebt 7 sterren verdiend.",
+  "uitspraak": "Missie klaar! Je hebt zeven sterren verdiend."
+ },
+ {
+  "sleutel": "ijzer|Missie klaar! Je hebt 8 sterren verdiend.",
+  "bestand": "ijzer-1kzomzh.mp3",
+  "held": "ijzer",
+  "tekst": "Missie klaar! Je hebt 8 sterren verdiend.",
+  "uitspraak": "Missie klaar! Je hebt acht sterren verdiend."
+ },
+ {
+  "sleutel": "ijzer|Missie klaar! Je hebt 9 sterren verdiend.",
+  "bestand": "ijzer-02iu6hm.mp3",
+  "held": "ijzer",
+  "tekst": "Missie klaar! Je hebt 9 sterren verdiend.",
+  "uitspraak": "Missie klaar! Je hebt negen sterren verdiend."
+ },
+ {
+  "sleutel": "ijzer|Missie klaar! Je hebt 10 sterren verdiend.",
+  "bestand": "ijzer-11l6y2a.mp3",
+  "held": "ijzer",
+  "tekst": "Missie klaar! Je hebt 10 sterren verdiend.",
+  "uitspraak": "Missie klaar! Je hebt tien sterren verdiend."
+ },
+ {
+  "sleutel": "ijzer|Dankjewel",
+  "bestand": "ijzer-1vpf3d8.mp3",
+  "held": "ijzer",
+  "tekst": "Dankjewel",
+  "uitspraak": "Dankjewel"
+ },
+ {
+  "sleutel": "ijzer|Dankjewel, superheld!",
+  "bestand": "ijzer-00zag27.mp3",
+  "held": "ijzer",
+  "tekst": "Dankjewel, superheld!",
+  "uitspraak": "Dankjewel, superheld!"
+ },
+ {
+  "sleutel": "ijzer|En je hebt een nieuw pak vrijgespeeld: Klassiek! Wil je het aantrekken?",
+  "bestand": "ijzer-0zzcveb.mp3",
+  "held": "ijzer",
+  "tekst": "En je hebt een nieuw pak vrijgespeeld: Klassiek! Wil je het aantrekken?",
+  "uitspraak": "En je hebt een nieuw pak vrijgespeeld: Klassiek! Wil je het aantrekken?"
+ },
+ {
+  "sleutel": "ijzer|Je draagt nu het pak Klassiek!",
+  "bestand": "ijzer-1y78amv.mp3",
+  "held": "ijzer",
+  "tekst": "Je draagt nu het pak Klassiek!",
+  "uitspraak": "Je draagt nu het pak Klassiek!"
+ },
+ {
+  "sleutel": "ijzer|Mijn zwart-gele uniform, klaar voor actie!",
+  "bestand": "ijzer-16wcvc5.mp3",
+  "held": "ijzer",
+  "tekst": "Mijn zwart-gele uniform, klaar voor actie!",
+  "uitspraak": "Mijn zwart-gele uniform, klaar voor actie!"
+ },
+ {
+  "sleutel": "ijzer|En je hebt een nieuw pak vrijgespeeld: Zilver! Wil je het aantrekken?",
+  "bestand": "ijzer-14d5syc.mp3",
+  "held": "ijzer",
+  "tekst": "En je hebt een nieuw pak vrijgespeeld: Zilver! Wil je het aantrekken?",
+  "uitspraak": "En je hebt een nieuw pak vrijgespeeld: Zilver! Wil je het aantrekken?"
+ },
+ {
+  "sleutel": "ijzer|Je draagt nu het pak Zilver!",
+  "bestand": "ijzer-0e7j552.mp3",
+  "held": "ijzer",
+  "tekst": "Je draagt nu het pak Zilver!",
+  "uitspraak": "Je draagt nu het pak Zilver!"
+ },
+ {
+  "sleutel": "ijzer|Het Zilveren uniform glanst als een spiegel!",
+  "bestand": "ijzer-0wl6wx4.mp3",
+  "held": "ijzer",
+  "tekst": "Het Zilveren uniform glanst als een spiegel!",
+  "uitspraak": "Het Zilveren uniform glanst als een spiegel!"
+ },
+ {
+  "sleutel": "ijzer|En je hebt een nieuw pak vrijgespeeld: Stealth! Wil je het aantrekken?",
+  "bestand": "ijzer-1xabgev.mp3",
+  "held": "ijzer",
+  "tekst": "En je hebt een nieuw pak vrijgespeeld: Stealth! Wil je het aantrekken?",
+  "uitspraak": "En je hebt een nieuw pak vrijgespeeld: Stealth! Wil je het aantrekken?"
+ },
+ {
+  "sleutel": "ijzer|Je draagt nu het pak Stealth!",
+  "bestand": "ijzer-1ngmie5.mp3",
+  "held": "ijzer",
+  "tekst": "Je draagt nu het pak Stealth!",
+  "uitspraak": "Je draagt nu het pak Stealth!"
+ },
+ {
+  "sleutel": "ijzer|In het Stealthuniform ben ik bijna onzichtbaar!",
+  "bestand": "ijzer-13vpeu7.mp3",
+  "held": "ijzer",
+  "tekst": "In het Stealthuniform ben ik bijna onzichtbaar!",
+  "uitspraak": "In het Stealthuniform ben ik bijna onzichtbaar!"
+ },
+ {
+  "sleutel": "ijzer|En je hebt een nieuw pak vrijgespeeld: Ruimte! Wil je het aantrekken?",
+  "bestand": "ijzer-14mr37w.mp3",
+  "held": "ijzer",
+  "tekst": "En je hebt een nieuw pak vrijgespeeld: Ruimte! Wil je het aantrekken?",
+  "uitspraak": "En je hebt een nieuw pak vrijgespeeld: Ruimte! Wil je het aantrekken?"
+ },
+ {
+  "sleutel": "ijzer|Je draagt nu het pak Ruimte!",
+  "bestand": "ijzer-0tyxmny.mp3",
+  "held": "ijzer",
+  "tekst": "Je draagt nu het pak Ruimte!",
+  "uitspraak": "Je draagt nu het pak Ruimte!"
+ },
+ {
+  "sleutel": "ijzer|Met het Ruimte-uniform kan ik naar de maan!",
+  "bestand": "ijzer-06gl5i8.mp3",
+  "held": "ijzer",
+  "tekst": "Met het Ruimte-uniform kan ik naar de maan!",
+  "uitspraak": "Met het Ruimte-uniform kan ik naar de maan!"
+ },
+ {
+  "sleutel": "ijzer|En je hebt een nieuw pak vrijgespeeld: Goud! Wil je het aantrekken?",
+  "bestand": "ijzer-1v0adjb.mp3",
+  "held": "ijzer",
+  "tekst": "En je hebt een nieuw pak vrijgespeeld: Goud! Wil je het aantrekken?",
+  "uitspraak": "En je hebt een nieuw pak vrijgespeeld: Goud! Wil je het aantrekken?"
+ },
+ {
+  "sleutel": "ijzer|Je draagt nu het pak Goud!",
+  "bestand": "ijzer-18hri07.mp3",
+  "held": "ijzer",
+  "tekst": "Je draagt nu het pak Goud!",
+  "uitspraak": "Je draagt nu het pak Goud!"
+ },
+ {
+  "sleutel": "ijzer|Het Gouden uniform is extra sterk!",
+  "bestand": "ijzer-1nstgmg.mp3",
+  "held": "ijzer",
+  "tekst": "Het Gouden uniform is extra sterk!",
+  "uitspraak": "Het Gouden uniform is extra sterk!"
+ },
+ {
+  "sleutel": "ijzer|En je hebt een nieuw pak vrijgespeeld: Neon! Wil je het aantrekken?",
+  "bestand": "ijzer-0ixpleg.mp3",
+  "held": "ijzer",
+  "tekst": "En je hebt een nieuw pak vrijgespeeld: Neon! Wil je het aantrekken?",
+  "uitspraak": "En je hebt een nieuw pak vrijgespeeld: Neon! Wil je het aantrekken?"
+ },
+ {
+  "sleutel": "ijzer|Je draagt nu het pak Neon!",
+  "bestand": "ijzer-08j5z8e.mp3",
+  "held": "ijzer",
+  "tekst": "Je draagt nu het pak Neon!",
+  "uitspraak": "Je draagt nu het pak Neon!"
+ },
+ {
+  "sleutel": "ijzer|Het Neonuniform licht op in het donker!",
+  "bestand": "ijzer-0wfpkax.mp3",
+  "held": "ijzer",
+  "tekst": "Het Neonuniform licht op in het donker!",
+  "uitspraak": "Het Neonuniform licht op in het donker!"
+ },
+ {
+  "sleutel": "ijzer|En je hebt een nieuw pak vrijgespeeld: Lava! Wil je het aantrekken?",
+  "bestand": "ijzer-1eo9awu.mp3",
+  "held": "ijzer",
+  "tekst": "En je hebt een nieuw pak vrijgespeeld: Lava! Wil je het aantrekken?",
+  "uitspraak": "En je hebt een nieuw pak vrijgespeeld: Lava! Wil je het aantrekken?"
+ },
+ {
+  "sleutel": "ijzer|Je draagt nu het pak Lava!",
+  "bestand": "ijzer-085ohn4.mp3",
+  "held": "ijzer",
+  "tekst": "Je draagt nu het pak Lava!",
+  "uitspraak": "Je draagt nu het pak Lava!"
+ },
+ {
+  "sleutel": "ijzer|Het Lava-uniform is gloeiend heet!",
+  "bestand": "ijzer-0m97yk3.mp3",
+  "held": "ijzer",
+  "tekst": "Het Lava-uniform is gloeiend heet!",
+  "uitspraak": "Het Lava-uniform is gloeiend heet!"
+ },
+ {
+  "sleutel": "ijzer|Dit pak zit nog op slot. Verzamel nog meer sterren!",
+  "bestand": "ijzer-0ev1x1v.mp3",
+  "held": "ijzer",
+  "tekst": "Dit pak zit nog op slot. Verzamel nog meer sterren!",
+  "uitspraak": "Dit pak zit nog op slot. Verzamel nog meer sterren!"
+ },
+ {
+  "sleutel": "ijzer|Geeft niks, we proberen het samen!",
+  "bestand": "ijzer-143s6zc.mp3",
+  "held": "ijzer",
+  "tekst": "Geeft niks, we proberen het samen!",
+  "uitspraak": "Geeft niks, we proberen het samen!"
+ },
+ {
+  "sleutel": "ijzer|Bijna goed! Nog een keer.",
+  "bestand": "ijzer-0isej6e.mp3",
+  "held": "ijzer",
+  "tekst": "Bijna goed! Nog een keer.",
+  "uitspraak": "Bijna goed! Nog een keer."
+ },
+ {
+  "sleutel": "ijzer|Rustig aan, jij kunt dit!",
+  "bestand": "ijzer-1i8rqva.mp3",
+  "held": "ijzer",
+  "tekst": "Rustig aan, jij kunt dit!",
+  "uitspraak": "Rustig aan, jij kunt dit!"
+ },
+ {
+  "sleutel": "ijzer|Agent Vroem, paraat!",
+  "bestand": "ijzer-1uam8sx.mp3",
+  "held": "ijzer",
+  "tekst": "Agent Vroem, paraat!",
+  "uitspraak": "Agent Vroem, paraat!"
+ },
+ {
+  "sleutel": "ijzer|Zwaailicht aan, we gaan!",
+  "bestand": "ijzer-1u5mn2v.mp3",
+  "held": "ijzer",
+  "tekst": "Zwaailicht aan, we gaan!",
+  "uitspraak": "Zwaailicht aan, we gaan!"
+ },
+ {
+  "sleutel": "ijzer|Hihi, mijn helm kietelt!",
+  "bestand": "ijzer-1w31gfg.mp3",
+  "held": "ijzer",
+  "tekst": "Hihi, mijn helm kietelt!",
+  "uitspraak": "Hihi, mijn helm kietelt!"
+ },
+ {
+  "sleutel": "ijzer|Zoef! Vangnet!",
+  "bestand": "ijzer-1qac37s.mp3",
+  "held": "ijzer",
+  "tekst": "Zoef! Vangnet!",
+  "uitspraak": "Zoef! Vangnet!"
+ },
+ {
+  "sleutel": "ijzer|Halt, politie!",
+  "bestand": "ijzer-198oc6h.mp3",
+  "held": "ijzer",
+  "tekst": "Halt, politie!",
+  "uitspraak": "Halt, politie!"
+ },
+ {
+  "sleutel": "ijzer|Sirene aan!",
+  "bestand": "ijzer-11yh86s.mp3",
+  "held": "ijzer",
+  "tekst": "Sirene aan!",
+  "uitspraak": "Sirene aan!"
+ },
+ {
+  "sleutel": "ijzer|Doei! Kom snel weer oefenen!",
+  "bestand": "ijzer-0cvva18.mp3",
+  "held": "ijzer",
+  "tekst": "Doei! Kom snel weer oefenen!",
+  "uitspraak": "Doei! Kom snel weer oefenen!"
+ },
+ {
+  "sleutel": "ijzer|Daar komt de politie. Tatuu, tatuu!",
+  "bestand": "ijzer-1x2fo8a.mp3",
+  "held": "ijzer",
+  "tekst": "Daar komt de politie. Tatuu, tatuu!",
+  "uitspraak": "Daar komt de politie. Tatuu, tatuu!"
+ },
+ {
+  "sleutel": "spin|Zullen we samen een spelletje doen?",
+  "bestand": "spin-0ujhz22.mp3",
+  "held": "spin",
+  "tekst": "Zullen we samen een spelletje doen?",
+  "uitspraak": "Zullen we samen een spelletje doen?"
+ },
+ {
+  "sleutel": "spin|Hoi! Zullen we samen een spelletje doen?",
+  "bestand": "spin-1cpv3z7.mp3",
+  "held": "spin",
+  "tekst": "Hoi! Zullen we samen een spelletje doen?",
+  "uitspraak": "Hoi! Zullen we samen een spelletje doen?"
+ },
+ {
+  "sleutel": "ijzer|Kies maar: rekenen, letters of samen op missie!",
+  "bestand": "ijzer-1sjcts2.mp3",
+  "held": "ijzer",
+  "tekst": "Kies maar: rekenen, letters of samen op missie!",
+  "uitspraak": "Kies maar: rekenen, letters of samen op missie!"
+ },
+ {
+  "sleutel": "spin|Super-Kick en Agent Vroem gaan samen op missie!",
+  "bestand": "spin-00dl9ez.mp3",
+  "held": "spin",
+  "tekst": "Super-Kick en Agent Vroem gaan samen op missie!",
+  "uitspraak": "Super-Kick en Agent Vroem gaan samen op missie!"
+ },
+ {
+  "sleutel": "spin|Tel maar mee.",
+  "bestand": "spin-18zh3du.mp3",
+  "held": "spin",
+  "tekst": "Tel maar mee.",
+  "uitspraak": "Tel maar mee."
+ },
+ {
+  "sleutel": "spin|één",
+  "bestand": "spin-1hbo831.mp3",
+  "held": "spin",
+  "tekst": "één",
+  "uitspraak": "één"
+ },
+ {
+  "sleutel": "spin|twee",
+  "bestand": "spin-1u8iy1c.mp3",
+  "held": "spin",
+  "tekst": "twee",
+  "uitspraak": "twee"
+ },
+ {
+  "sleutel": "spin|drie",
+  "bestand": "spin-0go25jz.mp3",
+  "held": "spin",
+  "tekst": "drie",
+  "uitspraak": "drie"
+ },
+ {
+  "sleutel": "spin|vier",
+  "bestand": "spin-12vyutt.mp3",
+  "held": "spin",
+  "tekst": "vier",
+  "uitspraak": "vier"
+ },
+ {
+  "sleutel": "spin|vijf",
+  "bestand": "spin-0ul5d46.mp3",
+  "held": "spin",
+  "tekst": "vijf",
+  "uitspraak": "vijf"
+ },
+ {
+  "sleutel": "spin|zes",
+  "bestand": "spin-1vm7cav.mp3",
+  "held": "spin",
+  "tekst": "zes",
+  "uitspraak": "zes"
+ },
+ {
+  "sleutel": "spin|zeven",
+  "bestand": "spin-0crn38b.mp3",
+  "held": "spin",
+  "tekst": "zeven",
+  "uitspraak": "zeven"
+ },
+ {
+  "sleutel": "spin|acht",
+  "bestand": "spin-0gvdmpz.mp3",
+  "held": "spin",
+  "tekst": "acht",
+  "uitspraak": "acht"
+ },
+ {
+  "sleutel": "spin|negen",
+  "bestand": "spin-1fhv10w.mp3",
+  "held": "spin",
+  "tekst": "negen",
+  "uitspraak": "negen"
+ },
+ {
+  "sleutel": "spin|tien",
+  "bestand": "spin-193s0ij.mp3",
+  "held": "spin",
+  "tekst": "tien",
+  "uitspraak": "tien"
+ },
+ {
+  "sleutel": "spin|elf",
+  "bestand": "spin-1gf7e0w.mp3",
+  "held": "spin",
+  "tekst": "elf",
+  "uitspraak": "elf"
+ },
+ {
+  "sleutel": "spin|twaalf",
+  "bestand": "spin-0zyqsmm.mp3",
+  "held": "spin",
+  "tekst": "twaalf",
+  "uitspraak": "twaalf"
+ },
+ {
+  "sleutel": "spin|dertien",
+  "bestand": "spin-1g0i78u.mp3",
+  "held": "spin",
+  "tekst": "dertien",
+  "uitspraak": "dertien"
+ },
+ {
+  "sleutel": "spin|veertien",
+  "bestand": "spin-1c48h3p.mp3",
+  "held": "spin",
+  "tekst": "veertien",
+  "uitspraak": "veertien"
+ },
+ {
+  "sleutel": "spin|vijftien",
+  "bestand": "spin-1xzu536.mp3",
+  "held": "spin",
+  "tekst": "vijftien",
+  "uitspraak": "vijftien"
+ },
+ {
+  "sleutel": "spin|zestien",
+  "bestand": "spin-0zna9gj.mp3",
+  "held": "spin",
+  "tekst": "zestien",
+  "uitspraak": "zestien"
+ },
+ {
+  "sleutel": "spin|zeventien",
+  "bestand": "spin-1j8vgrz.mp3",
+  "held": "spin",
+  "tekst": "zeventien",
+  "uitspraak": "zeventien"
+ },
+ {
+  "sleutel": "spin|achttien",
+  "bestand": "spin-1lzlaqr.mp3",
+  "held": "spin",
+  "tekst": "achttien",
+  "uitspraak": "achttien"
+ },
+ {
+  "sleutel": "spin|negentien",
+  "bestand": "spin-0vg9qyo.mp3",
+  "held": "spin",
+  "tekst": "negentien",
+  "uitspraak": "negentien"
+ },
+ {
+  "sleutel": "spin|twintig",
+  "bestand": "spin-0sv56pf.mp3",
+  "held": "spin",
+  "tekst": "twintig",
+  "uitspraak": "twintig"
+ },
+ {
+  "sleutel": "spin|Zoek de groep met 1 ballen.",
+  "bestand": "spin-1bsnpod.mp3",
+  "held": "spin",
+  "tekst": "Zoek de groep met 1 ballen.",
+  "uitspraak": "Zoek de groep met één ballen."
+ },
+ {
+  "sleutel": "spin|Zoek de groep met 2 ballen.",
+  "bestand": "spin-0nj989s.mp3",
+  "held": "spin",
+  "tekst": "Zoek de groep met 2 ballen.",
+  "uitspraak": "Zoek de groep met twee ballen."
+ },
+ {
+  "sleutel": "spin|Zoek de groep met 3 ballen.",
+  "bestand": "spin-0o6vw7n.mp3",
+  "held": "spin",
+  "tekst": "Zoek de groep met 3 ballen.",
+  "uitspraak": "Zoek de groep met drie ballen."
+ },
+ {
+  "sleutel": "spin|Zoek de groep met 4 ballen.",
+  "bestand": "spin-0ykjm1q.mp3",
+  "held": "spin",
+  "tekst": "Zoek de groep met 4 ballen.",
+  "uitspraak": "Zoek de groep met vier ballen."
+ },
+ {
+  "sleutel": "spin|Zoek de groep met 5 ballen.",
+  "bestand": "spin-1uc8f89.mp3",
+  "held": "spin",
+  "tekst": "Zoek de groep met 5 ballen.",
+  "uitspraak": "Zoek de groep met vijf ballen."
+ },
+ {
+  "sleutel": "spin|Zoek de groep met 6 ballen.",
+  "bestand": "spin-1h8s7gc.mp3",
+  "held": "spin",
+  "tekst": "Zoek de groep met 6 ballen.",
+  "uitspraak": "Zoek de groep met zes ballen."
+ },
+ {
+  "sleutel": "spin|Zoek de groep met 7 ballen.",
+  "bestand": "spin-08p5ucf.mp3",
+  "held": "spin",
+  "tekst": "Zoek de groep met 7 ballen.",
+  "uitspraak": "Zoek de groep met zeven ballen."
+ },
+ {
+  "sleutel": "spin|Zoek de groep met 8 ballen.",
+  "bestand": "spin-0z812ne.mp3",
+  "held": "spin",
+  "tekst": "Zoek de groep met 8 ballen.",
+  "uitspraak": "Zoek de groep met acht ballen."
+ },
+ {
+  "sleutel": "spin|Zoek de groep met 9 ballen.",
+  "bestand": "spin-06rkzhx.mp3",
+  "held": "spin",
+  "tekst": "Zoek de groep met 9 ballen.",
+  "uitspraak": "Zoek de groep met negen ballen."
+ },
+ {
+  "sleutel": "spin|Zoek de groep met 10 ballen.",
+  "bestand": "spin-0fkwper.mp3",
+  "held": "spin",
+  "tekst": "Zoek de groep met 10 ballen.",
+  "uitspraak": "Zoek de groep met tien ballen."
+ },
+ {
+  "sleutel": "spin|Hoeveel ballen zie je?",
+  "bestand": "spin-1dou9rv.mp3",
+  "held": "spin",
+  "tekst": "Hoeveel ballen zie je?",
+  "uitspraak": "Hoeveel ballen zie je?"
+ },
+ {
+  "sleutel": "spin|Waar liggen 1 ballen?",
+  "bestand": "spin-0d25x6m.mp3",
+  "held": "spin",
+  "tekst": "Waar liggen 1 ballen?",
+  "uitspraak": "Waar liggen één ballen?"
+ },
+ {
+  "sleutel": "spin|Waar liggen 2 ballen?",
+  "bestand": "spin-0dq306f.mp3",
+  "held": "spin",
+  "tekst": "Waar liggen 2 ballen?",
+  "uitspraak": "Waar liggen twee ballen?"
+ },
+ {
+  "sleutel": "spin|Waar liggen 3 ballen?",
+  "bestand": "spin-1l90f1g.mp3",
+  "held": "spin",
+  "tekst": "Waar liggen 3 ballen?",
+  "uitspraak": "Waar liggen drie ballen?"
+ },
+ {
+  "sleutel": "spin|Waar liggen 4 ballen?",
+  "bestand": "spin-0pkccv1.mp3",
+  "held": "spin",
+  "tekst": "Waar liggen 4 ballen?",
+  "uitspraak": "Waar liggen vier ballen?"
+ },
+ {
+  "sleutel": "spin|Waar liggen 5 ballen?",
+  "bestand": "spin-1uovvz6.mp3",
+  "held": "spin",
+  "tekst": "Waar liggen 5 ballen?",
+  "uitspraak": "Waar liggen vijf ballen?"
+ },
+ {
+  "sleutel": "spin|Waar liggen 6 ballen?",
+  "bestand": "spin-1ee9k3v.mp3",
+  "held": "spin",
+  "tekst": "Waar liggen 6 ballen?",
+  "uitspraak": "Waar liggen zes ballen?"
+ },
+ {
+  "sleutel": "spin|Waar liggen 7 ballen?",
+  "bestand": "spin-1hcfx08.mp3",
+  "held": "spin",
+  "tekst": "Waar liggen 7 ballen?",
+  "uitspraak": "Waar liggen zeven ballen?"
+ },
+ {
+  "sleutel": "spin|Waar liggen 8 ballen?",
+  "bestand": "spin-0nx6udt.mp3",
+  "held": "spin",
+  "tekst": "Waar liggen 8 ballen?",
+  "uitspraak": "Waar liggen acht ballen?"
+ },
+ {
+  "sleutel": "spin|Waar liggen 9 ballen?",
+  "bestand": "spin-120ptye.mp3",
+  "held": "spin",
+  "tekst": "Waar liggen 9 ballen?",
+  "uitspraak": "Waar liggen negen ballen?"
+ },
+ {
+  "sleutel": "spin|Waar liggen 10 ballen?",
+  "bestand": "spin-0jjezrg.mp3",
+  "held": "spin",
+  "tekst": "Waar liggen 10 ballen?",
+  "uitspraak": "Waar liggen tien ballen?"
+ },
+ {
+  "sleutel": "spin|1 plus 1. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1q4q1g0.mp3",
+  "held": "spin",
+  "tekst": "1 plus 1. Hoeveel ballen zijn het samen?",
+  "uitspraak": "één plus één. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|1 plus 2. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0hx3iwl.mp3",
+  "held": "spin",
+  "tekst": "1 plus 2. Hoeveel ballen zijn het samen?",
+  "uitspraak": "één plus twee. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|1 plus 3. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-14cf2fq.mp3",
+  "held": "spin",
+  "tekst": "1 plus 3. Hoeveel ballen zijn het samen?",
+  "uitspraak": "één plus drie. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|1 plus 4. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0dyyonv.mp3",
+  "held": "spin",
+  "tekst": "1 plus 4. Hoeveel ballen zijn het samen?",
+  "uitspraak": "één plus vier. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|1 plus 5. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0or5lfo.mp3",
+  "held": "spin",
+  "tekst": "1 plus 5. Hoeveel ballen zijn het samen?",
+  "uitspraak": "één plus vijf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|1 plus 6. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0jvawvt.mp3",
+  "held": "spin",
+  "tekst": "1 plus 6. Hoeveel ballen zijn het samen?",
+  "uitspraak": "één plus zes. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|1 plus 7. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1gaxv4q.mp3",
+  "held": "spin",
+  "tekst": "1 plus 7. Hoeveel ballen zijn het samen?",
+  "uitspraak": "één plus zeven. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|1 plus 8. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0j6a3nj.mp3",
+  "held": "spin",
+  "tekst": "1 plus 8. Hoeveel ballen zijn het samen?",
+  "uitspraak": "één plus acht. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|1 plus 9. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0uyp9h4.mp3",
+  "held": "spin",
+  "tekst": "1 plus 9. Hoeveel ballen zijn het samen?",
+  "uitspraak": "één plus negen. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 1. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-16hu80f.mp3",
+  "held": "spin",
+  "tekst": "2 plus 1. Hoeveel ballen zijn het samen?",
+  "uitspraak": "twee plus één. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 2. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0nqsmi6.mp3",
+  "held": "spin",
+  "tekst": "2 plus 2. Hoeveel ballen zijn het samen?",
+  "uitspraak": "twee plus twee. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 3. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0r9pvql.mp3",
+  "held": "spin",
+  "tekst": "2 plus 3. Hoeveel ballen zijn het samen?",
+  "uitspraak": "twee plus drie. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 4. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0jzwqzg.mp3",
+  "held": "spin",
+  "tekst": "2 plus 4. Hoeveel ballen zijn het samen?",
+  "uitspraak": "twee plus vier. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 5. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1p1evub.mp3",
+  "held": "spin",
+  "tekst": "2 plus 5. Hoeveel ballen zijn het samen?",
+  "uitspraak": "twee plus vijf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 6. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1184baq.mp3",
+  "held": "spin",
+  "tekst": "2 plus 6. Hoeveel ballen zijn het samen?",
+  "uitspraak": "twee plus zes. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 7. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1s735v5.mp3",
+  "held": "spin",
+  "tekst": "2 plus 7. Hoeveel ballen zijn het samen?",
+  "uitspraak": "twee plus zeven. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 8. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0tdpo2o.mp3",
+  "held": "spin",
+  "tekst": "2 plus 8. Hoeveel ballen zijn het samen?",
+  "uitspraak": "twee plus acht. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|3 plus 1. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1pmheee.mp3",
+  "held": "spin",
+  "tekst": "3 plus 1. Hoeveel ballen zijn het samen?",
+  "uitspraak": "drie plus één. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|3 plus 2. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0qlb1c7.mp3",
+  "held": "spin",
+  "tekst": "3 plus 2. Hoeveel ballen zijn het samen?",
+  "uitspraak": "drie plus twee. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|3 plus 3. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0h11wyo.mp3",
+  "held": "spin",
+  "tekst": "3 plus 3. Hoeveel ballen zijn het samen?",
+  "uitspraak": "drie plus drie. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|3 plus 4. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1ax1v7t.mp3",
+  "held": "spin",
+  "tekst": "3 plus 4. Hoeveel ballen zijn het samen?",
+  "uitspraak": "drie plus vier. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|3 plus 5. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1kbxine.mp3",
+  "held": "spin",
+  "tekst": "3 plus 5. Hoeveel ballen zijn het samen?",
+  "uitspraak": "drie plus vijf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|3 plus 6. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0hg0ii3.mp3",
+  "held": "spin",
+  "tekst": "3 plus 6. Hoeveel ballen zijn het samen?",
+  "uitspraak": "drie plus zes. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|3 plus 7. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1szo40k.mp3",
+  "held": "spin",
+  "tekst": "3 plus 7. Hoeveel ballen zijn het samen?",
+  "uitspraak": "drie plus zeven. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|4 plus 1. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1vxexr9.mp3",
+  "held": "spin",
+  "tekst": "4 plus 1. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vier plus één. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|4 plus 2. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1uzzh34.mp3",
+  "held": "spin",
+  "tekst": "4 plus 2. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vier plus twee. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|4 plus 3. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0c8dg6f.mp3",
+  "held": "spin",
+  "tekst": "4 plus 3. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vier plus drie. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|4 plus 4. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1cpfcqy.mp3",
+  "held": "spin",
+  "tekst": "4 plus 4. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vier plus vier. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|4 plus 5. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0ynfn55.mp3",
+  "held": "spin",
+  "tekst": "4 plus 5. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vier plus vijf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|4 plus 6. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0cp8whg.mp3",
+  "held": "spin",
+  "tekst": "4 plus 6. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vier plus zes. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|5 plus 1. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0vdavi4.mp3",
+  "held": "spin",
+  "tekst": "5 plus 1. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vijf plus één. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|5 plus 2. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1wumztd.mp3",
+  "held": "spin",
+  "tekst": "5 plus 2. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vijf plus twee. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|5 plus 3. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1pzvuz6.mp3",
+  "held": "spin",
+  "tekst": "5 plus 3. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vijf plus drie. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|5 plus 4. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0xx0cmn.mp3",
+  "held": "spin",
+  "tekst": "5 plus 4. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vijf plus vier. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|5 plus 5. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1nsdg4o.mp3",
+  "held": "spin",
+  "tekst": "5 plus 5. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vijf plus vijf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|6 plus 1. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1k87okr.mp3",
+  "held": "spin",
+  "tekst": "6 plus 1. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zes plus één. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|6 plus 2. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0o30mqy.mp3",
+  "held": "spin",
+  "tekst": "6 plus 2. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zes plus twee. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|6 plus 3. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0eo4zbd.mp3",
+  "held": "spin",
+  "tekst": "6 plus 3. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zes plus drie. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|6 plus 4. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1jt931c.mp3",
+  "held": "spin",
+  "tekst": "6 plus 4. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zes plus vier. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|7 plus 1. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0tz3noi.mp3",
+  "held": "spin",
+  "tekst": "7 plus 1. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zeven plus één. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|7 plus 2. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1s3zt43.mp3",
+  "held": "spin",
+  "tekst": "7 plus 2. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zeven plus twee. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|7 plus 3. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0wb4r2k.mp3",
+  "held": "spin",
+  "tekst": "7 plus 3. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zeven plus drie. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|8 plus 1. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0u0qrip.mp3",
+  "held": "spin",
+  "tekst": "8 plus 1. Hoeveel ballen zijn het samen?",
+  "uitspraak": "acht plus één. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|8 plus 2. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1rkip6k.mp3",
+  "held": "spin",
+  "tekst": "8 plus 2. Hoeveel ballen zijn het samen?",
+  "uitspraak": "acht plus twee. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|9 plus 1. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0qshxgo.mp3",
+  "held": "spin",
+  "tekst": "9 plus 1. Hoeveel ballen zijn het samen?",
+  "uitspraak": "negen plus één. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0j0c6a3.mp3",
+  "held": "spin",
+  "tekst": "2 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "twee ballen. Er rollen er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|3 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1a42k4u.mp3",
+  "held": "spin",
+  "tekst": "3 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "drie ballen. Er rollen er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|3 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0k9r6xn.mp3",
+  "held": "spin",
+  "tekst": "3 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "drie ballen. Er rollen er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|4 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0np9241.mp3",
+  "held": "spin",
+  "tekst": "4 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "vier ballen. Er rollen er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|4 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1sgdw7s.mp3",
+  "held": "spin",
+  "tekst": "4 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "vier ballen. Er rollen er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|4 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1ruy0l3.mp3",
+  "held": "spin",
+  "tekst": "4 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "vier ballen. Er rollen er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|5 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1ahap04.mp3",
+  "held": "spin",
+  "tekst": "5 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijf ballen. Er rollen er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|5 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0q01kbh.mp3",
+  "held": "spin",
+  "tekst": "5 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijf ballen. Er rollen er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|5 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0vp4vra.mp3",
+  "held": "spin",
+  "tekst": "5 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijf ballen. Er rollen er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|5 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1npyvwv.mp3",
+  "held": "spin",
+  "tekst": "5 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijf ballen. Er rollen er vier weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|6 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0539dr3.mp3",
+  "held": "spin",
+  "tekst": "6 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "zes ballen. Er rollen er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|6 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0vdnx6q.mp3",
+  "held": "spin",
+  "tekst": "6 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "zes ballen. Er rollen er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|6 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-11q2gu1.mp3",
+  "held": "spin",
+  "tekst": "6 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "zes ballen. Er rollen er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|6 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0fi95es.mp3",
+  "held": "spin",
+  "tekst": "6 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "uitspraak": "zes ballen. Er rollen er vier weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|6 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "bestand": "spin-18k2jsz.mp3",
+  "held": "spin",
+  "tekst": "6 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "uitspraak": "zes ballen. Er rollen er vijf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|7 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0mcm6qq.mp3",
+  "held": "spin",
+  "tekst": "7 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeven ballen. Er rollen er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|7 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1ydkf27.mp3",
+  "held": "spin",
+  "tekst": "7 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeven ballen. Er rollen er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|7 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-066lups.mp3",
+  "held": "spin",
+  "tekst": "7 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeven ballen. Er rollen er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|7 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0gf7z7x.mp3",
+  "held": "spin",
+  "tekst": "7 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeven ballen. Er rollen er vier weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|7 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0jmj7cm.mp3",
+  "held": "spin",
+  "tekst": "7 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeven ballen. Er rollen er vijf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|7 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1uiwz6r.mp3",
+  "held": "spin",
+  "tekst": "7 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeven ballen. Er rollen er zes weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|8 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0w9pkb9.mp3",
+  "held": "spin",
+  "tekst": "8 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "acht ballen. Er rollen er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|8 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1k7murw.mp3",
+  "held": "spin",
+  "tekst": "8 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "acht ballen. Er rollen er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|8 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1bmwbkb.mp3",
+  "held": "spin",
+  "tekst": "8 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "acht ballen. Er rollen er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|8 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "bestand": "spin-10tfdai.mp3",
+  "held": "spin",
+  "tekst": "8 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "uitspraak": "acht ballen. Er rollen er vier weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|8 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0l4bdsx.mp3",
+  "held": "spin",
+  "tekst": "8 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "uitspraak": "acht ballen. Er rollen er vijf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|8 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "bestand": "spin-19xuwaw.mp3",
+  "held": "spin",
+  "tekst": "8 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "uitspraak": "acht ballen. Er rollen er zes weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|8 ballen. Er rollen er 7 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0sf149z.mp3",
+  "held": "spin",
+  "tekst": "8 ballen. Er rollen er 7 weg. Hoeveel blijven er over?",
+  "uitspraak": "acht ballen. Er rollen er zeven weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|9 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-11qairc.mp3",
+  "held": "spin",
+  "tekst": "9 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "negen ballen. Er rollen er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|9 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-16g2ia9.mp3",
+  "held": "spin",
+  "tekst": "9 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "negen ballen. Er rollen er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|9 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1gpm9h6.mp3",
+  "held": "spin",
+  "tekst": "9 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "negen ballen. Er rollen er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|9 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0ayyoor.mp3",
+  "held": "spin",
+  "tekst": "9 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "uitspraak": "negen ballen. Er rollen er vier weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|9 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0ez2lh8.mp3",
+  "held": "spin",
+  "tekst": "9 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "uitspraak": "negen ballen. Er rollen er vijf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|9 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "bestand": "spin-01nq7id.mp3",
+  "held": "spin",
+  "tekst": "9 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "uitspraak": "negen ballen. Er rollen er zes weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|9 ballen. Er rollen er 7 weg. Hoeveel blijven er over?",
+  "bestand": "spin-14dm2ha.mp3",
+  "held": "spin",
+  "tekst": "9 ballen. Er rollen er 7 weg. Hoeveel blijven er over?",
+  "uitspraak": "negen ballen. Er rollen er zeven weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|9 ballen. Er rollen er 8 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0fq2ywv.mp3",
+  "held": "spin",
+  "tekst": "9 ballen. Er rollen er 8 weg. Hoeveel blijven er over?",
+  "uitspraak": "negen ballen. Er rollen er acht weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|10 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1akl544.mp3",
+  "held": "spin",
+  "tekst": "10 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "tien ballen. Er rollen er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|10 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1vcau25.mp3",
+  "held": "spin",
+  "tekst": "10 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "tien ballen. Er rollen er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|10 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-11w7vyu.mp3",
+  "held": "spin",
+  "tekst": "10 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "tien ballen. Er rollen er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|10 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "bestand": "spin-105ldgf.mp3",
+  "held": "spin",
+  "tekst": "10 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "uitspraak": "tien ballen. Er rollen er vier weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|10 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1d9gs0w.mp3",
+  "held": "spin",
+  "tekst": "10 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "uitspraak": "tien ballen. Er rollen er vijf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|10 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1wsegjd.mp3",
+  "held": "spin",
+  "tekst": "10 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "uitspraak": "tien ballen. Er rollen er zes weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|10 ballen. Er rollen er 7 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1qfzww2.mp3",
+  "held": "spin",
+  "tekst": "10 ballen. Er rollen er 7 weg. Hoeveel blijven er over?",
+  "uitspraak": "tien ballen. Er rollen er zeven weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|10 ballen. Er rollen er 8 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0paweu3.mp3",
+  "held": "spin",
+  "tekst": "10 ballen. Er rollen er 8 weg. Hoeveel blijven er over?",
+  "uitspraak": "tien ballen. Er rollen er acht weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|10 ballen. Er rollen er 9 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0wegeak.mp3",
+  "held": "spin",
+  "tekst": "10 ballen. Er rollen er 9 weg. Hoeveel blijven er over?",
+  "uitspraak": "tien ballen. Er rollen er negen weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|1 plus 10. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-03yerly.mp3",
+  "held": "spin",
+  "tekst": "1 plus 10. Hoeveel ballen zijn het samen?",
+  "uitspraak": "één plus tien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 9. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-12xysg7.mp3",
+  "held": "spin",
+  "tekst": "2 plus 9. Hoeveel ballen zijn het samen?",
+  "uitspraak": "twee plus negen. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|3 plus 8. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0ex24ml.mp3",
+  "held": "spin",
+  "tekst": "3 plus 8. Hoeveel ballen zijn het samen?",
+  "uitspraak": "drie plus acht. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|4 plus 7. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0lrpgi3.mp3",
+  "held": "spin",
+  "tekst": "4 plus 7. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vier plus zeven. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|5 plus 6. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1n7f7bh.mp3",
+  "held": "spin",
+  "tekst": "5 plus 6. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vijf plus zes. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|6 plus 5. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1tdi7ev.mp3",
+  "held": "spin",
+  "tekst": "6 plus 5. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zes plus vijf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|7 plus 4. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1agxorh.mp3",
+  "held": "spin",
+  "tekst": "7 plus 4. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zeven plus vier. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|8 plus 3. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1tm6a6r.mp3",
+  "held": "spin",
+  "tekst": "8 plus 3. Hoeveel ballen zijn het samen?",
+  "uitspraak": "acht plus drie. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|9 plus 2. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0vo7j4d.mp3",
+  "held": "spin",
+  "tekst": "9 plus 2. Hoeveel ballen zijn het samen?",
+  "uitspraak": "negen plus twee. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|10 plus 1. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1co48y4.mp3",
+  "held": "spin",
+  "tekst": "10 plus 1. Hoeveel ballen zijn het samen?",
+  "uitspraak": "tien plus één. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|1 plus 11. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1bb65t1.mp3",
+  "held": "spin",
+  "tekst": "1 plus 11. Hoeveel ballen zijn het samen?",
+  "uitspraak": "één plus elf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 10. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1irm8wz.mp3",
+  "held": "spin",
+  "tekst": "2 plus 10. Hoeveel ballen zijn het samen?",
+  "uitspraak": "twee plus tien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|3 plus 9. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0be4ve6.mp3",
+  "held": "spin",
+  "tekst": "3 plus 9. Hoeveel ballen zijn het samen?",
+  "uitspraak": "drie plus negen. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|4 plus 8. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0n5dr4e.mp3",
+  "held": "spin",
+  "tekst": "4 plus 8. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vier plus acht. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|5 plus 7. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0z6hz66.mp3",
+  "held": "spin",
+  "tekst": "5 plus 7. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vijf plus zeven. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|6 plus 6. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0tdkihy.mp3",
+  "held": "spin",
+  "tekst": "6 plus 6. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zes plus zes. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|7 plus 5. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1efvd9a.mp3",
+  "held": "spin",
+  "tekst": "7 plus 5. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zeven plus vijf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|8 plus 4. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1vdpsum.mp3",
+  "held": "spin",
+  "tekst": "8 plus 4. Hoeveel ballen zijn het samen?",
+  "uitspraak": "acht plus vier. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|9 plus 3. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-19x9q1a.mp3",
+  "held": "spin",
+  "tekst": "9 plus 3. Hoeveel ballen zijn het samen?",
+  "uitspraak": "negen plus drie. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|10 plus 2. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1nb3obl.mp3",
+  "held": "spin",
+  "tekst": "10 plus 2. Hoeveel ballen zijn het samen?",
+  "uitspraak": "tien plus twee. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|11 plus 1. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-180o5o5.mp3",
+  "held": "spin",
+  "tekst": "11 plus 1. Hoeveel ballen zijn het samen?",
+  "uitspraak": "elf plus één. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|1 plus 12. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1adqp4w.mp3",
+  "held": "spin",
+  "tekst": "1 plus 12. Hoeveel ballen zijn het samen?",
+  "uitspraak": "één plus twaalf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 11. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0myr6vg.mp3",
+  "held": "spin",
+  "tekst": "2 plus 11. Hoeveel ballen zijn het samen?",
+  "uitspraak": "twee plus elf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|3 plus 10. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-01axluw.mp3",
+  "held": "spin",
+  "tekst": "3 plus 10. Hoeveel ballen zijn het samen?",
+  "uitspraak": "drie plus tien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|4 plus 9. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-08wbk7h.mp3",
+  "held": "spin",
+  "tekst": "4 plus 9. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vier plus negen. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|5 plus 8. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0brvyx7.mp3",
+  "held": "spin",
+  "tekst": "5 plus 8. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vijf plus acht. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|6 plus 7. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0vi2ls5.mp3",
+  "held": "spin",
+  "tekst": "6 plus 7. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zes plus zeven. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|7 plus 6. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1a19ngf.mp3",
+  "held": "spin",
+  "tekst": "7 plus 6. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zeven plus zes. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|8 plus 5. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0kdiz0t.mp3",
+  "held": "spin",
+  "tekst": "8 plus 5. Hoeveel ballen zijn het samen?",
+  "uitspraak": "acht plus vijf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|9 plus 4. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1isf843.mp3",
+  "held": "spin",
+  "tekst": "9 plus 4. Hoeveel ballen zijn het samen?",
+  "uitspraak": "negen plus vier. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|10 plus 3. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-07b2s4i.mp3",
+  "held": "spin",
+  "tekst": "10 plus 3. Hoeveel ballen zijn het samen?",
+  "uitspraak": "tien plus drie. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|11 plus 2. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-16j9c7k.mp3",
+  "held": "spin",
+  "tekst": "11 plus 2. Hoeveel ballen zijn het samen?",
+  "uitspraak": "elf plus twee. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|12 plus 1. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0kcmx4i.mp3",
+  "held": "spin",
+  "tekst": "12 plus 1. Hoeveel ballen zijn het samen?",
+  "uitspraak": "twaalf plus één. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|1 plus 13. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1qn8q7b.mp3",
+  "held": "spin",
+  "tekst": "1 plus 13. Hoeveel ballen zijn het samen?",
+  "uitspraak": "één plus dertien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 12. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-17cmpep.mp3",
+  "held": "spin",
+  "tekst": "2 plus 12. Hoeveel ballen zijn het samen?",
+  "uitspraak": "twee plus twaalf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|3 plus 11. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1agokbz.mp3",
+  "held": "spin",
+  "tekst": "3 plus 11. Hoeveel ballen zijn het samen?",
+  "uitspraak": "drie plus elf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|4 plus 10. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0ix8wzh.mp3",
+  "held": "spin",
+  "tekst": "4 plus 10. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vier plus tien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|5 plus 9. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0s6wh10.mp3",
+  "held": "spin",
+  "tekst": "5 plus 9. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vijf plus negen. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|6 plus 8. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1afg5y4.mp3",
+  "held": "spin",
+  "tekst": "6 plus 8. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zes plus acht. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|7 plus 7. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1ltota0.mp3",
+  "held": "spin",
+  "tekst": "7 plus 7. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zeven plus zeven. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|8 plus 6. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0kyh7u0.mp3",
+  "held": "spin",
+  "tekst": "8 plus 6. Hoeveel ballen zijn het samen?",
+  "uitspraak": "acht plus zes. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|9 plus 5. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1mukfjw.mp3",
+  "held": "spin",
+  "tekst": "9 plus 5. Hoeveel ballen zijn het samen?",
+  "uitspraak": "negen plus vijf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|10 plus 4. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0h0sqpr.mp3",
+  "held": "spin",
+  "tekst": "10 plus 4. Hoeveel ballen zijn het samen?",
+  "uitspraak": "tien plus vier. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|11 plus 3. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-02tvfcn.mp3",
+  "held": "spin",
+  "tekst": "11 plus 3. Hoeveel ballen zijn het samen?",
+  "uitspraak": "elf plus drie. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|12 plus 2. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-185xho3.mp3",
+  "held": "spin",
+  "tekst": "12 plus 2. Hoeveel ballen zijn het samen?",
+  "uitspraak": "twaalf plus twee. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|13 plus 1. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1h3pkqj.mp3",
+  "held": "spin",
+  "tekst": "13 plus 1. Hoeveel ballen zijn het samen?",
+  "uitspraak": "dertien plus één. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|1 plus 14. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0s36ksq.mp3",
+  "held": "spin",
+  "tekst": "1 plus 14. Hoeveel ballen zijn het samen?",
+  "uitspraak": "één plus veertien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 13. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0kmq3he.mp3",
+  "held": "spin",
+  "tekst": "2 plus 13. Hoeveel ballen zijn het samen?",
+  "uitspraak": "twee plus dertien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|3 plus 12. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1bq66vi.mp3",
+  "held": "spin",
+  "tekst": "3 plus 12. Hoeveel ballen zijn het samen?",
+  "uitspraak": "drie plus twaalf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|4 plus 11. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-073lyym.mp3",
+  "held": "spin",
+  "tekst": "4 plus 11. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vier plus elf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|5 plus 10. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-00l7fxm.mp3",
+  "held": "spin",
+  "tekst": "5 plus 10. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vijf plus tien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|6 plus 9. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0gfu8tv.mp3",
+  "held": "spin",
+  "tekst": "6 plus 9. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zes plus negen. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|7 plus 8. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1aqagop.mp3",
+  "held": "spin",
+  "tekst": "7 plus 8. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zeven plus acht. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|8 plus 7. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1u486b3.mp3",
+  "held": "spin",
+  "tekst": "8 plus 7. Hoeveel ballen zijn het samen?",
+  "uitspraak": "acht plus zeven. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|9 plus 6. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1lz5vo1.mp3",
+  "held": "spin",
+  "tekst": "9 plus 6. Hoeveel ballen zijn het samen?",
+  "uitspraak": "negen plus zes. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|10 plus 5. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-19ilw8o.mp3",
+  "held": "spin",
+  "tekst": "10 plus 5. Hoeveel ballen zijn het samen?",
+  "uitspraak": "tien plus vijf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|11 plus 4. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0fchonu.mp3",
+  "held": "spin",
+  "tekst": "11 plus 4. Hoeveel ballen zijn het samen?",
+  "uitspraak": "elf plus vier. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|12 plus 3. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-034fct8.mp3",
+  "held": "spin",
+  "tekst": "12 plus 3. Hoeveel ballen zijn het samen?",
+  "uitspraak": "twaalf plus drie. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|13 plus 2. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-12mq24a.mp3",
+  "held": "spin",
+  "tekst": "13 plus 2. Hoeveel ballen zijn het samen?",
+  "uitspraak": "dertien plus twee. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|14 plus 1. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-144kk9s.mp3",
+  "held": "spin",
+  "tekst": "14 plus 1. Hoeveel ballen zijn het samen?",
+  "uitspraak": "veertien plus één. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|1 plus 15. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0e16v6x.mp3",
+  "held": "spin",
+  "tekst": "1 plus 15. Hoeveel ballen zijn het samen?",
+  "uitspraak": "één plus vijftien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 14. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-10ow39b.mp3",
+  "held": "spin",
+  "tekst": "2 plus 14. Hoeveel ballen zijn het samen?",
+  "uitspraak": "twee plus veertien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|3 plus 13. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-00pzd1p.mp3",
+  "held": "spin",
+  "tekst": "3 plus 13. Hoeveel ballen zijn het samen?",
+  "uitspraak": "drie plus dertien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|4 plus 12. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1sau53z.mp3",
+  "held": "spin",
+  "tekst": "4 plus 12. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vier plus twaalf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|5 plus 11. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1fbx821.mp3",
+  "held": "spin",
+  "tekst": "5 plus 11. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vijf plus elf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|6 plus 10. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-15vh7vb.mp3",
+  "held": "spin",
+  "tekst": "6 plus 10. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zes plus tien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|7 plus 9. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-084tcyi.mp3",
+  "held": "spin",
+  "tekst": "7 plus 9. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zeven plus negen. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|8 plus 8. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1680etm.mp3",
+  "held": "spin",
+  "tekst": "8 plus 8. Hoeveel ballen zijn het samen?",
+  "uitspraak": "acht plus acht. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|9 plus 7. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0gv21jm.mp3",
+  "held": "spin",
+  "tekst": "9 plus 7. Hoeveel ballen zijn het samen?",
+  "uitspraak": "negen plus zeven. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|10 plus 6. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-00dprdp.mp3",
+  "held": "spin",
+  "tekst": "10 plus 6. Hoeveel ballen zijn het samen?",
+  "uitspraak": "tien plus zes. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|11 plus 5. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1063xa1.mp3",
+  "held": "spin",
+  "tekst": "11 plus 5. Hoeveel ballen zijn het samen?",
+  "uitspraak": "elf plus vijf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|12 plus 4. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0ae8hkd.mp3",
+  "held": "spin",
+  "tekst": "12 plus 4. Hoeveel ballen zijn het samen?",
+  "uitspraak": "twaalf plus vier. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|13 plus 3. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-03szsgp.mp3",
+  "held": "spin",
+  "tekst": "13 plus 3. Hoeveel ballen zijn het samen?",
+  "uitspraak": "dertien plus drie. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|14 plus 2. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0fte30l.mp3",
+  "held": "spin",
+  "tekst": "14 plus 2. Hoeveel ballen zijn het samen?",
+  "uitspraak": "veertien plus twee. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|15 plus 1. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-18lbnnt.mp3",
+  "held": "spin",
+  "tekst": "15 plus 1. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vijftien plus één. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|1 plus 16. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1r446ic.mp3",
+  "held": "spin",
+  "tekst": "1 plus 16. Hoeveel ballen zijn het samen?",
+  "uitspraak": "één plus zestien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 15. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1chb92w.mp3",
+  "held": "spin",
+  "tekst": "2 plus 15. Hoeveel ballen zijn het samen?",
+  "uitspraak": "twee plus vijftien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|3 plus 14. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-17wz37g.mp3",
+  "held": "spin",
+  "tekst": "3 plus 14. Hoeveel ballen zijn het samen?",
+  "uitspraak": "drie plus veertien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|4 plus 13. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-15kb4t4.mp3",
+  "held": "spin",
+  "tekst": "4 plus 13. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vier plus dertien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|5 plus 12. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1kbdhjo.mp3",
+  "held": "spin",
+  "tekst": "5 plus 12. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vijf plus twaalf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|6 plus 11. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1mtbiuo.mp3",
+  "held": "spin",
+  "tekst": "6 plus 11. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zes plus elf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|7 plus 10. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1tdmoik.mp3",
+  "held": "spin",
+  "tekst": "7 plus 10. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zeven plus tien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|8 plus 9. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1ug2qw9.mp3",
+  "held": "spin",
+  "tekst": "8 plus 9. Hoeveel ballen zijn het samen?",
+  "uitspraak": "acht plus negen. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|9 plus 8. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0z09f3b.mp3",
+  "held": "spin",
+  "tekst": "9 plus 8. Hoeveel ballen zijn het samen?",
+  "uitspraak": "negen plus acht. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|10 plus 7. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-168wzry.mp3",
+  "held": "spin",
+  "tekst": "10 plus 7. Hoeveel ballen zijn het samen?",
+  "uitspraak": "tien plus zeven. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|11 plus 6. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1cgd6h0.mp3",
+  "held": "spin",
+  "tekst": "11 plus 6. Hoeveel ballen zijn het samen?",
+  "uitspraak": "elf plus zes. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|12 plus 5. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-06vb8by.mp3",
+  "held": "spin",
+  "tekst": "12 plus 5. Hoeveel ballen zijn het samen?",
+  "uitspraak": "twaalf plus vijf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|13 plus 4. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1jwp0z4.mp3",
+  "held": "spin",
+  "tekst": "13 plus 4. Hoeveel ballen zijn het samen?",
+  "uitspraak": "dertien plus vier. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|14 plus 3. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0dovzqe.mp3",
+  "held": "spin",
+  "tekst": "14 plus 3. Hoeveel ballen zijn het samen?",
+  "uitspraak": "veertien plus drie. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|15 plus 2. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1dkrx5g.mp3",
+  "held": "spin",
+  "tekst": "15 plus 2. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vijftien plus twee. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|16 plus 1. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1m1jjg6.mp3",
+  "held": "spin",
+  "tekst": "16 plus 1. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zestien plus één. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|1 plus 17. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-015gojv.mp3",
+  "held": "spin",
+  "tekst": "1 plus 17. Hoeveel ballen zijn het samen?",
+  "uitspraak": "één plus zeventien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 16. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-114k4kd.mp3",
+  "held": "spin",
+  "tekst": "2 plus 16. Hoeveel ballen zijn het samen?",
+  "uitspraak": "twee plus zestien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|3 plus 15. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-19ymo7n.mp3",
+  "held": "spin",
+  "tekst": "3 plus 15. Hoeveel ballen zijn het samen?",
+  "uitspraak": "drie plus vijftien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|4 plus 14. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0lmujr5.mp3",
+  "held": "spin",
+  "tekst": "4 plus 14. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vier plus veertien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|5 plus 13. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0uqosbv.mp3",
+  "held": "spin",
+  "tekst": "5 plus 13. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vijf plus dertien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|6 plus 12. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-066c0k5.mp3",
+  "held": "spin",
+  "tekst": "6 plus 12. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zes plus twaalf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|7 plus 11. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0ze0reb.mp3",
+  "held": "spin",
+  "tekst": "7 plus 11. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zeven plus elf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|8 plus 10. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0v57omp.mp3",
+  "held": "spin",
+  "tekst": "8 plus 10. Hoeveel ballen zijn het samen?",
+  "uitspraak": "acht plus tien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|9 plus 9. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0iqre0w.mp3",
+  "held": "spin",
+  "tekst": "9 plus 9. Hoeveel ballen zijn het samen?",
+  "uitspraak": "negen plus negen. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|10 plus 8. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-09is3ob.mp3",
+  "held": "spin",
+  "tekst": "10 plus 8. Hoeveel ballen zijn het samen?",
+  "uitspraak": "tien plus acht. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|11 plus 7. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0rd9ndn.mp3",
+  "held": "spin",
+  "tekst": "11 plus 7. Hoeveel ballen zijn het samen?",
+  "uitspraak": "elf plus zeven. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|12 plus 6. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0pmctu7.mp3",
+  "held": "spin",
+  "tekst": "12 plus 6. Hoeveel ballen zijn het samen?",
+  "uitspraak": "twaalf plus zes. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|13 plus 5. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-12yupzr.mp3",
+  "held": "spin",
+  "tekst": "13 plus 5. Hoeveel ballen zijn het samen?",
+  "uitspraak": "dertien plus vijf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|14 plus 4. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-14jj5t7.mp3",
+  "held": "spin",
+  "tekst": "14 plus 4. Hoeveel ballen zijn het samen?",
+  "uitspraak": "veertien plus vier. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|15 plus 3. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0o037xn.mp3",
+  "held": "spin",
+  "tekst": "15 plus 3. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vijftien plus drie. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|16 plus 2. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1qguf2v.mp3",
+  "held": "spin",
+  "tekst": "16 plus 2. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zestien plus twee. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|17 plus 1. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0al4c67.mp3",
+  "held": "spin",
+  "tekst": "17 plus 1. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zeventien plus één. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|1 plus 18. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-02j4z66.mp3",
+  "held": "spin",
+  "tekst": "1 plus 18. Hoeveel ballen zijn het samen?",
+  "uitspraak": "één plus achttien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 17. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-153ht26.mp3",
+  "held": "spin",
+  "tekst": "2 plus 17. Hoeveel ballen zijn het samen?",
+  "uitspraak": "twee plus zeventien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|3 plus 16. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-03ig0pe.mp3",
+  "held": "spin",
+  "tekst": "3 plus 16. Hoeveel ballen zijn het samen?",
+  "uitspraak": "drie plus zestien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|4 plus 15. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0uxs076.mp3",
+  "held": "spin",
+  "tekst": "4 plus 15. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vier plus vijftien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|5 plus 14. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1a3gkbq.mp3",
+  "held": "spin",
+  "tekst": "5 plus 14. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vijf plus veertien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|6 plus 13. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-09mme0m.mp3",
+  "held": "spin",
+  "tekst": "6 plus 13. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zes plus dertien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|7 plus 12. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0bkq6uq.mp3",
+  "held": "spin",
+  "tekst": "7 plus 12. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zeven plus twaalf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|8 plus 11. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0468u2a.mp3",
+  "held": "spin",
+  "tekst": "8 plus 11. Hoeveel ballen zijn het samen?",
+  "uitspraak": "acht plus elf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|9 plus 10. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1q9lz5a.mp3",
+  "held": "spin",
+  "tekst": "9 plus 10. Hoeveel ballen zijn het samen?",
+  "uitspraak": "negen plus tien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|10 plus 9. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0ulvmro.mp3",
+  "held": "spin",
+  "tekst": "10 plus 9. Hoeveel ballen zijn het samen?",
+  "uitspraak": "tien plus negen. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|11 plus 8. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1o3ejha.mp3",
+  "held": "spin",
+  "tekst": "11 plus 8. Hoeveel ballen zijn het samen?",
+  "uitspraak": "elf plus acht. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|12 plus 7. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0ccbseg.mp3",
+  "held": "spin",
+  "tekst": "12 plus 7. Hoeveel ballen zijn het samen?",
+  "uitspraak": "twaalf plus zeven. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|13 plus 6. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-06pzw52.mp3",
+  "held": "spin",
+  "tekst": "13 plus 6. Hoeveel ballen zijn het samen?",
+  "uitspraak": "dertien plus zes. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|14 plus 5. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0h22pck.mp3",
+  "held": "spin",
+  "tekst": "14 plus 5. Hoeveel ballen zijn het samen?",
+  "uitspraak": "veertien plus vijf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|15 plus 4. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-13cuzxi.mp3",
+  "held": "spin",
+  "tekst": "15 plus 4. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vijftien plus vier. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|16 plus 3. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0a16qy8.mp3",
+  "held": "spin",
+  "tekst": "16 plus 3. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zestien plus drie. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|17 plus 2. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0d3q8ou.mp3",
+  "held": "spin",
+  "tekst": "17 plus 2. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zeventien plus twee. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|18 plus 1. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0mp2qis.mp3",
+  "held": "spin",
+  "tekst": "18 plus 1. Hoeveel ballen zijn het samen?",
+  "uitspraak": "achttien plus één. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|1 plus 19. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1nb6u8d.mp3",
+  "held": "spin",
+  "tekst": "1 plus 19. Hoeveel ballen zijn het samen?",
+  "uitspraak": "één plus negentien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|2 plus 18. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0vhko9n.mp3",
+  "held": "spin",
+  "tekst": "2 plus 18. Hoeveel ballen zijn het samen?",
+  "uitspraak": "twee plus achttien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|3 plus 17. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0ad75jl.mp3",
+  "held": "spin",
+  "tekst": "3 plus 17. Hoeveel ballen zijn het samen?",
+  "uitspraak": "drie plus zeventien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|4 plus 16. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0iju54z.mp3",
+  "held": "spin",
+  "tekst": "4 plus 16. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vier plus zestien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|5 plus 15. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0d3pts5.mp3",
+  "held": "spin",
+  "tekst": "5 plus 15. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vijf plus vijftien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|6 plus 14. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1k0c2m3.mp3",
+  "held": "spin",
+  "tekst": "6 plus 14. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zes plus veertien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|7 plus 13. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-12jp1f5.mp3",
+  "held": "spin",
+  "tekst": "7 plus 13. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zeven plus dertien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|8 plus 12. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0rzjelv.mp3",
+  "held": "spin",
+  "tekst": "8 plus 12. Hoeveel ballen zijn het samen?",
+  "uitspraak": "acht plus twaalf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|9 plus 11. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1v65831.mp3",
+  "held": "spin",
+  "tekst": "9 plus 11. Hoeveel ballen zijn het samen?",
+  "uitspraak": "negen plus elf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|10 plus 10. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1qbu4oq.mp3",
+  "held": "spin",
+  "tekst": "10 plus 10. Hoeveel ballen zijn het samen?",
+  "uitspraak": "tien plus tien. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|11 plus 9. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0i87b31.mp3",
+  "held": "spin",
+  "tekst": "11 plus 9. Hoeveel ballen zijn het samen?",
+  "uitspraak": "elf plus negen. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|12 plus 8. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-16e885l.mp3",
+  "held": "spin",
+  "tekst": "12 plus 8. Hoeveel ballen zijn het samen?",
+  "uitspraak": "twaalf plus acht. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|13 plus 7. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-039piol.mp3",
+  "held": "spin",
+  "tekst": "13 plus 7. Hoeveel ballen zijn het samen?",
+  "uitspraak": "dertien plus zeven. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|14 plus 6. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1y0kiix.mp3",
+  "held": "spin",
+  "tekst": "14 plus 6. Hoeveel ballen zijn het samen?",
+  "uitspraak": "veertien plus zes. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|15 plus 5. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-06d49dx.mp3",
+  "held": "spin",
+  "tekst": "15 plus 5. Hoeveel ballen zijn het samen?",
+  "uitspraak": "vijftien plus vijf. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|16 plus 4. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0qc8wbd.mp3",
+  "held": "spin",
+  "tekst": "16 plus 4. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zestien plus vier. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|17 plus 3. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1x5n9dp.mp3",
+  "held": "spin",
+  "tekst": "17 plus 3. Hoeveel ballen zijn het samen?",
+  "uitspraak": "zeventien plus drie. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|18 plus 2. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-0ht81yx.mp3",
+  "held": "spin",
+  "tekst": "18 plus 2. Hoeveel ballen zijn het samen?",
+  "uitspraak": "achttien plus twee. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|19 plus 1. Hoeveel ballen zijn het samen?",
+  "bestand": "spin-1wvat4d.mp3",
+  "held": "spin",
+  "tekst": "19 plus 1. Hoeveel ballen zijn het samen?",
+  "uitspraak": "negentien plus één. Hoeveel ballen zijn het samen?"
+ },
+ {
+  "sleutel": "spin|11 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-09f085d.mp3",
+  "held": "spin",
+  "tekst": "11 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "elf ballen. Er rollen er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|11 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1gtesdk.mp3",
+  "held": "spin",
+  "tekst": "11 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "elf ballen. Er rollen er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|11 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-01ywayv.mp3",
+  "held": "spin",
+  "tekst": "11 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "elf ballen. Er rollen er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|11 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1egpam6.mp3",
+  "held": "spin",
+  "tekst": "11 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "uitspraak": "elf ballen. Er rollen er vier weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|11 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "bestand": "spin-108utdh.mp3",
+  "held": "spin",
+  "tekst": "11 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "uitspraak": "elf ballen. Er rollen er vijf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|11 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1o50rfw.mp3",
+  "held": "spin",
+  "tekst": "11 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "uitspraak": "elf ballen. Er rollen er zes weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|11 ballen. Er rollen er 7 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1n9e6uj.mp3",
+  "held": "spin",
+  "tekst": "11 ballen. Er rollen er 7 weg. Hoeveel blijven er over?",
+  "uitspraak": "elf ballen. Er rollen er zeven weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|11 ballen. Er rollen er 8 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1w1anbm.mp3",
+  "held": "spin",
+  "tekst": "11 ballen. Er rollen er 8 weg. Hoeveel blijven er over?",
+  "uitspraak": "elf ballen. Er rollen er acht weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|11 ballen. Er rollen er 9 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0zbww7d.mp3",
+  "held": "spin",
+  "tekst": "11 ballen. Er rollen er 9 weg. Hoeveel blijven er over?",
+  "uitspraak": "elf ballen. Er rollen er negen weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|11 ballen. Er rollen er 10 weg. Hoeveel blijven er over?",
+  "bestand": "spin-11jx5nl.mp3",
+  "held": "spin",
+  "tekst": "11 ballen. Er rollen er 10 weg. Hoeveel blijven er over?",
+  "uitspraak": "elf ballen. Er rollen er tien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|12 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0jtpbw2.mp3",
+  "held": "spin",
+  "tekst": "12 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "twaalf ballen. Er rollen er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|12 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1tesg0f.mp3",
+  "held": "spin",
+  "tekst": "12 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "twaalf ballen. Er rollen er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|12 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0c4fiq8.mp3",
+  "held": "spin",
+  "tekst": "12 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "twaalf ballen. Er rollen er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|12 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0vov4f1.mp3",
+  "held": "spin",
+  "tekst": "12 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "uitspraak": "twaalf ballen. Er rollen er vier weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|12 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "bestand": "spin-11dyfuu.mp3",
+  "held": "spin",
+  "tekst": "12 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "uitspraak": "twaalf ballen. Er rollen er vijf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|12 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0d76ysz.mp3",
+  "held": "spin",
+  "tekst": "12 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "uitspraak": "twaalf ballen. Er rollen er zes weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|12 ballen. Er rollen er 7 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1g6493o.mp3",
+  "held": "spin",
+  "tekst": "12 ballen. Er rollen er 7 weg. Hoeveel blijven er over?",
+  "uitspraak": "twaalf ballen. Er rollen er zeven weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|12 ballen. Er rollen er 8 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1l8wh7l.mp3",
+  "held": "spin",
+  "tekst": "12 ballen. Er rollen er 8 weg. Hoeveel blijven er over?",
+  "uitspraak": "twaalf ballen. Er rollen er acht weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|12 ballen. Er rollen er 9 weg. Hoeveel blijven er over?",
+  "bestand": "spin-01wweq2.mp3",
+  "held": "spin",
+  "tekst": "12 ballen. Er rollen er 9 weg. Hoeveel blijven er over?",
+  "uitspraak": "twaalf ballen. Er rollen er negen weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|12 ballen. Er rollen er 10 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0tslkts.mp3",
+  "held": "spin",
+  "tekst": "12 ballen. Er rollen er 10 weg. Hoeveel blijven er over?",
+  "uitspraak": "twaalf ballen. Er rollen er tien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|12 ballen. Er rollen er 11 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0e3y7n3.mp3",
+  "held": "spin",
+  "tekst": "12 ballen. Er rollen er 11 weg. Hoeveel blijven er over?",
+  "uitspraak": "twaalf ballen. Er rollen er elf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|13 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-04zyien.mp3",
+  "held": "spin",
+  "tekst": "13 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "dertien ballen. Er rollen er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|13 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-05wvc7m.mp3",
+  "held": "spin",
+  "tekst": "13 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "dertien ballen. Er rollen er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|13 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-188ln2h.mp3",
+  "held": "spin",
+  "tekst": "13 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "dertien ballen. Er rollen er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|13 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "bestand": "spin-11lhyr8.mp3",
+  "held": "spin",
+  "tekst": "13 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "uitspraak": "dertien ballen. Er rollen er vier weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|13 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1nzaw5v.mp3",
+  "held": "spin",
+  "tekst": "13 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "uitspraak": "dertien ballen. Er rollen er vijf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|13 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1s3cijq.mp3",
+  "held": "spin",
+  "tekst": "13 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "uitspraak": "dertien ballen. Er rollen er zes weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|13 ballen. Er rollen er 7 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1a8r1od.mp3",
+  "held": "spin",
+  "tekst": "13 ballen. Er rollen er 7 weg. Hoeveel blijven er over?",
+  "uitspraak": "dertien ballen. Er rollen er zeven weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|13 ballen. Er rollen er 8 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1pq3j8o.mp3",
+  "held": "spin",
+  "tekst": "13 ballen. Er rollen er 8 weg. Hoeveel blijven er over?",
+  "uitspraak": "dertien ballen. Er rollen er acht weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|13 ballen. Er rollen er 9 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0avl1tz.mp3",
+  "held": "spin",
+  "tekst": "13 ballen. Er rollen er 9 weg. Hoeveel blijven er over?",
+  "uitspraak": "dertien ballen. Er rollen er negen weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|13 ballen. Er rollen er 10 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0134nz7.mp3",
+  "held": "spin",
+  "tekst": "13 ballen. Er rollen er 10 weg. Hoeveel blijven er over?",
+  "uitspraak": "dertien ballen. Er rollen er tien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|13 ballen. Er rollen er 11 weg. Hoeveel blijven er over?",
+  "bestand": "spin-19ga5ok.mp3",
+  "held": "spin",
+  "tekst": "13 ballen. Er rollen er 11 weg. Hoeveel blijven er over?",
+  "uitspraak": "dertien ballen. Er rollen er elf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|13 ballen. Er rollen er 12 weg. Hoeveel blijven er over?",
+  "bestand": "spin-15wa7nx.mp3",
+  "held": "spin",
+  "tekst": "13 ballen. Er rollen er 12 weg. Hoeveel blijven er over?",
+  "uitspraak": "dertien ballen. Er rollen er twaalf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|14 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0mku45s.mp3",
+  "held": "spin",
+  "tekst": "14 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "veertien ballen. Er rollen er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|14 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0964fhl.mp3",
+  "held": "spin",
+  "tekst": "14 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "veertien ballen. Er rollen er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|14 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0ua3xbm.mp3",
+  "held": "spin",
+  "tekst": "14 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "veertien ballen. Er rollen er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|14 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0nnlk8j.mp3",
+  "held": "spin",
+  "tekst": "14 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "uitspraak": "veertien ballen. Er rollen er vier weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|14 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1qmiuj8.mp3",
+  "held": "spin",
+  "tekst": "14 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "uitspraak": "veertien ballen. Er rollen er vijf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|14 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1659pul.mp3",
+  "held": "spin",
+  "tekst": "14 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "uitspraak": "veertien ballen. Er rollen er zes weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|14 ballen. Er rollen er 7 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1bud1ae.mp3",
+  "held": "spin",
+  "tekst": "14 ballen. Er rollen er 7 weg. Hoeveel blijven er over?",
+  "uitspraak": "veertien ballen. Er rollen er zeven weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|14 ballen. Er rollen er 8 weg. Hoeveel blijven er over?",
+  "bestand": "spin-03ywr53.mp3",
+  "held": "spin",
+  "tekst": "14 ballen. Er rollen er 8 weg. Hoeveel blijven er over?",
+  "uitspraak": "veertien ballen. Er rollen er acht weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|14 ballen. Er rollen er 9 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0lhqj60.mp3",
+  "held": "spin",
+  "tekst": "14 ballen. Er rollen er 9 weg. Hoeveel blijven er over?",
+  "uitspraak": "veertien ballen. Er rollen er negen weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|14 ballen. Er rollen er 10 weg. Hoeveel blijven er over?",
+  "bestand": "spin-19wloqy.mp3",
+  "held": "spin",
+  "tekst": "14 ballen. Er rollen er 10 weg. Hoeveel blijven er over?",
+  "uitspraak": "veertien ballen. Er rollen er tien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|14 ballen. Er rollen er 11 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0u7hp9d.mp3",
+  "held": "spin",
+  "tekst": "14 ballen. Er rollen er 11 weg. Hoeveel blijven er over?",
+  "uitspraak": "veertien ballen. Er rollen er elf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|14 ballen. Er rollen er 12 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1j117rc.mp3",
+  "held": "spin",
+  "tekst": "14 ballen. Er rollen er 12 weg. Hoeveel blijven er over?",
+  "uitspraak": "veertien ballen. Er rollen er twaalf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|14 ballen. Er rollen er 13 weg. Hoeveel blijven er over?",
+  "bestand": "spin-11i7fqf.mp3",
+  "held": "spin",
+  "tekst": "14 ballen. Er rollen er 13 weg. Hoeveel blijven er over?",
+  "uitspraak": "veertien ballen. Er rollen er dertien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1k3qbvx.mp3",
+  "held": "spin",
+  "tekst": "15 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien ballen. Er rollen er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0zc0mxw.mp3",
+  "held": "spin",
+  "tekst": "15 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien ballen. Er rollen er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1sdu1c3.mp3",
+  "held": "spin",
+  "tekst": "15 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien ballen. Er rollen er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1f7fepu.mp3",
+  "held": "spin",
+  "tekst": "15 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien ballen. Er rollen er vier weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1ljtyd5.mp3",
+  "held": "spin",
+  "tekst": "15 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien ballen. Er rollen er vijf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "bestand": "spin-120w9uo.mp3",
+  "held": "spin",
+  "tekst": "15 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien ballen. Er rollen er zes weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 ballen. Er rollen er 7 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0ox0va7.mp3",
+  "held": "spin",
+  "tekst": "15 ballen. Er rollen er 7 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien ballen. Er rollen er zeven weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 ballen. Er rollen er 8 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0ejyrhq.mp3",
+  "held": "spin",
+  "tekst": "15 ballen. Er rollen er 8 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien ballen. Er rollen er acht weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 ballen. Er rollen er 9 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0f59q1x.mp3",
+  "held": "spin",
+  "tekst": "15 ballen. Er rollen er 9 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien ballen. Er rollen er negen weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 ballen. Er rollen er 10 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1f1crbp.mp3",
+  "held": "spin",
+  "tekst": "15 ballen. Er rollen er 10 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien ballen. Er rollen er tien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 ballen. Er rollen er 11 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0ojb7ku.mp3",
+  "held": "spin",
+  "tekst": "15 ballen. Er rollen er 11 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien ballen. Er rollen er elf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 ballen. Er rollen er 12 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0cdduiz.mp3",
+  "held": "spin",
+  "tekst": "15 ballen. Er rollen er 12 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien ballen. Er rollen er twaalf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 ballen. Er rollen er 13 weg. Hoeveel blijven er over?",
+  "bestand": "spin-15qokuk.mp3",
+  "held": "spin",
+  "tekst": "15 ballen. Er rollen er 13 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien ballen. Er rollen er dertien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|15 ballen. Er rollen er 14 weg. Hoeveel blijven er over?",
+  "bestand": "spin-12y7sv5.mp3",
+  "held": "spin",
+  "tekst": "15 ballen. Er rollen er 14 weg. Hoeveel blijven er over?",
+  "uitspraak": "vijftien ballen. Er rollen er veertien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0dpj8e6.mp3",
+  "held": "spin",
+  "tekst": "16 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien ballen. Er rollen er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-15ie9gr.mp3",
+  "held": "spin",
+  "tekst": "16 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien ballen. Er rollen er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1o9u8mk.mp3",
+  "held": "spin",
+  "tekst": "16 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien ballen. Er rollen er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1t515kx.mp3",
+  "held": "spin",
+  "tekst": "16 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien ballen. Er rollen er vier weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0x74gdm.mp3",
+  "held": "spin",
+  "tekst": "16 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien ballen. Er rollen er vijf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1dcggxz.mp3",
+  "held": "spin",
+  "tekst": "16 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien ballen. Er rollen er zes weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 ballen. Er rollen er 7 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0me6tm0.mp3",
+  "held": "spin",
+  "tekst": "16 ballen. Er rollen er 7 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien ballen. Er rollen er zeven weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 ballen. Er rollen er 8 weg. Hoeveel blijven er over?",
+  "bestand": "spin-10wbybh.mp3",
+  "held": "spin",
+  "tekst": "16 ballen. Er rollen er 8 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien ballen. Er rollen er acht weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 ballen. Er rollen er 9 weg. Hoeveel blijven er over?",
+  "bestand": "spin-036gm5i.mp3",
+  "held": "spin",
+  "tekst": "16 ballen. Er rollen er 9 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien ballen. Er rollen er negen weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 ballen. Er rollen er 10 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0quwuus.mp3",
+  "held": "spin",
+  "tekst": "16 ballen. Er rollen er 10 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien ballen. Er rollen er tien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 ballen. Er rollen er 11 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1d8ps9f.mp3",
+  "held": "spin",
+  "tekst": "16 ballen. Er rollen er 11 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien ballen. Er rollen er elf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 ballen. Er rollen er 12 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1hcrena.mp3",
+  "held": "spin",
+  "tekst": "16 ballen. Er rollen er 12 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien ballen. Er rollen er twaalf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 ballen. Er rollen er 13 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0zi5xrx.mp3",
+  "held": "spin",
+  "tekst": "16 ballen. Er rollen er 13 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien ballen. Er rollen er dertien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 ballen. Er rollen er 14 weg. Hoeveel blijven er over?",
+  "bestand": "spin-09y0row.mp3",
+  "held": "spin",
+  "tekst": "16 ballen. Er rollen er 14 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien ballen. Er rollen er veertien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|16 ballen. Er rollen er 15 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1tahghb.mp3",
+  "held": "spin",
+  "tekst": "16 ballen. Er rollen er 15 weg. Hoeveel blijven er over?",
+  "uitspraak": "zestien ballen. Er rollen er vijftien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1irb9zv.mp3",
+  "held": "spin",
+  "tekst": "17 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien ballen. Er rollen er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-09kil7y.mp3",
+  "held": "spin",
+  "tekst": "17 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien ballen. Er rollen er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0s5lpb9.mp3",
+  "held": "spin",
+  "tekst": "17 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien ballen. Er rollen er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1vic34o.mp3",
+  "held": "spin",
+  "tekst": "17 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien ballen. Er rollen er vier weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1uww7hz.mp3",
+  "held": "spin",
+  "tekst": "17 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien ballen. Er rollen er vijf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1xy5tcq.mp3",
+  "held": "spin",
+  "tekst": "17 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien ballen. Er rollen er zes weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 ballen. Er rollen er 7 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0qr790x.mp3",
+  "held": "spin",
+  "tekst": "17 ballen. Er rollen er 7 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien ballen. Er rollen er zeven weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 ballen. Er rollen er 8 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0u5fo10.mp3",
+  "held": "spin",
+  "tekst": "17 ballen. Er rollen er 8 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien ballen. Er rollen er acht weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 ballen. Er rollen er 9 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1sz1gub.mp3",
+  "held": "spin",
+  "tekst": "17 ballen. Er rollen er 9 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien ballen. Er rollen er negen weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 ballen. Er rollen er 10 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0d3lns7.mp3",
+  "held": "spin",
+  "tekst": "17 ballen. Er rollen er 10 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien ballen. Er rollen er tien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 ballen. Er rollen er 11 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1k87wzs.mp3",
+  "held": "spin",
+  "tekst": "17 ballen. Er rollen er 11 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien ballen. Er rollen er elf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 ballen. Er rollen er 12 weg. Hoeveel blijven er over?",
+  "bestand": "spin-03jdzz5.mp3",
+  "held": "spin",
+  "tekst": "17 ballen. Er rollen er 12 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien ballen. Er rollen er twaalf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 ballen. Er rollen er 13 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0l5zwlm.mp3",
+  "held": "spin",
+  "tekst": "17 ballen. Er rollen er 13 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien ballen. Er rollen er dertien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 ballen. Er rollen er 14 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1bzo3m3.mp3",
+  "held": "spin",
+  "tekst": "17 ballen. Er rollen er 14 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien ballen. Er rollen er veertien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 ballen. Er rollen er 15 weg. Hoeveel blijven er over?",
+  "bestand": "spin-06buryk.mp3",
+  "held": "spin",
+  "tekst": "17 ballen. Er rollen er 15 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien ballen. Er rollen er vijftien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|17 ballen. Er rollen er 16 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0fmiyfp.mp3",
+  "held": "spin",
+  "tekst": "17 ballen. Er rollen er 16 weg. Hoeveel blijven er over?",
+  "uitspraak": "zeventien ballen. Er rollen er zestien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1iqgwn0.mp3",
+  "held": "spin",
+  "tekst": "18 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien ballen. Er rollen er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-15f4io5.mp3",
+  "held": "spin",
+  "tekst": "18 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien ballen. Er rollen er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-093wbny.mp3",
+  "held": "spin",
+  "tekst": "18 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien ballen. Er rollen er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "bestand": "spin-05s4y3b.mp3",
+  "held": "spin",
+  "tekst": "18 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien ballen. Er rollen er vier weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "bestand": "spin-06gkry0.mp3",
+  "held": "spin",
+  "tekst": "18 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien ballen. Er rollen er vijf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0b6crgx.mp3",
+  "held": "spin",
+  "tekst": "18 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien ballen. Er rollen er zes weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 ballen. Er rollen er 7 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0lfwinu.mp3",
+  "held": "spin",
+  "tekst": "18 ballen. Er rollen er 7 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien ballen. Er rollen er zeven weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 ballen. Er rollen er 8 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1fmtu77.mp3",
+  "held": "spin",
+  "tekst": "18 ballen. Er rollen er 8 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien ballen. Er rollen er acht weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 ballen. Er rollen er 9 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0o7s9ac.mp3",
+  "held": "spin",
+  "tekst": "18 ballen. Er rollen er 9 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien ballen. Er rollen er negen weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 ballen. Er rollen er 10 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0ye7oxa.mp3",
+  "held": "spin",
+  "tekst": "18 ballen. Er rollen er 10 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien ballen. Er rollen er tien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 ballen. Er rollen er 11 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1gzat0l.mp3",
+  "held": "spin",
+  "tekst": "18 ballen. Er rollen er 11 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien ballen. Er rollen er elf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 ballen. Er rollen er 12 weg. Hoeveel blijven er over?",
+  "bestand": "spin-07hdhuk.mp3",
+  "held": "spin",
+  "tekst": "18 ballen. Er rollen er 12 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien ballen. Er rollen er twaalf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 ballen. Er rollen er 13 weg. Hoeveel blijven er over?",
+  "bestand": "spin-08jwbq3.mp3",
+  "held": "spin",
+  "tekst": "18 ballen. Er rollen er 13 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien ballen. Er rollen er dertien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 ballen. Er rollen er 14 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0nqqv2y.mp3",
+  "held": "spin",
+  "tekst": "18 ballen. Er rollen er 14 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien ballen. Er rollen er veertien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 ballen. Er rollen er 15 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1fkwcq9.mp3",
+  "held": "spin",
+  "tekst": "18 ballen. Er rollen er 15 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien ballen. Er rollen er vijftien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 ballen. Er rollen er 16 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0lax4uw.mp3",
+  "held": "spin",
+  "tekst": "18 ballen. Er rollen er 16 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien ballen. Er rollen er zestien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|18 ballen. Er rollen er 17 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0kph987.mp3",
+  "held": "spin",
+  "tekst": "18 ballen. Er rollen er 17 weg. Hoeveel blijven er over?",
+  "uitspraak": "achttien ballen. Er rollen er zeventien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0imfi61.mp3",
+  "held": "spin",
+  "tekst": "19 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien ballen. Er rollen er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1y4lvmo.mp3",
+  "held": "spin",
+  "tekst": "19 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien ballen. Er rollen er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1l0qh27.mp3",
+  "held": "spin",
+  "tekst": "19 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien ballen. Er rollen er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1mrczkm.mp3",
+  "held": "spin",
+  "tekst": "19 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien ballen. Er rollen er vier weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0h6bvot.mp3",
+  "held": "spin",
+  "tekst": "19 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien ballen. Er rollen er vijf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1vfq8pw.mp3",
+  "held": "spin",
+  "tekst": "19 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien ballen. Er rollen er zes weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 ballen. Er rollen er 7 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0pgfl4z.mp3",
+  "held": "spin",
+  "tekst": "19 ballen. Er rollen er 7 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien ballen. Er rollen er zeven weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 ballen. Er rollen er 8 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1c1cz6i.mp3",
+  "held": "spin",
+  "tekst": "19 ballen. Er rollen er 8 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien ballen. Er rollen er acht weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 ballen. Er rollen er 9 weg. Hoeveel blijven er over?",
+  "bestand": "spin-00gdrjl.mp3",
+  "held": "spin",
+  "tekst": "19 ballen. Er rollen er 9 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien ballen. Er rollen er negen weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 ballen. Er rollen er 10 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1kbhj6x.mp3",
+  "held": "spin",
+  "tekst": "19 ballen. Er rollen er 10 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien ballen. Er rollen er tien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 ballen. Er rollen er 11 weg. Hoeveel blijven er over?",
+  "bestand": "spin-06ecz1u.mp3",
+  "held": "spin",
+  "tekst": "19 ballen. Er rollen er 11 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien ballen. Er rollen er elf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 ballen. Er rollen er 12 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1fzg367.mp3",
+  "held": "spin",
+  "tekst": "19 ballen. Er rollen er 12 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien ballen. Er rollen er twaalf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 ballen. Er rollen er 13 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1xq77v4.mp3",
+  "held": "spin",
+  "tekst": "19 ballen. Er rollen er 13 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien ballen. Er rollen er dertien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 ballen. Er rollen er 14 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0i9irkt.mp3",
+  "held": "spin",
+  "tekst": "19 ballen. Er rollen er 14 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien ballen. Er rollen er veertien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 ballen. Er rollen er 15 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0nym30m.mp3",
+  "held": "spin",
+  "tekst": "19 ballen. Er rollen er 15 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien ballen. Er rollen er vijftien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 ballen. Er rollen er 16 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1ysynxv.mp3",
+  "held": "spin",
+  "tekst": "19 ballen. Er rollen er 16 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien ballen. Er rollen er zestien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 ballen. Er rollen er 17 weg. Hoeveel blijven er over?",
+  "bestand": "spin-12qrw9g.mp3",
+  "held": "spin",
+  "tekst": "19 ballen. Er rollen er 17 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien ballen. Er rollen er zeventien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|19 ballen. Er rollen er 18 weg. Hoeveel blijven er over?",
+  "bestand": "spin-17tk4dd.mp3",
+  "held": "spin",
+  "tekst": "19 ballen. Er rollen er 18 weg. Hoeveel blijven er over?",
+  "uitspraak": "negentien ballen. Er rollen er achttien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1y3kjmd.mp3",
+  "held": "spin",
+  "tekst": "20 ballen. Er rollen er 1 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig ballen. Er rollen er één weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1oswd58.mp3",
+  "held": "spin",
+  "tekst": "20 ballen. Er rollen er 2 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig ballen. Er rollen er twee weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0vflmtn.mp3",
+  "held": "spin",
+  "tekst": "20 ballen. Er rollen er 3 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig ballen. Er rollen er drie weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "bestand": "spin-04lxft6.mp3",
+  "held": "spin",
+  "tekst": "20 ballen. Er rollen er 4 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig ballen. Er rollen er vier weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1m0fl5t.mp3",
+  "held": "spin",
+  "tekst": "20 ballen. Er rollen er 5 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig ballen. Er rollen er vijf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "bestand": "spin-13o5g7c.mp3",
+  "held": "spin",
+  "tekst": "20 ballen. Er rollen er 6 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig ballen. Er rollen er zes weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 ballen. Er rollen er 7 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1vkn8yv.mp3",
+  "held": "spin",
+  "tekst": "20 ballen. Er rollen er 7 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig ballen. Er rollen er zeven weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 ballen. Er rollen er 8 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0frwo7a.mp3",
+  "held": "spin",
+  "tekst": "20 ballen. Er rollen er 8 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig ballen. Er rollen er acht weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 ballen. Er rollen er 9 weg. Hoeveel blijven er over?",
+  "bestand": "spin-180eswt.mp3",
+  "held": "spin",
+  "tekst": "20 ballen. Er rollen er 9 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig ballen. Er rollen er negen weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 ballen. Er rollen er 10 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0d7i2i5.mp3",
+  "held": "spin",
+  "tekst": "20 ballen. Er rollen er 10 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig ballen. Er rollen er tien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 ballen. Er rollen er 11 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1isj6dy.mp3",
+  "held": "spin",
+  "tekst": "20 ballen. Er rollen er 11 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig ballen. Er rollen er elf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 ballen. Er rollen er 12 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0lhlryb.mp3",
+  "held": "spin",
+  "tekst": "20 ballen. Er rollen er 12 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig ballen. Er rollen er twaalf weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 ballen. Er rollen er 13 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1rgwfj8.mp3",
+  "held": "spin",
+  "tekst": "20 ballen. Er rollen er 13 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig ballen. Er rollen er dertien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 ballen. Er rollen er 14 weg. Hoeveel blijven er over?",
+  "bestand": "spin-0enlozd.mp3",
+  "held": "spin",
+  "tekst": "20 ballen. Er rollen er 14 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig ballen. Er rollen er veertien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 ballen. Er rollen er 15 weg. Hoeveel blijven er over?",
+  "bestand": "spin-08b75c2.mp3",
+  "held": "spin",
+  "tekst": "20 ballen. Er rollen er 15 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig ballen. Er rollen er vijftien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 ballen. Er rollen er 16 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1h1wnvj.mp3",
+  "held": "spin",
+  "tekst": "20 ballen. Er rollen er 16 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig ballen. Er rollen er zestien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 ballen. Er rollen er 17 weg. Hoeveel blijven er over?",
+  "bestand": "spin-1u5s2g0.mp3",
+  "held": "spin",
+  "tekst": "20 ballen. Er rollen er 17 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig ballen. Er rollen er zeventien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 ballen. Er rollen er 18 weg. Hoeveel blijven er over?",
+  "bestand": "spin-17a5in9.mp3",
+  "held": "spin",
+  "tekst": "20 ballen. Er rollen er 18 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig ballen. Er rollen er achttien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "spin|20 ballen. Er rollen er 19 weg. Hoeveel blijven er over?",
+  "bestand": "spin-16ouk32.mp3",
+  "held": "spin",
+  "tekst": "20 ballen. Er rollen er 19 weg. Hoeveel blijven er over?",
+  "uitspraak": "twintig ballen. Er rollen er negentien weg. Hoeveel blijven er over?"
+ },
+ {
+  "sleutel": "ijzer|Luister goed.",
+  "bestand": "ijzer-09f3eum.mp3",
+  "held": "ijzer",
+  "tekst": "Luister goed.",
+  "uitspraak": "Luister goed."
+ },
+ {
+  "sleutel": "ijzer|Luister maar.",
+  "bestand": "ijzer-1yutzp0.mp3",
+  "held": "ijzer",
+  "tekst": "Luister maar.",
+  "uitspraak": "Luister maar."
+ },
+ {
+  "sleutel": "ijzer|Luister nog een keer.",
+  "bestand": "ijzer-10jlt5i.mp3",
+  "held": "ijzer",
+  "tekst": "Luister nog een keer.",
+  "uitspraak": "Luister nog een keer."
+ },
+ {
+  "sleutel": "ijzer|We hakken het woord samen.",
+  "bestand": "ijzer-1aswjsh.mp3",
+  "held": "ijzer",
+  "tekst": "We hakken het woord samen.",
+  "uitspraak": "We hakken het woord samen."
+ },
+ {
+  "sleutel": "ijzer|Welk plaatje begint met",
+  "bestand": "ijzer-0k7w8gk.mp3",
+  "held": "ijzer",
+  "tekst": "Welk plaatje begint met",
+  "uitspraak": "Welk plaatje begint met"
+ },
+ {
+  "sleutel": "ijzer|aap",
+  "bestand": "ijzer-10u3fi1.mp3",
+  "held": "ijzer",
+  "tekst": "aap",
+  "uitspraak": "aap"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint aap?",
+  "bestand": "ijzer-1rmgeqp.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint aap?",
+  "uitspraak": "Waarmee begint aap?"
+ },
+ {
+  "sleutel": "ijzer|appel",
+  "bestand": "ijzer-1xsf56x.mp3",
+  "held": "ijzer",
+  "tekst": "appel",
+  "uitspraak": "appel"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint appel?",
+  "bestand": "ijzer-0u7i955.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint appel?",
+  "uitspraak": "Waarmee begint appel?"
+ },
+ {
+  "sleutel": "ijzer|anker",
+  "bestand": "ijzer-1e8kcr4.mp3",
+  "held": "ijzer",
+  "tekst": "anker",
+  "uitspraak": "anker"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint anker?",
+  "bestand": "ijzer-0hch2de.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint anker?",
+  "uitspraak": "Waarmee begint anker?"
+ },
+ {
+  "sleutel": "ijzer|ananas",
+  "bestand": "ijzer-0vz7d6d.mp3",
+  "held": "ijzer",
+  "tekst": "ananas",
+  "uitspraak": "ananas"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint ananas?",
+  "bestand": "ijzer-0qltvnf.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint ananas?",
+  "uitspraak": "Waarmee begint ananas?"
+ },
+ {
+  "sleutel": "ijzer|bal",
+  "bestand": "ijzer-1hi2ylo.mp3",
+  "held": "ijzer",
+  "tekst": "bal",
+  "uitspraak": "bal"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint bal?",
+  "bestand": "ijzer-10nt156.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint bal?",
+  "uitspraak": "Waarmee begint bal?"
+ },
+ {
+  "sleutel": "ijzer|boom",
+  "bestand": "ijzer-16dimr2.mp3",
+  "held": "ijzer",
+  "tekst": "boom",
+  "uitspraak": "boom"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint boom?",
+  "bestand": "ijzer-1swzzfa.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint boom?",
+  "uitspraak": "Waarmee begint boom?"
+ },
+ {
+  "sleutel": "ijzer|bus",
+  "bestand": "ijzer-1lmqqt1.mp3",
+  "held": "ijzer",
+  "tekst": "bus",
+  "uitspraak": "bus"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint bus?",
+  "bestand": "ijzer-00lwv1x.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint bus?",
+  "uitspraak": "Waarmee begint bus?"
+ },
+ {
+  "sleutel": "ijzer|boot",
+  "bestand": "ijzer-0zzrrsp.mp3",
+  "held": "ijzer",
+  "tekst": "boot",
+  "uitspraak": "boot"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint boot?",
+  "bestand": "ijzer-0tc1ec7.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint boot?",
+  "uitspraak": "Waarmee begint boot?"
+ },
+ {
+  "sleutel": "ijzer|beer",
+  "bestand": "ijzer-02o0ibn.mp3",
+  "held": "ijzer",
+  "tekst": "beer",
+  "uitspraak": "beer"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint beer?",
+  "bestand": "ijzer-0ao7fad.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint beer?",
+  "uitspraak": "Waarmee begint beer?"
+ },
+ {
+  "sleutel": "ijzer|banaan",
+  "bestand": "ijzer-0uh64yq.mp3",
+  "held": "ijzer",
+  "tekst": "banaan",
+  "uitspraak": "banaan"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint banaan?",
+  "bestand": "ijzer-1soq0fm.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint banaan?",
+  "uitspraak": "Waarmee begint banaan?"
+ },
+ {
+  "sleutel": "ijzer|cactus",
+  "bestand": "ijzer-0qf9q3m.mp3",
+  "held": "ijzer",
+  "tekst": "cactus",
+  "uitspraak": "cactus"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint cactus?",
+  "bestand": "ijzer-11q73zu.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint cactus?",
+  "uitspraak": "Waarmee begint cactus?"
+ },
+ {
+  "sleutel": "ijzer|camera",
+  "bestand": "ijzer-1n9oo16.mp3",
+  "held": "ijzer",
+  "tekst": "camera",
+  "uitspraak": "camera"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint camera?",
+  "bestand": "ijzer-15jayf2.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint camera?",
+  "uitspraak": "Waarmee begint camera?"
+ },
+ {
+  "sleutel": "ijzer|cadeau",
+  "bestand": "ijzer-1tm112c.mp3",
+  "held": "ijzer",
+  "tekst": "cadeau",
+  "uitspraak": "cadeau"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint cadeau?",
+  "bestand": "ijzer-0jygcjo.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint cadeau?",
+  "uitspraak": "Waarmee begint cadeau?"
+ },
+ {
+  "sleutel": "ijzer|das",
+  "bestand": "ijzer-1dsu7pn.mp3",
+  "held": "ijzer",
+  "tekst": "das",
+  "uitspraak": "das"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint das?",
+  "bestand": "ijzer-0rito1j.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint das?",
+  "uitspraak": "Waarmee begint das?"
+ },
+ {
+  "sleutel": "ijzer|deur",
+  "bestand": "ijzer-1id3x2h.mp3",
+  "held": "ijzer",
+  "tekst": "deur",
+  "uitspraak": "deur"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint deur?",
+  "bestand": "ijzer-12kxffb.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint deur?",
+  "uitspraak": "Waarmee begint deur?"
+ },
+ {
+  "sleutel": "ijzer|dino",
+  "bestand": "ijzer-02sgj01.mp3",
+  "held": "ijzer",
+  "tekst": "dino",
+  "uitspraak": "dino"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint dino?",
+  "bestand": "ijzer-1attetj.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint dino?",
+  "uitspraak": "Waarmee begint dino?"
+ },
+ {
+  "sleutel": "ijzer|duim",
+  "bestand": "ijzer-03mo25k.mp3",
+  "held": "ijzer",
+  "tekst": "duim",
+  "uitspraak": "duim"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint duim?",
+  "bestand": "ijzer-0varemg.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint duim?",
+  "uitspraak": "Waarmee begint duim?"
+ },
+ {
+  "sleutel": "ijzer|dolfijn",
+  "bestand": "ijzer-03x13xt.mp3",
+  "held": "ijzer",
+  "tekst": "dolfijn",
+  "uitspraak": "dolfijn"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint dolfijn?",
+  "bestand": "ijzer-1tctx99.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint dolfijn?",
+  "uitspraak": "Waarmee begint dolfijn?"
+ },
+ {
+  "sleutel": "ijzer|eend",
+  "bestand": "ijzer-029abi9.mp3",
+  "held": "ijzer",
+  "tekst": "eend",
+  "uitspraak": "eend"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint eend?",
+  "bestand": "ijzer-0ms03c3.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint eend?",
+  "uitspraak": "Waarmee begint eend?"
+ },
+ {
+  "sleutel": "ijzer|egel",
+  "bestand": "ijzer-1mnns8g.mp3",
+  "held": "ijzer",
+  "tekst": "egel",
+  "uitspraak": "egel"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint egel?",
+  "bestand": "ijzer-18c1aj8.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint egel?",
+  "uitspraak": "Waarmee begint egel?"
+ },
+ {
+  "sleutel": "ijzer|emmer",
+  "bestand": "ijzer-0gxf9rh.mp3",
+  "held": "ijzer",
+  "tekst": "emmer",
+  "uitspraak": "emmer"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint emmer?",
+  "bestand": "ijzer-1qhlcl9.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint emmer?",
+  "uitspraak": "Waarmee begint emmer?"
+ },
+ {
+  "sleutel": "ijzer|fiets",
+  "bestand": "ijzer-0u3u91e.mp3",
+  "held": "ijzer",
+  "tekst": "fiets",
+  "uitspraak": "fiets"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint fiets?",
+  "bestand": "ijzer-1qz1nkc.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint fiets?",
+  "uitspraak": "Waarmee begint fiets?"
+ },
+ {
+  "sleutel": "ijzer|fles",
+  "bestand": "ijzer-1alil5n.mp3",
+  "held": "ijzer",
+  "tekst": "fles",
+  "uitspraak": "fles"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint fles?",
+  "bestand": "ijzer-0okxp4t.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint fles?",
+  "uitspraak": "Waarmee begint fles?"
+ },
+ {
+  "sleutel": "ijzer|fee",
+  "bestand": "ijzer-0uiuw9r.mp3",
+  "held": "ijzer",
+  "tekst": "fee",
+  "uitspraak": "fee"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint fee?",
+  "bestand": "ijzer-1ordvo3.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint fee?",
+  "uitspraak": "Waarmee begint fee?"
+ },
+ {
+  "sleutel": "ijzer|geit",
+  "bestand": "ijzer-10hroyo.mp3",
+  "held": "ijzer",
+  "tekst": "geit",
+  "uitspraak": "geit"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint geit?",
+  "bestand": "ijzer-10a0ng0.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint geit?",
+  "uitspraak": "Waarmee begint geit?"
+ },
+ {
+  "sleutel": "ijzer|gitaar",
+  "bestand": "ijzer-0sgwit5.mp3",
+  "held": "ijzer",
+  "tekst": "gitaar",
+  "uitspraak": "gitaar"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint gitaar?",
+  "bestand": "ijzer-19jgavb.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint gitaar?",
+  "uitspraak": "Waarmee begint gitaar?"
+ },
+ {
+  "sleutel": "ijzer|giraf",
+  "bestand": "ijzer-0mq4wu2.mp3",
+  "held": "ijzer",
+  "tekst": "giraf",
+  "uitspraak": "giraf"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint giraf?",
+  "bestand": "ijzer-1749mdo.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint giraf?",
+  "uitspraak": "Waarmee begint giraf?"
+ },
+ {
+  "sleutel": "ijzer|huis",
+  "bestand": "ijzer-0ipda9a.mp3",
+  "held": "ijzer",
+  "tekst": "huis",
+  "uitspraak": "huis"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint huis?",
+  "bestand": "ijzer-04uoeme.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint huis?",
+  "uitspraak": "Waarmee begint huis?"
+ },
+ {
+  "sleutel": "ijzer|hond",
+  "bestand": "ijzer-06r2ocm.mp3",
+  "held": "ijzer",
+  "tekst": "hond",
+  "uitspraak": "hond"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint hond?",
+  "bestand": "ijzer-1lq2qji.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint hond?",
+  "uitspraak": "Waarmee begint hond?"
+ },
+ {
+  "sleutel": "ijzer|hoed",
+  "bestand": "ijzer-0brjsxp.mp3",
+  "held": "ijzer",
+  "tekst": "hoed",
+  "uitspraak": "hoed"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint hoed?",
+  "bestand": "ijzer-09u59oj.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint hoed?",
+  "uitspraak": "Waarmee begint hoed?"
+ },
+ {
+  "sleutel": "ijzer|haan",
+  "bestand": "ijzer-1cepkgp.mp3",
+  "held": "ijzer",
+  "tekst": "haan",
+  "uitspraak": "haan"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint haan?",
+  "bestand": "ijzer-0eob1fz.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint haan?",
+  "uitspraak": "Waarmee begint haan?"
+ },
+ {
+  "sleutel": "ijzer|inktvis",
+  "bestand": "ijzer-0hvi2q9.mp3",
+  "held": "ijzer",
+  "tekst": "inktvis",
+  "uitspraak": "inktvis"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint inktvis?",
+  "bestand": "ijzer-1vmxskl.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint inktvis?",
+  "uitspraak": "Waarmee begint inktvis?"
+ },
+ {
+  "sleutel": "ijzer|jas",
+  "bestand": "ijzer-0dkdt3t.mp3",
+  "held": "ijzer",
+  "tekst": "jas",
+  "uitspraak": "jas"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint jas?",
+  "bestand": "ijzer-179hf69.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint jas?",
+  "uitspraak": "Waarmee begint jas?"
+ },
+ {
+  "sleutel": "ijzer|jurk",
+  "bestand": "ijzer-1lf5hc3.mp3",
+  "held": "ijzer",
+  "tekst": "jurk",
+  "uitspraak": "jurk"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint jurk?",
+  "bestand": "ijzer-0sqtot1.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint jurk?",
+  "uitspraak": "Waarmee begint jurk?"
+ },
+ {
+  "sleutel": "ijzer|jojo",
+  "bestand": "ijzer-1qwqne5.mp3",
+  "held": "ijzer",
+  "tekst": "jojo",
+  "uitspraak": "jojo"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint jojo?",
+  "bestand": "ijzer-0g9qm1r.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint jojo?",
+  "uitspraak": "Waarmee begint jojo?"
+ },
+ {
+  "sleutel": "ijzer|kat",
+  "bestand": "ijzer-1n54rsr.mp3",
+  "held": "ijzer",
+  "tekst": "kat",
+  "uitspraak": "kat"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint kat?",
+  "bestand": "ijzer-0if1l7b.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint kat?",
+  "uitspraak": "Waarmee begint kat?"
+ },
+ {
+  "sleutel": "ijzer|koe",
+  "bestand": "ijzer-1f23qhe.mp3",
+  "held": "ijzer",
+  "tekst": "koe",
+  "uitspraak": "koe"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint koe?",
+  "bestand": "ijzer-177i020.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint koe?",
+  "uitspraak": "Waarmee begint koe?"
+ },
+ {
+  "sleutel": "ijzer|kip",
+  "bestand": "ijzer-1jsi3vj.mp3",
+  "held": "ijzer",
+  "tekst": "kip",
+  "uitspraak": "kip"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint kip?",
+  "bestand": "ijzer-1ayh9fn.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint kip?",
+  "uitspraak": "Waarmee begint kip?"
+ },
+ {
+  "sleutel": "ijzer|kaas",
+  "bestand": "ijzer-0lb5fh1.mp3",
+  "held": "ijzer",
+  "tekst": "kaas",
+  "uitspraak": "kaas"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint kaas?",
+  "bestand": "ijzer-0ct2u77.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint kaas?",
+  "uitspraak": "Waarmee begint kaas?"
+ },
+ {
+  "sleutel": "ijzer|koek",
+  "bestand": "ijzer-0sx27uj.mp3",
+  "held": "ijzer",
+  "tekst": "koek",
+  "uitspraak": "koek"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint koek?",
+  "bestand": "ijzer-17jlsld.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint koek?",
+  "uitspraak": "Waarmee begint koek?"
+ },
+ {
+  "sleutel": "ijzer|kroon",
+  "bestand": "ijzer-0gq4zks.mp3",
+  "held": "ijzer",
+  "tekst": "kroon",
+  "uitspraak": "kroon"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint kroon?",
+  "bestand": "ijzer-06ma942.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint kroon?",
+  "uitspraak": "Waarmee begint kroon?"
+ },
+ {
+  "sleutel": "ijzer|leeuw",
+  "bestand": "ijzer-12jn75l.mp3",
+  "held": "ijzer",
+  "tekst": "leeuw",
+  "uitspraak": "leeuw"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint leeuw?",
+  "bestand": "ijzer-03mqc8h.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint leeuw?",
+  "uitspraak": "Waarmee begint leeuw?"
+ },
+ {
+  "sleutel": "ijzer|lamp",
+  "bestand": "ijzer-09tgot3.mp3",
+  "held": "ijzer",
+  "tekst": "lamp",
+  "uitspraak": "lamp"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint lamp?",
+  "bestand": "ijzer-043pz1p.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint lamp?",
+  "uitspraak": "Waarmee begint lamp?"
+ },
+ {
+  "sleutel": "ijzer|lepel",
+  "bestand": "ijzer-078eda3.mp3",
+  "held": "ijzer",
+  "tekst": "lepel",
+  "uitspraak": "lepel"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint lepel?",
+  "bestand": "ijzer-0iv3e4v.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint lepel?",
+  "uitspraak": "Waarmee begint lepel?"
+ },
+ {
+  "sleutel": "ijzer|lolly",
+  "bestand": "ijzer-0y3me0r.mp3",
+  "held": "ijzer",
+  "tekst": "lolly",
+  "uitspraak": "lolly"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint lolly?",
+  "bestand": "ijzer-1s6ies3.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint lolly?",
+  "uitspraak": "Waarmee begint lolly?"
+ },
+ {
+  "sleutel": "ijzer|lama",
+  "bestand": "ijzer-0dzaq7o.mp3",
+  "held": "ijzer",
+  "tekst": "lama",
+  "uitspraak": "lama"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint lama?",
+  "bestand": "ijzer-13nx4j8.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint lama?",
+  "uitspraak": "Waarmee begint lama?"
+ },
+ {
+  "sleutel": "ijzer|maan",
+  "bestand": "ijzer-0k6jfx8.mp3",
+  "held": "ijzer",
+  "tekst": "maan",
+  "uitspraak": "maan"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint maan?",
+  "bestand": "ijzer-1udka4o.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint maan?",
+  "uitspraak": "Waarmee begint maan?"
+ },
+ {
+  "sleutel": "ijzer|muis",
+  "bestand": "ijzer-0qt6lef.mp3",
+  "held": "ijzer",
+  "tekst": "muis",
+  "uitspraak": "muis"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint muis?",
+  "bestand": "ijzer-1l3n79t.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint muis?",
+  "uitspraak": "Waarmee begint muis?"
+ },
+ {
+  "sleutel": "ijzer|melk",
+  "bestand": "ijzer-0xktxde.mp3",
+  "held": "ijzer",
+  "tekst": "melk",
+  "uitspraak": "melk"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint melk?",
+  "bestand": "ijzer-1ilswh6.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint melk?",
+  "uitspraak": "Waarmee begint melk?"
+ },
+ {
+  "sleutel": "ijzer|mug",
+  "bestand": "ijzer-14bi298.mp3",
+  "held": "ijzer",
+  "tekst": "mug",
+  "uitspraak": "mug"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint mug?",
+  "bestand": "ijzer-12f10t6.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint mug?",
+  "uitspraak": "Waarmee begint mug?"
+ },
+ {
+  "sleutel": "ijzer|neus",
+  "bestand": "ijzer-17hvny4.mp3",
+  "held": "ijzer",
+  "tekst": "neus",
+  "uitspraak": "neus"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint neus?",
+  "bestand": "ijzer-1dxn74g.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint neus?",
+  "uitspraak": "Waarmee begint neus?"
+ },
+ {
+  "sleutel": "ijzer|nest",
+  "bestand": "ijzer-163rchb.mp3",
+  "held": "ijzer",
+  "tekst": "nest",
+  "uitspraak": "nest"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint nest?",
+  "bestand": "ijzer-03n1v79.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint nest?",
+  "uitspraak": "Waarmee begint nest?"
+ },
+ {
+  "sleutel": "ijzer|neushoorn",
+  "bestand": "ijzer-1bbpaga.mp3",
+  "held": "ijzer",
+  "tekst": "neushoorn",
+  "uitspraak": "neushoorn"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint neushoorn?",
+  "bestand": "ijzer-1fjghug.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint neushoorn?",
+  "uitspraak": "Waarmee begint neushoorn?"
+ },
+ {
+  "sleutel": "ijzer|oog",
+  "bestand": "ijzer-16tgv48.mp3",
+  "held": "ijzer",
+  "tekst": "oog",
+  "uitspraak": "oog"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint oog?",
+  "bestand": "ijzer-050qc2i.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint oog?",
+  "uitspraak": "Waarmee begint oog?"
+ },
+ {
+  "sleutel": "ijzer|oor",
+  "bestand": "ijzer-13rl8hj.mp3",
+  "held": "ijzer",
+  "tekst": "oor",
+  "uitspraak": "oor"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint oor?",
+  "bestand": "ijzer-04zgxdb.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint oor?",
+  "uitspraak": "Waarmee begint oor?"
+ },
+ {
+  "sleutel": "ijzer|olifant",
+  "bestand": "ijzer-1t0i1p2.mp3",
+  "held": "ijzer",
+  "tekst": "olifant",
+  "uitspraak": "olifant"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint olifant?",
+  "bestand": "ijzer-1p4qrao.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint olifant?",
+  "uitspraak": "Waarmee begint olifant?"
+ },
+ {
+  "sleutel": "ijzer|peer",
+  "bestand": "ijzer-1tsoijp.mp3",
+  "held": "ijzer",
+  "tekst": "peer",
+  "uitspraak": "peer"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint peer?",
+  "bestand": "ijzer-1jzyh2z.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint peer?",
+  "uitspraak": "Waarmee begint peer?"
+ },
+ {
+  "sleutel": "ijzer|pan",
+  "bestand": "ijzer-1fex33s.mp3",
+  "held": "ijzer",
+  "tekst": "pan",
+  "uitspraak": "pan"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint pan?",
+  "bestand": "ijzer-0o3xo1a.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint pan?",
+  "uitspraak": "Waarmee begint pan?"
+ },
+ {
+  "sleutel": "ijzer|pizza",
+  "bestand": "ijzer-05im6k9.mp3",
+  "held": "ijzer",
+  "tekst": "pizza",
+  "uitspraak": "pizza"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint pizza?",
+  "bestand": "ijzer-0e6owml.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint pizza?",
+  "uitspraak": "Waarmee begint pizza?"
+ },
+ {
+  "sleutel": "ijzer|paard",
+  "bestand": "ijzer-1ps8cjn.mp3",
+  "held": "ijzer",
+  "tekst": "paard",
+  "uitspraak": "paard"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint paard?",
+  "bestand": "ijzer-1boz1qb.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint paard?",
+  "uitspraak": "Waarmee begint paard?"
+ },
+ {
+  "sleutel": "ijzer|pinguïn",
+  "bestand": "ijzer-0anv761.mp3",
+  "held": "ijzer",
+  "tekst": "pinguïn",
+  "uitspraak": "pinguïn"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint pinguïn?",
+  "bestand": "ijzer-10884rt.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint pinguïn?",
+  "uitspraak": "Waarmee begint pinguïn?"
+ },
+ {
+  "sleutel": "ijzer|roos",
+  "bestand": "ijzer-16en69o.mp3",
+  "held": "ijzer",
+  "tekst": "roos",
+  "uitspraak": "roos"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint roos?",
+  "bestand": "ijzer-1i1x48k.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint roos?",
+  "uitspraak": "Waarmee begint roos?"
+ },
+ {
+  "sleutel": "ijzer|raket",
+  "bestand": "ijzer-1ygzr0w.mp3",
+  "held": "ijzer",
+  "tekst": "raket",
+  "uitspraak": "raket"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint raket?",
+  "bestand": "ijzer-0s566ym.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint raket?",
+  "uitspraak": "Waarmee begint raket?"
+ },
+ {
+  "sleutel": "ijzer|rups",
+  "bestand": "ijzer-011t0nh.mp3",
+  "held": "ijzer",
+  "tekst": "rups",
+  "uitspraak": "rups"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint rups?",
+  "bestand": "ijzer-00lolnf.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint rups?",
+  "uitspraak": "Waarmee begint rups?"
+ },
+ {
+  "sleutel": "ijzer|robot",
+  "bestand": "ijzer-07muchn.mp3",
+  "held": "ijzer",
+  "tekst": "robot",
+  "uitspraak": "robot"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint robot?",
+  "bestand": "ijzer-0fz1wpr.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint robot?",
+  "uitspraak": "Waarmee begint robot?"
+ },
+ {
+  "sleutel": "ijzer|sok",
+  "bestand": "ijzer-0inmpww.mp3",
+  "held": "ijzer",
+  "tekst": "sok",
+  "uitspraak": "sok"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint sok?",
+  "bestand": "ijzer-18m0h96.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint sok?",
+  "uitspraak": "Waarmee begint sok?"
+ },
+ {
+  "sleutel": "ijzer|slak",
+  "bestand": "ijzer-0bz8l7m.mp3",
+  "held": "ijzer",
+  "tekst": "slak",
+  "uitspraak": "slak"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint slak?",
+  "bestand": "ijzer-18oth4y.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint slak?",
+  "uitspraak": "Waarmee begint slak?"
+ },
+ {
+  "sleutel": "ijzer|ster",
+  "bestand": "ijzer-1rm3dgx.mp3",
+  "held": "ijzer",
+  "tekst": "ster",
+  "uitspraak": "ster"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint ster?",
+  "bestand": "ijzer-0gjnlu7.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint ster?",
+  "uitspraak": "Waarmee begint ster?"
+ },
+ {
+  "sleutel": "ijzer|slang",
+  "bestand": "ijzer-036z2h6.mp3",
+  "held": "ijzer",
+  "tekst": "slang",
+  "uitspraak": "slang"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint slang?",
+  "bestand": "ijzer-04bqk5c.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint slang?",
+  "uitspraak": "Waarmee begint slang?"
+ },
+ {
+  "sleutel": "ijzer|soep",
+  "bestand": "ijzer-1c4d2bi.mp3",
+  "held": "ijzer",
+  "tekst": "soep",
+  "uitspraak": "soep"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint soep?",
+  "bestand": "ijzer-0vpcwk6.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint soep?",
+  "uitspraak": "Waarmee begint soep?"
+ },
+ {
+  "sleutel": "ijzer|tent",
+  "bestand": "ijzer-1vg3cfg.mp3",
+  "held": "ijzer",
+  "tekst": "tent",
+  "uitspraak": "tent"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint tent?",
+  "bestand": "ijzer-02chhus.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint tent?",
+  "uitspraak": "Waarmee begint tent?"
+ },
+ {
+  "sleutel": "ijzer|tijger",
+  "bestand": "ijzer-0mg5yy6.mp3",
+  "held": "ijzer",
+  "tekst": "tijger",
+  "uitspraak": "tijger"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint tijger?",
+  "bestand": "ijzer-1fc38oq.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint tijger?",
+  "uitspraak": "Waarmee begint tijger?"
+ },
+ {
+  "sleutel": "ijzer|trein",
+  "bestand": "ijzer-0ehpizt.mp3",
+  "held": "ijzer",
+  "tekst": "trein",
+  "uitspraak": "trein"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint trein?",
+  "bestand": "ijzer-1vitjat.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint trein?",
+  "uitspraak": "Waarmee begint trein?"
+ },
+ {
+  "sleutel": "ijzer|tand",
+  "bestand": "ijzer-19r7md4.mp3",
+  "held": "ijzer",
+  "tekst": "tand",
+  "uitspraak": "tand"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint tand?",
+  "bestand": "ijzer-1blq54g.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint tand?",
+  "uitspraak": "Waarmee begint tand?"
+ },
+ {
+  "sleutel": "ijzer|taart",
+  "bestand": "ijzer-09dmm53.mp3",
+  "held": "ijzer",
+  "tekst": "taart",
+  "uitspraak": "taart"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint taart?",
+  "bestand": "ijzer-1i0h15b.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint taart?",
+  "uitspraak": "Waarmee begint taart?"
+ },
+ {
+  "sleutel": "ijzer|tomaat",
+  "bestand": "ijzer-0c00cfr.mp3",
+  "held": "ijzer",
+  "tekst": "tomaat",
+  "uitspraak": "tomaat"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint tomaat?",
+  "bestand": "ijzer-1qn2j29.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint tomaat?",
+  "uitspraak": "Waarmee begint tomaat?"
+ },
+ {
+  "sleutel": "ijzer|ufo",
+  "bestand": "ijzer-003rccz.mp3",
+  "held": "ijzer",
+  "tekst": "ufo",
+  "uitspraak": "ufo"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint ufo?",
+  "bestand": "ijzer-0nj9h23.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint ufo?",
+  "uitspraak": "Waarmee begint ufo?"
+ },
+ {
+  "sleutel": "ijzer|vis",
+  "bestand": "ijzer-0mqdcf9.mp3",
+  "held": "ijzer",
+  "tekst": "vis",
+  "uitspraak": "vis"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint vis?",
+  "bestand": "ijzer-19ywd79.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint vis?",
+  "uitspraak": "Waarmee begint vis?"
+ },
+ {
+  "sleutel": "ijzer|vos",
+  "bestand": "ijzer-0r5ygx3.mp3",
+  "held": "ijzer",
+  "tekst": "vos",
+  "uitspraak": "vos"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint vos?",
+  "bestand": "ijzer-0e9q5ov.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint vos?",
+  "uitspraak": "Waarmee begint vos?"
+ },
+ {
+  "sleutel": "ijzer|vlinder",
+  "bestand": "ijzer-05pvowj.mp3",
+  "held": "ijzer",
+  "tekst": "vlinder",
+  "uitspraak": "vlinder"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint vlinder?",
+  "bestand": "ijzer-0k1xnw3.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint vlinder?",
+  "uitspraak": "Waarmee begint vlinder?"
+ },
+ {
+  "sleutel": "ijzer|vork",
+  "bestand": "ijzer-12w8jfx.mp3",
+  "held": "ijzer",
+  "tekst": "vork",
+  "uitspraak": "vork"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint vork?",
+  "bestand": "ijzer-0mxqh47.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint vork?",
+  "uitspraak": "Waarmee begint vork?"
+ },
+ {
+  "sleutel": "ijzer|vuur",
+  "bestand": "ijzer-0x7eusn.mp3",
+  "held": "ijzer",
+  "tekst": "vuur",
+  "uitspraak": "vuur"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint vuur?",
+  "bestand": "ijzer-1mk651t.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint vuur?",
+  "uitspraak": "Waarmee begint vuur?"
+ },
+ {
+  "sleutel": "ijzer|walvis",
+  "bestand": "ijzer-0oe0pof.mp3",
+  "held": "ijzer",
+  "tekst": "walvis",
+  "uitspraak": "walvis"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint walvis?",
+  "bestand": "ijzer-1wkjmj1.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint walvis?",
+  "uitspraak": "Waarmee begint walvis?"
+ },
+ {
+  "sleutel": "ijzer|wolk",
+  "bestand": "ijzer-0fckfz2.mp3",
+  "held": "ijzer",
+  "tekst": "wolk",
+  "uitspraak": "wolk"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint wolk?",
+  "bestand": "ijzer-0isuoj6.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint wolk?",
+  "uitspraak": "Waarmee begint wolk?"
+ },
+ {
+  "sleutel": "ijzer|worm",
+  "bestand": "ijzer-0ptz4xi.mp3",
+  "held": "ijzer",
+  "tekst": "worm",
+  "uitspraak": "worm"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint worm?",
+  "bestand": "ijzer-07inhp2.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint worm?",
+  "uitspraak": "Waarmee begint worm?"
+ },
+ {
+  "sleutel": "ijzer|wortel",
+  "bestand": "ijzer-1lpdj74.mp3",
+  "held": "ijzer",
+  "tekst": "wortel",
+  "uitspraak": "wortel"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint wortel?",
+  "bestand": "ijzer-0uhi4gc.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint wortel?",
+  "uitspraak": "Waarmee begint wortel?"
+ },
+ {
+  "sleutel": "ijzer|zon",
+  "bestand": "ijzer-1x59gi4.mp3",
+  "held": "ijzer",
+  "tekst": "zon",
+  "uitspraak": "zon"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint zon?",
+  "bestand": "ijzer-1h662k6.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint zon?",
+  "uitspraak": "Waarmee begint zon?"
+ },
+ {
+  "sleutel": "ijzer|zee",
+  "bestand": "ijzer-0014vsb.mp3",
+  "held": "ijzer",
+  "tekst": "zee",
+  "uitspraak": "zee"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint zee?",
+  "bestand": "ijzer-0zg35nr.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint zee?",
+  "uitspraak": "Waarmee begint zee?"
+ },
+ {
+  "sleutel": "ijzer|zebra",
+  "bestand": "ijzer-1ddc12j.mp3",
+  "held": "ijzer",
+  "tekst": "zebra",
+  "uitspraak": "zebra"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint zebra?",
+  "bestand": "ijzer-0gx9jkr.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint zebra?",
+  "uitspraak": "Waarmee begint zebra?"
+ },
+ {
+  "sleutel": "ijzer|zaag",
+  "bestand": "ijzer-05twx3w.mp3",
+  "held": "ijzer",
+  "tekst": "zaag",
+  "uitspraak": "zaag"
+ },
+ {
+  "sleutel": "ijzer|Waarmee begint zaag?",
+  "bestand": "ijzer-0f4n4aw.mp3",
+  "held": "ijzer",
+  "tekst": "Waarmee begint zaag?",
+  "uitspraak": "Waarmee begint zaag?"
+ },
+ {
+  "sleutel": "ijzer|Welk plaatje begint met deze letter?",
+  "bestand": "ijzer-1c3ur8z.mp3",
+  "held": "ijzer",
+  "tekst": "Welk plaatje begint met deze letter?",
+  "uitspraak": "Welk plaatje begint met deze letter?"
+ },
+ {
+  "sleutel": "ijzer|Luister goed. Welk plaatje hoor je?",
+  "bestand": "ijzer-0v20l92.mp3",
+  "held": "ijzer",
+  "tekst": "Luister goed. Welk plaatje hoor je?",
+  "uitspraak": "Luister goed. Welk plaatje hoor je?"
+ },
+ {
+  "sleutel": "ijzer|Lees het woord. Welk plaatje hoort erbij?",
+  "bestand": "ijzer-0hcppar.mp3",
+  "held": "ijzer",
+  "tekst": "Lees het woord. Welk plaatje hoort erbij?",
+  "uitspraak": "Lees het woord. Welk plaatje hoort erbij?"
+ },
+ {
+  "sleutel": "ijzer|ah",
+  "bestand": "ijzer-1pin3eg.mp3",
+  "held": "ijzer",
+  "tekst": "ah",
+  "uitspraak": "ah"
+ },
+ {
+  "sleutel": "ijzer|eh",
+  "bestand": "ijzer-1rqyqjw.mp3",
+  "held": "ijzer",
+  "tekst": "eh",
+  "uitspraak": "eh"
+ },
+ {
+  "sleutel": "ijzer|ih",
+  "bestand": "ijzer-1yf1t74.mp3",
+  "held": "ijzer",
+  "tekst": "ih",
+  "uitspraak": "ih"
+ },
+ {
+  "sleutel": "ijzer|oh",
+  "bestand": "ijzer-1qny2di.mp3",
+  "held": "ijzer",
+  "tekst": "oh",
+  "uitspraak": "oh"
+ },
+ {
+  "sleutel": "ijzer|uh",
+  "bestand": "ijzer-01n0tz0.mp3",
+  "held": "ijzer",
+  "tekst": "uh",
+  "uitspraak": "uh"
+ },
+ {
+  "sleutel": "ijzer|aa",
+  "bestand": "ijzer-1nkpvjn.mp3",
+  "held": "ijzer",
+  "tekst": "aa",
+  "uitspraak": "aa"
+ },
+ {
+  "sleutel": "ijzer|ee",
+  "bestand": "ijzer-1t4wr0r.mp3",
+  "held": "ijzer",
+  "tekst": "ee",
+  "uitspraak": "ee"
+ },
+ {
+  "sleutel": "ijzer|oo",
+  "bestand": "ijzer-1rhwvgf.mp3",
+  "held": "ijzer",
+  "tekst": "oo",
+  "uitspraak": "oo"
+ },
+ {
+  "sleutel": "ijzer|uu",
+  "bestand": "ijzer-1xm99bf.mp3",
+  "held": "ijzer",
+  "tekst": "uu",
+  "uitspraak": "uu"
+ },
+ {
+  "sleutel": "ijzer|oe",
+  "bestand": "ijzer-1u9swe5.mp3",
+  "held": "ijzer",
+  "tekst": "oe",
+  "uitspraak": "oe"
+ },
+ {
+  "sleutel": "ijzer|ie",
+  "bestand": "ijzer-02zsl8n.mp3",
+  "held": "ijzer",
+  "tekst": "ie",
+  "uitspraak": "ie"
+ },
+ {
+  "sleutel": "ijzer|eu",
+  "bestand": "ijzer-1xkqe4b.mp3",
+  "held": "ijzer",
+  "tekst": "eu",
+  "uitspraak": "eu"
+ },
+ {
+  "sleutel": "ijzer|ui",
+  "bestand": "ijzer-01x0fnz.mp3",
+  "held": "ijzer",
+  "tekst": "ui",
+  "uitspraak": "ui"
+ },
+ {
+  "sleutel": "ijzer|ei",
+  "bestand": "ijzer-1s0yc8v.mp3",
+  "held": "ijzer",
+  "tekst": "ei",
+  "uitspraak": "ei"
+ },
+ {
+  "sleutel": "ijzer|buh",
+  "bestand": "ijzer-1ikv46c.mp3",
+  "held": "ijzer",
+  "tekst": "buh",
+  "uitspraak": "buh"
+ },
+ {
+  "sleutel": "ijzer|duh",
+  "bestand": "ijzer-1igprpe.mp3",
+  "held": "ijzer",
+  "tekst": "duh",
+  "uitspraak": "duh"
+ },
+ {
+  "sleutel": "ijzer|fff",
+  "bestand": "ijzer-18omar1.mp3",
+  "held": "ijzer",
+  "tekst": "fff",
+  "uitspraak": "fff"
+ },
+ {
+  "sleutel": "ijzer|ggg",
+  "bestand": "ijzer-05hugoo.mp3",
+  "held": "ijzer",
+  "tekst": "ggg",
+  "uitspraak": "ggg"
+ },
+ {
+  "sleutel": "ijzer|hhh",
+  "bestand": "ijzer-0u0fzsz.mp3",
+  "held": "ijzer",
+  "tekst": "hhh",
+  "uitspraak": "hhh"
+ },
+ {
+  "sleutel": "ijzer|juh",
+  "bestand": "ijzer-0cp8qto.mp3",
+  "held": "ijzer",
+  "tekst": "juh",
+  "uitspraak": "juh"
+ },
+ {
+  "sleutel": "ijzer|kuh",
+  "bestand": "ijzer-1o75hrv.mp3",
+  "held": "ijzer",
+  "tekst": "kuh",
+  "uitspraak": "kuh"
+ },
+ {
+  "sleutel": "ijzer|lll",
+  "bestand": "ijzer-01f713r.mp3",
+  "held": "ijzer",
+  "tekst": "lll",
+  "uitspraak": "lll"
+ },
+ {
+  "sleutel": "ijzer|mmm",
+  "bestand": "ijzer-172kfzm.mp3",
+  "held": "ijzer",
+  "tekst": "mmm",
+  "uitspraak": "mmm"
+ },
+ {
+  "sleutel": "ijzer|nnn",
+  "bestand": "ijzer-1q76zmt.mp3",
+  "held": "ijzer",
+  "tekst": "nnn",
+  "uitspraak": "nnn"
+ },
+ {
+  "sleutel": "ijzer|puh",
+  "bestand": "ijzer-1ewvkim.mp3",
+  "held": "ijzer",
+  "tekst": "puh",
+  "uitspraak": "puh"
+ },
+ {
+  "sleutel": "ijzer|rrr",
+  "bestand": "ijzer-16cyhxl.mp3",
+  "held": "ijzer",
+  "tekst": "rrr",
+  "uitspraak": "rrr"
+ },
+ {
+  "sleutel": "ijzer|sss",
+  "bestand": "ijzer-0ilp144.mp3",
+  "held": "ijzer",
+  "tekst": "sss",
+  "uitspraak": "sss"
+ },
+ {
+  "sleutel": "ijzer|tuh",
+  "bestand": "ijzer-0vkjh76.mp3",
+  "held": "ijzer",
+  "tekst": "tuh",
+  "uitspraak": "tuh"
+ },
+ {
+  "sleutel": "ijzer|vvv",
+  "bestand": "ijzer-0q9sijh.mp3",
+  "held": "ijzer",
+  "tekst": "vvv",
+  "uitspraak": "vvv"
+ },
+ {
+  "sleutel": "ijzer|wuh",
+  "bestand": "ijzer-1xys7vr.mp3",
+  "held": "ijzer",
+  "tekst": "wuh",
+  "uitspraak": "wuh"
+ },
+ {
+  "sleutel": "ijzer|zzz",
+  "bestand": "ijzer-02198xt.mp3",
+  "held": "ijzer",
+  "tekst": "zzz",
+  "uitspraak": "zzz"
+ },
+ {
+  "sleutel": "spin|Oh nee! Robot Bolt heeft alle stoplichten in de stad door elkaar gezet. Help jij mij ze te repareren?",
+  "bestand": "spin-0tcx8sx.mp3",
+  "held": "spin",
+  "tekst": "Oh nee! Robot Bolt heeft alle stoplichten in de stad door elkaar gezet. Help jij mij ze te repareren?",
+  "uitspraak": "Oh nee! Robot Bolt heeft alle stoplichten in de stad door elkaar gezet. Help jij mij ze te repareren?"
+ },
+ {
+  "sleutel": "spin|Goed bezig! De auto’s rijden al een beetje beter. Nog even volhouden!",
+  "bestand": "spin-1gg5y8b.mp3",
+  "held": "spin",
+  "tekst": "Goed bezig! De auto’s rijden al een beetje beter. Nog even volhouden!",
+  "uitspraak": "Goed bezig! De auto’s rijden al een beetje beter. Nog even volhouden!"
+ },
+ {
+  "sleutel": "spin|Gelukt! Alle stoplichten werken weer. Robot Bolt gaat voortaan netjes wachten op groen!",
+  "bestand": "spin-0yuect0.mp3",
+  "held": "spin",
+  "tekst": "Gelukt! Alle stoplichten werken weer. Robot Bolt gaat voortaan netjes wachten op groen!",
+  "uitspraak": "Gelukt! Alle stoplichten werken weer. Robot Bolt gaat voortaan netjes wachten op groen!"
+ },
+ {
+  "sleutel": "spin|Kijk, Robot Bolt wordt boos! Zijn lampjes knipperen!",
+  "bestand": "spin-0jsrx6r.mp3",
+  "held": "spin",
+  "tekst": "Kijk, Robot Bolt wordt boos! Zijn lampjes knipperen!",
+  "uitspraak": "Kijk, Robot Bolt wordt boos! Zijn lampjes knipperen!"
+ },
+ {
+  "sleutel": "spin|Robot Bolt probeert weg te rollen. Snel, nog een paar!",
+  "bestand": "spin-1fh88mw.mp3",
+  "held": "spin",
+  "tekst": "Robot Bolt probeert weg te rollen. Snel, nog een paar!",
+  "uitspraak": "Robot Bolt probeert weg te rollen. Snel, nog een paar!"
+ },
+ {
+  "sleutel": "spin|Hebbes! Robot Bolt zit vast in het vangnet!",
+  "bestand": "spin-1pjuhwb.mp3",
+  "held": "spin",
+  "tekst": "Hebbes! Robot Bolt zit vast in het vangnet!",
+  "uitspraak": "Hebbes! Robot Bolt zit vast in het vangnet!"
+ },
+ {
+  "sleutel": "spin|Robot Bolt is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!",
+  "bestand": "spin-08h1dkr.mp3",
+  "held": "spin",
+  "tekst": "Robot Bolt is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!",
+  "uitspraak": "Robot Bolt is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!"
+ },
+ {
+  "sleutel": "spin|Kijk daar! Kat Kladder heeft alle ballonnen van het kinderfeest gepikt. Zullen we ze terughalen?",
+  "bestand": "spin-1mh8dv2.mp3",
+  "held": "spin",
+  "tekst": "Kijk daar! Kat Kladder heeft alle ballonnen van het kinderfeest gepikt. Zullen we ze terughalen?",
+  "uitspraak": "Kijk daar! Kat Kladder heeft alle ballonnen van het kinderfeest gepikt. Zullen we ze terughalen?"
+ },
+ {
+  "sleutel": "spin|Super! De helft van de ballonnen is al terug. Ga zo door!",
+  "bestand": "spin-1i3dpbk.mp3",
+  "held": "spin",
+  "tekst": "Super! De helft van de ballonnen is al terug. Ga zo door!",
+  "uitspraak": "Super! De helft van de ballonnen is al terug. Ga zo door!"
+ },
+ {
+  "sleutel": "spin|Hoera! Alle ballonnen zijn terug en het feest kan beginnen. Kat Kladder mag ook een ballon!",
+  "bestand": "spin-0im57qd.mp3",
+  "held": "spin",
+  "tekst": "Hoera! Alle ballonnen zijn terug en het feest kan beginnen. Kat Kladder mag ook een ballon!",
+  "uitspraak": "Hoera! Alle ballonnen zijn terug en het feest kan beginnen. Kat Kladder mag ook een ballon!"
+ },
+ {
+  "sleutel": "spin|Kat Kladder blaast van schrik! Ga zo door!",
+  "bestand": "spin-0lc5qop.mp3",
+  "held": "spin",
+  "tekst": "Kat Kladder blaast van schrik! Ga zo door!",
+  "uitspraak": "Kat Kladder blaast van schrik! Ga zo door!"
+ },
+ {
+  "sleutel": "spin|Kat Kladder rent over het dak. We hebben hem bijna!",
+  "bestand": "spin-0dhicq1.mp3",
+  "held": "spin",
+  "tekst": "Kat Kladder rent over het dak. We hebben hem bijna!",
+  "uitspraak": "Kat Kladder rent over het dak. We hebben hem bijna!"
+ },
+ {
+  "sleutel": "spin|Hebbes! Kat Kladder zit vast in het vangnet!",
+  "bestand": "spin-1rqk4gf.mp3",
+  "held": "spin",
+  "tekst": "Hebbes! Kat Kladder zit vast in het vangnet!",
+  "uitspraak": "Hebbes! Kat Kladder zit vast in het vangnet!"
+ },
+ {
+  "sleutel": "spin|Kat Kladder is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!",
+  "bestand": "spin-03j2azj.mp3",
+  "held": "spin",
+  "tekst": "Kat Kladder is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!",
+  "uitspraak": "Kat Kladder is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!"
+ },
+ {
+  "sleutel": "spin|Brrr! De Mopperwolk laat het regenen op de kermis. Met elke goede som sturen we een zonnestraal!",
+  "bestand": "spin-0i5ak0w.mp3",
+  "held": "spin",
+  "tekst": "Brrr! De Mopperwolk laat het regenen op de kermis. Met elke goede som sturen we een zonnestraal!",
+  "uitspraak": "Brrr! De Mopperwolk laat het regenen op de kermis. Met elke goede som sturen we een zonnestraal!"
+ },
+ {
+  "sleutel": "spin|Kijk, de zon komt al tevoorschijn! Nog een paar zonnestralen!",
+  "bestand": "spin-10w2f67.mp3",
+  "held": "spin",
+  "tekst": "Kijk, de zon komt al tevoorschijn! Nog een paar zonnestralen!",
+  "uitspraak": "Kijk, de zon komt al tevoorschijn! Nog een paar zonnestralen!"
+ },
+ {
+  "sleutel": "spin|De zon schijnt weer! De Mopperwolk moet lachen en de kermis gaat weer open!",
+  "bestand": "spin-0w9vdjl.mp3",
+  "held": "spin",
+  "tekst": "De zon schijnt weer! De Mopperwolk moet lachen en de kermis gaat weer open!",
+  "uitspraak": "De zon schijnt weer! De Mopperwolk moet lachen en de kermis gaat weer open!"
+ },
+ {
+  "sleutel": "spin|De Mopperwolk moppert: brrr, wat een zon!",
+  "bestand": "spin-1k0s1fh.mp3",
+  "held": "spin",
+  "tekst": "De Mopperwolk moppert: brrr, wat een zon!",
+  "uitspraak": "De Mopperwolk moppert: brrr, wat een zon!"
+ },
+ {
+  "sleutel": "spin|De Mopperwolk wordt steeds kleiner!",
+  "bestand": "spin-1pulmxp.mp3",
+  "held": "spin",
+  "tekst": "De Mopperwolk wordt steeds kleiner!",
+  "uitspraak": "De Mopperwolk wordt steeds kleiner!"
+ },
+ {
+  "sleutel": "spin|Hebbes! De Mopperwolk zit vast in het vangnet!",
+  "bestand": "spin-1tst0u7.mp3",
+  "held": "spin",
+  "tekst": "Hebbes! De Mopperwolk zit vast in het vangnet!",
+  "uitspraak": "Hebbes! De Mopperwolk zit vast in het vangnet!"
+ },
+ {
+  "sleutel": "spin|De Mopperwolk is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!",
+  "bestand": "spin-0c50rrj.mp3",
+  "held": "spin",
+  "tekst": "De Mopperwolk is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!",
+  "uitspraak": "De Mopperwolk is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!"
+ },
+ {
+  "sleutel": "spin|Help! Professor Wiebel heeft de bouten uit de grote brug gehaald. Hij wiebelt helemaal! Zullen we ze vastdraaien?",
+  "bestand": "spin-0lte2m1.mp3",
+  "held": "spin",
+  "tekst": "Help! Professor Wiebel heeft de bouten uit de grote brug gehaald. Hij wiebelt helemaal! Zullen we ze vastdraaien?",
+  "uitspraak": "Help! Professor Wiebel heeft de bouten uit de grote brug gehaald. Hij wiebelt helemaal! Zullen we ze vastdraaien?"
+ },
+ {
+  "sleutel": "spin|Mooi zo! De brug wiebelt al veel minder. Nog een paar bouten!",
+  "bestand": "spin-0qsxyai.mp3",
+  "held": "spin",
+  "tekst": "Mooi zo! De brug wiebelt al veel minder. Nog een paar bouten!",
+  "uitspraak": "Mooi zo! De brug wiebelt al veel minder. Nog een paar bouten!"
+ },
+ {
+  "sleutel": "spin|Klaar! De brug staat weer stevig. Professor Wiebel belooft dat hij voortaan alleen nog pudding laat wiebelen!",
+  "bestand": "spin-0bn7l1q.mp3",
+  "held": "spin",
+  "tekst": "Klaar! De brug staat weer stevig. Professor Wiebel belooft dat hij voortaan alleen nog pudding laat wiebelen!",
+  "uitspraak": "Klaar! De brug staat weer stevig. Professor Wiebel belooft dat hij voortaan alleen nog pudding laat wiebelen!"
+ },
+ {
+  "sleutel": "spin|Professor Wiebel krabt op zijn hoofd. Hij snapt er niks van!",
+  "bestand": "spin-16g5ted.mp3",
+  "held": "spin",
+  "tekst": "Professor Wiebel krabt op zijn hoofd. Hij snapt er niks van!",
+  "uitspraak": "Professor Wiebel krabt op zijn hoofd. Hij snapt er niks van!"
+ },
+ {
+  "sleutel": "spin|Professor Wiebel laat zijn sleutel vallen!",
+  "bestand": "spin-1ilance.mp3",
+  "held": "spin",
+  "tekst": "Professor Wiebel laat zijn sleutel vallen!",
+  "uitspraak": "Professor Wiebel laat zijn sleutel vallen!"
+ },
+ {
+  "sleutel": "spin|Hebbes! Professor Wiebel zit vast in het vangnet!",
+  "bestand": "spin-17xkw5d.mp3",
+  "held": "spin",
+  "tekst": "Hebbes! Professor Wiebel zit vast in het vangnet!",
+  "uitspraak": "Hebbes! Professor Wiebel zit vast in het vangnet!"
+ },
+ {
+  "sleutel": "spin|Professor Wiebel is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!",
+  "bestand": "spin-0n9wkvx.mp3",
+  "held": "spin",
+  "tekst": "Professor Wiebel is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!",
+  "uitspraak": "Professor Wiebel is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!"
+ },
+ {
+  "sleutel": "spin|O jee! De Snoepslurper heeft de hele snoepwinkel leeggezogen. Zullen we het snoep terughalen?",
+  "bestand": "spin-1kj824g.mp3",
+  "held": "spin",
+  "tekst": "O jee! De Snoepslurper heeft de hele snoepwinkel leeggezogen. Zullen we het snoep terughalen?",
+  "uitspraak": "O jee! De Snoepslurper heeft de hele snoepwinkel leeggezogen. Zullen we het snoep terughalen?"
+ },
+ {
+  "sleutel": "spin|Lekker bezig! De potten raken alweer vol. Nog even!",
+  "bestand": "spin-0dtbh09.mp3",
+  "held": "spin",
+  "tekst": "Lekker bezig! De potten raken alweer vol. Nog even!",
+  "uitspraak": "Lekker bezig! De potten raken alweer vol. Nog even!"
+ },
+ {
+  "sleutel": "spin|Gelukt! De snoepwinkel is weer vol. En de Snoepslurper? Die krijgt één snoepje, maar alleen als hij het eerlijk vraagt!",
+  "bestand": "spin-0iefxos.mp3",
+  "held": "spin",
+  "tekst": "Gelukt! De snoepwinkel is weer vol. En de Snoepslurper? Die krijgt één snoepje, maar alleen als hij het eerlijk vraagt!",
+  "uitspraak": "Gelukt! De snoepwinkel is weer vol. En de Snoepslurper? Die krijgt één snoepje, maar alleen als hij het eerlijk vraagt!"
+ },
+ {
+  "sleutel": "spin|De Snoepslurper krijgt de hik! Hik!",
+  "bestand": "spin-1t7usis.mp3",
+  "held": "spin",
+  "tekst": "De Snoepslurper krijgt de hik! Hik!",
+  "uitspraak": "De Snoepslurper krijgt de hik! Hik!"
+ },
+ {
+  "sleutel": "spin|De Snoepslurper zijn slurf raakt in de knoop!",
+  "bestand": "spin-1e5pmh4.mp3",
+  "held": "spin",
+  "tekst": "De Snoepslurper zijn slurf raakt in de knoop!",
+  "uitspraak": "De Snoepslurper zijn slurf raakt in de knoop!"
+ },
+ {
+  "sleutel": "spin|Hebbes! De Snoepslurper zit vast in het vangnet!",
+  "bestand": "spin-1k4hmih.mp3",
+  "held": "spin",
+  "tekst": "Hebbes! De Snoepslurper zit vast in het vangnet!",
+  "uitspraak": "Hebbes! De Snoepslurper zit vast in het vangnet!"
+ },
+ {
+  "sleutel": "spin|De Snoepslurper is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!",
+  "bestand": "spin-1rvco1p.mp3",
+  "held": "spin",
+  "tekst": "De Snoepslurper is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!",
+  "uitspraak": "De Snoepslurper is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!"
+ },
+ {
+  "sleutel": "ijzer|Wat is dit? Letterdief Lodewijk heeft alle letters van het schoolbord gestolen! Help jij mij ze terug te zetten?",
+  "bestand": "ijzer-00rgqqi.mp3",
+  "held": "ijzer",
+  "tekst": "Wat is dit? Letterdief Lodewijk heeft alle letters van het schoolbord gestolen! Help jij mij ze terug te zetten?",
+  "uitspraak": "Wat is dit? Letterdief Lodewijk heeft alle letters van het schoolbord gestolen! Help jij mij ze terug te zetten?"
+ },
+ {
+  "sleutel": "ijzer|Knap! De helft van de letters staat alweer op het bord. Nog even!",
+  "bestand": "ijzer-1w3dqf0.mp3",
+  "held": "ijzer",
+  "tekst": "Knap! De helft van de letters staat alweer op het bord. Nog even!",
+  "uitspraak": "Knap! De helft van de letters staat alweer op het bord. Nog even!"
+ },
+ {
+  "sleutel": "ijzer|Alle letters zijn terug! Letterdief Lodewijk gaat nu zelf leren lezen in de klas!",
+  "bestand": "ijzer-1kdk83j.mp3",
+  "held": "ijzer",
+  "tekst": "Alle letters zijn terug! Letterdief Lodewijk gaat nu zelf leren lezen in de klas!",
+  "uitspraak": "Alle letters zijn terug! Letterdief Lodewijk gaat nu zelf leren lezen in de klas!"
+ },
+ {
+  "sleutel": "ijzer|Letterdief Lodewijk laat letters vallen uit zijn zak!",
+  "bestand": "ijzer-1e9j8mp.mp3",
+  "held": "ijzer",
+  "tekst": "Letterdief Lodewijk laat letters vallen uit zijn zak!",
+  "uitspraak": "Letterdief Lodewijk laat letters vallen uit zijn zak!"
+ },
+ {
+  "sleutel": "ijzer|Letterdief Lodewijk struikelt over een a!",
+  "bestand": "ijzer-0k7x30b.mp3",
+  "held": "ijzer",
+  "tekst": "Letterdief Lodewijk struikelt over een a!",
+  "uitspraak": "Letterdief Lodewijk struikelt over een a!"
+ },
+ {
+  "sleutel": "ijzer|Hebbes! Letterdief Lodewijk zit vast in het vangnet!",
+  "bestand": "ijzer-0rsmfmd.mp3",
+  "held": "ijzer",
+  "tekst": "Hebbes! Letterdief Lodewijk zit vast in het vangnet!",
+  "uitspraak": "Hebbes! Letterdief Lodewijk zit vast in het vangnet!"
+ },
+ {
+  "sleutel": "spin|Letterdief Lodewijk is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!",
+  "bestand": "spin-1a2aspn.mp3",
+  "held": "spin",
+  "tekst": "Letterdief Lodewijk is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!",
+  "uitspraak": "Letterdief Lodewijk is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!"
+ },
+ {
+  "sleutel": "ijzer|Het is donker in de haven! De Robotkrab heeft alle lampjes doorgeknipt. Zullen we ze weer laten branden?",
+  "bestand": "ijzer-0w8slg0.mp3",
+  "held": "ijzer",
+  "tekst": "Het is donker in de haven! De Robotkrab heeft alle lampjes doorgeknipt. Zullen we ze weer laten branden?",
+  "uitspraak": "Het is donker in de haven! De Robotkrab heeft alle lampjes doorgeknipt. Zullen we ze weer laten branden?"
+ },
+ {
+  "sleutel": "ijzer|Het wordt al lichter in de haven! Nog een paar lampjes!",
+  "bestand": "ijzer-0q6ag2a.mp3",
+  "held": "ijzer",
+  "tekst": "Het wordt al lichter in de haven! Nog een paar lampjes!",
+  "uitspraak": "Het wordt al lichter in de haven! Nog een paar lampjes!"
+ },
+ {
+  "sleutel": "ijzer|Alle lampjes branden weer! De Robotkrab knipt voortaan alleen nog papier!",
+  "bestand": "ijzer-1j8l2bh.mp3",
+  "held": "ijzer",
+  "tekst": "Alle lampjes branden weer! De Robotkrab knipt voortaan alleen nog papier!",
+  "uitspraak": "Alle lampjes branden weer! De Robotkrab knipt voortaan alleen nog papier!"
+ },
+ {
+  "sleutel": "ijzer|De Robotkrab klappert boos met zijn scharen!",
+  "bestand": "ijzer-1upzpk8.mp3",
+  "held": "ijzer",
+  "tekst": "De Robotkrab klappert boos met zijn scharen!",
+  "uitspraak": "De Robotkrab klappert boos met zijn scharen!"
+ },
+ {
+  "sleutel": "ijzer|De Robotkrab loopt zijwaarts weg!",
+  "bestand": "ijzer-13f8kuz.mp3",
+  "held": "ijzer",
+  "tekst": "De Robotkrab loopt zijwaarts weg!",
+  "uitspraak": "De Robotkrab loopt zijwaarts weg!"
+ },
+ {
+  "sleutel": "ijzer|Hebbes! De Robotkrab zit vast in het vangnet!",
+  "bestand": "ijzer-1b3jt1n.mp3",
+  "held": "ijzer",
+  "tekst": "Hebbes! De Robotkrab zit vast in het vangnet!",
+  "uitspraak": "Hebbes! De Robotkrab zit vast in het vangnet!"
+ },
+ {
+  "sleutel": "spin|De Robotkrab is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!",
+  "bestand": "spin-1cm1dcp.mp3",
+  "held": "spin",
+  "tekst": "De Robotkrab is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!",
+  "uitspraak": "De Robotkrab is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!"
+ },
+ {
+  "sleutel": "ijzer|Ik zie bijna niks! Mevrouw Mist heeft de hele stad in dikke mist gehuld. Met elk goed antwoord blazen we mist weg!",
+  "bestand": "ijzer-1crn0jv.mp3",
+  "held": "ijzer",
+  "tekst": "Ik zie bijna niks! Mevrouw Mist heeft de hele stad in dikke mist gehuld. Met elk goed antwoord blazen we mist weg!",
+  "uitspraak": "Ik zie bijna niks! Mevrouw Mist heeft de hele stad in dikke mist gehuld. Met elk goed antwoord blazen we mist weg!"
+ },
+ {
+  "sleutel": "ijzer|Ik zie de huizen alweer! Nog een beetje mist!",
+  "bestand": "ijzer-1jhebez.mp3",
+  "held": "ijzer",
+  "tekst": "Ik zie de huizen alweer! Nog een beetje mist!",
+  "uitspraak": "Ik zie de huizen alweer! Nog een beetje mist!"
+ },
+ {
+  "sleutel": "ijzer|Alle mist is weg! De stad is weer helder, en Mevrouw Mist gaat lekker zweven boven de zee!",
+  "bestand": "ijzer-1k2poct.mp3",
+  "held": "ijzer",
+  "tekst": "Alle mist is weg! De stad is weer helder, en Mevrouw Mist gaat lekker zweven boven de zee!",
+  "uitspraak": "Alle mist is weg! De stad is weer helder, en Mevrouw Mist gaat lekker zweven boven de zee!"
+ },
+ {
+  "sleutel": "ijzer|Mevrouw Mist zucht: oeh, wat een wind!",
+  "bestand": "ijzer-07eaygc.mp3",
+  "held": "ijzer",
+  "tekst": "Mevrouw Mist zucht: oeh, wat een wind!",
+  "uitspraak": "Mevrouw Mist zucht: oeh, wat een wind!"
+ },
+ {
+  "sleutel": "ijzer|Mevrouw Mist wordt steeds doorzichtiger!",
+  "bestand": "ijzer-1dqb1tt.mp3",
+  "held": "ijzer",
+  "tekst": "Mevrouw Mist wordt steeds doorzichtiger!",
+  "uitspraak": "Mevrouw Mist wordt steeds doorzichtiger!"
+ },
+ {
+  "sleutel": "ijzer|Hebbes! Mevrouw Mist zit vast in het vangnet!",
+  "bestand": "ijzer-0tu8n6c.mp3",
+  "held": "ijzer",
+  "tekst": "Hebbes! Mevrouw Mist zit vast in het vangnet!",
+  "uitspraak": "Hebbes! Mevrouw Mist zit vast in het vangnet!"
+ },
+ {
+  "sleutel": "spin|Mevrouw Mist is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!",
+  "bestand": "spin-0us0rfy.mp3",
+  "held": "spin",
+  "tekst": "Mevrouw Mist is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!",
+  "uitspraak": "Mevrouw Mist is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!"
+ },
+ {
+  "sleutel": "ijzer|Wat gebeurt er? De Magneetmuis trekt alle fietsen en auto’s naar zich toe! Help jij mij ze los te halen?",
+  "bestand": "ijzer-0hi1ikt.mp3",
+  "held": "ijzer",
+  "tekst": "Wat gebeurt er? De Magneetmuis trekt alle fietsen en auto’s naar zich toe! Help jij mij ze los te halen?",
+  "uitspraak": "Wat gebeurt er? De Magneetmuis trekt alle fietsen en auto’s naar zich toe! Help jij mij ze los te halen?"
+ },
+ {
+  "sleutel": "ijzer|Goed zo! Al veel fietsen zijn los. Nog even!",
+  "bestand": "ijzer-0v0ghrh.mp3",
+  "held": "ijzer",
+  "tekst": "Goed zo! Al veel fietsen zijn los. Nog even!",
+  "uitspraak": "Goed zo! Al veel fietsen zijn los. Nog even!"
+ },
+ {
+  "sleutel": "ijzer|Alles is los! De Magneetmuis gebruikt haar magneet nu alleen nog om haar kaas op te ruimen!",
+  "bestand": "ijzer-1qshoes.mp3",
+  "held": "ijzer",
+  "tekst": "Alles is los! De Magneetmuis gebruikt haar magneet nu alleen nog om haar kaas op te ruimen!",
+  "uitspraak": "Alles is los! De Magneetmuis gebruikt haar magneet nu alleen nog om haar kaas op te ruimen!"
+ },
+ {
+  "sleutel": "ijzer|De Magneetmuis piept: hé, mijn fietsen!",
+  "bestand": "ijzer-01ctobv.mp3",
+  "held": "ijzer",
+  "tekst": "De Magneetmuis piept: hé, mijn fietsen!",
+  "uitspraak": "De Magneetmuis piept: hé, mijn fietsen!"
+ },
+ {
+  "sleutel": "ijzer|De Magneetmuis haar magneet begint te wiebelen!",
+  "bestand": "ijzer-15u2muc.mp3",
+  "held": "ijzer",
+  "tekst": "De Magneetmuis haar magneet begint te wiebelen!",
+  "uitspraak": "De Magneetmuis haar magneet begint te wiebelen!"
+ },
+ {
+  "sleutel": "ijzer|Hebbes! De Magneetmuis zit vast in het vangnet!",
+  "bestand": "ijzer-1qe5yaq.mp3",
+  "held": "ijzer",
+  "tekst": "Hebbes! De Magneetmuis zit vast in het vangnet!",
+  "uitspraak": "Hebbes! De Magneetmuis zit vast in het vangnet!"
+ },
+ {
+  "sleutel": "spin|De Magneetmuis is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!",
+  "bestand": "spin-0bhjvv8.mp3",
+  "held": "spin",
+  "tekst": "De Magneetmuis is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!",
+  "uitspraak": "De Magneetmuis is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!"
+ },
+ {
+  "sleutel": "ijzer|Ahoi! Kapitein Kriebel, de piratenpapegaai, heeft de schatkist verstopt. Met elk goed antwoord vinden we een gouden muntje!",
+  "bestand": "ijzer-0dzspft.mp3",
+  "held": "ijzer",
+  "tekst": "Ahoi! Kapitein Kriebel, de piratenpapegaai, heeft de schatkist verstopt. Met elk goed antwoord vinden we een gouden muntje!",
+  "uitspraak": "Ahoi! Kapitein Kriebel, de piratenpapegaai, heeft de schatkist verstopt. Met elk goed antwoord vinden we een gouden muntje!"
+ },
+ {
+  "sleutel": "ijzer|Kijk eens hoeveel goud! We zijn al halverwege!",
+  "bestand": "ijzer-1s03r8o.mp3",
+  "held": "ijzer",
+  "tekst": "Kijk eens hoeveel goud! We zijn al halverwege!",
+  "uitspraak": "Kijk eens hoeveel goud! We zijn al halverwege!"
+ },
+ {
+  "sleutel": "ijzer|De schatkist is gevonden! Kapitein Kriebel krijgt een cracker en deelt de schat met iedereen!",
+  "bestand": "ijzer-0uh192b.mp3",
+  "held": "ijzer",
+  "tekst": "De schatkist is gevonden! Kapitein Kriebel krijgt een cracker en deelt de schat met iedereen!",
+  "uitspraak": "De schatkist is gevonden! Kapitein Kriebel krijgt een cracker en deelt de schat met iedereen!"
+ },
+ {
+  "sleutel": "ijzer|Kapitein Kriebel krijst: mijn goud, mijn goud!",
+  "bestand": "ijzer-0o5dnwc.mp3",
+  "held": "ijzer",
+  "tekst": "Kapitein Kriebel krijst: mijn goud, mijn goud!",
+  "uitspraak": "Kapitein Kriebel krijst: mijn goud, mijn goud!"
+ },
+ {
+  "sleutel": "ijzer|Kapitein Kriebel verliest zijn piratenhoed!",
+  "bestand": "ijzer-0zn3uox.mp3",
+  "held": "ijzer",
+  "tekst": "Kapitein Kriebel verliest zijn piratenhoed!",
+  "uitspraak": "Kapitein Kriebel verliest zijn piratenhoed!"
+ },
+ {
+  "sleutel": "ijzer|Hebbes! Kapitein Kriebel zit vast in het vangnet!",
+  "bestand": "ijzer-1ti3hmz.mp3",
+  "held": "ijzer",
+  "tekst": "Hebbes! Kapitein Kriebel zit vast in het vangnet!",
+  "uitspraak": "Hebbes! Kapitein Kriebel zit vast in het vangnet!"
+ },
+ {
+  "sleutel": "spin|Kapitein Kriebel is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!",
+  "bestand": "spin-0u62jh5.mp3",
+  "held": "spin",
+  "tekst": "Kapitein Kriebel is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!",
+  "uitspraak": "Kapitein Kriebel is weer bezig! Super-Kick en Agent Vroem gaan samen op missie!"
+ },
+ {
+  "sleutel": "schurk|Hahaha, dat lukt je nooit!",
+  "bestand": "schurk-1rl48rq.mp3",
+  "held": "schurk",
+  "tekst": "Hahaha, dat lukt je nooit!",
+  "uitspraak": "Hahaha, dat lukt je nooit!"
+ },
+ {
+  "sleutel": "schurk|Je krijgt me toch niet!",
+  "bestand": "schurk-0tivlqa.mp3",
+  "held": "schurk",
+  "tekst": "Je krijgt me toch niet!",
+  "uitspraak": "Je krijgt me toch niet!"
+ },
+ {
+  "sleutel": "schurk|Nananana, ik ben veel te snel!",
+  "bestand": "schurk-0q3boi0.mp3",
+  "held": "schurk",
+  "tekst": "Nananana, ik ben veel te snel!",
+  "uitspraak": "Nananana, ik ben veel te snel!"
+ },
+ {
+  "sleutel": "schurk|Hihi, ik ben lekker ondeugend!",
+  "bestand": "schurk-1k3kz1g.mp3",
+  "held": "schurk",
+  "tekst": "Hihi, ik ben lekker ondeugend!",
+  "uitspraak": "Hihi, ik ben lekker ondeugend!"
+ },
+ {
+  "sleutel": "schurk|Probeer me maar te pakken!",
+  "bestand": "schurk-0af1fg1.mp3",
+  "held": "schurk",
+  "tekst": "Probeer me maar te pakken!",
+  "uitspraak": "Probeer me maar te pakken!"
+ },
+ {
+  "sleutel": "schurk|Oei! Ik zal nooit meer ondeugend zijn!",
+  "bestand": "schurk-0zmrykr.mp3",
+  "held": "schurk",
+  "tekst": "Oei! Ik zal nooit meer ondeugend zijn!",
+  "uitspraak": "Oei! Ik zal nooit meer ondeugend zijn!"
+ }
+]

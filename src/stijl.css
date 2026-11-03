@@ -1,0 +1,1887 @@
+/* Heldenschool – stijl A "rustig modern": lichte achtergrond, witte kaarten,
+   kleur alleen waar het telt. Blauw hoort bij Super-Kick, geel bij Agent Vroem. */
+:root {
+  --achtergrond: #f4f6fb;
+  --kaart: #ffffff;
+  --inkt: #1f2a44;
+  --zacht: #6b7590;
+  --rand: #e3e7f0;
+  --kick: #1d8fe1;
+  --kick-donker: #136fb3;
+  --kick-zacht: #e5f2fd;
+  --goud: #f5a524;
+  --goud-donker: #c97f07;
+  --goud-zacht: #fef3dc;
+  --blauw: #3e63dd;
+  --blauw-donker: #2f4fb8;
+  --blauw-zacht: #e8eefd;
+  --groen: #30a46c;
+  --groen-zacht: #e6f6ec;
+  --geel: #ffd23f;
+  --schaduw: 0 2px 10px rgba(31, 42, 68, 0.07);
+  --schaduw-hoog: 0 10px 30px rgba(31, 42, 68, 0.12);
+  --hoek: 22px;
+  font-family: 'Nunito', ui-rounded, system-ui, sans-serif;
+  font-weight: 700;
+  color: var(--inkt);
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  touch-action: manipulation;
+}
+
+body {
+  background: var(--achtergrond);
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.icoon {
+  width: 1em;
+  height: 1em;
+  display: block;
+}
+
+.schoolletter {
+  font-family: 'Andika', 'Nunito', sans-serif;
+}
+
+.app {
+  position: relative;
+  height: 100dvh;
+  overflow: hidden;
+  background: var(--achtergrond);
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+/* elk scherm komt zacht in beeld */
+.app > main {
+  animation: verschijn 0.35s ease-out;
+}
+
+/* ---------- algemene knoppen ---------- */
+.knop-start {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  font-size: clamp(24px, 4.6vmin, 44px);
+  font-weight: 800;
+  padding: 0.55em 1.4em;
+  border-radius: 999px;
+  background: var(--blauw);
+  color: #fff;
+  box-shadow: 0 6px 0 var(--blauw-donker);
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+.knop-start .icoon {
+  font-size: 1.1em;
+}
+.knop-start:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 var(--blauw-donker);
+}
+
+.knop-zacht {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  font-size: clamp(18px, 3.4vmin, 32px);
+  font-weight: 800;
+  padding: 0.6em 1.2em;
+  border-radius: 999px;
+  background: var(--kaart);
+  color: var(--inkt);
+  box-shadow: var(--schaduw);
+  border: 2px solid var(--rand);
+}
+.knop-zacht:active {
+  transform: scale(0.97);
+}
+.knop-zacht.geel {
+  background: var(--geel);
+  border-color: var(--geel);
+}
+.knop-zacht.donker {
+  background: var(--inkt);
+  color: #fff;
+  border-color: var(--inkt);
+}
+
+.knop-rond {
+  width: clamp(48px, 8.5vmin, 76px);
+  height: clamp(48px, 8.5vmin, 76px);
+  border-radius: 50%;
+  background: var(--kaart);
+  color: var(--inkt);
+  box-shadow: var(--schaduw);
+  display: grid;
+  place-items: center;
+  font-size: clamp(22px, 4vmin, 36px);
+  flex: none;
+}
+.knop-rond:active {
+  transform: scale(0.92);
+}
+
+/* ---------- start ---------- */
+.start,
+.klaar {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3vmin;
+  padding: 4vmin;
+  text-align: center;
+}
+
+.titel {
+  margin: 0;
+  font-size: clamp(36px, 8vmin, 84px);
+  font-weight: 900;
+  letter-spacing: -0.5px;
+  color: var(--inkt);
+}
+
+.werelden {
+  display: flex;
+  gap: 3vmin;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+}
+.wereld {
+  flex: 1;
+  max-width: 44vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6vmin;
+  padding: 3vmin 2vmin 2.5vmin;
+  border-radius: 28px;
+  background: var(--kaart);
+  box-shadow: var(--schaduw);
+  border: 3px solid transparent;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.wereld:active {
+  transform: scale(0.97);
+}
+.wereld-held {
+  height: min(30vh, 270px);
+}
+.wereld-titel {
+  font-size: clamp(28px, 5.6vmin, 56px);
+  font-weight: 900;
+}
+.wereld-spin .wereld-titel {
+  color: var(--kick);
+}
+.wereld-ijzer .wereld-titel {
+  color: var(--goud-donker);
+}
+.wereld-teken {
+  font-size: 0.5em;
+  color: var(--zacht);
+  font-weight: 700;
+}
+.wereld-naam {
+  font-size: clamp(15px, 2.6vmin, 24px);
+  color: var(--zacht);
+}
+.wereld .volgend-pak {
+  margin: 0.4vmin 0 0;
+}
+
+.sterren-teller {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  font-size: clamp(20px, 3.6vmin, 34px);
+  font-weight: 900;
+  padding: 0.25em 0.75em;
+  border-radius: 999px;
+  background: var(--goud-zacht);
+  color: var(--goud-donker);
+}
+.sterren-teller .ster {
+  width: 1.15em;
+  height: 1.15em;
+}
+.sterren-teller.klein {
+  font-size: clamp(18px, 3vmin, 28px);
+}
+
+.volgend-pak {
+  font-size: clamp(13px, 2.2vmin, 20px);
+  color: var(--zacht);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25em;
+}
+.volgend-pak .ster {
+  width: 1.1em;
+  height: 1.1em;
+}
+
+.start-knoppen,
+.klaar-knoppen {
+  display: flex;
+  gap: 2.5vmin;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ouder-slot {
+  position: absolute;
+  right: 3vmin;
+  bottom: 3vmin;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 22px;
+  color: var(--zacht);
+  background: transparent;
+  opacity: 0.55;
+}
+/* tijdens vasthouden loopt er een gele ring vol */
+.ouder-slot.houden {
+  opacity: 1;
+  animation: vullen var(--duur) linear forwards;
+  background-image: conic-gradient(var(--goud) var(--vul), var(--rand) var(--vul));
+}
+@property --vul {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+@keyframes vullen {
+  from {
+    --vul: 0deg;
+  }
+  to {
+    --vul: 360deg;
+  }
+}
+
+/* ---------- spel ---------- */
+.spel {
+  position: relative;
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 2.5vmin;
+  padding: 2.5vmin 3vmin 4vmin;
+  transition: background 0.4s;
+}
+/* achtergrond per held */
+.spel-spin {
+  background: linear-gradient(180deg, #eef6ff 0%, var(--achtergrond) 70%);
+}
+.spel-ijzer {
+  background: linear-gradient(180deg, #fff8ea 0%, var(--achtergrond) 70%);
+}
+
+
+.balk {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 2vmin;
+}
+
+.voortgang {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 1.2vmin;
+}
+.stip {
+  width: clamp(12px, 2.4vmin, 24px);
+  height: clamp(12px, 2.4vmin, 24px);
+  border-radius: 50%;
+  background: var(--rand);
+  transition: background 0.3s, transform 0.3s;
+}
+.stip-nu {
+  transform: scale(1.35);
+  background: #cfd5e3;
+}
+.stip-spin.stip-af {
+  background: var(--kick);
+}
+.stip-ijzer.stip-af {
+  background: var(--goud);
+}
+
+.melding {
+  position: absolute;
+  top: 13vmin;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+  background: var(--geel);
+  color: var(--inkt);
+  font-size: clamp(20px, 4.4vmin, 42px);
+  font-weight: 900;
+  padding: 0.4em 1.2em;
+  border-radius: 999px;
+  box-shadow: var(--schaduw-hoog);
+  animation: melding 0.5s ease-out;
+  white-space: nowrap;
+}
+
+/* vaste indeling: held | opdracht | schurk. De opdracht kan nooit iets opzij duwen. */
+.speelveld {
+  position: relative;
+  z-index: 2; /* boven de antwoordknoppen: het tekstwolkje mag eroverheen (tikken gaat er dwars doorheen) */
+  min-height: 0;
+  display: grid;
+  grid-template-columns: 17vw minmax(0, 1fr) 15vw;
+  grid-template-areas: 'held opgave schurk';
+  align-items: center;
+  gap: 2vmin;
+}
+.speelveld > .held-kaart {
+  grid-area: held;
+  width: 100%;
+}
+.speelveld > .opgave {
+  grid-area: opgave;
+  min-width: 0;
+  overflow: hidden;
+}
+.speelveld > .schurk-kaart {
+  grid-area: schurk;
+  width: 100%;
+}
+
+.held-klein {
+  height: min(54vh, 100%);
+  width: auto;
+  flex: none;
+}
+
+.opgave {
+  flex: 1;
+  height: 100%;
+  min-height: 0;
+  background: var(--kaart);
+  border-radius: 32px;
+  box-shadow: var(--schaduw);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4vmin;
+  padding: 3vmin;
+  --s: min(10vw, 15vh);
+  --breed: 46vw; /* ruimte voor spinnetjes naast elkaar (middelste kolom) */
+  animation: schuif-in 0.35s ease-out;
+}
+
+.vraag,
+.som {
+  margin: 0;
+  text-align: center;
+}
+.vraag {
+  font-size: clamp(24px, 5vmin, 52px);
+  font-weight: 800;
+  color: var(--zacht);
+}
+.som {
+  font-size: clamp(40px, 10vmin, 110px);
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.groot-cijfer {
+  font-size: clamp(110px, 30vmin, 300px);
+  line-height: 1;
+  font-weight: 900;
+  color: var(--kick);
+}
+
+.groepen {
+  display: flex;
+  align-items: center;
+  gap: 2vmin;
+  --s: min(6.2vw, 13vh);
+}
+.teken {
+  font-size: clamp(36px, 8vmin, 80px);
+  font-weight: 900;
+  color: var(--zacht);
+}
+
+.spinnen {
+  display: grid;
+  gap: calc(var(--s) * 0.15);
+  justify-content: center;
+}
+
+.spin {
+  position: relative;
+  width: var(--s);
+  height: var(--s);
+  display: block;
+  transition: transform 0.2s;
+  animation: wiebel 2.4s ease-in-out infinite;
+}
+.spin:nth-child(2n) {
+  animation-delay: -1.2s;
+}
+.spin img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+  filter: drop-shadow(0 0 calc(var(--s) * 0.08) var(--balkleur, transparent));
+}
+.spin-weg {
+  opacity: 0.3;
+  animation: wegslingeren 1.6s ease-in-out infinite alternate;
+}
+.spin-licht {
+  transform: scale(1.15);
+  filter: drop-shadow(0 0 8px var(--geel));
+  animation: none;
+}
+.spin-label {
+  position: absolute;
+  top: -12%;
+  right: -10%;
+  min-width: 46%;
+  height: 46%;
+  border-radius: 999px;
+  background: var(--geel);
+  font-size: calc(var(--s) * 0.32);
+  font-weight: 900;
+  display: grid;
+  place-items: center;
+}
+
+.keuzes {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  gap: 2.5vmin;
+  justify-content: center;
+  animation: schuif-in 0.35s ease-out 0.05s backwards;
+}
+
+.knop-keuze {
+  flex: 1;
+  max-width: 30vw;
+  min-height: 20vh;
+  border-radius: 28px;
+  background: var(--kaart);
+  font-size: clamp(56px, 13vmin, 140px);
+  font-weight: 900;
+  box-shadow: var(--schaduw);
+  border: 3px solid var(--rand);
+  display: grid;
+  place-items: center;
+  transition: transform 0.12s, background 0.2s, border-color 0.2s;
+  padding: 1.5vmin;
+}
+.knop-keuze:active {
+  transform: scale(0.96);
+}
+.spel-spin .knop-keuze:active {
+  border-color: var(--kick);
+}
+.spel-ijzer .knop-keuze:active {
+  border-color: var(--goud);
+}
+.knop-keuze.leeg {
+  visibility: hidden;
+}
+.knop-keuze.knop-goed {
+  background: var(--groen-zacht);
+  border-color: var(--groen);
+  color: var(--groen);
+  animation: pop 0.4s ease-out;
+}
+.knop-licht {
+  background: #fff8d6;
+  border-color: var(--geel);
+  transform: scale(1.04);
+}
+.keuzes-webben .knop-keuze {
+  min-height: 24vh;
+}
+.knop-keuze {
+  container-type: inline-size; /* de ballen in de knop schalen mee met de knopbreedte */
+}
+.spinnen-klein {
+  --s: min(4.6vw, 7.5vh, calc(100cqw / 5.7));
+}
+.spinnen-klein .spin {
+  animation: none;
+}
+
+/* letters */
+.woord-tekst {
+  font-size: min(7vmin, 5.2vw);
+  font-weight: 800;
+  line-height: 1.1;
+  overflow-wrap: anywhere;
+}
+.vraag-gat {
+  display: inline-block;
+  min-width: 0.9em;
+  color: var(--goud);
+}
+.letter-groot {
+  font-size: clamp(140px, 36vmin, 360px);
+  color: var(--goud-donker);
+}
+.luister {
+  font-size: min(18vw, 24vh);
+  color: var(--goud-donker);
+  animation: wiebel 1.2s ease-in-out infinite;
+}
+.luister .icoon {
+  width: 1em;
+  height: 1em;
+}
+.leeswoord {
+  margin: 0;
+  font-size: clamp(80px, 20vmin, 200px);
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.leeswoord span {
+  border-radius: 14px;
+  padding: 0 4px;
+  transition: background 0.2s;
+}
+.klank-licht {
+  background: var(--geel);
+}
+
+/* staand (portret): held boven, kleiner */
+@media (orientation: portrait) {
+  /* staand: held en schurk naast elkaar boven de opdracht */
+  .speelveld {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto minmax(0, 1fr);
+    grid-template-areas:
+      'held schurk'
+      'opgave opgave';
+  }
+  .speelveld > .held-kaart,
+  .speelveld > .schurk-kaart {
+    width: 26vw;
+    justify-self: center;
+  }
+  .held-klein {
+    height: 18vh;
+    width: auto;
+  }
+  .speelveld > .held-kaart {
+    height: 27vh;
+  }
+  /* een hoge schurk mag de opgavekaart niet kleiner maken */
+  .schurk-kaart img {
+    max-height: 25vh;
+  }
+  .letter-groot {
+    font-size: min(36vmin, 21vh);
+  }
+  /* staand naast de held, zodat het wolkje de voeten en de opgavekaart vrij laat */
+  .held-kaart .tekstwolk {
+    top: 10%;
+    left: 80%;
+    max-width: 24vw;
+  }
+  .held-kaart .tekstwolk::before {
+    left: -20px;
+    top: 18px;
+    border: 8px solid transparent;
+    border-right: 12px solid var(--inkt);
+  }
+  .opgave {
+    width: 100%;
+    gap: 1.5vmin;
+    padding: 2vmin;
+    --s: min(13vw, 8vh);
+    --breed: 80vw;
+  }
+  .groepen {
+    --s: min(8vw, 6vh);
+  }
+  .spinnen-klein {
+    --s: min(9vw, 7vh, calc(100cqw / 5.7));
+  }
+  .knop-keuze {
+    min-height: 15vh;
+  }
+  .werelden {
+    flex-direction: column;
+    align-items: center;
+  }
+  .wereld {
+    max-width: 80vw;
+    width: 80vw;
+  }
+  .wereld-held {
+    height: 16vh;
+  }
+}
+
+/* ---------- avonturen ---------- */
+.intro {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3vmin;
+  padding: 4vmin;
+}
+.intro-spin {
+  background: linear-gradient(180deg, #eef6ff 0%, var(--achtergrond) 70%);
+}
+.intro-ijzer {
+  background: linear-gradient(180deg, #fff8ea 0%, var(--achtergrond) 70%);
+}
+.intro-terug {
+  position: absolute;
+  top: 3vmin;
+  left: 3vmin;
+}
+.intro-titel {
+  margin: 0;
+  font-size: clamp(30px, 6vmin, 60px);
+  font-weight: 900;
+}
+/* breedte volgt uit de hoogte, zodat de verhouding van het plaatje (1216 x 832) blijft
+   en er niets van de schurk (zoals een hoed) wordt afgeknipt */
+.verhaal-beeld {
+  width: min(78vw, 58vh * 1216 / 832);
+  aspect-ratio: 1216 / 832;
+  object-fit: cover;
+  border-radius: 28px;
+  box-shadow: var(--schaduw-hoog);
+  animation: pop 0.5s ease-out;
+}
+.verhaal-eind {
+  position: relative;
+  overflow: hidden;
+}
+.verhaal-eind > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.verhaal-eind .eind-held,
+.verhaal-eind .eind-held.held-foto {
+  position: absolute;
+  left: 6%;
+  bottom: 2%;
+  height: 82%;
+  width: auto;
+  animation: spring 1.2s ease-in-out infinite;
+}
+.verhaal-reserve {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4vmin;
+  background: var(--kaart);
+}
+.verhaal-reserve.verhaal-spin {
+  background: var(--kick-zacht);
+}
+.verhaal-reserve.verhaal-ijzer {
+  background: var(--goud-zacht);
+}
+.reserve-held {
+  height: 80%;
+}
+.reserve-schurk {
+  font-size: clamp(24px, 5vmin, 48px);
+  font-weight: 900;
+  color: var(--zacht);
+}
+.klaar .verhaal-beeld {
+  width: min(78vw, 42vh * 1216 / 832);
+}
+
+.pad {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 2.5vmin;
+  padding: 0 2vmin;
+}
+.pad-baan {
+  position: relative;
+  flex: 1;
+  height: 10px;
+  border-radius: 999px;
+  background: var(--rand);
+}
+.pad-vulling {
+  position: absolute;
+  inset: 0 auto 0 0;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--kick), var(--goud));
+  transition: width 0.6s ease;
+}
+.pad-stap {
+  position: absolute;
+  top: 50%;
+  width: 14px;
+  height: 14px;
+  margin: -7px 0 0 -7px;
+  border-radius: 50%;
+  background: var(--kaart);
+  border: 3px solid var(--rand);
+  transition: background 0.3s;
+}
+.pad-af {
+  border-color: #fff;
+}
+.pad-held {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -78%);
+  transition: left 0.6s cubic-bezier(0.3, 1.4, 0.5, 1);
+}
+.pad-held-figuur {
+  height: clamp(44px, 8vmin, 72px);
+  display: block;
+}
+.pad-doel {
+  width: clamp(36px, 6vmin, 54px);
+  height: clamp(36px, 6vmin, 54px);
+  border-radius: 50%;
+  background: var(--goud-zacht);
+  display: grid;
+  place-items: center;
+  flex: none;
+}
+.pad-doel .ster {
+  width: 70%;
+  height: 70%;
+}
+
+/* ---------- openingsscherm ---------- */
+.welkom {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4vmin;
+  padding: 4vmin;
+}
+.welkom-helden {
+  display: flex;
+  gap: 5vmin;
+}
+.welkom-held {
+  height: 44vh;
+}
+.welkom-helden > :nth-child(2) {
+  animation-delay: -1.5s;
+}
+.knop-groot {
+  font-size: clamp(28px, 6vmin, 60px);
+  padding: 0.6em 1.6em;
+  animation: puls 1.6s ease-in-out infinite;
+}
+@keyframes puls {
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+/* ---------- het hele scherm is het verhaal ---------- */
+.spel.spel-spin,
+.spel.spel-ijzer {
+  background: none;
+}
+.verhaal-achtergrond {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+.verhaal-achtergrond img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.9s ease;
+  /* langzaam schuiven en zoomen als een camera: levendig zonder flikkeren */
+  animation: camera 24s ease-in-out infinite alternate;
+}
+@keyframes camera {
+  from {
+    transform: scale(1.04) translate(-1%, 0);
+  }
+  to {
+    transform: scale(1.14) translate(1.5%, -1.5%);
+  }
+}
+.achtergrond-sluier {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(244, 246, 251, 0.55) 0%, rgba(244, 246, 251, 0.35) 40%, rgba(244, 246, 251, 0.8) 100%);
+}
+.achtergrond-spin {
+  background: #fff5f5;
+}
+.achtergrond-ijzer {
+  background: #fff8ea;
+}
+
+.reddingsrij {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6vmin;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 999px;
+  padding: 0.8vmin 2.5vmin;
+  box-shadow: var(--schaduw);
+}
+.redding-iconen {
+  display: flex;
+  gap: 0.8vmin;
+}
+.redding {
+  width: clamp(18px, 3.2vmin, 30px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  transition: background 0.3s;
+}
+.redding svg {
+  width: 75%;
+}
+.redding.kapot {
+  background: rgba(31, 42, 68, 0.08);
+  box-shadow: inset 0 0 0 2.5px rgba(31, 42, 68, 0.2);
+}
+.spel-spin .redding.gered {
+  background: var(--kick);
+}
+.spel-ijzer .redding.gered {
+  background: #d97706;
+}
+.redding.net-gered {
+  animation: gered 0.7s cubic-bezier(0.3, 1.6, 0.5, 1);
+}
+@keyframes gered {
+  0% {
+    transform: scale(0.4) rotate(-20deg);
+  }
+  60% {
+    transform: scale(1.5) rotate(10deg);
+  }
+}
+.redding-tekst {
+  font-size: clamp(13px, 2.2vmin, 20px);
+  color: var(--zacht);
+  font-weight: 800;
+}
+
+.schurk-kaart {
+  position: relative;
+  flex: none;
+  width: 16vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6vmin;
+  align-self: center;
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.schurk-lijf {
+  display: block;
+  width: 100%;
+}
+.schurk-kaart:active .schurk-lijf {
+  transform: scale(0.94);
+}
+.schurk-kaart img {
+  width: 100%;
+  max-height: 46vh;
+  object-fit: contain;
+  object-position: bottom;
+  filter: drop-shadow(0 10px 12px rgba(31, 42, 68, 0.25));
+  animation: ondeugend 2.6s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+@keyframes ondeugend {
+  25% {
+    transform: rotate(-3deg) translateY(-0.6vmin);
+  }
+  75% {
+    transform: rotate(3deg);
+  }
+}
+.schurk-reserve {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  border-radius: 20px;
+  background: var(--kaart);
+}
+.schurk-reserve {
+  display: grid;
+  place-items: center;
+  font-size: 8vmin;
+}
+.schurk-naam {
+  font-size: clamp(13px, 2.2vmin, 20px);
+  font-weight: 900;
+  background: var(--inkt);
+  color: #fff;
+  padding: 0.2em 0.7em;
+  border-radius: 999px;
+}
+/* geraakt door het schot: even oplichten en achteruit struikelen (begint als het schot aankomt) */
+.schurk-struikelt {
+  animation: struikel 0.7s 0.3s ease-out;
+  transform-origin: bottom center;
+}
+@keyframes struikel {
+  15% {
+    transform: translateX(3vw) rotate(14deg);
+    filter: brightness(1.8);
+  }
+  45% {
+    transform: translateX(1.5vw) rotate(-6deg);
+  }
+  70% {
+    transform: translateX(0.5vw) rotate(3deg);
+  }
+}
+.schurk-weg {
+  visibility: hidden; /* de vangst-scène neemt het over */
+}
+.tekstwolk.tekstwolk-schurk {
+  left: auto;
+  right: 4%;
+  top: auto;
+  bottom: calc(100% + 10px);
+  text-align: right;
+}
+.tekstwolk.tekstwolk-schurk::before {
+  left: auto;
+  right: 22px;
+  top: auto;
+  bottom: -20px;
+  border-bottom-color: transparent;
+  border-top: 12px solid var(--inkt);
+}
+
+/* schot bij elk goed antwoord: van de held naar de schurk */
+.schot {
+  position: absolute;
+  z-index: 6;
+  left: 14vw;
+  right: 9vw;
+  top: 42%;
+  pointer-events: none;
+  transform-origin: left center;
+  animation: schot 0.9s ease-out forwards;
+}
+.schot-spin {
+  height: 1.4vmin;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #fff, var(--kick), #fff);
+  box-shadow: 0 0 18px 5px rgba(29, 143, 225, 0.7);
+}
+.schot-ijzer {
+  height: 1.6vmin;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #fff, var(--geel), #fff);
+  box-shadow: 0 0 20px 6px rgba(255, 210, 63, 0.8);
+}
+@keyframes schot {
+  0% {
+    transform: scaleX(0);
+    opacity: 1;
+  }
+  40% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 0;
+  }
+}
+.held-kaart.spring .held {
+  animation: aanval 0.6s ease-out;
+}
+@keyframes aanval {
+  35% {
+    transform: translate(3vw, -3vmin) rotate(6deg);
+  }
+}
+
+/* interactieve held */
+.held-kaart {
+  position: relative;
+  flex: none;
+  align-self: center;
+  width: 17vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+/* de hoogte bepaalt de grootte: een breder plaatje (arm omhoog) steekt opzij uit, de held blijft even groot */
+.held-kaart .held-klein,
+.held-kaart .held-klein.held-foto {
+  width: auto;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  flex: none;
+  object-position: bottom center;
+}
+.adem {
+  animation: adem 3.2s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+@keyframes adem {
+  50% {
+    transform: translateY(-1.2vmin) scale(1.015);
+  }
+}
+.held-kaart.schud .held {
+  animation: schud 0.5s ease;
+}
+@keyframes schud {
+  20%,
+  60% {
+    transform: translateX(-7px);
+  }
+  40%,
+  80% {
+    transform: translateX(7px);
+  }
+}
+.tekstwolk {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 10px);
+  z-index: 4;
+  pointer-events: none; /* tikken gaat gewoon door naar de knoppen eronder */
+  width: max-content;
+  max-width: 30vw;
+  background: #fff;
+  color: var(--inkt);
+  font-size: clamp(15px, 2.6vmin, 24px);
+  font-weight: 800;
+  line-height: 1.25;
+  padding: 0.6em 0.9em;
+  border-radius: 18px;
+  border: 3px solid var(--inkt);
+  box-shadow: 0 4px 0 var(--inkt);
+  text-align: left;
+  animation: pop 0.3s ease-out;
+}
+.tekstwolk::before {
+  content: '';
+  position: absolute;
+  left: 22px;
+  top: -20px;
+  border: 8px solid transparent;
+  border-bottom: 12px solid var(--inkt);
+}
+
+/* stripmoment: groot stripvak waarin de held de schurk aanvalt */
+.strip {
+  position: absolute;
+  inset: 0;
+  z-index: 8;
+  pointer-events: none;
+  display: grid;
+  place-items: center;
+  background: rgba(31, 42, 68, 0.35);
+  animation: verschijn 0.2s ease-out;
+}
+.strip-vak {
+  position: relative;
+  width: min(86vw, 130vh);
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border: 0.9vmin solid var(--inkt);
+  border-radius: 2vmin;
+  box-shadow: 1.4vmin 1.4vmin 0 var(--inkt);
+  transform: rotate(-1.5deg);
+  animation: strip-in 0.35s cubic-bezier(0.3, 1.5, 0.5, 1);
+  background: #fde68a;
+}
+@keyframes strip-in {
+  0% {
+    transform: rotate(-8deg) scale(0.3);
+  }
+}
+.strip-spin {
+  background: radial-gradient(circle at 55% 50%, #fef3c7, #fbbf24);
+}
+.strip-ijzer {
+  background: radial-gradient(circle at 55% 50%, #e0f2fe, #38bdf8);
+}
+/* stripstralen achter de knal */
+.strip-vak::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-conic-gradient(from 0deg at 55% 50%, rgba(255, 255, 255, 0.45) 0 6deg, transparent 6deg 18deg);
+}
+.strip-held,
+.strip-schurk,
+.strip-knal,
+.strip-kreet {
+  position: absolute;
+  z-index: 1;
+}
+.strip-held {
+  left: 4%;
+  bottom: 4%;
+  height: 78%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  animation: strip-sprong 0.6s ease-out both;
+}
+.strip-held .held-klein,
+.strip-held .held-klein.held-foto {
+  width: auto;
+  height: 100%;
+  max-height: none;
+  max-width: none;
+}
+@keyframes strip-sprong {
+  0% {
+    transform: translate(-60%, 20%) rotate(-15deg);
+  }
+  70% {
+    transform: translate(8%, -6%) rotate(8deg);
+  }
+}
+.strip-schurk {
+  right: 5%;
+  bottom: 6%;
+  width: 26%;
+  animation: strip-raak 0.9s 0.45s ease-out both;
+  transform-origin: bottom center;
+}
+.strip-schurk img {
+  width: 100%;
+  filter: drop-shadow(0 8px 10px rgba(0, 0, 0, 0.3));
+}
+@keyframes strip-raak {
+  0% {
+    transform: none;
+  }
+  20% {
+    transform: translateX(8%) rotate(18deg);
+    filter: brightness(2);
+  }
+  100% {
+    transform: translateX(14%) rotate(12deg);
+  }
+}
+.strip-knal {
+  left: 50%;
+  top: 14%;
+  font-size: 11vmin;
+  font-weight: 900;
+  color: #facc15;
+  -webkit-text-stroke: 0.6vmin var(--inkt);
+  paint-order: stroke fill;
+  text-shadow: 0.8vmin 0.8vmin 0 var(--inkt);
+  transform: translateX(-50%) rotate(-8deg);
+  animation: knal 0.5s 0.45s cubic-bezier(0.3, 1.8, 0.5, 1) both;
+}
+@keyframes knal {
+  0% {
+    transform: translateX(-50%) rotate(-8deg) scale(0);
+  }
+}
+.strip-kreet {
+  left: 3%;
+  top: 4%;
+  max-width: 45%;
+  background: #fff;
+  color: var(--inkt);
+  font-size: clamp(16px, 3.4vmin, 32px);
+  font-weight: 900;
+  padding: 0.4em 0.8em;
+  border: 0.5vmin solid var(--inkt);
+  border-radius: 1.6vmin;
+}
+
+/* het einde: de schurk zit gevangen en de politieauto neemt hem mee */
+.vangst .strip-vak {
+  transform: none;
+}
+.vangst-rij {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+.vangst-schurk {
+  position: absolute;
+  left: 34%;
+  bottom: 8%;
+  width: 26%;
+  animation: vangst-schurk-in 0.6s ease-out both;
+}
+.vangst-schurk img {
+  width: 100%;
+  filter: drop-shadow(0 10px 12px rgba(0, 0, 0, 0.3));
+}
+@keyframes vangst-schurk-in {
+  0% {
+    transform: translateX(30vw) scale(0.8);
+  }
+}
+.vangst-net {
+  position: absolute;
+  inset: -12%;
+  width: 124%;
+  height: 124%;
+  filter: drop-shadow(0 0 3px var(--inkt));
+  animation: net-val 0.5s 0.5s cubic-bezier(0.3, 1.4, 0.5, 1) both;
+}
+@keyframes net-val {
+  0% {
+    transform: translateY(-60vh) scale(1.6);
+    opacity: 0;
+  }
+}
+.vangst-auto {
+  position: absolute;
+  left: 105%;
+  bottom: 6%;
+  width: 34%;
+  transition: left 1.6s cubic-bezier(0.2, 0.8, 0.3, 1);
+}
+.vangst-auto img {
+  width: 100%;
+}
+.vangst-auto-reserve {
+  font-size: 20vmin;
+  line-height: 1;
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
+}
+.zwaailicht {
+  position: absolute;
+  left: 40%;
+  top: 3%;
+  width: 3vmin;
+  height: 3vmin;
+  border-radius: 50%;
+  opacity: 0.85;
+  animation: zwaai 0.5s steps(1) infinite;
+}
+@keyframes zwaai {
+  0% {
+    background: #3b82f6;
+    box-shadow: 0 0 24px 10px rgba(59, 130, 246, 0.8);
+  }
+  50% {
+    background: #ef4444;
+    box-shadow: 0 0 24px 10px rgba(239, 68, 68, 0.8);
+  }
+}
+/* fase 2: de auto rijdt naar de schurk, daarna rijden ze samen weg */
+.vangst-politie .vangst-auto {
+  left: 58%;
+}
+.vangst-politie .vangst-rij {
+  animation: wegrijden 1.8s 2.2s ease-in forwards;
+}
+@keyframes wegrijden {
+  100% {
+    transform: translateX(-120%);
+  }
+}
+.vangst-tekst {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 6%;
+  translate: -50% 0;
+  font-size: 10vmin;
+  font-weight: 900;
+  color: #facc15;
+  -webkit-text-stroke: 0.5vmin var(--inkt);
+  paint-order: stroke fill;
+  text-shadow: 0.7vmin 0.7vmin 0 var(--inkt);
+  transform: rotate(-4deg);
+  animation: knal-plat 0.5s 0.9s cubic-bezier(0.3, 1.8, 0.5, 1) both;
+}
+@keyframes knal-plat {
+  0% {
+    transform: rotate(-4deg) scale(0);
+  }
+}
+
+/* AI-plaatje van de held: losgeknipt 3D-figuurtje met een zachte schaduw eronder */
+img.held-foto {
+  width: auto;
+  object-fit: contain;
+  object-position: bottom;
+  filter: drop-shadow(0 10px 12px rgba(31, 42, 68, 0.25));
+}
+.held-klein.held-foto {
+  height: min(54vh, 100%);
+  max-width: none;
+}
+img.pad-held-figuur.held-foto,
+img.tab-held.held-foto {
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+/* ---------- klaar ---------- */
+.klaar-helden {
+  display: flex;
+  gap: 4vmin;
+  justify-content: center;
+}
+.held-groot {
+  height: 31vh;
+  max-width: 80vw;
+}
+.nieuw-pak {
+  margin-top: 1.5vmin;
+  background: var(--geel);
+  font-size: clamp(20px, 4.4vmin, 42px);
+  font-weight: 900;
+  padding: 0.35em 1.2em;
+  border-radius: 999px;
+  animation: pop 0.6s ease-out;
+}
+.ronde-sterren {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1vmin;
+  max-width: 80vw;
+}
+.ronde-sterren .ster {
+  width: clamp(32px, 6vmin, 60px);
+  height: clamp(32px, 6vmin, 60px);
+}
+.klaar > :not(.confetti) {
+  position: relative;
+  z-index: 1;
+}
+.confetti {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.confetti i {
+  position: absolute;
+  top: -5%;
+  width: 1.4vmin;
+  height: 2.4vmin;
+  border-radius: 3px;
+  animation: val linear infinite;
+}
+
+/* ---------- kledingkast ---------- */
+.kast {
+  position: relative;
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 2vmin;
+  padding: 2.5vmin 3vmin 3vmin;
+}
+.kast-tabs {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 1.5vmin;
+}
+.kast-tab {
+  display: flex;
+  align-items: center;
+  gap: 1vmin;
+  padding: 0.6vmin 3vmin 0.6vmin 1vmin;
+  border-radius: 999px;
+  background: var(--kaart);
+  color: var(--zacht);
+  box-shadow: var(--schaduw);
+  font-size: clamp(16px, 3vmin, 28px);
+  font-weight: 800;
+  border: 3px solid transparent;
+}
+.kast-tab.gekozen {
+  color: var(--inkt);
+  border-color: var(--blauw);
+}
+.tab-held {
+  height: clamp(36px, 7vmin, 64px);
+}
+.kast-rek {
+  min-height: 0;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(30vw, 200px), 1fr));
+  gap: 2.5vmin;
+  align-content: start;
+  padding: 1vmin;
+}
+.pak-kaart {
+  position: relative;
+  background: var(--kaart);
+  border-radius: 24px;
+  padding: 2vmin 1vmin 1.5vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vmin;
+  box-shadow: var(--schaduw);
+  border: 3px solid transparent;
+}
+.pak-kaart:active {
+  transform: scale(0.97);
+}
+.pak-aan {
+  border-color: var(--geel);
+}
+.pak-held {
+  height: min(22vh, 180px);
+}
+.pak-naam {
+  font-size: clamp(16px, 3vmin, 28px);
+  font-weight: 800;
+}
+/* op slot: wel in kleur (zodat hij ziet waarvoor hij spaart), maar doffer */
+.op-slot .pak-held {
+  filter: grayscale(0.35) brightness(0.9);
+  opacity: 0.5;
+}
+.pak-slot {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--inkt);
+  color: #fff;
+  font-size: clamp(15px, 2.8vmin, 24px);
+  font-weight: 800;
+  padding: 0.3em 0.8em;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  gap: 0.35em;
+  white-space: nowrap;
+}
+.pak-slot .icoon,
+.pak-slot .ster {
+  width: 1em;
+  height: 1em;
+}
+
+/* ---------- ouderscherm ---------- */
+.ouders {
+  position: relative;
+  height: 100%;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 3vmin max(3vmin, calc((100% - 760px) / 2)) 6vmin;
+  font-weight: 600;
+}
+.ouders input {
+  user-select: text;
+  -webkit-user-select: text;
+}
+.ouders-kop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2vmin;
+}
+.ouders-kop h1 {
+  margin: 0;
+  font-size: clamp(26px, 5vmin, 44px);
+  font-weight: 900;
+}
+.ouders-blok {
+  background: var(--kaart);
+  border-radius: 20px;
+  padding: 18px 20px;
+  margin-bottom: 16px;
+  box-shadow: var(--schaduw);
+}
+.ouders-blok h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  font-weight: 900;
+}
+.ouders-blok h3 {
+  margin: 16px 0 8px;
+  font-size: 16px;
+  font-weight: 800;
+}
+.uitleg {
+  margin: 8px 0 0;
+  color: var(--zacht);
+  font-size: 15px;
+  font-weight: 600;
+}
+.naam-veld {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+}
+.naam-veld input {
+  flex: 1;
+  font: inherit;
+  padding: 8px 12px;
+  border: 2px solid var(--rand);
+  border-radius: 12px;
+}
+.niveau-knoppen {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.niveau-knop {
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: var(--achtergrond);
+  font-size: 16px;
+  font-weight: 800;
+}
+.niveau-knop.gekozen {
+  background: var(--blauw);
+  color: #fff;
+}
+.niveau-knop:disabled {
+  opacity: 0.35;
+}
+.stat-rij {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 4px 12px;
+  align-items: center;
+  margin-top: 12px;
+}
+.stat-naam {
+  font-weight: 800;
+}
+.stat-balk {
+  height: 14px;
+  background: var(--achtergrond);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.stat-vulling {
+  height: 100%;
+  background: var(--groen);
+  border-radius: 999px;
+}
+.stat-vulling.moeite {
+  background: var(--goud);
+}
+.stat-tekst {
+  grid-column: 2;
+  font-size: 14px;
+  color: var(--zacht);
+}
+.letter-raster {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(48px, 1fr));
+  gap: 8px;
+}
+.letter-knop {
+  height: 52px;
+  border-radius: 12px;
+  background: var(--achtergrond);
+  font-size: 28px;
+  font-weight: 700;
+}
+.letter-knop.gekozen {
+  background: var(--goud);
+  color: #fff;
+}
+.schakelaar-rij {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 0;
+}
+.schakelaar-rij > span {
+  display: flex;
+  flex-direction: column;
+}
+.schakelaar-rij .uitleg {
+  margin: 2px 0 0;
+}
+.schakelaar {
+  appearance: none;
+  -webkit-appearance: none;
+  flex: none;
+  width: 52px;
+  height: 30px;
+  border-radius: 999px;
+  background: #cbd2e0;
+  position: relative;
+  transition: background 0.2s;
+}
+.schakelaar::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #fff;
+  transition: transform 0.2s;
+}
+.schakelaar:checked {
+  background: var(--groen);
+}
+.schakelaar:checked::after {
+  transform: translateX(22px);
+}
+.opname-rij {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 0;
+  border-top: 1px solid var(--rand);
+}
+.opname-tekst {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+.opname-tekst span {
+  color: var(--zacht);
+  font-size: 14px;
+}
+.opname-tekst .fout {
+  color: var(--kick-donker);
+}
+.klank-titel {
+  font-size: 26px;
+}
+.knop-mini {
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: var(--achtergrond);
+  font-size: 16px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+.knop-mini:disabled {
+  opacity: 0.35;
+}
+.knop-mini.opnemen {
+  background: var(--kick-zacht);
+  color: var(--kick-donker);
+  animation: knipper 1s ease-in-out infinite;
+}
+.knop-gevaar {
+  padding: 10px 16px;
+  border-radius: 12px;
+  background: var(--kick-zacht);
+  color: var(--kick-donker);
+  font-size: 16px;
+  font-weight: 800;
+}
+.ouders details summary {
+  cursor: pointer;
+  padding: 8px 0;
+  font-weight: 800;
+}
+
+/* ---------- held-animaties ---------- */
+.held .arm {
+  transition: transform 0.35s cubic-bezier(0.3, 1.6, 0.5, 1);
+}
+.zweef {
+  animation: zweef 3s ease-in-out infinite;
+}
+.spring {
+  animation: spring 0.6s ease-out;
+}
+.spring-steeds {
+  animation: spring 0.8s ease-out infinite;
+}
+.ster-pop {
+  animation: pop 0.5s ease-out;
+}
+.ster-in {
+  animation: pop 0.5s ease-out backwards;
+}
+
+@keyframes verschijn {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes schuif-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+}
+@keyframes zweef {
+  50% {
+    transform: translateY(-2.5vmin);
+  }
+}
+@keyframes spring {
+  40% {
+    transform: translateY(-6vmin);
+  }
+  70% {
+    transform: translateY(0) scaleY(0.96);
+  }
+}
+@keyframes wiebel {
+  50% {
+    transform: rotate(6deg);
+  }
+}
+@keyframes wegslingeren {
+  from {
+    transform: translateY(0) rotate(-6deg);
+  }
+  to {
+    transform: translateY(-25%) rotate(6deg);
+  }
+}
+@keyframes pop {
+  0% {
+    transform: scale(0.6);
+  }
+  60% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes melding {
+  from {
+    transform: translate(-50%, -40px);
+    opacity: 0;
+  }
+}
+@keyframes val {
+  to {
+    transform: translateY(110vh) rotate(720deg);
+  }
+}
+@keyframes knipper {
+  50% {
+    opacity: 0.6;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* stripmoment: de superbal of het vangnet vliegt van de held naar de schurk */
+.strip-kracht {
+  position: absolute;
+  z-index: 2;
+  left: 28%;
+  top: 30%;
+  width: 22%;
+  animation: kracht-vlieg 0.7s 0.2s ease-out both;
+  filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.8));
+}
+@keyframes kracht-vlieg {
+  0% {
+    transform: translateX(-40%) scale(0.4) rotate(-90deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(120%) scale(1) rotate(0);
+  }
+}
+/* (eigen klasse: .vangst-net is ook de fase-klasse van het hele vangstscherm) */
+.vangst-netbeeld {
+  position: absolute;
+  inset: -12%;
+  width: 124%;
+  height: 124%;
+  object-fit: contain;
+  filter: drop-shadow(0 0 6px rgba(250, 204, 21, 0.8));
+  animation: net-val 0.5s 0.5s cubic-bezier(0.3, 1.4, 0.5, 1) both;
+}
+
+/* alle plaatjes zijn even hoog, maar bij blij (armen omhoog) is het lijf zo'n 3% korter: even bijschalen, voeten blijven staan */
+.held-klein.held-blij {
+  scale: 1.03;
+  transform-origin: bottom center;
+}
+
+/* Agent Vroem is breder gebouwd dan Super-Kick: iets lager, zodat ze er even groot uitzien */
+.verhaal-eind .eind-held.held-ijzer {
+  height: 72%;
+}
